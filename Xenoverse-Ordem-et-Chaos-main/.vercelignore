@@ -15,10 +15,13 @@ screenshots
 test-evidence
 test-results
 out
-# Ignore most of tools/ but allow the export script (needed at build time)
+# Ignore most of tools/ but allow the export/ingest/relationships scripts (needed at build time)
 tools/*
 !tools/export/
 !tools/export/**
+!tools/ingest/
+!tools/ingest/**
+!tools/relationships.js
 docs
 
 # Game binaries

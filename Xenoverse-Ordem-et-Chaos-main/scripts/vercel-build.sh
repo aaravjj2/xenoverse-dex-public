@@ -31,11 +31,22 @@ else
     echo "out/dex.db missing — attempting to generate 'out/' with 'npm run export'"
     npm run export
     GENERATED_OUT=true
+
+    # After export the JSON files exist but the SQLite DB is created by the ingest step.
     if [ -f out/dex.db ]; then
       cp out/dex.db apps/dex/dex.db
     else
-      echo "ERROR: out/dex.db still missing after 'npm run export'" >&2
-      exit 1
+      echo "out/dex.db not present after export — running ingest + relationships to build dex.db"
+      npm run ingest && npm run relationships || true
+
+      if [ -f out/dex.db ]; then
+        cp out/dex.db apps/dex/dex.db
+      else
+        echo "ERROR: out/dex.db still missing after ingest/relationships" >&2
+        echo "Listing 'out/' contents for debugging:" >&2
+        ls -la out || true
+        exit 1
+      fi
     fi
   fi
 fi
