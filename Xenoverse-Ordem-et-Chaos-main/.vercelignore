@@ -1,6 +1,15 @@
 # Game assets (not needed for web app - but Graphics IS needed for icons)
 Audio
-Data
+# Keep Data generally ignored (it is large) but allow the specific files the exporter needs
+Data/*
+!Data/MapInfos.rxdata
+!Data/types.dat
+!Data/abilities.dat
+!Data/species.dat
+!Data/moves.dat
+!Data/encounters.dat
+!Data/items.dat
+!Data/trainers.dat
 Fonts
 screenshots
 test-evidence
