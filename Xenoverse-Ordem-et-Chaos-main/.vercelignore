@@ -6,7 +6,10 @@ screenshots
 test-evidence
 test-results
 out
-tools
+# Ignore most of tools/ but allow the export script (needed at build time)
+tools/*
+!tools/export/
+!tools/export/**
 docs
 
 # Game binaries
