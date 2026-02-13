@@ -23,6 +23,9 @@ docs
 # Build artifacts
 node_modules
 *.log
+# Keep prebuilt db/graph in the repo available to Vercel
+!out/dex.db
+!out/map_graph.json
 
 # Video files
 *.webm
