@@ -1,5 +1,5 @@
 {
-  "buildCommand": "sh scripts/vercel-build.sh",
+  "buildCommand": "bash scripts/vercel-build.sh",
   "outputDirectory": "apps/dex/.next",
   "installCommand": "npm install",
   "devCommand": "cd apps/dex && npm run dev",

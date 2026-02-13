@@ -1,6 +1,10 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
+# Ensure script runs from repository project root (so it works when invoked from a different cwd)
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+cd "$SCRIPT_DIR/.."
+
 # Prepare public assets
 mkdir -p apps/dex/public
 if [ -d Graphics ]; then
