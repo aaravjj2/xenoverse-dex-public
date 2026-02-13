@@ -14,7 +14,10 @@ else
   echo "root Graphics not present, using bundled apps/dex/public/Graphics"
 fi
 
-# Ensure DB and map graph exist
+# Ensure DB and map graph exist (be tolerant if artifacts are missing)
+# If `out/` is missing, try using bundled artifacts or generate them via `npm run export`.
+GENERATED_OUT=false
+
 if [ -f out/dex.db ]; then
   if [ -f apps/dex/dex.db ] && cmp -s out/dex.db apps/dex/dex.db; then
     echo "out/dex.db identical to apps/dex/dex.db — skipping copy"
@@ -22,8 +25,19 @@ if [ -f out/dex.db ]; then
     cp out/dex.db apps/dex/dex.db
   fi
 else
-  echo "ERROR: out/dex.db missing" >&2
-  exit 1
+  if [ -f apps/dex/dex.db ]; then
+    echo "out/dex.db missing — using bundled apps/dex/dex.db"
+  else
+    echo "out/dex.db missing — attempting to generate 'out/' with 'npm run export'"
+    npm run export
+    GENERATED_OUT=true
+    if [ -f out/dex.db ]; then
+      cp out/dex.db apps/dex/dex.db
+    else
+      echo "ERROR: out/dex.db still missing after 'npm run export'" >&2
+      exit 1
+    fi
+  fi
 fi
 
 if [ -f out/map_graph.json ]; then
@@ -33,8 +47,24 @@ if [ -f out/map_graph.json ]; then
     cp out/map_graph.json apps/dex/map_graph.json
   fi
 else
-  echo "ERROR: out/map_graph.json missing" >&2
-  exit 1
+  if [ -f apps/dex/map_graph.json ]; then
+    echo "out/map_graph.json missing — using bundled apps/dex/map_graph.json"
+  else
+    if [ "$GENERATED_OUT" = false ]; then
+      echo "out/map_graph.json missing — attempting to generate 'out/' with 'npm run export'"
+      npm run export
+      GENERATED_OUT=true
+    else
+      echo "Previously ran export; checking for generated files..."
+    fi
+
+    if [ -f out/map_graph.json ]; then
+      cp out/map_graph.json apps/dex/map_graph.json
+    else
+      echo "ERROR: out/map_graph.json still missing after generation attempt" >&2
+      exit 1
+    fi
+  fi
 fi
 
 # Build the Next.js app
