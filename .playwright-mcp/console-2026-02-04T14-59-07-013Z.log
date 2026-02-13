@@ -1,0 +1,9 @@
+[     377ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3001/favicon.ico:0
+[   54138ms] [WARNING] Image detected as sprite sheet (too wide), falling back: Graphics/EBDX/Battlers/Front/CHARIZARD.png @ webpack-internal:///(app-pages-browser)/./src/components/SpeciesIcon.tsx:72
+[   55319ms] [WARNING] Image detected as sprite sheet (too wide), falling back: Graphics/EBDX/Battlers/Front/CHARIZARD.png @ webpack-internal:///(app-pages-browser)/./src/components/SpeciesIcon.tsx:72
+[   57662ms] [WARNING] Image detected as sprite sheet (too wide), falling back: Graphics/EBDX/Battlers/Front/CHARIZARD.png @ webpack-internal:///(app-pages-browser)/./src/components/SpeciesIcon.tsx:72
+[   57728ms] [WARNING] Image detected as sprite sheet (too wide), falling back: Graphics/EBDX/Battlers/Front/CHARIZARD.png @ webpack-internal:///(app-pages-browser)/./src/components/SpeciesIcon.tsx:72
+[   59096ms] [WARNING] Image detected as sprite sheet (too wide), falling back: Graphics/EBDX/Battlers/Front/CHARIZARD.png @ webpack-internal:///(app-pages-browser)/./src/components/SpeciesIcon.tsx:72
+[   59168ms] [WARNING] Image detected as sprite sheet (too wide), falling back: Graphics/EBDX/Battlers/Front/CHARIZARD.png @ webpack-internal:///(app-pages-browser)/./src/components/SpeciesIcon.tsx:72
+[   59201ms] [WARNING] Image detected as sprite sheet (too wide), falling back: Graphics/EBDX/Battlers/Front/ALAKAZAM.png @ webpack-internal:///(app-pages-browser)/./src/components/SpeciesIcon.tsx:72
+[   65584ms] [WARNING] Image with src "/world_map.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/shared/lib/utils/warn-once.js:15

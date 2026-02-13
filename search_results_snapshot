@@ -1,0 +1,45 @@
+- generic [active] [ref=e1]:
+  - navigation [ref=e2]:
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - generic [ref=e6]:
+          - generic [ref=e7]: XV
+          - generic [ref=e8]: Xenoverse Dex
+        - generic [ref=e9]:
+          - link "Pokédex" [ref=e10] [cursor=pointer]:
+            - /url: /
+          - link "Types" [ref=e11] [cursor=pointer]:
+            - /url: /types
+          - link "Abilities" [ref=e12] [cursor=pointer]:
+            - /url: /abilities
+          - link "Moves" [ref=e13] [cursor=pointer]:
+            - /url: /moves
+          - link "Items" [ref=e14] [cursor=pointer]:
+            - /url: /items
+          - link "World" [ref=e15] [cursor=pointer]:
+            - /url: /world
+          - link "Compare" [ref=e16] [cursor=pointer]:
+            - /url: /compare
+          - link "Team" [ref=e17] [cursor=pointer]:
+            - /url: /team
+          - link "⚙️" [ref=e18] [cursor=pointer]:
+            - /url: /diagnostics
+      - generic [ref=e19]: Local-First Dex
+  - main [ref=e20]:
+    - generic [ref=e21]:
+      - generic [ref=e22]:
+        - heading "Compare Pokémon" [level=1] [ref=e23]
+        - link "← Back to Dex" [ref=e24] [cursor=pointer]:
+          - /url: /
+      - generic [ref=e25]:
+        - generic [ref=e50]:
+          - textbox "Search Pokémon 1..." [ref=e51]
+          - button "Charizard Charizard" [ref=e53] [cursor=pointer]:
+            - img "Charizard" [ref=e55]
+            - generic [ref=e56]: Charizard
+          - generic [ref=e58]: Select a Pokémon
+        - generic [ref=e60]:
+          - textbox "Search Pokémon 2..." [ref=e61]
+          - generic [ref=e63]: Select a Pokémon
+      - paragraph [ref=e37]: Select two Pokémon above to compare their stats
+  - alert [ref=e38]

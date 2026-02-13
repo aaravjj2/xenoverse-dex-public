@@ -1,0 +1,26 @@
+[    1133ms] [WARNING] This page is using the deprecated ResourceLoader module "skin.fandomdesktop.styles".
+[1.43] The use of the `interface-message-box` feature with SkinModule is deprecated in favor of CodexModule. Please remove this feature.More information can be found at [[mw:Manual:ResourceLoaderSkinModule]].  @ https://pokemon-xenoverse.fandom.com/wiki/Map:Eldiw_Region:2606
+[    1885ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://services.fandom.com/galactus-user-profile/profiles/apDZQKdW5t:0
+[    1908ms] [WARNING] This page is using the deprecated ResourceLoader module "mediawiki.Uri".
+[1.43] Please use browser native URL. @ https://pokemon-xenoverse.fandom.com/load.php?cb=20240404204341&lang=en&modules=startup&only=scripts&raw=1&skin=fandomdesktop:0
+[    2220ms] [WARNING] Failed to fetch Where to Watch offers: Error: No installments provided
+    at eval (https://pokemon-xenoverse.fandom.com/load.php?lang=en&modules=skin.fandomdesktop.js&skin=fandomdesktop&version=1j6y9:1:19353)
+    at eval (https://pokemon-xenoverse.fandom.com/load.php?lang=en&modules=tslib.es6-o5t7IqQz.js&skin=fandomdesktop&version=1rwvh:1:1549)
+    at Object.eval [as next] (https://pokemon-xenoverse.fandom.com/load.php?lang=en&modules=tslib.es6-o5t7IqQz.js&skin=fandomdesktop&version=1rwvh:1:1654)
+    at asyncGeneratorStep (https://pokemon-xenoverse.fandom.com/load.php?lang=en&modules=tslib.es6-o5t7IqQz.js&skin=fandomdesktop&version=1rwvh:1:170)
+    at u (https://pokemon-xenoverse.fandom.com/load.php?lang=en&modules=tslib.es6-o5t7IqQz.js&skin=fandomdesktop&version=1rwvh:1:391)
+    at eval (https://pokemon-xenoverse.fandom.com/load.php?lang=en&modules=tslib.es6-o5t7IqQz.js&skin=fandomdesktop&version=1rwvh:1:484)
+    at new Promise (<anonymous>)
+    at eval (https://pokemon-xenoverse.fandom.com/load.php?lang=en&modules=tslib.es6-o5t7IqQz.js&skin=fandomdesktop&version=1rwvh:1:331)
+    at _getWhereToWatchTitle (https://pokemon-xenoverse.fandom.com/load.php?lang=en&modules=skin.fandomdesktop.js&skin=fandomdesktop&version=1j6y9:1:19995)
+    at getWhereToWatchTitle (https://pokemon-xenoverse.fandom.com/load.php?lang=en&modules=skin.fandomdesktop.js&skin=fandomdesktop&version=1j6y9:1:19077) @ https://pokemon-xenoverse.fandom.com/load.php?lang=en&modules=skin.fandomdesktop.js&skin=fandomdesktop&version=1j6y9:0
+[    2225ms] [WARNING] No Where To Watch data available for this page. @ https://pokemon-xenoverse.fandom.com/load.php?lang=en&modules=skin.fandomdesktop.js&skin=fandomdesktop&version=1j6y9:0
+[    2226ms] [WARNING] No Fanatical deals available for this wiki or country: US @ https://pokemon-xenoverse.fandom.com/load.php?lang=en&modules=skin.fandomdesktop.js&skin=fandomdesktop&version=1j6y9:0
+[    2401ms] TypeError: Cannot read properties of undefined (reading '_leaflet_pos')
+    at Ie (https://pokemon-xenoverse.fandom.com/load.php?lang=en&modules=client-CzBcU33f.js%7Cindex-r8qVlroP.js%7Cjquery%7Cpopup.machine--zdMFkr4.js&skin=fandomdesktop&version=1cpdh:7:28412)
+    at e._getMapPanePos (https://pokemon-xenoverse.fandom.com/load.php?lang=en&modules=client-CzBcU33f.js%7Cindex-r8qVlroP.js%7Cjquery%7Cpopup.machine--zdMFkr4.js&skin=fandomdesktop&version=1cpdh:7:50525)
+    at e._rawPanBy (https://pokemon-xenoverse.fandom.com/load.php?lang=en&modules=client-CzBcU33f.js%7Cindex-r8qVlroP.js%7Cjquery%7Cpopup.machine--zdMFkr4.js&skin=fandomdesktop&version=1cpdh:7:47523)
+    at e.invalidateSize (https://pokemon-xenoverse.fandom.com/load.php?lang=en&modules=client-CzBcU33f.js%7Cindex-r8qVlroP.js%7Cjquery%7Cpopup.machine--zdMFkr4.js&skin=fandomdesktop&version=1cpdh:7:39703)
+    at https://pokemon-xenoverse.fandom.com/load.php?lang=en&modules=client-CzBcU33f.js%7Cindex-r8qVlroP.js%7Cjquery%7Cpopup.machine--zdMFkr4.js&skin=fandomdesktop&version=1cpdh:7:265788
+[    2935ms] [ERROR] Attestation check for Attribution Reporting on https://pixel.quantserve.com failed. @ https://pokemon-xenoverse.fandom.com/wiki/Map:Eldiw_Region?:0
+[   15494ms] [ERROR] %cSilverSurfer | 15.4812s | Cross domain timeout background-color: silver;;padding: 2px 4px;border-radius: 2px;color: #300 @ https://static.wikia.nocookie.net/silversurfer/prod/latest/sdk.js:0

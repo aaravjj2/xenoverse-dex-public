@@ -1,0 +1,113 @@
+[    1585ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3001/world:0
+[    1747ms] Error: ./apps/dex/src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: /home/aarav/Aarav/Xenoverse/Xenoverse-Ordem-et-Chaos-main/apps/dex/src/app/globals.css:192:1: Unclosed block
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unclosedBlock (turbopack:///[project]/node_modules/postcss/lib/parser.js:575:22)]
+    [at Parser.endFile (turbopack:///[project]/node_modules/postcss/lib/parser.js:335:35)]
+    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:476:10)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
+
+Import trace:
+  Client Component Browser:
+    ./apps/dex/src/app/globals.css [Client Component Browser]
+    ./apps/dex/src/app/layout.tsx [Server Component]
+
+
+    at Object.getCompilationErrors (file:///home/aarav/Aarav/Xenoverse/Xenoverse-Ordem-et-Chaos-main/node_modules/next/dist/server/dev/hot-reloader-turbopack.js:1008:59)
+    at DevBundlerService.getCompilationError (file:///home/aarav/Aarav/Xenoverse/Xenoverse-Ordem-et-Chaos-main/node_modules/next/dist/server/lib/dev-bundler-service.js:44:55)
+    at DevServer.getCompilationError (file:///home/aarav/Aarav/Xenoverse/Xenoverse-Ordem-et-Chaos-main/node_modules/next/dist/server/dev/next-dev-server.js:706:42)
+    at DevServer.findPageComponents (file:///home/aarav/Aarav/Xenoverse/Xenoverse-Ordem-et-Chaos-main/node_modules/next/dist/server/dev/next-dev-server.js:676:43)
+    at async DevServer.renderErrorToResponseImpl (file:///home/aarav/Aarav/Xenoverse/Xenoverse-Ordem-et-Chaos-main/node_modules/next/dist/server/base-server.js:1733:26)
+[    1761ms] [ERROR] ./apps/dex/src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: /home/aarav/Aarav/Xenoverse/Xenoverse-Ordem-et-Chaos-main/apps/dex/src/app/globals.css:192:1: Unclosed block
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unclosedBlock (turbopack:///[project]/node_modules/postcss/lib/parser.js:575:22)]
+    [at Parser.endFile (turbopack:///[project]/node_modules/postcss/lib/parser.js:335:35)]
+    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:476:10)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
+
+Import trace:
+  Client Component Browser:
+    ./apps/dex/src/app/globals.css [Client Component Browser]
+    ./apps/dex/src/app/layout.tsx [Server Component] @ http://localhost:3001/_next/static/chunks/node_modules_next_dist_b3fb3b5f._.js:1920
+[    1762ms] [ERROR] ./apps/dex/src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: /home/aarav/Aarav/Xenoverse/Xenoverse-Ordem-et-Chaos-main/apps/dex/src/app/globals.css:192:1: Unclosed block
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unclosedBlock (turbopack:///[project]/node_modules/postcss/lib/parser.js:575:22)]
+    [at Parser.endFile (turbopack:///[project]/node_modules/postcss/lib/parser.js:335:35)]
+    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:476:10)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
+
+Import trace:
+  Client Component Browser:
+    ./apps/dex/src/app/globals.css [Client Component Browser]
+    ./apps/dex/src/app/layout.tsx [Server Component] @ http://localhost:3001/_next/static/chunks/node_modules_next_dist_b3fb3b5f._.js:1920
+[    1764ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3001/favicon.ico:0
+[    1871ms] [ERROR] ./apps/dex/src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: /home/aarav/Aarav/Xenoverse/Xenoverse-Ordem-et-Chaos-main/apps/dex/src/app/globals.css:192:1: Unclosed block
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unclosedBlock (turbopack:///[project]/node_modules/postcss/lib/parser.js:575:22)]
+    [at Parser.endFile (turbopack:///[project]/node_modules/postcss/lib/parser.js:335:35)]
+    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:476:10)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
+
+Import trace:
+  Client Component Browser:
+    ./apps/dex/src/app/globals.css [Client Component Browser]
+    ./apps/dex/src/app/layout.tsx [Server Component] @ http://localhost:3001/_next/static/chunks/node_modules_next_dist_b3fb3b5f._.js:1920
+[   32727ms] [ERROR] %c%s%c DEBUG_ERROR: First row from DB: background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   {id: 12, type: wild_encounter, map_id: 2, map_name: Comet Wreck, event_id: null} @ http://localhost:3001/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[   32728ms] [ERROR] %c%s%c DEBUG_ERROR: Mapped pageIndex: background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   null @ http://localhost:3001/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[   32872ms] [WARNING] Image with src "/world_map.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes @ http://localhost:3001/_next/static/chunks/node_modules_next_dist_f3530cac._.js:2297
+[  217722ms] Error: Image with src "/world_map.png?v=static_fix" is using a query string which is not configured in images.localPatterns.
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-localpatterns
+    at defaultLoader (http://localhost:3001/_next/static/chunks/node_modules_next_9bb32b98._.js:2940:37)
+    at http://localhost:3001/_next/static/chunks/node_modules_next_9bb32b98._.js:443:39
+    at Array.map (<anonymous>)
+    at generateImgAttrs (http://localhost:3001/_next/static/chunks/node_modules_next_9bb32b98._.js:443:24)
+    at getImgProps (http://localhost:3001/_next/static/chunks/node_modules_next_9bb32b98._.js:856:27)
+    at http://localhost:3001/_next/static/chunks/node_modules_next_9bb32b98._.js:3331:82
+    at Object.react_stack_bottom_frame (http://localhost:3001/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:14826:24)
+    at renderWithHooks (http://localhost:3001/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:4651:24)
+    at updateForwardRef (http://localhost:3001/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:5939:21)
+    at beginWork (http://localhost:3001/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:6783:24)
+    at runWithFiberInDEV (http://localhost:3001/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:965:74)
+    at performUnitOfWork (http://localhost:3001/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:9562:97)
+    at workLoopSync (http://localhost:3001/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:9456:40)
+    at renderRootSync (http://localhost:3001/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:9440:13)
+    at performWorkOnRoot (http://localhost:3001/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:9105:47)
+    at performSyncWorkOnRoot (http://localhost:3001/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:10238:9)
+    at flushSyncWorkAcrossRoots_impl (http://localhost:3001/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:10154:316)
+    at flushSyncWork$1 (http://localhost:3001/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:9237:86)
+    at Object.scheduleRefresh (http://localhost:3001/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:299:13)
+    at http://localhost:3001/_next/static/chunks/node_modules_next_dist_compiled_a0e4c7b4._.js:391:33
+    at Set.forEach (<anonymous>)
+    at Object.performReactRefresh (http://localhost:3001/_next/static/chunks/node_modules_next_dist_compiled_a0e4c7b4._.js:384:38)
+    at applyUpdate (http://localhost:3001/_next/static/chunks/node_modules_next_dist_compiled_a0e4c7b4._.js:878:31)
+    at http://localhost:3001/_next/static/chunks/node_modules_next_dist_compiled_a0e4c7b4._.js:886:13
+[  247161ms] [WARNING] [Fast Refresh] performing full reload because your application had an unrecoverable error @ http://localhost:3001/_next/static/chunks/node_modules_next_dist_f3530cac._.js:2297
+[  247608ms] [ERROR] %c%s%c DEBUG_ERROR: First row from DB: background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   {id: 12, type: wild_encounter, map_id: 2, map_name: Comet Wreck, event_id: null} @ http://localhost:3001/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[  247609ms] [ERROR] %c%s%c DEBUG_ERROR: Mapped pageIndex: background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   null @ http://localhost:3001/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
