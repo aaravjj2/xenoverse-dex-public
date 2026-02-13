@@ -130,7 +130,27 @@ export default function SpeciesDetailView({
         }, {} as Record<string, LearnsetEntry[]>);
     }, [learnset]);
 
-    const learnMethods = useMemo(() => Object.keys(groupedMoves), [groupedMoves]);
+    // Define preferred order: level_up first, then breeding/egg, then others
+    const learnMethods = useMemo(() => {
+        const methods = Object.keys(groupedMoves);
+        const preferredOrder = ['level_up', 'breeding', 'egg'];
+        
+        // Sort methods: preferred ones first (in order), then alphabetically
+        return methods.sort((a, b) => {
+            const aIndex = preferredOrder.indexOf(a);
+            const bIndex = preferredOrder.indexOf(b);
+            
+            if (aIndex !== -1 && bIndex !== -1) {
+                return aIndex - bIndex; // Both in preferred order
+            } else if (aIndex !== -1) {
+                return -1; // a is preferred, put it first
+            } else if (bIndex !== -1) {
+                return 1; // b is preferred, put it first
+            } else {
+                return a.localeCompare(b); // Neither preferred, alphabetical
+            }
+        });
+    }, [groupedMoves]);
 
     const statMax = 255;
     const statBar = (value: number, label: string, color: string) => (

@@ -214,14 +214,13 @@ export default function InteractiveWorldMap({ className = '', onLocationClick }:
                     unoptimized
                 />
                 
-                {/* Clickable Pin Overlays */}
+                {/* Static Pin Overlays */}
                 <div className="absolute inset-0">
                     {Object.entries(MapCoordinates)
                         .filter(([name]) => visibleLocations.includes(name))
                         .map(([locationName, coords]) => (
-                        <Link
+                        <div
                             key={locationName}
-                            href={`/world?q=${encodeURIComponent(locationName)}`}
                             className="absolute transform -translate-x-1/2 -translate-y-1/2 group/pin"
                             style={{ top: coords.top, left: coords.left }}
                             onMouseEnter={() => setHoveredLocation(locationName)}
@@ -240,7 +239,7 @@ export default function InteractiveWorldMap({ className = '', onLocationClick }:
                                     {locationName}
                                 </div>
                             </div>
-                        </Link>
+                        </div>
                     ))}
                 </div>
             </div>

@@ -76,7 +76,7 @@ export function getItemsList(options: GetItemsOptions = {}): Item[] {
     if (reachableMapIds && reachableMapIds.length > 0) {
         sql += ` AND EXISTS (
             SELECT 1 FROM world_facts wf 
-            WHERE wf.fact_value LIKE '%' || i.id || '%'
+            WHERE wf.payload LIKE '%' || i.id || '%'
             AND wf.map_id IN (${reachableMapIds.join(',')})
         )`;
     }
@@ -147,7 +147,7 @@ export function getItemsCount(options: GetItemsOptions = {}): number {
     if (reachableMapIds && reachableMapIds.length > 0) {
         sql += ` AND EXISTS (
             SELECT 1 FROM world_facts wf 
-            WHERE wf.fact_value LIKE '%' || i.id || '%'
+            WHERE wf.payload LIKE '%' || i.id || '%'
             AND wf.map_id IN (${reachableMapIds.join(',')})
         )`;
     }
