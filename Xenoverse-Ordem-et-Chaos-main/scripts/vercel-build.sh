@@ -19,8 +19,15 @@ fi
 GENERATED_OUT=false
 
 if [ -f out/dex.db ]; then
-  if [ -f apps/dex/dex.db ] && cmp -s out/dex.db apps/dex/dex.db; then
-    echo "out/dex.db identical to apps/dex/dex.db — skipping copy"
+  if [ -f apps/dex/dex.db ]; then
+    # If they resolve to the same file (symlink or identical path) skip copy.
+    if [ "$(readlink -f out/dex.db)" = "$(readlink -f apps/dex/dex.db)" ]; then
+      echo "out/dex.db and apps/dex/dex.db are the same file — skipping copy"
+    elif cmp -s out/dex.db apps/dex/dex.db; then
+      echo "out/dex.db identical to apps/dex/dex.db — skipping copy"
+    else
+      cp out/dex.db apps/dex/dex.db
+    fi
   else
     cp out/dex.db apps/dex/dex.db
   fi
