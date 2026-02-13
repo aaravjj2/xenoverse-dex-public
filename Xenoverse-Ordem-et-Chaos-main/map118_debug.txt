@@ -1,0 +1,33 @@
+Dumping scripts for Map118.rxdata...
+[Event 3] Script: $player.outfit=0
+[Event 7] Script: $player.outfit=0
+[Event 9] Script: $player.outfit=0
+[Event 16] Script: $player.outfit=3
+[Event 16] Script: $player.outfit=2
+[Event 16] Script: $player.outfit=4
+[Event 18] Script: $player.outfit=0
+[Event 24] Script: $player.outfit=0
+[Event 25] Script: pbPushThisBoulder
+[Event 26] Script: $player.outfit=0
+[Event 28] Script: pbPushThisBoulder
+[Event 29] Script: pbPushThisBoulder
+[Event 30] Script: pbPushThisBoulder
+[Event 31] Script: pbPushThisBoulder
+[Event 32] Script: pbPushThisBoulder
+[Event 33] Script: pbPushThisBoulder
+[Event 34] Script: pbPushThisBoulder
+[Event 35] Script: pbPushThisBoulder
+[Event 36] Script: pbPushThisBoulder
+[Event 43] Script: fbNewMugshot("Trishout",  "Pokemon/Trishout", "Neutral") Pokemon.play_cry(:TRISHOUT)
+[Event 43] Script: fbDispose
+[Event 43] Script: fbNewMugshot("Shyleon",  "Pokemon/Shyleon", "Neutral") Pokemon.play_cry(:SHYLEON)
+[Event 43] Script: fbDispose
+[Event 43] Script: fbNewMugshot("Shulong",  "Pokemon/Shulong", "Neutral") Pokemon.play_cry(:SHULONG)
+[Event 43] Script: fbDispose
+[Event 48] Script: Pokemon.play_cry(:SHYLEON) fbNewMugshot($player.starter_name,  "Pokemon/Shyleon",  "Happy")
+[Event 48] Script: fbNewMugshot($player.starter_name,  "Pokemon/Trishout",  "Determined") Pokemon.play_cry(:TRISHOUT)
+[Event 48] Script: fbNewMugshot($player.starter_name,  "Pokemon/Shulong",  "Determined") Pokemon.play_cry(:SHULONG)
+[Event 48] Script: fbDispose
+[Event 48] Script: fbNewMugshot($player.name,  "People/Kay", "Happy",:right)
+[Event 48] Script: fbNewMugshot($player.name,  "People/Alice", "Happy",:right)
+[Event 48] Script: fbDispose

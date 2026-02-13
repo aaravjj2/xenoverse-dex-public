@@ -1,0 +1,170 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 255, 255, 255;
+  --background-start-rgb: 15, 23, 42;
+  --background-end-rgb: 30, 41, 59;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(135deg,
+      rgb(var(--background-start-rgb)),
+      rgb(var(--background-end-rgb)));
+  min-height: 100vh;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(30, 41, 59, 0.5);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(71, 85, 105, 0.8);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(100, 116, 139, 0.9);
+}
+
+/* Type badges with improved styling */
+.type-badge {
+  @apply px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wide transition-all duration-200 shadow-sm;
+}
+
+.type-normal {
+  @apply bg-gray-500 text-white hover:bg-gray-600 hover:shadow-md;
+}
+
+.type-fire {
+  @apply bg-gradient-to-br from-orange-500 to-red-600 text-white hover:shadow-lg hover:shadow-orange-500/50;
+}
+
+.type-water {
+  @apply bg-gradient-to-br from-blue-500 to-cyan-600 text-white hover:shadow-lg hover:shadow-blue-500/50;
+}
+
+.type-electric {
+  @apply bg-gradient-to-br from-yellow-400 to-amber-500 text-black hover:shadow-lg hover:shadow-yellow-400/50;
+}
+
+.type-grass {
+  @apply bg-gradient-to-br from-green-500 to-emerald-600 text-white hover:shadow-lg hover:shadow-green-500/50;
+}
+
+.type-ice {
+  @apply bg-gradient-to-br from-cyan-300 to-blue-400 text-black hover:shadow-lg hover:shadow-cyan-300/50;
+}
+
+.type-fighting {
+  @apply bg-gradient-to-br from-red-700 to-red-900 text-white hover:shadow-lg hover:shadow-red-700/50;
+}
+
+.type-poison {
+  @apply bg-gradient-to-br from-purple-500 to-violet-700 text-white hover:shadow-lg hover:shadow-purple-500/50;
+}
+
+.type-ground {
+  @apply bg-gradient-to-br from-amber-600 to-yellow-700 text-white hover:shadow-lg hover:shadow-amber-600/50;
+}
+
+.type-flying {
+  @apply bg-gradient-to-br from-indigo-300 to-blue-400 text-black hover:shadow-lg hover:shadow-indigo-300/50;
+}
+
+.type-psychic {
+  @apply bg-gradient-to-br from-pink-500 to-rose-600 text-white hover:shadow-lg hover:shadow-pink-500/50;
+}
+
+.type-bug {
+  @apply bg-gradient-to-br from-lime-500 to-green-600 text-white hover:shadow-lg hover:shadow-lime-500/50;
+}
+
+.type-rock {
+  @apply bg-gradient-to-br from-amber-700 to-stone-800 text-white hover:shadow-lg hover:shadow-amber-700/50;
+}
+
+.type-ghost {
+  @apply bg-gradient-to-br from-purple-700 to-indigo-900 text-white hover:shadow-lg hover:shadow-purple-700/50;
+}
+
+.type-dragon {
+  @apply bg-gradient-to-br from-indigo-600 to-purple-700 text-white hover:shadow-lg hover:shadow-indigo-600/50;
+}
+
+.type-dark {
+  @apply bg-gradient-to-br from-gray-700 to-slate-900 text-white hover:shadow-lg hover:shadow-gray-700/50;
+}
+
+.type-steel {
+  @apply bg-gradient-to-br from-gray-400 to-slate-500 text-white hover:shadow-lg hover:shadow-gray-400/50;
+}
+
+.type-fairy {
+  @apply bg-gradient-to-br from-pink-300 to-rose-400 text-black hover:shadow-lg hover:shadow-pink-300/50;
+}
+
+.type-sound {
+  @apply bg-gradient-to-br from-teal-400 to-cyan-500 text-white hover:shadow-lg hover:shadow-teal-400/50;
+}
+
+.type-cosmic {
+  @apply bg-gradient-to-br from-violet-600 to-purple-800 text-white hover:shadow-lg hover:shadow-violet-600/50;
+}
+
+.type-shadow {
+  @apply bg-gradient-to-br from-slate-700 to-black text-white hover:shadow-lg hover:shadow-slate-700/50;
+}
+
+/* Card hover effects */
+.card-hover {
+  @apply transition-all duration-300 hover:scale-[1.02] hover:shadow-xl;
+}
+
+/* Input focus styles */
+input[type="text"],
+input[type="number"],
+select {
+  @apply focus:ring-2 focus:ring-blue-500/50 focus:border-blue-500 transition-all duration-200;
+}
+
+/* Button styles */
+.btn-primary {
+  @apply bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 text-white font-medium px-4 py-2 rounded-lg transition-all duration-200 shadow-lg hover:shadow-xl;
+}
+
+.btn-secondary {
+  @apply bg-slate-700 hover:bg-slate-600 text-white font-medium px-4 py-2 rounded-lg transition-all duration-200;
+}
+
+/* Loading animation */
+@keyframes shimmer {
+  0% {
+    background-position: -1000px 0;
+  }
+
+  100% {
+    background-position: 1000px 0;
+  }
+}
+
+.shimmer {
+  background: linear-gradient(to right, transparent 0%, rgba(255, 255, 255, 0.1) 50%, transparent 100%);
+  background-size: 1000px 100%;
+}
+
+/* Map Styles */
+.leaflet-container {
+  background: transparent !important;
+  width: 100%;
+  height: 100%;
+}

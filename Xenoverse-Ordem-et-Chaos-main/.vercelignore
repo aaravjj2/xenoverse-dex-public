@@ -1,0 +1,30 @@
+# Game assets (not needed for web app - but Graphics IS needed for icons)
+Audio
+Data
+Fonts
+screenshots
+test-evidence
+test-results
+out
+tools
+docs
+
+# Game binaries
+*.exe
+*.dll
+*.sf2
+
+# Zone identifiers (Windows metadata)
+*:Zone.Identifier
+
+# Build artifacts
+node_modules
+*.log
+
+# Video files
+*.webm
+
+# Development files
+.env*.local
+*.tsbuildinfo
+.git

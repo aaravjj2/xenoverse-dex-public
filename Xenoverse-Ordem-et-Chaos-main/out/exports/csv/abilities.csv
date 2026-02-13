@@ -1,0 +1,348 @@
+id,name,description
+ADAPTABILITY,Adaptability,Powers up moves of the same type.
+AERILATE,Aerilate,Normal-type moves become Flying-type and power up.
+AFTERMATH,Aftermath,Damages the attacker landing the finishing hit.
+AIRLOCK,Air Lock,Eliminates the effects of weather.
+AMPLIFY,Amplify,Powers up own sound moves. Resists other sound moves.
+ANALYTIC,Analytic,Boosts move power when the Pokémon moves last.
+ANGERPOINT,Anger Point,+6 Attack after a critical hit or being paralyzed. +2 on flinch.
+ANGERSHELL,Anger Shell,Gets a powerful boost if a hit makes its HP half or less.
+ANTICIPATION,Anticipation,Senses a foe's dangerous moves.
+ARENATRAP,Arena Trap,Prevents the foe from fleeing.
+ARMORTAIL,Armor Tail,Prevents opposing Pokémon from using priority moves.
+AROMAVEIL,Aroma Veil,Protects against attacks that limit move choices.
+ASONECHILLINGNEIGH,As One,Combines Unnerve and Chilling Neigh Abilities.
+ASONEGRIMNEIGH,As One,Combines Unnerve and Grim Neigh Abilities.
+ASTRALRISING,Astral Rising,"Unleashes the divine power of the stars, and boosts the power of moves of the same type as the user."
+AURABREAK,Aura Break,"Reverses ""Aura"" Abilities to weaken affected moves."
+BADDREAMS,Bad Dreams,Reduces a sleeping foe's HP.
+BALLFETCH,Ball Fetch,Retrieves the first thrown Poké Ball if it failed.
+BATTERY,Battery,Powers up ally Pokémon's special moves.
+BATTLEARMOR,Battle Armor,The Pokémon is protected against critical hits.
+BATTLEBOND,Battle Bond,Defeating a foe lets it become Ash-Greninja.
+BEADSOFRUIN,Beads of Ruin,Lowers the Sp. Def of all Pokémon except the user.
+BEASTBOOST,Beast Boost,Boosts its best stat each time it deals a KO.
+BERSERK,Berserk,Ups Sp. Atk if a hit makes its HP half or less.
+BIGPECKS,Big Pecks,Protects from Defense-lowering attacks.
+BLAZE,Blaze,Powers up Fire-type moves while at half health or below.
+BULLETPROOF,Bulletproof,Protects the Pokémon from some ball and bomb moves.
+CACOPHONY,Cacophony,Reduces damage from Sound moves. Sound moves hit Psychic types.
+CAUSTICFUMES,Caustic Fumes,"Upon entry, calls forth Acid Rain for 5 Turns."
+CHEEKPOUCH,Cheek Pouch,Restores HP as well when the Pokémon eats a Berry.
+CHILLINGNEIGH,Chilling Neigh,"When knocking out a target, raises Attack."
+CHLOROPHYLL,Chlorophyll,Boosts the Pokémon's Speed in sunshine.
+CLEARBODY,Clear Body,Prevents other Pokémon from lowering its stats.
+CLOUDBURST,Cloud Burst,Changes the Pokémon's form when HP is halved.
+CLOUDNINE,Cloud Nine,Eliminates the effects of weather.
+COLORCHANGE,Color Change,Changes the Pokémon's type to the foe's move.
+COMATOSE,Comatose,"It's always drowsing, and attacks without waking."
+COMMANDER,Commander,Pairs up and commands with an active Dondozo.
+COMPETITIVE,Competitive,Sharply boosts Sp. Atk when a stat is lowered.
+COMPOUNDEYES,Compound Eyes,"The Pokémon's accuracy is boosted. When first in the team, it spots wild Pokémon holding items."
+CONFLAGRATE,Conflagrate,Normal-type moves become Fire-type and powered up.
+CONTRARY,Contrary,Makes stat changes have an opposite effect.
+CORROSION,Corrosion,It can poison Steel and Poison-type targets. Also hits Steel with poison moves.
+COSTAR,Costar,Copies an ally's stat changes upon entry to battle.
+COTTONDOWN,Cotton Down,Scatters Speed-lowering cotton fluff when hit.
+CREAMSHIELD,Cream Shield,"The user is protected by a layer of cream. The healthier they are, the less damage they take."
+CUDCHEW,Cud Chew,Reuses an eaten Berry at the end of the next turn.
+CURIOUSMEDICINE,Curious Medicine,Removes all allies' stat changes on joining battle.
+CURSEDBODY,Cursed Body,May disable a move used on the Pokémon.
+CUTECHARM,Cute Charm,Contact with the Pokémon may cause infatuation.
+DAMP,Damp,Prevents self-destructing moves. Reduces Fire and Water moves damage.
+DANCER,Dancer,Repeats another Pokémon's dance move immediately.
+DARKAURA,Dark Aura,Powers up each Pokémon's Dark-type moves.
+DAUNTLESSSHIELD,Dauntless Shield,Boosts Defense when entering a battle.
+DAZZLING,Dazzling,Makes foes unable to use priority attacks.
+DEADEYE,Deadeye,The user's moves never miss.
+DEFEATIST,Defeatist,"Halves damage, but doubles speed when HP becomes 50% or less."
+DEFIANT,Defiant,When its stats are lowered its Attack increases.
+DELTASTREAM,Delta Stream,Alters weather to remove Flying-type's weaknesses.
+DESOLATELAND,Desolate Land,Changes the weather to nullify Water-type moves.
+DISGUISE,Disguise,Its shroud protects it from an attack just once.
+DISHEARTEN,Dishearten,"Upon entry, the enemy is discouraged and their Special Attack is reduced."
+DOWNLOAD,Download,Adjusts power according to a foe's defenses.
+DRAGONSMAW,Dragon's Maw,Powers up Dragon-type moves.
+DREADAURA,Dread Aura,A dreadful aura reduces all opponents' Attack and Special Attack.
+DRIZZLE,Drizzle,The Pokémon makes it rain if it appears in battle.
+DROUGHT,Drought,Turns the sunlight harsh if it is in battle.
+DRYSKIN,Dry Skin,Reduces HP if it is hot. Water restores HP.
+DUSTDEVIL,Dust Devil,The user kicks up a Sandstorm after using a wind-based move. Only works once per switch-in.
+EARLYBIRD,Early Bird,The Pokémon awakens quickly from sleep.
+EARTHEATER,Earth Eater,Restores HP if hit by a Ground-type move.
+EFFECTSPORE,Effect Spore,Contact may poison or cause paralysis or sleep.
+ELECTRICSURGE,Electric Surge,Turns the ground into Electric Terrain.
+ELECTROMORPHOSIS,Electromorphosis,The Pokémon becomes charged upon taking damage.
+EMBODYASPECT,Embody Aspect,The user's shining mask raises its Speed stat.
+EMBODYASPECT_1,Embody Aspect,The user's shining mask raises its Sp. Def stat.
+EMBODYASPECT_2,Embody Aspect,The user's shining mask raises its Attack stat.
+EMBODYASPECT_3,Embody Aspect,The user's shining mask raises its Defense stat.
+EMERGENCYEXIT,Emergency Exit,Switches out if its HP becomes half or less.
+EQUALIZE,Equalize,Normal-type moves become Sound-type and powered up.
+EROTOXIN,Erotoxin,Any Pokémon poisoned by the user also becomes infatuated with them.
+FAIRYAURA,Fairy Aura,Powers up each Pokémon's Fairy-type moves.
+FILTER,Filter,Reduces damage from super-effective attacks.
+FLAMEBODY,Flame Body,Contact with the Pokémon may burn the attacker.
+FLAREBOOST,Flare Boost,Powers up special attacks when burned.
+FLASHFIRE,Flash Fire,It powers up Fire-type moves if it's hit by one.
+FLOWERGIFT,Flower Gift,Powers up party Pokémon when it is sunny.
+FLOWERVEIL,Flower Veil,Protects Grass-type allies from stat/status effects.
+FLUFFY,Fluffy,Resists contact damage but weaker to Fire-type.
+FORECAST,Forecast,Castform transforms with the weather.
+FOREWARN,Forewarn,Determines what moves a foe has.
+FRIENDGUARD,Friend Guard,Reduces damage done to allies.
+FRISK,Frisk,User checks foe's held item. Boosts the chance to find held items in the wild.
+FROSTCHIME,Frost Chime,Summons snow and increases user's Sp.Atk.
+FULLMETALBODY,Full Metal Body,Prevents other Pokémon from lowering its stats.
+FURCOAT,Fur Coat,Halves the damage from physical moves.
+GALEWINGS,Gale Wings,Flying-type moves gain priority when its HP is full.
+GALVANIZE,Galvanize,Normal-type moves become Electric-type and powered.
+GLUTTONY,Gluttony,Encourages the early use of a held Berry.
+GOODASGOLD,Good as Gold,The Pokémon becomes immune to status moves.
+GOOEY,Gooey,Contact with it lowers the attacker's Speed stat.
+GORILLATACTICS,Gorilla Tactics,"Boosts Attack, but allows only one move to be used."
+GRASSPELT,Grass Pelt,Boosts the Defense stat on Grassy Terrain.
+GRASSYSURGE,Grassy Surge,Turns the ground into Grassy Terrain.
+GRIMNEIGH,Grim Neigh,"When knocking out a target, raises Sp. Atk."
+GUARDDOG,Guard Dog,Boosts Atk if intimidated and immune to being forced out.
+GULPMISSILE,Gulp Missile,"Catches prey via Surf or Dive, spits it out when hit."
+GUTS,Guts,Boosts Attack if there is a status problem.
+HADRONENGINE,Hadron Engine,Turns the ground into Electric Terrain and boosts Sp. Atk.
+HARVEST,Harvest,May create another Berry after one is used.
+HEALER,Healer,Boosts the power of healing moves by 30%. May heal an ally's status conditions.
+HEATPROOF,Heatproof,Weakens the power of Fire-type moves.
+HEAVYMETAL,Heavy Metal,Doubles the Pokémon's weight and increases Defense by 20%
+HIVESHIELD,Hive Shield,The Pokémon's subjects shield them from indirect damage.
+HOLOGRAM,Hologram,"The user creates a hologram, blanking an attack aimed at them."
+HONEYGATHER,Honey Gather,The Pokémon may gather Honey from somewhere.
+HOSPITALITY,Hospitality,Restores ally's HP a little when entering battle.
+HUGEPOWER,Huge Power,Raises the Pokémon's Attack stat.
+HUNGERSWITCH,Hunger Switch,Changes between Full Belly and Hangry Mode each turn.
+HUSTLE,Hustle,"Boosts the Attack stat, but lowers accuracy."
+HYDRATION,Hydration,Heals status problems if it is raining.
+HYPERCUTTER,Hyper Cutter,Prevents other Pokémon from lowering Attack stat.
+ICEBODY,Ice Body,The Pokémon gradually regains HP in a hailstorm.
+ICEFACE,Ice Face,"Blocks a physical hit, but the ice head breaks."
+ICESCALES,Ice Scales,Halves the damage taken from special moves.
+ILLUMINATE,Illuminate,Raises the chance of meeting wild Pokémon. Boosts Light based moves.
+ILLUSION,Illusion,Comes out disguised as the Pokémon in back.
+IMMUNITY,Immunity,Prevents the Pokémon from getting poisoned.
+IMPOSTER,Imposter,It transforms itself into the Pokémon it is facing.
+INFILTRATOR,Infiltrator,Passes through the foe's barrier and strikes.
+INNARDSOUT,Innards Out,Damages an attacker that lands the finishing hit.
+INNERFOCUS,Inner Focus,The Pokémon is protected from flinching.
+INSOMNIA,Insomnia,Prevents the Pokémon from falling asleep.
+INTIMIDATE,Intimidate,Lowers the foe's Attack stat.
+INTREPIDSWORD,Intrepid Sword,Boosts Attack when entering a battle.
+IRONBARBS,Iron Barbs,Inflicts damage to the Pokémon on contact.
+IRONFIST,Iron Fist,Boosts the power of punching moves by 30%.
+JUSTIFIED,Justified,Raises Attack when hit by a Dark-type move.
+KEENEYE,Keen Eye,The Pokémon's accuracy is boosted.
+KLUTZ,Klutz,Using a contact move makes the user and the target lose their items.
+LEAFGUARD,Leaf Guard,Prevents problems with status and stat loss in sunny weather.
+LEVITATE,Levitate,Gives full immunity to all Ground-type moves.
+LIBERO,Libero,It changes type to that of the move it's about to use.
+LIGHTMETAL,Light Metal,Halves the Pokémon's weight and increases Speed by 20%.
+LIGHTNINGROD,Lightning Rod,Draws in all Electric-type moves to up Sp. Attack.
+LIMBER,Limber,The Pokémon takes a bit less damage from contact moves and can't be paralyzed.
+LINGERINGAROMA,Lingering Aroma,Contact with this Pokémon spreads this Ability.
+LIQUIDOOZE,Liquid Ooze,Damages attackers using any draining move.
+LIQUIDVOICE,Liquid Voice,Its sound-based moves become Water-type.
+LONGREACH,Long Reach,Uses moves without making contact with the target.
+MAGICBOUNCE,Magic Bounce,Reflects status-changing moves.
+MAGICGUARD,Magic Guard,The Pokémon only takes damage from attacks.
+MAGICIAN,Magician,Steals the held item of a Pokémon it hits.
+MAGMAARMOR,Magma Armor,Prevents the Pokémon from becoming frozen. Evaporates water attacks.
+MAGNETPULL,Magnet Pull,Prevents Steel-type Pokémon from escaping.
+MAJESTICAURA,Majestic Aura,Makes foes unable to use priority attacks.
+MARSHMALLOW,Marshmallow,The Pokémon's soft body nullifies recoil damage from moves.
+MARVELSCALE,Marvel Scale,Ups Defense if there is a status problem.
+MEGALAUNCHER,Mega Launcher,"Powers up aura, pulse and bomb moves."
+MERCILESS,Merciless,Its attacks are critical hits when it is poisoned.
+MIMICRY,Mimicry,Changes type depending on the terrain.
+MINDSEYE,Mind's Eye,Prevents accuracy loss. Ignores Ghost immunities.
+MINUS,Minus,"Ups defenses of the user and the ally, by more if it has Plus."
+MIRRORARMOR,Mirror Armor,Bounces back stat-lowering effects.
+MISTYSURGE,Misty Surge,Turns the ground into Misty Terrain.
+MOLDBREAKER,Mold Breaker,Moves can be used regardless of Abilities.
+MOODY,Moody,Raises one stat and lowers another.
+MOTORDRIVE,Motor Drive,Raises Speed if hit by an Electric-type move.
+MOXIE,Moxie,Boosts Attack after knocking out any Pokémon.
+MULTISCALE,Multiscale,Reduces damage when HP is full.
+MULTITYPE,Multitype,Changes type to match the held Plate.
+MUMMY,Mummy,Contact with this Pokémon spreads this Ability.
+MYCELIUMMIGHT,Mycelium Might,Status moves are unimpeded by this Ability but slower to use.
+MYSTICFORCE,Mystic Force,Raises the Pokémon's Special Attack stat.
+NATURALCURE,Natural Cure,All status problems heal when it switches out.
+NEUROFORCE,Neuroforce,Powers up moves that are super-effective.
+NEUTRALIZINGGAS,Neutralizing Gas,Nullifies the effects of all other Abilities.
+NOGUARD,No Guard,Ensures attacks by or against the Pokémon land.
+NORMALIZE,Normalize,All the Pokémon's moves become the Normal type.
+OBLIVIOUS,Oblivious,Prevents it from becoming infatuated.
+OPPORTUNIST,Opportunist,Copies an opponent's stat boost during a turn.
+ORICHALCUMPULSE,Orichalcum Pulse,Turns the sunlight harsh while boosing Attack.
+OVERCOAT,Overcoat,Protects the Pokémon from damage from weather.
+OVERGROW,Overgrow,Powers up Grass-type while at half health or below.
+OWNTEMPO,Own Tempo,Prevents the Pokémon from becoming confused.
+PARENTALBOND,Parental Bond,Parent and child each attacks.
+PASTELVEIL,Pastel Veil,Protects the Pokémon and its allies from poisoning.
+PERISHBODY,Perish Body,Both Pokémon faint 3 turns after taking a contact hit.
+PICKPOCKET,Pickpocket,Steals an item when hit by another Pokémon.
+PICKUP,Pickup,The Pokémon may pick up items.
+PIGGYBANK,Piggy Bank,Doubles money earned from battles. Heals HP if it holds valuable items.
+PIXILATE,Pixilate,Normal-type moves become Fairy-type and powered up.
+PLUS,Plus,"Ups move's power of the user and the ally, by more if it has Minus."
+POISONHEAL,Poison Heal,Restores HP if the Pokémon is poisoned.
+POISONPOINT,Poison Point,Contact with the Pokémon may poison the attacker.
+POISONPUPPETEER,Poison Puppeteer,Moves that inflict poison also cause confusion.
+POISONTOUCH,Poison Touch,May poison targets when a Pokémon makes contact.
+POWERCONSTRUCT,Power Construct,Changes with other Cells if HP becomes half or less.
+POWEROFALCHEMY,Power of Alchemy,Copies the Ability of a defeated ally.
+POWERSPOT,Power Spot,Just being next to the Pokémon powers up moves.
+PRANKSTER,Prankster,Gives priority to a status move.
+PRESSURE,Pressure,The Pokémon raises the foe's PP usage.
+PRESSURIZE,Pressurize,"Under rain, increases defenses but lowers speed."
+PRIMALPOWER,Primal Power,The user takes half damage from and deals 50% more damage with Fighting type moves.
+PRIMORDIALSEA,Primordial Sea,Changes the weather to nullify Fire-type moves.
+PRISMARMOR,Prism Armor,Reduces damage from super-effective attacks.
+PROPELLERTAIL,Propeller Tail,This Pokémon's moves cannot be redirected.
+PROTEAN,Protean,It changes type to that of the move it's about to use.
+PROTOSYNTHESIS,Protosynthesis,Boosts its best stat in harsh sunlight.
+PSYCHICSURGE,Psychic Surge,Turns the ground into Psychic Terrain.
+PUNKROCK,Punk Rock,Powers up own sound moves. Resists other sound moves.
+PUREPOWER,Pure Power,Raises the Pokémon's Attack stat.
+PURIFYINGSALT,Purifying Salt,Gains protection from status effects and Ghost-type moves.
+QUARKDRIVE,Quark Drive,Boosts its best stat in Electric Terrain.
+QUEENLYMAJESTY,Queenly Majesty,Makes foes unable to use priority attacks.
+QUICKDRAW,Quick Draw,Enables the Pokémon to move first occasionally.
+QUICKFEET,Quick Feet,Boosts Speed if there is a status problem.
+RAINDISH,Rain Dish,The Pokémon gradually regains HP in rain.
+RAPTOR,Raptor,Attacks a target at low health with increases priority
+RATTLED,Rattled,Some move types scare it and boost its Speed.
+RECEIVER,Receiver,Copies the Ability of a defeated ally.
+RECKLESS,Reckless,Powers up moves that have recoil damage.
+REFRIGERATE,Refrigerate,Normal-type moves become Ice-type and powered up.
+REGENERATOR,Regenerator,Restores a little HP when withdrawn from battle.
+REVERB,Reverb,Powers up moves used in succession.
+RIPEN,Ripen,Ripens Berries and doubles their effect.
+RIVALRY,Rivalry,Deals more damage to a foe of the same gender.
+RKSSYSTEM,RKS System,Its type matches the memory disc it holds.
+ROCKHEAD,Rock Head,Protects the Pokémon from recoil damage.
+ROCKYPAYLOAD,Rocky Payload,Powers up Rock-type moves.
+ROOMWARPER,Room Warper,Increases priorities of weird Room moves.
+ROUGHSKIN,Rough Skin,Inflicts damage to the foe on contact.
+RUNAWAY,Run Away,Enables a sure getaway from wild Pokémon and trapping effects.
+SANDFORCE,Sand Force,Boosts certain moves' power in a sandstorm.
+SANDRUSH,Sand Rush,Boosts the Pokémon's Speed in a sandstorm.
+SANDSPIT,Sand Spit,Creates a sandstorm when hit by an attack.
+SANDSTREAM,Sand Stream,The Pokémon summons a sandstorm in battle.
+SANDVEIL,Sand Veil,Boosts the Pokémon's Defense in a sandstorm.
+SAPSIPPER,Sap Sipper,Boosts Attack when hit by a Grass-type move.
+SCALATE,Scalate,Normal-type moves become Dragon-type and powered up.
+SCHOOLING,Schooling,Forms a powerful school while it has a lot of HP.
+SCRAPPY,Scrappy,Enables moves to hit Ghost-type Pokémon.
+SCREENCLEANER,Screen Cleaner,"On entering battle, clears effects of Reflect, etc."
+SEEDSOWER,Seed Sower,Turns the ground into Grassy Terrain upon taking damage.
+SERENEGRACE,Serene Grace,Boosts the likelihood of added effects appearing.
+SHACKLEDSOUL,Shackled Soul,"The user is enchained and its speed is halved. If hit by an attack, the shackles break, increasing speed. The chains reform after 3 turns."
+SHADOWSHIELD,Shadow Shield,Resists damage while its HP is full.
+SHADOWTAG,Shadow Tag,Prevents the foe from escaping.
+SHARPNESS,Sharpness,Powers up slicing moves.
+SHEDSKIN,Shed Skin,The Pokémon may heal its own status problems.
+SHEERFORCE,Sheer Force,Removes added effects to increase move damage.
+SHELLARMOR,Shell Armor,The Pokémon is protected against critical hits.
+SHIELDDUST,Shield Dust,Blocks the added effects of attacks taken and hazards damage.
+SHIELDSDOWN,Shields Down,Its shell breaks if its HP becomes half or less.
+SILKSURGE,Silk Surge,Turns the ground into Silk Terrain.
+SIMPLE,Simple,The Pokémon is prone to wild stat changes.
+SKILLLINK,Skill Link,Increases the frequency of multi-strike moves.
+SLOWSTART,Slow Start,Temporarily halves Attack and Speed.
+SLUSHRUSH,Slush Rush,Boosts the Pokémon's Speed stat in a hailstorm.
+SNIPER,Sniper,Powers up moves if they become critical hits.
+SNOWCLOAK,Snow Cloak,Raises Special Defense in a hailstorm.
+SNOWWARNING,Snow Warning,The Pokémon summons a hailstorm in battle.
+SOLARPOWER,Solar Power,"In sunshine, attacks are boosted slightly but HP decreases."
+SOLIDROCK,Solid Rock,Reduces damage from super-effective attacks.
+SOULHEART,Soul-Heart,Boosts Sp. Atk each time a Pokémon faints.
+SOULSONG,Soul Song,Gains protection from status effects and Ghost-type moves.
+SOUNDPROOF,Soundproof,Gives full immunity to all sound-based moves.
+SPEEDBOOST,Speed Boost,Its Speed stat is gradually boosted.
+SPIRITFEAST,Spirit Feast,Moves that restore or drain HP will have +3 priority
+STAKEOUT,Stakeout,Deals doubles damage to a target's replacement.
+STALL,Stall,The Pokémon moves after all other Pokémon do.
+STALWART,Stalwart,This Pokémon's moves cannot be redirected.
+STAMINA,Stamina,Boosts Defense when hit by an attack.
+STANCECHANGE,Stance Change,Changes between Blade and Shield Forme with attacks.
+STATIC,Static,Contact with the Pokémon may cause paralysis.
+STEADFAST,Steadfast,Raises Speed when a stat is lowered.
+STEAMENGINE,Steam Engine,Boosts Speed drastically if hit by a Fire or Water move.
+STEELWORKER,Steelworker,Powers up Steel-type moves.
+STEELYSPIRIT,Steely Spirit,Powers up ally Pokémon's Steel-type moves.
+STENCH,Stench,The stench may cause the target to flinch.
+STICKYHOLD,Sticky Hold,Protects the Pokémon from item theft.
+STORMDRAIN,Storm Drain,Draws in all Water-type moves to up Sp. Attack.
+STRIKER,Striker,Kicking moves deal 30% more damage.
+STRONGJAW,Strong Jaw,Boosts the power of biting moves.
+STURDY,Sturdy,It cannot be knocked out with one hit.
+SUBZERO,Subzero,The user deals 50% more damage with Ice Type moves and is immune to Frostbite.
+SUCTIONCUPS,Suction Cups,Negates all moves that force switching out.
+SUNBLESSED,Sun Blessed,"Under sun, Water moves deal normal damage, and can heal status for itself and ally."
+SUPERLUCK,Super Luck,Heightens the critical-hit ratios of moves.
+SUPERSWEETSYRUP,Supersweet Syrup,Lowers the foe's evasion once per battle.
+SUPREMEOVERLORD,Supreme Overlord,Boosts the power of its moves with every fainted ally.
+SURGESURFER,Surge Surfer,Doubles Speed on Electric Terrain.
+SWARM,Swarm,Powers up Bug-type moves while at half health or below.
+SWEETVEIL,Sweet Veil,Prevents itself and allies from falling asleep.
+SWIFTSWIM,Swift Swim,Boosts the Pokémon's Speed in rain.
+SWORDOFRUIN,Sword of Ruin,Lowers the Defense of all Pokémon except the user.
+SYMBIOSIS,Symbiosis,Passes its held item to an ally that has used theirs.
+SYNCHRONIZE,Synchronize,"Passes a burn, poison, or paralysis to the foe."
+SYNTHESIZER,Synthesizer,Restores HP if hit by a Sound-type move.
+TABLETSOFRUIN,Tablets of Ruin,Lowers the Attack of all Pokémon except the user.
+TAGCURSE,Tag Curse,Contact with the Pokémon changes the attacker's Ability to Tag Curse.
+TANGLEDFEET,Tangled Feet,Raises evasion if the Pokémon is confused.
+TANGLINGHAIR,Tangling Hair,Contact with it lowers the attacker's Speed.
+TECHNICIAN,Technician,Powers up the Pokémon's weaker moves.
+TELEPATHY,Telepathy,Anticipates an ally's attack and dodges it.
+TEMPOBOOST,Tempo Boost,"When hit by a Sound move, reduces damage and raises Speed by 1 stage."
+TERAFORMZERO,Teraform Zero,Eliminates all weather and terrain.
+TERASHELL,Tera Shell,Resists all types when HP is full.
+TERASHIFT,Tera Shift,Enters Terastal Form when sent out.
+TERAVOLT,Teravolt,Moves can be used regardless of Abilities.
+THERMALEXCHANGE,Thermal Exchange,Boosts Atk when hit by a Fire-type move and prevents burns.
+THICKFAT,Thick Fat,Ups resistance to Fire- and Ice-type moves.
+TINTEDLENS,Tinted Lens,"Powers up ""not very effective"" moves."
+TORRENT,Torrent,Powers up Water-type moves while at half health or below.
+TOUGHCLAWS,Tough Claws,Powers up moves that make direct contact.
+TOXICBOOST,Toxic Boost,Powers up physical attacks and speed when poisoned.
+TOXICCHAIN,Toxic Chain,May badly poison targets when the user attacks.
+TOXICDEBRIS,Toxic Debris,Scatters poison spikes when hit by physical moves.
+TRACE,Trace,The Pokémon copies a foe's Ability.
+TRANSISTOR,Transistor,Powers up Electric-type moves.
+TRIAGE,Triage,Gives priority to a healing move.
+TRUANT,Truant,Pokémon can't attack on consecutive turns.
+TURBOBLAZE,Turboblaze,Moves can be used regardless of Abilities.
+UNAWARE,Unaware,Ignores any stat changes in the Pokémon.
+UNBURDEN,Unburden,Raises Speed if a held item is used.
+UNNERVE,Unnerve,Makes the foe nervous and unable to eat Berries.
+UNSEENFIST,Unseen Fist,The Pokémon's contact moves ignore protections.
+VESSELOFRUIN,Vessel of Ruin,Lowers the Sp. Atk of all Pokémon except the user.
+VICTORYSTAR,Victory Star,Boosts the accuracy of its allies and itself.
+VITALSPIRIT,Vital Spirit,Prevents the Pokémon from falling asleep.
+VOLTABSORB,Volt Absorb,Restores HP if hit by an Electric-type move.
+WANDERINGSPIRIT,Wandering Spirit,Swaps Abilities with contact-making Pokémon.
+WATERABSORB,Water Absorb,Restores HP if hit by a Water-type move.
+WATERBUBBLE,Water Bubble,Weakens incoming Fire-type moves and prevents burns.
+WATERCOMPACTION,Water Compaction,Sharply ups Defense when hit by a Water-type move.
+WATERVEIL,Water Veil,Prevents the Pokémon from being burned. Applies to the Ally if raining.
+WEAKARMOR,Weak Armor,Physical attacks lower Defense and raise Speed.
+WELLBAKEDBODY,Well-Baked Body,Fire-type moves deal no damage and sharply boost Defense.
+WHITESMOKE,White Smoke,Prevents other Pokémon from lowering its stats.
+WIMPOUT,Wimp Out,Cowardly switches out if its HP becomes half or less.
+WINDPOWER,Wind Power,The Pokémon becomes charged from taking wind damage.
+WINDRIDER,Wind Rider,Boosts Attack in Tailwind or when attacked by wind moves.
+WONDERGUARD,Wonder Guard,Only super-effective moves will hit.
+WONDERSKIN,Wonder Skin,Makes status-changing moves more likely to miss.
+XENOMELODY,Xenomelody,The user’s moves use the opposite attacking stat.
+ZENMODE,Zen Mode,Changes the Pokémon's shape when HP is halved.
+ZEROTOHERO,Zero to Hero,Transforms into its Hero Form when it switches out.

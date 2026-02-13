@@ -1,0 +1,15 @@
+{
+  "name": "xenoverse-dex-test-evidence",
+  "version": "1.0.0",
+  "description": "Automated test evidence recording for Xenoverse Dex",
+  "main": "record-demo.js",
+  "scripts": {
+    "record": "node record-demo.js"
+  },
+  "keywords": ["test", "evidence", "playwright"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "playwright": "^1.40.0"
+  }
+}

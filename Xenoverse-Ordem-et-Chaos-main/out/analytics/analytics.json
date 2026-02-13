@@ -1,0 +1,1514 @@
+{
+  "timestamp": "2026-01-29T23:19:03.565Z",
+  "types": {
+    "primary": [
+      {
+        "type": "NORMAL",
+        "count": 149
+      },
+      {
+        "type": "WATER",
+        "count": 144
+      },
+      {
+        "type": "GRASS",
+        "count": 114
+      },
+      {
+        "type": "BUG",
+        "count": 92
+      },
+      {
+        "type": "FIRE",
+        "count": 77
+      },
+      {
+        "type": "ELECTRIC",
+        "count": 71
+      },
+      {
+        "type": "PSYCHIC",
+        "count": 67
+      },
+      {
+        "type": "ROCK",
+        "count": 63
+      },
+      {
+        "type": "DARK",
+        "count": 49
+      },
+      {
+        "type": "DRAGON",
+        "count": 48
+      },
+      {
+        "type": "GROUND",
+        "count": 47
+      },
+      {
+        "type": "GHOST",
+        "count": 44
+      },
+      {
+        "type": "POISON",
+        "count": 44
+      },
+      {
+        "type": "FIGHTING",
+        "count": 41
+      },
+      {
+        "type": "STEEL",
+        "count": 41
+      },
+      {
+        "type": "FAIRY",
+        "count": 37
+      },
+      {
+        "type": "ICE",
+        "count": 35
+      },
+      {
+        "type": "SOUND",
+        "count": 15
+      },
+      {
+        "type": "FLYING",
+        "count": 10
+      }
+    ],
+    "secondary": [
+      {
+        "type": "FLYING",
+        "count": 104
+      },
+      {
+        "type": "SOUND",
+        "count": 53
+      },
+      {
+        "type": "PSYCHIC",
+        "count": 52
+      },
+      {
+        "type": "POISON",
+        "count": 50
+      },
+      {
+        "type": "FAIRY",
+        "count": 46
+      },
+      {
+        "type": "FIGHTING",
+        "count": 45
+      },
+      {
+        "type": "GROUND",
+        "count": 40
+      },
+      {
+        "type": "GHOST",
+        "count": 37
+      },
+      {
+        "type": "STEEL",
+        "count": 36
+      },
+      {
+        "type": "DRAGON",
+        "count": 35
+      },
+      {
+        "type": "DARK",
+        "count": 30
+      },
+      {
+        "type": "GRASS",
+        "count": 27
+      },
+      {
+        "type": "WATER",
+        "count": 25
+      },
+      {
+        "type": "ICE",
+        "count": 24
+      },
+      {
+        "type": "NORMAL",
+        "count": 20
+      },
+      {
+        "type": "ROCK",
+        "count": 20
+      },
+      {
+        "type": "FIRE",
+        "count": 19
+      },
+      {
+        "type": "ELECTRIC",
+        "count": 15
+      },
+      {
+        "type": "BUG",
+        "count": 9
+      }
+    ],
+    "dualCombinations": [
+      {
+        "type1": "NORMAL",
+        "type2": "SOUND",
+        "count": 30
+      },
+      {
+        "type1": "NORMAL",
+        "type2": "FLYING",
+        "count": 25
+      },
+      {
+        "type1": "GRASS",
+        "type2": "POISON",
+        "count": 14
+      },
+      {
+        "type1": "BUG",
+        "type2": "POISON",
+        "count": 12
+      },
+      {
+        "type1": "BUG",
+        "type2": "FLYING",
+        "count": 10
+      },
+      {
+        "type1": "ELECTRIC",
+        "type2": "FLYING",
+        "count": 8
+      },
+      {
+        "type1": "GRASS",
+        "type2": "FLYING",
+        "count": 8
+      },
+      {
+        "type1": "BUG",
+        "type2": "FIGHTING",
+        "count": 7
+      },
+      {
+        "type1": "GRASS",
+        "type2": "FAIRY",
+        "count": 7
+      },
+      {
+        "type1": "PSYCHIC",
+        "type2": "FAIRY",
+        "count": 7
+      },
+      {
+        "type1": "PSYCHIC",
+        "type2": "FLYING",
+        "count": 7
+      },
+      {
+        "type1": "STEEL",
+        "type2": "PSYCHIC",
+        "count": 7
+      },
+      {
+        "type1": "WATER",
+        "type2": "FLYING",
+        "count": 7
+      },
+      {
+        "type1": "WATER",
+        "type2": "GROUND",
+        "count": 7
+      },
+      {
+        "type1": "WATER",
+        "type2": "ROCK",
+        "count": 7
+      },
+      {
+        "type1": "BUG",
+        "type2": "GRASS",
+        "count": 6
+      },
+      {
+        "type1": "DARK",
+        "type2": "FLYING",
+        "count": 6
+      },
+      {
+        "type1": "FIRE",
+        "type2": "FIGHTING",
+        "count": 6
+      },
+      {
+        "type1": "FIRE",
+        "type2": "FLYING",
+        "count": 6
+      },
+      {
+        "type1": "GHOST",
+        "type2": "GRASS",
+        "count": 6
+      }
+    ],
+    "monoTypeCount": 501,
+    "dualTypeCount": 687
+  },
+  "stats": {
+    "hp": {
+      "min": 1,
+      "max": 255,
+      "avg": 69.6,
+      "median": 70,
+      "top5": [
+        {
+          "id": "BLISSEY",
+          "name": "Blissey",
+          "value": 255
+        },
+        {
+          "id": "CHANSEY",
+          "name": "Chansey",
+          "value": 250
+        },
+        {
+          "id": "GUZZLORD",
+          "name": "Guzzlord",
+          "value": 223
+        },
+        {
+          "id": "REGIDRAGO",
+          "name": "Regidrago",
+          "value": 200
+        },
+        {
+          "id": "WOBBUFFET",
+          "name": "Wobbuffet",
+          "value": 190
+        }
+      ],
+      "bottom5": [
+        {
+          "id": "SHEDINJA",
+          "name": "Shedinja",
+          "value": 1
+        },
+        {
+          "id": "SWIRLIXX",
+          "name": "WIP",
+          "value": 1
+        },
+        {
+          "id": "SLURPUFFX",
+          "name": "WIP",
+          "value": 1
+        },
+        {
+          "id": "BUDEWX",
+          "name": "WIP",
+          "value": 1
+        },
+        {
+          "id": "ROSERADEX",
+          "name": "WIP",
+          "value": 1
+        }
+      ]
+    },
+    "attack": {
+      "min": 1,
+      "max": 181,
+      "avg": 75.4,
+      "median": 73,
+      "top5": [
+        {
+          "id": "KARTANA",
+          "name": "Kartana",
+          "value": 181
+        },
+        {
+          "id": "RAMPARDOS",
+          "name": "Rampardos",
+          "value": 165
+        },
+        {
+          "id": "SLAKING",
+          "name": "Slaking",
+          "value": 160
+        },
+        {
+          "id": "REGIGIGAS",
+          "name": "Regigigas",
+          "value": 160
+        },
+        {
+          "id": "GROUDON",
+          "name": "Groudon",
+          "value": 150
+        }
+      ],
+      "bottom5": [
+        {
+          "id": "SWIRLIXX",
+          "name": "WIP",
+          "value": 1
+        },
+        {
+          "id": "SLURPUFFX",
+          "name": "WIP",
+          "value": 1
+        },
+        {
+          "id": "BUDEWX",
+          "name": "WIP",
+          "value": 1
+        },
+        {
+          "id": "ROSERADEX",
+          "name": "WIP",
+          "value": 1
+        },
+        {
+          "id": "MAREANIEX",
+          "name": "WIP",
+          "value": 1
+        }
+      ]
+    },
+    "defense": {
+      "min": 1,
+      "max": 230,
+      "avg": 71,
+      "median": 70,
+      "top5": [
+        {
+          "id": "SHUCKLE",
+          "name": "Shuckle",
+          "value": 230
+        },
+        {
+          "id": "STAKATAKA",
+          "name": "Stakataka",
+          "value": 211
+        },
+        {
+          "id": "STEELIX",
+          "name": "Steelix",
+          "value": 200
+        },
+        {
+          "id": "REGIROCK",
+          "name": "Regirock",
+          "value": 200
+        },
+        {
+          "id": "AVALUGG",
+          "name": "Avalugg",
+          "value": 184
+        }
+      ],
+      "bottom5": [
+        {
+          "id": "SHEDINJA",
+          "name": "Shedinja",
+          "value": 1
+        },
+        {
+          "id": "SWIRLIXX",
+          "name": "WIP",
+          "value": 1
+        },
+        {
+          "id": "SLURPUFFX",
+          "name": "WIP",
+          "value": 1
+        },
+        {
+          "id": "BUDEWX",
+          "name": "WIP",
+          "value": 1
+        },
+        {
+          "id": "ROSERADEX",
+          "name": "WIP",
+          "value": 1
+        }
+      ]
+    },
+    "special_attack": {
+      "min": 1,
+      "max": 173,
+      "avg": 68.8,
+      "median": 65,
+      "top5": [
+        {
+          "id": "XURKITREE",
+          "name": "Xurkitree",
+          "value": 173
+        },
+        {
+          "id": "MEWTWO",
+          "name": "Mewtwo",
+          "value": 154
+        },
+        {
+          "id": "BLACEPHALON",
+          "name": "Blacephalon",
+          "value": 151
+        },
+        {
+          "id": "KYOGRE",
+          "name": "Kyogre",
+          "value": 150
+        },
+        {
+          "id": "RAYQUAZA",
+          "name": "Rayquaza",
+          "value": 150
+        }
+      ],
+      "bottom5": [
+        {
+          "id": "SWIRLIXX",
+          "name": "WIP",
+          "value": 1
+        },
+        {
+          "id": "SLURPUFFX",
+          "name": "WIP",
+          "value": 1
+        },
+        {
+          "id": "BUDEWX",
+          "name": "WIP",
+          "value": 1
+        },
+        {
+          "id": "ROSERADEX",
+          "name": "WIP",
+          "value": 1
+        },
+        {
+          "id": "MAREANIEX",
+          "name": "WIP",
+          "value": 1
+        }
+      ]
+    },
+    "special_defense": {
+      "min": 1,
+      "max": 230,
+      "avg": 68.9,
+      "median": 65,
+      "top5": [
+        {
+          "id": "SHUCKLE",
+          "name": "Shuckle",
+          "value": 230
+        },
+        {
+          "id": "REGICE",
+          "name": "Regice",
+          "value": 200
+        },
+        {
+          "id": "LUGIA",
+          "name": "Lugia",
+          "value": 154
+        },
+        {
+          "id": "HOOH",
+          "name": "Ho-Oh",
+          "value": 154
+        },
+        {
+          "id": "FLORGES",
+          "name": "Florges",
+          "value": 154
+        }
+      ],
+      "bottom5": [
+        {
+          "id": "SHEDINJA",
+          "name": "Shedinja",
+          "value": 1
+        },
+        {
+          "id": "SWIRLIXX",
+          "name": "WIP",
+          "value": 1
+        },
+        {
+          "id": "SLURPUFFX",
+          "name": "WIP",
+          "value": 1
+        },
+        {
+          "id": "BUDEWX",
+          "name": "WIP",
+          "value": 1
+        },
+        {
+          "id": "ROSERADEX",
+          "name": "WIP",
+          "value": 1
+        }
+      ]
+    },
+    "speed": {
+      "min": 1,
+      "max": 200,
+      "avg": 66,
+      "median": 65,
+      "top5": [
+        {
+          "id": "REGIELEKI",
+          "name": "Regieleki",
+          "value": 200
+        },
+        {
+          "id": "NINJASK",
+          "name": "Ninjask",
+          "value": 160
+        },
+        {
+          "id": "PHEROMOSA",
+          "name": "Pheromosa",
+          "value": 151
+        },
+        {
+          "id": "ELECTRODE",
+          "name": "Electrode",
+          "value": 150
+        },
+        {
+          "id": "DEOXYS",
+          "name": "Deoxys",
+          "value": 150
+        }
+      ],
+      "bottom5": [
+        {
+          "id": "SWIRLIXX",
+          "name": "WIP",
+          "value": 1
+        },
+        {
+          "id": "SLURPUFFX",
+          "name": "WIP",
+          "value": 1
+        },
+        {
+          "id": "BUDEWX",
+          "name": "WIP",
+          "value": 1
+        },
+        {
+          "id": "ROSERADEX",
+          "name": "WIP",
+          "value": 1
+        },
+        {
+          "id": "MAREANIEX",
+          "name": "WIP",
+          "value": 1
+        }
+      ]
+    },
+    "bst": {
+      "min": 6,
+      "max": 720,
+      "avg": 419.7,
+      "median": 454,
+      "top5": [
+        {
+          "id": "ARCEUS",
+          "name": "Arceus",
+          "value": 720
+        },
+        {
+          "id": "ETERNATUS",
+          "name": "Eternatus",
+          "value": 690
+        },
+        {
+          "id": "NAWYVERN",
+          "name": "Nawyvern",
+          "value": 680
+        },
+        {
+          "id": "METAPODX",
+          "name": "Metapod",
+          "value": 680
+        },
+        {
+          "id": "CATERPIEX",
+          "name": "Caterpie",
+          "value": 680
+        }
+      ],
+      "bottom5": [
+        {
+          "id": "SWIRLIXX",
+          "name": "WIP",
+          "value": 6
+        },
+        {
+          "id": "SLURPUFFX",
+          "name": "WIP",
+          "value": 6
+        },
+        {
+          "id": "BUDEWX",
+          "name": "WIP",
+          "value": 6
+        },
+        {
+          "id": "ROSERADEX",
+          "name": "WIP",
+          "value": 6
+        },
+        {
+          "id": "MAREANIEX",
+          "name": "WIP",
+          "value": 6
+        }
+      ]
+    }
+  },
+  "evolutions": {
+    "methods": [
+      {
+        "method": "Level",
+        "count": 826
+      },
+      {
+        "method": "Item",
+        "count": 243
+      },
+      {
+        "method": "HasMove",
+        "count": 54
+      },
+      {
+        "method": "Happiness",
+        "count": 46
+      },
+      {
+        "method": "None",
+        "count": 21
+      },
+      {
+        "method": "LevelNight",
+        "count": 12
+      },
+      {
+        "method": "HoldItem",
+        "count": 10
+      },
+      {
+        "method": "LevelFemale",
+        "count": 10
+      },
+      {
+        "method": "LevelDay",
+        "count": 8
+      },
+      {
+        "method": "LocationFlag",
+        "count": 8
+      },
+      {
+        "method": "HappinessDay",
+        "count": 7
+      },
+      {
+        "method": "HappinessNight",
+        "count": 6
+      },
+      {
+        "method": "LevelWalk",
+        "count": 6
+      },
+      {
+        "method": "NightHoldItem",
+        "count": 6
+      },
+      {
+        "method": "UniversalUpdateItem",
+        "count": 6
+      },
+      {
+        "method": "DayHoldItem",
+        "count": 4
+      },
+      {
+        "method": "HasInParty",
+        "count": 4
+      },
+      {
+        "method": "LevelMale",
+        "count": 4
+      },
+      {
+        "method": "LevelRain",
+        "count": 4
+      },
+      {
+        "method": "Event",
+        "count": 3
+      },
+      {
+        "method": "ItemFemale",
+        "count": 3
+      },
+      {
+        "method": "ItemMale",
+        "count": 3
+      },
+      {
+        "method": "LevelRecoilDamage",
+        "count": 3
+      },
+      {
+        "method": "LevelWithPartner",
+        "count": 3
+      },
+      {
+        "method": "AtkDefEqual",
+        "count": 2
+      },
+      {
+        "method": "AttackGreater",
+        "count": 2
+      },
+      {
+        "method": "BattleDealCriticalHit",
+        "count": 2
+      },
+      {
+        "method": "Cascoon",
+        "count": 2
+      },
+      {
+        "method": "CatInParty",
+        "count": 2
+      },
+      {
+        "method": "CollectCoin",
+        "count": 2
+      },
+      {
+        "method": "DefenseGreater",
+        "count": 2
+      },
+      {
+        "method": "EventAfterDamageTaken",
+        "count": 2
+      },
+      {
+        "method": "LevelDarkInParty",
+        "count": 2
+      },
+      {
+        "method": "LevelEvening",
+        "count": 2
+      },
+      {
+        "method": "Ninjask",
+        "count": 2
+      },
+      {
+        "method": "Shedinja",
+        "count": 2
+      },
+      {
+        "method": "Silcoon",
+        "count": 2
+      },
+      {
+        "method": "TradeItem",
+        "count": 2
+      }
+    ],
+    "speciesWithMostBranches": [
+      {
+        "species_id": "EEVEE",
+        "evo_count": 10
+      },
+      {
+        "species_id": "MILCERY",
+        "evo_count": 7
+      },
+      {
+        "species_id": "GOLETT",
+        "evo_count": 4
+      },
+      {
+        "species_id": "CHARJABUG",
+        "evo_count": 3
+      },
+      {
+        "species_id": "COSMOEM",
+        "evo_count": 3
+      },
+      {
+        "species_id": "GLOOM",
+        "evo_count": 3
+      },
+      {
+        "species_id": "GOLETT_1",
+        "evo_count": 3
+      },
+      {
+        "species_id": "KIRLIA",
+        "evo_count": 3
+      },
+      {
+        "species_id": "KIRLIA_1",
+        "evo_count": 3
+      },
+      {
+        "species_id": "MAGNETON",
+        "evo_count": 3
+      }
+    ],
+    "largestFamilies": [
+      {
+        "family_id": "EEVEE_0",
+        "size": 12,
+        "max_stage": 3
+      },
+      {
+        "family_id": "WURMPLE_0",
+        "size": 8,
+        "max_stage": 4
+      },
+      {
+        "family_id": "COSMOG_0",
+        "size": 6,
+        "max_stage": 4
+      },
+      {
+        "family_id": "ODDISH_0",
+        "size": 6,
+        "max_stage": 4
+      },
+      {
+        "family_id": "POLIWAG_0",
+        "size": 6,
+        "max_stage": 4
+      },
+      {
+        "family_id": "PORYGON_0",
+        "size": 6,
+        "max_stage": 4
+      },
+      {
+        "family_id": "ARON_0",
+        "size": 5,
+        "max_stage": 4
+      },
+      {
+        "family_id": "AXEW_0",
+        "size": 5,
+        "max_stage": 4
+      },
+      {
+        "family_id": "AZURILL_0",
+        "size": 5,
+        "max_stage": 4
+      },
+      {
+        "family_id": "BEEFLE_0",
+        "size": 5,
+        "max_stage": 4
+      }
+    ],
+    "totalFamilies": 1036
+  },
+  "moves": {
+    "byType": [
+      {
+        "type": "NORMAL",
+        "count": 171
+      },
+      {
+        "type": "PSYCHIC",
+        "count": 78
+      },
+      {
+        "type": "GRASS",
+        "count": 60
+      },
+      {
+        "type": "FIGHTING",
+        "count": 56
+      },
+      {
+        "type": "DARK",
+        "count": 49
+      },
+      {
+        "type": "ELECTRIC",
+        "count": 49
+      },
+      {
+        "type": "FIRE",
+        "count": 48
+      },
+      {
+        "type": "WATER",
+        "count": 46
+      },
+      {
+        "type": "FAIRY",
+        "count": 40
+      },
+      {
+        "type": "SOUND",
+        "count": 39
+      },
+      {
+        "type": "STEEL",
+        "count": 39
+      },
+      {
+        "type": "POISON",
+        "count": 37
+      },
+      {
+        "type": "BUG",
+        "count": 35
+      },
+      {
+        "type": "DRAGON",
+        "count": 33
+      },
+      {
+        "type": "GHOST",
+        "count": 33
+      },
+      {
+        "type": "ICE",
+        "count": 32
+      },
+      {
+        "type": "GROUND",
+        "count": 31
+      },
+      {
+        "type": "FLYING",
+        "count": 29
+      },
+      {
+        "type": "ROCK",
+        "count": 27
+      }
+    ],
+    "byCategory": [
+      {
+        "category": null,
+        "count": 378
+      },
+      {
+        "category": "Special",
+        "count": 296
+      },
+      {
+        "category": "Physical",
+        "count": 258
+      }
+    ],
+    "powerDistribution": [
+      {
+        "range": "Variable",
+        "count": 296
+      },
+      {
+        "range": "1-40",
+        "count": 131
+      },
+      {
+        "range": "41-60",
+        "count": 93
+      },
+      {
+        "range": "61-80",
+        "count": 177
+      },
+      {
+        "range": "81-100",
+        "count": 128
+      },
+      {
+        "range": "101-120",
+        "count": 61
+      },
+      {
+        "range": "120+",
+        "count": 46
+      }
+    ],
+    "mostLearnedMoves": [
+      {
+        "move_id": "PROTECT",
+        "name": "Protect",
+        "species_count": 1128
+      },
+      {
+        "move_id": "REST",
+        "name": "Rest",
+        "species_count": 1125
+      },
+      {
+        "move_id": "SUBSTITUTE",
+        "name": "Substitute",
+        "species_count": 1123
+      },
+      {
+        "move_id": "SLEEPTALK",
+        "name": "Sleep Talk",
+        "species_count": 1118
+      },
+      {
+        "move_id": "FACADE",
+        "name": "Facade",
+        "species_count": 1105
+      },
+      {
+        "move_id": "SECRETPOWER",
+        "name": "Secret Power",
+        "species_count": 1032
+      },
+      {
+        "move_id": "FRUSTRATION",
+        "name": "Frustration",
+        "species_count": 1030
+      },
+      {
+        "move_id": "HIDDENPOWER",
+        "name": "Hidden Power",
+        "species_count": 1030
+      },
+      {
+        "move_id": "RETURN",
+        "name": "Return",
+        "species_count": 1025
+      },
+      {
+        "move_id": "SNORE",
+        "name": "Snore",
+        "species_count": 786
+      }
+    ]
+  },
+  "abilities": {
+    "mostCommon": [
+      {
+        "ability_id": "LEVITATE",
+        "name": "Levitate",
+        "species_count": 86,
+        "hidden_count": 6
+      },
+      {
+        "ability_id": "INTIMIDATE",
+        "name": "Intimidate",
+        "species_count": 68,
+        "hidden_count": 13
+      },
+      {
+        "ability_id": "RUNAWAY",
+        "name": "Run Away",
+        "species_count": 58,
+        "hidden_count": 10
+      },
+      {
+        "ability_id": "STURDY",
+        "name": "Sturdy",
+        "species_count": 51,
+        "hidden_count": 9
+      },
+      {
+        "ability_id": "OVERCOAT",
+        "name": "Overcoat",
+        "species_count": 49,
+        "hidden_count": 18
+      },
+      {
+        "ability_id": "SWIFTSWIM",
+        "name": "Swift Swim",
+        "species_count": 49,
+        "hidden_count": 15
+      },
+      {
+        "ability_id": "KEENEYE",
+        "name": "Keen Eye",
+        "species_count": 44,
+        "hidden_count": 5
+      },
+      {
+        "ability_id": "CHLOROPHYLL",
+        "name": "Chlorophyll",
+        "species_count": 43,
+        "hidden_count": 7
+      },
+      {
+        "ability_id": "INNERFOCUS",
+        "name": "Inner Focus",
+        "species_count": 39,
+        "hidden_count": 10
+      },
+      {
+        "ability_id": "SHEERFORCE",
+        "name": "Sheer Force",
+        "species_count": 38,
+        "hidden_count": 25
+      },
+      {
+        "ability_id": "FRIENDGUARD",
+        "name": "Friend Guard",
+        "species_count": 37,
+        "hidden_count": 28
+      },
+      {
+        "ability_id": "GLUTTONY",
+        "name": "Gluttony",
+        "species_count": 37,
+        "hidden_count": 11
+      },
+      {
+        "ability_id": "COMPOUNDEYES",
+        "name": "Compound Eyes",
+        "species_count": 35,
+        "hidden_count": 3
+      },
+      {
+        "ability_id": "FRISK",
+        "name": "Frisk",
+        "species_count": 35,
+        "hidden_count": 7
+      },
+      {
+        "ability_id": "SHIELDDUST",
+        "name": "Shield Dust",
+        "species_count": 35,
+        "hidden_count": 1
+      },
+      {
+        "ability_id": "THICKFAT",
+        "name": "Thick Fat",
+        "species_count": 35,
+        "hidden_count": 12
+      },
+      {
+        "ability_id": "MOLDBREAKER",
+        "name": "Mold Breaker",
+        "species_count": 34,
+        "hidden_count": 12
+      },
+      {
+        "ability_id": "PICKUP",
+        "name": "Pickup",
+        "species_count": 34,
+        "hidden_count": 2
+      },
+      {
+        "ability_id": "REGENERATOR",
+        "name": "Regenerator",
+        "species_count": 34,
+        "hidden_count": 23
+      },
+      {
+        "ability_id": "BLAZE",
+        "name": "Blaze",
+        "species_count": 33,
+        "hidden_count": 2
+      }
+    ],
+    "rarest": [
+      {
+        "ability_id": "AIRLOCK",
+        "name": "Air Lock",
+        "species_count": 1
+      },
+      {
+        "ability_id": "ARMORTAIL",
+        "name": "Armor Tail",
+        "species_count": 1
+      },
+      {
+        "ability_id": "ASONECHILLINGNEIGH",
+        "name": "As One",
+        "species_count": 1
+      },
+      {
+        "ability_id": "ASONEGRIMNEIGH",
+        "name": "As One",
+        "species_count": 1
+      },
+      {
+        "ability_id": "BADDREAMS",
+        "name": "Bad Dreams",
+        "species_count": 1
+      },
+      {
+        "ability_id": "BALLFETCH",
+        "name": "Ball Fetch",
+        "species_count": 1
+      },
+      {
+        "ability_id": "BEADSOFRUIN",
+        "name": "Beads of Ruin",
+        "species_count": 1
+      },
+      {
+        "ability_id": "CHILLINGNEIGH",
+        "name": "Chilling Neigh",
+        "species_count": 1
+      },
+      {
+        "ability_id": "COMATOSE",
+        "name": "Comatose",
+        "species_count": 1
+      },
+      {
+        "ability_id": "CREAMSHIELD",
+        "name": "Cream Shield",
+        "species_count": 1
+      },
+      {
+        "ability_id": "DARKAURA",
+        "name": "Dark Aura",
+        "species_count": 1
+      },
+      {
+        "ability_id": "DEADEYE",
+        "name": "Deadeye",
+        "species_count": 1
+      },
+      {
+        "ability_id": "DELTASTREAM",
+        "name": "Delta Stream",
+        "species_count": 1
+      },
+      {
+        "ability_id": "DESOLATELAND",
+        "name": "Desolate Land",
+        "species_count": 1
+      },
+      {
+        "ability_id": "DRAGONSMAW",
+        "name": "Dragon's Maw",
+        "species_count": 1
+      },
+      {
+        "ability_id": "DREADAURA",
+        "name": "Dread Aura",
+        "species_count": 1
+      },
+      {
+        "ability_id": "EMBODYASPECT",
+        "name": "Embody Aspect",
+        "species_count": 1
+      },
+      {
+        "ability_id": "EMBODYASPECT_1",
+        "name": "Embody Aspect",
+        "species_count": 1
+      },
+      {
+        "ability_id": "EMBODYASPECT_2",
+        "name": "Embody Aspect",
+        "species_count": 1
+      },
+      {
+        "ability_id": "EMBODYASPECT_3",
+        "name": "Embody Aspect",
+        "species_count": 1
+      }
+    ],
+    "hiddenAbilityStats": {
+      "unique_hidden": 225,
+      "total_hidden_slots": 1251
+    }
+  },
+  "bstTiers": {
+    "bstTiers": [
+      {
+        "bst_tier": "very-low",
+        "count": 187
+      },
+      {
+        "bst_tier": "low",
+        "count": 271
+      },
+      {
+        "bst_tier": "medium",
+        "count": 364
+      },
+      {
+        "bst_tier": "high",
+        "count": 298
+      },
+      {
+        "bst_tier": "pseudo-legendary",
+        "count": 68
+      }
+    ],
+    "speedTiers": [
+      {
+        "speed_tier": "ultra-slow",
+        "count": 229
+      },
+      {
+        "speed_tier": "slow",
+        "count": 429
+      },
+      {
+        "speed_tier": "medium",
+        "count": 338
+      },
+      {
+        "speed_tier": "fast",
+        "count": 167
+      },
+      {
+        "speed_tier": "ultra-fast",
+        "count": 25
+      }
+    ]
+  },
+  "learnsets": {
+    "byMethod": [
+      {
+        "learn_method": "tutor",
+        "species_count": 1149,
+        "total_entries": 79721
+      },
+      {
+        "learn_method": "level",
+        "species_count": 1188,
+        "total_entries": 24265
+      },
+      {
+        "learn_method": "egg",
+        "species_count": 741,
+        "total_entries": 12128
+      }
+    ],
+    "mostMoves": [
+      {
+        "species_id": "MEW",
+        "name": "Mew",
+        "move_count": 313
+      },
+      {
+        "species_id": "SABOLT",
+        "name": "Sabolt",
+        "move_count": 138
+      },
+      {
+        "species_id": "GALLADE",
+        "name": "Gallade",
+        "move_count": 135
+      },
+      {
+        "species_id": "CLEFABLE",
+        "name": "Clefable",
+        "move_count": 131
+      },
+      {
+        "species_id": "MEWTWO",
+        "name": "Mewtwo",
+        "move_count": 130
+      },
+      {
+        "species_id": "ARCEUS",
+        "name": "Arceus",
+        "move_count": 127
+      },
+      {
+        "species_id": "CLEFAIRY",
+        "name": "Clefairy",
+        "move_count": 127
+      },
+      {
+        "species_id": "RHYPERIOR",
+        "name": "Rhyperior",
+        "move_count": 120
+      },
+      {
+        "species_id": "MRRIME",
+        "name": "Mr. Rime",
+        "move_count": 118
+      },
+      {
+        "species_id": "NIDOKING",
+        "name": "Nidoking",
+        "move_count": 118
+      }
+    ],
+    "fewestMoves": [
+      {
+        "species_id": "AEGISLASHX",
+        "name": "WIP",
+        "move_count": 1
+      },
+      {
+        "species_id": "BISHARPX",
+        "name": "WIP",
+        "move_count": 1
+      },
+      {
+        "species_id": "BUDEWX",
+        "name": "WIP",
+        "move_count": 1
+      },
+      {
+        "species_id": "CHIMAOOZE",
+        "name": "WIP",
+        "move_count": 1
+      },
+      {
+        "species_id": "DIELEBI",
+        "name": "WIP",
+        "move_count": 1
+      },
+      {
+        "species_id": "DITTO",
+        "name": "Ditto",
+        "move_count": 1
+      },
+      {
+        "species_id": "DITTOX",
+        "name": "WIP",
+        "move_count": 1
+      },
+      {
+        "species_id": "DONANAS",
+        "name": "Donanas",
+        "move_count": 1
+      },
+      {
+        "species_id": "DRAGALISK",
+        "name": "Dragalisk",
+        "move_count": 1
+      },
+      {
+        "species_id": "DRAGALISKX",
+        "name": "WIP",
+        "move_count": 1
+      }
+    ]
+  },
+  "duration": 177
+}

@@ -1,0 +1,34 @@
+{
+  "build_id": "20260129-231220-nogit",
+  "git_sha": null,
+  "git_status": "unknown",
+  "input_hashes": {
+    "abilities.dat": "42cacba4c3015995",
+    "moves.dat": "739501ebe4baa0e0",
+    "species.dat": "4b2e7628ddc05d64",
+    "types.dat": "f60019e8745da9bb"
+  },
+  "metrics": {
+    "abilities": 347,
+    "evolutions": 1133,
+    "learnsets": 1593,
+    "moves": 932,
+    "species": 1593,
+    "types": 20
+  },
+  "output_hashes": {
+    "abilities.json": "cf99c26db7395ae0",
+    "assets_manifest.json": "e384cf71a6cb4b27",
+    "dex.db": "3923c45b022bd46e",
+    "evolutions.json": "777eafe64df147da",
+    "file_signatures.json": "93c3765eac6dfe2f",
+    "learnsets.json": "4eede1bcc9a22e26",
+    "moves.json": "7a7e002f27be7290",
+    "species.json": "a66318e38789bf83",
+    "types.json": "36c46f79e03e4327"
+  },
+  "tag": null,
+  "timestamp": "2026-01-29T23:12:20.242Z",
+  "tool_version": "1.0.0",
+  "warnings_count": 0
+}

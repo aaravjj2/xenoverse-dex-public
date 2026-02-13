@@ -1,0 +1,39 @@
+Dumping scripts for Map008.rxdata...
+[Event 1] Script: fbNewMugshot("Ginger",  "People/Ginger", "Default")
+[Event 1] Script: fbDispose
+[Event 1] Script: fbNewMugshot($player.name,  "People/Kay", "Happy")
+[Event 1] Script: fbNewMugshot($player.name,  "People/Alice", "Happy")
+[Event 1] Script: fbDispose fbNewMugshot("Ginger",  "People/Ginger", "Default")
+[Event 1] Script: fbChangeMugshot("People/Ginger",  "Serious")
+[Event 1] Script: fbDispose
+[Event 1] Script: setBattleRule("double") setBattleRule("outcome",26) EliteBattle.set(:nextBattleScript,  :GINGER)
+[Event 1] Script: setBattleRule("double") EliteBattle.set(:nextBattleScript,  :GINGER)
+[Event 1] Script: fbNewMugshot("Ginger",  "People/Ginger", "Default")
+[Event 1] Script: fbDispose
+[Event 1] Script: fbNewMugshot($player.name,  "People/Kay", "Smirk")
+[Event 1] Script: fbNewMugshot($player.name,  "People/Alice", "Smirk")
+[Event 1] Script: fbDispose fbNewMugshot("Ginger",  "People/Ginger", "Default")
+[Event 1] Script: fbDispose
+[Event 1] Script: setBattleRule("double") setBattleRule("outcome",26) EliteBattle.set(:nextBattleScript,  :GINGER)
+[Event 1] Script: setBattleRule("double") EliteBattle.set(:nextBattleScript,  :GINGER)
+[Event 1] Script: pbUnlock(:LEADERGINGER) fbNewMugshot("Ginger",  "People/Ginger", "Default")
+[Event 1] Script: fbDispose
+[Event 1] Script: fbNewMugshot("Ginger",  "People/Ginger", "Serious")
+[Event 1] Script: fbChangeMugshot("People/Ginger",  "Default")
+[Event 1] Script: fbDispose pbReceiveItemPopup(:TM110) fbNewMugshot("Ginger",  "People/Ginger", "Default")
+[Event 1] Script: fbDispose renderBadgeAnimation(1) $player.badges[1]=true
+[Event 1] Script: fbNewMugshot("Ginger",  "People/Ginger", "Default")
+[Event 1] Script: fbDispose
+[Event 1] Script: fbNewMugshot("Ginger",  "People/Ginger", "Default")
+[Event 1] Script: fbDispose
+[Event 3] Script: pbNoticePlayer(get_self) fbNewMugshot("Marcus", "trainer/GingerBlackGuy","",:right)
+[Event 3] Script: fbDispose setBattleRule("double")
+[Event 3] Script: pbTrainerEnd
+[Event 3] Script: fbNewMugshot("Marcus", "trainer/GingerBlackGuy","",:right)
+[Event 3] Script: fbDispose
+[Event 4] Script: setTempSwitchOn("A")
+[Event 5] Script: pbNoticePlayer(get_self) fbNewMugshot("Alan", "trainer/GingerWhiteGuy")
+[Event 5] Script: fbDispose setBattleRule("double")
+[Event 5] Script: pbTrainerEnd
+[Event 5] Script: fbNewMugshot("Alan", "trainer/GingerWhiteGuy")
+[Event 5] Script: fbDispose

@@ -1,0 +1,43 @@
+{
+  "name": "xenoverse-dex",
+  "version": "1.0.0",
+  "description": "Local-first canonical dex for Xenoverse-Ordem-et-Chaos",
+  "workspaces": [
+    "apps/*"
+  ],
+  "type": "module",
+  "scripts": {
+    "export": "node tools/export/index.js",
+    "assets": "node tools/assets/index.js",
+    "ingest": "node tools/ingest/index.js",
+    "rebuild": "npm run export && npm run assets && npm run ingest && npm run relationships",
+    "rebuild:versioned": "node tools/export/versioned.js",
+    "relationships": "node tools/relationships.js",
+    "validate:data": "node tools/validate.js",
+    "diff": "node tools/diff.js",
+    "diff:latest": "node tools/diff-latest.js",
+    "dev": "cd apps/dex && npm run dev",
+    "build": "cd apps/dex && npm run build",
+    "start": "cd apps/dex && npm run start",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:e2e": "cd apps/dex && npm run test:e2e",
+    "test:all": "npm run test && npm run test:e2e",
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
+    "format": "prettier --write .",
+    "validate": "npm run lint && npm run test:all"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.10.0",
+    "zod": "^3.24.0"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.12",
+    "@types/node": "^22.10.0",
+    "eslint": "^9.17.0",
+    "glob": "^13.0.0",
+    "prettier": "^3.4.2",
+    "typescript": "^5.7.0",
+    "vitest": "^2.1.0"
+  }
+}

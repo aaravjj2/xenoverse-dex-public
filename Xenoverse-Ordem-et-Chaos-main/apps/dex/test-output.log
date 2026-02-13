@@ -1,0 +1,23 @@
+SyntaxError: /home/aarav/Aarav/Xenoverse/Xenoverse-Ordem-et-Chaos-main/apps/dex/e2e/comprehensive-full.spec.ts: Missing semicolon. (306:23)
+
+  304 |     test('should load items listing', async ({ page }) => {
+  305 |       await page.goto('/items');
+> 306 |       await page.waitFo with "Items"
+      |                        ^
+  307 |       await expect(page.locator('h1').filter({ hasText: 'Items' })).toBeVisible();
+  308 |       
+  309 |       // Items use list/grid layout - look for item cards or links
+
+   at comprehensive-full.spec.ts:306
+
+  304 |     test('should load items listing', async ({ page }) => {
+  305 |       await page.goto('/items');
+> 306 |       await page.waitFo with "Items"
+      |                       ^
+  307 |       await expect(page.locator('h1').filter({ hasText: 'Items' })).toBeVisible();
+  308 |       
+  309 |       // Items use list/grid layout - look for item cards or links
+Error: No tests found.
+Make sure that arguments are regular expressions matching test files.
+You may need to escape symbols like "$" or "*" and quote the arguments.
+

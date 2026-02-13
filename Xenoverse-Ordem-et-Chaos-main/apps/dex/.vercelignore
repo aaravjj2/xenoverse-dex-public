@@ -1,0 +1,28 @@
+# Game assets (not needed for web app)
+../../Audio
+../../Data
+../../Graphics
+../../Fonts
+../../screenshots
+../../test-evidence
+../../test-results
+../../out
+../../tools
+../../docs
+
+# Game binaries
+../../*.exe
+../../*.dll
+../../*.sf2
+
+# Zone identifiers (Windows metadata)
+*:Zone.Identifier
+
+# Build artifacts
+.next
+node_modules
+*.log
+
+# Development files
+.env*.local
+*.tsbuildinfo

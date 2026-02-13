@@ -1,0 +1,430 @@
+{
+  "meta": {
+    "exportTime": "2026-02-02T03:17:48.798Z",
+    "commitHash": null,
+    "count": 20,
+    "decodingStrategy": "ruby-marshal",
+    "warnings": []
+  },
+  "data": [
+    {
+      "id": "NORMAL",
+      "internalName": "NORMAL",
+      "name": "Normal",
+      "weaknesses": [
+        "FIGHTING"
+      ],
+      "resistances": [],
+      "immunities": [
+        "GHOST"
+      ],
+      "iconPosition": 0,
+      "isPseudoType": false,
+      "isSpecialType": false,
+      "_source": "types.dat"
+    },
+    {
+      "id": "FIGHTING",
+      "internalName": "FIGHTING",
+      "name": "Fighting",
+      "weaknesses": [
+        "FLYING",
+        "PSYCHIC",
+        "FAIRY"
+      ],
+      "resistances": [
+        "ROCK",
+        "DARK",
+        "BUG"
+      ],
+      "immunities": [],
+      "iconPosition": 1,
+      "isPseudoType": false,
+      "isSpecialType": false,
+      "_source": "types.dat"
+    },
+    {
+      "id": "FLYING",
+      "internalName": "FLYING",
+      "name": "Flying",
+      "weaknesses": [
+        "ROCK",
+        "ELECTRIC",
+        "ICE"
+      ],
+      "resistances": [
+        "FIGHTING",
+        "BUG",
+        "GRASS"
+      ],
+      "immunities": [
+        "GROUND"
+      ],
+      "iconPosition": 2,
+      "isPseudoType": false,
+      "isSpecialType": false,
+      "_source": "types.dat"
+    },
+    {
+      "id": "POISON",
+      "internalName": "POISON",
+      "name": "Poison",
+      "weaknesses": [
+        "GROUND",
+        "PSYCHIC"
+      ],
+      "resistances": [
+        "FIGHTING",
+        "POISON",
+        "BUG",
+        "GRASS",
+        "FAIRY"
+      ],
+      "immunities": [],
+      "iconPosition": 3,
+      "isPseudoType": false,
+      "isSpecialType": false,
+      "_source": "types.dat"
+    },
+    {
+      "id": "GROUND",
+      "internalName": "GROUND",
+      "name": "Ground",
+      "weaknesses": [
+        "WATER",
+        "GRASS",
+        "ICE"
+      ],
+      "resistances": [
+        "POISON",
+        "ROCK"
+      ],
+      "immunities": [
+        "ELECTRIC"
+      ],
+      "iconPosition": 4,
+      "isPseudoType": false,
+      "isSpecialType": false,
+      "_source": "types.dat"
+    },
+    {
+      "id": "ROCK",
+      "internalName": "ROCK",
+      "name": "Rock",
+      "weaknesses": [
+        "FIGHTING",
+        "GROUND",
+        "STEEL",
+        "WATER",
+        "GRASS"
+      ],
+      "resistances": [
+        "NORMAL",
+        "FLYING",
+        "POISON",
+        "FIRE",
+        "GHOST"
+      ],
+      "immunities": [],
+      "iconPosition": 5,
+      "isPseudoType": false,
+      "isSpecialType": false,
+      "_source": "types.dat"
+    },
+    {
+      "id": "BUG",
+      "internalName": "BUG",
+      "name": "Bug",
+      "weaknesses": [
+        "FLYING",
+        "ROCK",
+        "FIRE"
+      ],
+      "resistances": [
+        "FIGHTING",
+        "GROUND",
+        "GRASS"
+      ],
+      "immunities": [],
+      "iconPosition": 6,
+      "isPseudoType": false,
+      "isSpecialType": false,
+      "_source": "types.dat"
+    },
+    {
+      "id": "GHOST",
+      "internalName": "GHOST",
+      "name": "Ghost",
+      "weaknesses": [
+        "GHOST",
+        "DARK"
+      ],
+      "resistances": [
+        "POISON"
+      ],
+      "immunities": [
+        "NORMAL",
+        "FIGHTING"
+      ],
+      "iconPosition": 7,
+      "isPseudoType": false,
+      "isSpecialType": false,
+      "_source": "types.dat"
+    },
+    {
+      "id": "STEEL",
+      "internalName": "STEEL",
+      "name": "Steel",
+      "weaknesses": [
+        "FIGHTING",
+        "GROUND",
+        "FIRE",
+        "SOUND"
+      ],
+      "resistances": [
+        "NORMAL",
+        "FLYING",
+        "ROCK",
+        "BUG",
+        "STEEL",
+        "GRASS",
+        "PSYCHIC",
+        "ICE",
+        "DRAGON",
+        "FAIRY"
+      ],
+      "immunities": [
+        "POISON"
+      ],
+      "iconPosition": 8,
+      "isPseudoType": false,
+      "isSpecialType": false,
+      "_source": "types.dat"
+    },
+    {
+      "id": "QMARKS",
+      "internalName": "QMARKS",
+      "name": "???",
+      "weaknesses": [],
+      "resistances": [],
+      "immunities": [],
+      "iconPosition": 19,
+      "isPseudoType": true,
+      "isSpecialType": false,
+      "_source": "types.dat"
+    },
+    {
+      "id": "FIRE",
+      "internalName": "FIRE",
+      "name": "Fire",
+      "weaknesses": [
+        "GROUND",
+        "ROCK",
+        "WATER"
+      ],
+      "resistances": [
+        "BUG",
+        "STEEL",
+        "FIRE",
+        "GRASS",
+        "ICE",
+        "FAIRY"
+      ],
+      "immunities": [],
+      "iconPosition": 10,
+      "isPseudoType": false,
+      "isSpecialType": true,
+      "_source": "types.dat"
+    },
+    {
+      "id": "WATER",
+      "internalName": "WATER",
+      "name": "Water",
+      "weaknesses": [
+        "GRASS",
+        "ELECTRIC",
+        "SOUND"
+      ],
+      "resistances": [
+        "STEEL",
+        "FIRE",
+        "WATER",
+        "ICE"
+      ],
+      "immunities": [],
+      "iconPosition": 11,
+      "isPseudoType": false,
+      "isSpecialType": true,
+      "_source": "types.dat"
+    },
+    {
+      "id": "GRASS",
+      "internalName": "GRASS",
+      "name": "Grass",
+      "weaknesses": [
+        "FLYING",
+        "POISON",
+        "BUG",
+        "FIRE",
+        "ICE"
+      ],
+      "resistances": [
+        "GROUND",
+        "WATER",
+        "GRASS",
+        "ELECTRIC",
+        "FAIRY",
+        "SOUND"
+      ],
+      "immunities": [],
+      "iconPosition": 12,
+      "isPseudoType": false,
+      "isSpecialType": true,
+      "_source": "types.dat"
+    },
+    {
+      "id": "ELECTRIC",
+      "internalName": "ELECTRIC",
+      "name": "Electric",
+      "weaknesses": [
+        "GROUND"
+      ],
+      "resistances": [
+        "FLYING",
+        "STEEL",
+        "ELECTRIC",
+        "SOUND"
+      ],
+      "immunities": [],
+      "iconPosition": 13,
+      "isPseudoType": false,
+      "isSpecialType": true,
+      "_source": "types.dat"
+    },
+    {
+      "id": "PSYCHIC",
+      "internalName": "PSYCHIC",
+      "name": "Psychic",
+      "weaknesses": [
+        "BUG",
+        "GHOST",
+        "DARK"
+      ],
+      "resistances": [
+        "FIGHTING",
+        "PSYCHIC"
+      ],
+      "immunities": [
+        "SOUND"
+      ],
+      "iconPosition": 14,
+      "isPseudoType": false,
+      "isSpecialType": true,
+      "_source": "types.dat"
+    },
+    {
+      "id": "ICE",
+      "internalName": "ICE",
+      "name": "Ice",
+      "weaknesses": [
+        "FIGHTING",
+        "ROCK",
+        "STEEL",
+        "FIRE"
+      ],
+      "resistances": [
+        "ICE",
+        "WATER",
+        "ELECTRIC"
+      ],
+      "immunities": [],
+      "iconPosition": 15,
+      "isPseudoType": false,
+      "isSpecialType": true,
+      "_source": "types.dat"
+    },
+    {
+      "id": "DRAGON",
+      "internalName": "DRAGON",
+      "name": "Dragon",
+      "weaknesses": [
+        "ICE",
+        "DRAGON",
+        "FAIRY"
+      ],
+      "resistances": [
+        "FIRE",
+        "WATER",
+        "GRASS",
+        "ELECTRIC",
+        "SOUND"
+      ],
+      "immunities": [],
+      "iconPosition": 16,
+      "isPseudoType": false,
+      "isSpecialType": true,
+      "_source": "types.dat"
+    },
+    {
+      "id": "DARK",
+      "internalName": "DARK",
+      "name": "Dark",
+      "weaknesses": [
+        "FIGHTING",
+        "BUG",
+        "FAIRY"
+      ],
+      "resistances": [
+        "GHOST",
+        "DARK"
+      ],
+      "immunities": [
+        "PSYCHIC"
+      ],
+      "iconPosition": 17,
+      "isPseudoType": false,
+      "isSpecialType": true,
+      "_source": "types.dat"
+    },
+    {
+      "id": "FAIRY",
+      "internalName": "FAIRY",
+      "name": "Fairy",
+      "weaknesses": [
+        "POISON",
+        "STEEL",
+        "SOUND"
+      ],
+      "resistances": [
+        "FIGHTING",
+        "DARK"
+      ],
+      "immunities": [
+        "DRAGON"
+      ],
+      "iconPosition": 18,
+      "isPseudoType": false,
+      "isSpecialType": true,
+      "_source": "types.dat"
+    },
+    {
+      "id": "SOUND",
+      "internalName": "SOUND",
+      "name": "Sound",
+      "weaknesses": [
+        "ELECTRIC",
+        "DRAGON"
+      ],
+      "resistances": [
+        "WATER",
+        "FAIRY",
+        "SOUND"
+      ],
+      "immunities": [],
+      "iconPosition": 9,
+      "isPseudoType": false,
+      "isSpecialType": true,
+      "_source": "types.dat"
+    }
+  ]
+}

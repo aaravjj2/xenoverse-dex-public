@@ -1,0 +1,1374 @@
+{
+  "timestamp": "2026-02-01T16:54:03.185Z",
+  "version": "1.0.0",
+  "summary": {
+    "canonicalErrors": 0,
+    "derivedWarnings": 123,
+    "valid": true
+  },
+  "issues": [
+    {
+      "level": "WARNING",
+      "layer": "derived",
+      "entity": "world_facts:16",
+      "field": "payload.itemId",
+      "message": "Item reference not found in canonical: SOUVENIRBALANSOPOLI",
+      "details": {
+        "factId": 16,
+        "itemId": "SOUVENIRBALANSOPOLI"
+      }
+    },
+    {
+      "level": "WARNING",
+      "layer": "derived",
+      "entity": "world_facts:20",
+      "field": "payload.itemId",
+      "message": "Item reference not found in canonical: PASSSHINOBI",
+      "details": {
+        "factId": 20,
+        "itemId": "PASSSHINOBI"
+      }
+    },
+    {
+      "level": "WARNING",
+      "layer": "derived",
+      "entity": "world_facts:21",
+      "field": "payload.itemId",
+      "message": "Item reference not found in canonical: ASTERLETTERA",
+      "details": {
+        "factId": 21,
+        "itemId": "ASTERLETTERA"
+      }
+    },
+    {
+      "level": "WARNING",
+      "layer": "derived",
+      "entity": "world_facts:25",
+      "field": "payload.itemId",
+      "message": "Item reference not found in canonical: PASSSHINOBI",
+      "details": {
+        "factId": 25,
+        "itemId": "PASSSHINOBI"
+      }
+    },
+    {
+      "level": "WARNING",
+      "layer": "derived",
+      "entity": "world_facts:26",
+      "field": "payload.itemId",
+      "message": "Item reference not found in canonical: ASTERLETTERA",
+      "details": {
+        "factId": 26,
+        "itemId": "ASTERLETTERA"
+      }
+    },
+    {
+      "level": "WARNING",
+      "layer": "derived",
+      "entity": "world_facts:30",
+      "field": "payload.itemId",
+      "message": "Item reference not found in canonical: PASSSHINOBI",
+      "details": {
+        "factId": 30,
+        "itemId": "PASSSHINOBI"
+      }
+    },
+    {
+      "level": "WARNING",
+      "layer": "derived",
+      "entity": "world_facts:31",
+      "field": "payload.itemId",
+      "message": "Item reference not found in canonical: ASTERLETTERA",
+      "details": {
+        "factId": 31,
+        "itemId": "ASTERLETTERA"
+      }
+    },
+    {
+      "level": "WARNING",
+      "layer": "derived",
+      "entity": "world_facts:34",
+      "field": "payload.itemId",
+      "message": "Item reference not found in canonical: PASSSHINOBI",
+      "details": {
+        "factId": 34,
+        "itemId": "PASSSHINOBI"
+      }
+    },
+    {
+      "level": "WARNING",
+      "layer": "derived",
+      "entity": "world_facts:35",
+      "field": "payload.itemId",
+      "message": "Item reference not found in canonical: ASTERLETTERA",
+      "details": {
+        "factId": 35,
+        "itemId": "ASTERLETTERA"
+      }
+    },
+    {
+      "level": "WARNING",
+      "layer": "derived",
+      "entity": "world_facts:45",
+      "field": "payload.itemId",
+      "message": "Item reference not found in canonical: SOUVENIRANCH",
+      "details": {
+        "factId": 45,
+        "itemId": "SOUVENIRANCH"
+      }
+    },
+    {
+      "level": "WARNING",
+      "layer": "derived",
+      "entity": "world_facts:92",
+      "field": "payload.itemId",
+      "message": "Item reference not found in canonical: SOUVENIRPIGLIAPESCI",
+      "details": {
+        "factId": 92,
+        "itemId": "SOUVENIRPIGLIAPESCI"
+      }
+    },
+    {
+      "level": "WARNING",
+      "layer": "derived",
+      "entity": "world_facts:94",
+      "field": "payload.itemId",
+      "message": "Item reference not found in canonical: FURIABALL",
+      "details": {
+        "factId": 94,
+        "itemId": "FURIABALL"
+      }
+    },
+    {
+      "level": "WARNING",
+      "layer": "derived",
+      "entity": "world_facts:95",
+      "field": "payload.itemId",
+      "message": "Item reference not found in canonical: SIGILLONINJA",
+      "details": {
+        "factId": 95,
+        "itemId": "SIGILLONINJA"
+      }
+    },
+    {
+      "level": "WARNING",
+      "layer": "derived",
+      "entity": "world_facts:96",
+      "field": "payload.itemId",
+      "message": "Item reference not found in canonical: FURIABALL",
+      "details": {
+        "factId": 96,
+        "itemId": "FURIABALL"
+      }
+    },
+    {
+      "level": "WARNING",
+      "layer": "derived",
+      "entity": "world_facts:97",
+      "field": "payload.itemId",
+      "message": "Item reference not found in canonical: SIGILLONINJA",
+      "details": {
+        "factId": 97,
+        "itemId": "SIGILLONINJA"
+      }
+    },
+    {
+      "level": "WARNING",
+      "layer": "derived",
+      "entity": "world_facts:98",
+      "field": "payload.itemId",
+      "message": "Item reference not found in canonical: FURIABALL",
+      "details": {
+        "factId": 98,
+        "itemId": "FURIABALL"
+      }
+    },
+    {
+      "level": "WARNING",
+      "layer": "derived",
+      "entity": "world_facts:99",
+      "field": "payload.itemId",
+      "message": "Item reference not found in canonical: SIGILLONINJA",
+      "details": {
+        "factId": 99,
+        "itemId": "SIGILLONINJA"
+      }
+    },
+    {
+      "level": "WARNING",
+      "layer": "derived",
+      "entity": "world_facts:100",
+      "field": "payload.itemId",
+      "message": "Item reference not found in canonical: FURIABALL",
+      "details": {
+        "factId": 100,
+        "itemId": "FURIABALL"
+      }
+    },
+    {
+      "level": "WARNING",
+      "layer": "derived",
+      "entity": "world_facts:101",
+      "field": "payload.itemId",
+      "message": "Item reference not found in canonical: SIGILLONINJA",
+      "details": {
+        "factId": 101,
+        "itemId": "SIGILLONINJA"
+      }
+    },
+    {
+      "level": "WARNING",
+      "layer": "derived",
+      "entity": "world_facts:102",
+      "field": "payload.itemId",
+      "message": "Item reference not found in canonical: FURIABALL",
+      "details": {
+        "factId": 102,
+        "itemId": "FURIABALL"
+      }
+    },
+    {
+      "level": "WARNING",
+      "layer": "derived",
+      "entity": "world_facts:103",
+      "field": "payload.itemId",
+      "message": "Item reference not found in canonical: SIGILLONINJA",
+      "details": {
+        "factId": 103,
+        "itemId": "SIGILLONINJA"
+      }
+    },
+    {
+      "level": "WARNING",
+      "layer": "derived",
+      "entity": "world_facts:104",
+      "field": "payload.itemId",
+      "message": "Item reference not found in canonical: FURIABALL",
+      "details": {
+        "factId": 104,
+        "itemId": "FURIABALL"
+      }
+    },
+    {
+      "level": "WARNING",
+      "layer": "derived",
+      "entity": "world_facts:105",
+      "field": "payload.itemId",
+      "message": "Item reference not found in canonical: SIGILLONINJA",
+      "details": {
+        "factId": 105,
+        "itemId": "SIGILLONINJA"
+      }
+    },
+    {
+      "level": "WARNING",
+      "layer": "derived",
+      "entity": "world_facts:113",
+      "field": "payload.itemId",
+      "message": "Item reference not found in canonical: SOUVENIREGNO",
+      "details": {
+        "factId": 113,
+        "itemId": "SOUVENIREGNO"
+      }
+    },
+    {
+      "level": "WARNING",
+      "layer": "derived",
+      "entity": "world_facts:121",
+      "field": "payload.itemId",
+      "message": "Item reference not found in canonical: SOUVENIRCAMPUS",
+      "details": {
+        "factId": 121,
+        "itemId": "SOUVENIRCAMPUS"
+      }
+    },
+    {
+      "level": "WARNING",
+      "layer": "derived",
+      "entity": "world_facts:125",
+      "field": "payload.itemId",
+      "message": "Item reference not found in canonical: AULA2",
+      "details": {
+        "factId": 125,
+        "itemId": "AULA2"
+      }
+    },
+    {
+      "level": "WARNING",
+      "layer": "derived",
+      "entity": "world_facts:130",
+      "field": "payload.itemId",
+      "message": "Item reference not found in canonical: AULA2",
+      "details": {
+        "factId": 130,
+        "itemId": "AULA2"
+      }
+    },
+    {
+      "level": "WARNING",
+      "layer": "derived",
+      "entity": "world_facts:133",
+      "field": "payload.itemId",
+      "message": "Item reference not found in canonical: PASSSHINOBI",
+      "details": {
+        "factId": 133,
+        "itemId": "PASSSHINOBI"
+      }
+    },
+    {
+      "level": "WARNING",
+      "layer": "derived",
+      "entity": "world_facts:134",
+      "field": "payload.itemId",
+      "message": "Item reference not found in canonical: ASTERLETTERA",
+      "details": {
+        "factId": 134,
+        "itemId": "ASTERLETTERA"
+      }
+    },
+    {
+      "level": "WARNING",
+      "layer": "derived",
+      "entity": "world_facts:142",
+      "field": "payload.itemId",
+      "message": "Item reference not found in canonical: PASSSHINOBI",
+      "details": {
+        "factId": 142,
+        "itemId": "PASSSHINOBI"
+      }
+    },
+    {
+      "level": "WARNING",
+      "layer": "derived",
+      "entity": "world_facts:143",
+      "field": "payload.itemId",
+      "message": "Item reference not found in canonical: ASTERLETTERA",
+      "details": {
+        "factId": 143,
+        "itemId": "ASTERLETTERA"
+      }
+    },
+    {
+      "level": "WARNING",
+      "layer": "derived",
+      "entity": "world_facts:169",
+      "field": "payload.itemId",
+      "message": "Item reference not found in canonical: SOUVENIRSCORPIOPOLI",
+      "details": {
+        "factId": 169,
+        "itemId": "SOUVENIRSCORPIOPOLI"
+      }
+    },
+    {
+      "level": "WARNING",
+      "layer": "derived",
+      "entity": "world_facts:177",
+      "field": "payload.itemId",
+      "message": "Item reference not found in canonical: PASSSHINOBI",
+      "details": {
+        "factId": 177,
+        "itemId": "PASSSHINOBI"
+      }
+    },
+    {
+      "level": "WARNING",
+      "layer": "derived",
+      "entity": "world_facts:178",
+      "field": "payload.itemId",
+      "message": "Item reference not found in canonical: ASTERLETTERA",
+      "details": {
+        "factId": 178,
+        "itemId": "ASTERLETTERA"
+      }
+    },
+    {
+      "level": "WARNING",
+      "layer": "derived",
+      "entity": "world_facts:179",
+      "field": "payload.itemId",
+      "message": "Item reference not found in canonical: REGISTRATORE",
+      "details": {
+        "factId": 179,
+        "itemId": "REGISTRATORE"
+      }
+    },
+    {
+      "level": "WARNING",
+      "layer": "derived",
+      "entity": "world_facts:181",
+      "field": "payload.itemId",
+      "message": "Item reference not found in canonical: PBI",
+      "details": {
+        "factId": 181,
+        "itemId": "PBI"
+      }
+    },
+    {
+      "level": "WARNING",
+      "layer": "derived",
+      "entity": "world_facts:183",
+      "field": "payload.itemId",
+      "message": "Item reference not found in canonical: VESTETRISH",
+      "details": {
+        "factId": 183,
+        "itemId": "VESTETRISH"
+      }
+    },
+    {
+      "level": "WARNING",
+      "layer": "derived",
+      "entity": "world_facts:184",
+      "field": "payload.itemId",
+      "message": "Item reference not found in canonical: VESTESHY",
+      "details": {
+        "factId": 184,
+        "itemId": "VESTESHY"
+      }
+    },
+    {
+      "level": "WARNING",
+      "layer": "derived",
+      "entity": "world_facts:185",
+      "field": "payload.itemId",
+      "message": "Item reference not found in canonical: VESTESHU",
+      "details": {
+        "factId": 185,
+        "itemId": "VESTESHU"
+      }
+    },
+    {
+      "level": "WARNING",
+      "layer": "derived",
+      "entity": "world_facts:186",
+      "field": "payload.itemId",
+      "message": "Item reference not found in canonical: BOTMEGATONEALOLA",
+      "details": {
+        "factId": 186,
+        "itemId": "BOTMEGATONEALOLA"
+      }
+    },
+    {
+      "level": "WARNING",
+      "layer": "derived",
+      "entity": "world_facts:188",
+      "field": "payload.itemId",
+      "message": "Item reference not found in canonical: PBI",
+      "details": {
+        "factId": 188,
+        "itemId": "PBI"
+      }
+    },
+    {
+      "level": "WARNING",
+      "layer": "derived",
+      "entity": "world_facts:190",
+      "field": "payload.itemId",
+      "message": "Item reference not found in canonical: PASS2",
+      "details": {
+        "factId": 190,
+        "itemId": "PASS2"
+      }
+    },
+    {
+      "level": "WARNING",
+      "layer": "derived",
+      "entity": "world_facts:191",
+      "field": "payload.itemId",
+      "message": "Item reference not found in canonical: PASS2",
+      "details": {
+        "factId": 191,
+        "itemId": "PASS2"
+      }
+    },
+    {
+      "level": "WARNING",
+      "layer": "derived",
+      "entity": "world_facts:192",
+      "field": "payload.itemId",
+      "message": "Item reference not found in canonical: CHIAVEKLEFKI2",
+      "details": {
+        "factId": 192,
+        "itemId": "CHIAVEKLEFKI2"
+      }
+    },
+    {
+      "level": "WARNING",
+      "layer": "derived",
+      "entity": "world_facts:193",
+      "field": "payload.itemId",
+      "message": "Item reference not found in canonical: CHIAVEKLEFKI2",
+      "details": {
+        "factId": 193,
+        "itemId": "CHIAVEKLEFKI2"
+      }
+    },
+    {
+      "level": "WARNING",
+      "layer": "derived",
+      "entity": "world_facts:194",
+      "field": "payload.itemId",
+      "message": "Item reference not found in canonical: CHIAVEKLEFKI2",
+      "details": {
+        "factId": 194,
+        "itemId": "CHIAVEKLEFKI2"
+      }
+    },
+    {
+      "level": "WARNING",
+      "layer": "derived",
+      "entity": "world_facts:195",
+      "field": "payload.itemId",
+      "message": "Item reference not found in canonical: CHIAVEKLEFKI2",
+      "details": {
+        "factId": 195,
+        "itemId": "CHIAVEKLEFKI2"
+      }
+    },
+    {
+      "level": "WARNING",
+      "layer": "derived",
+      "entity": "world_facts:196",
+      "field": "payload.itemId",
+      "message": "Item reference not found in canonical: CHIAVEKLEFKI2",
+      "details": {
+        "factId": 196,
+        "itemId": "CHIAVEKLEFKI2"
+      }
+    },
+    {
+      "level": "WARNING",
+      "layer": "derived",
+      "entity": "world_facts:197",
+      "field": "payload.itemId",
+      "message": "Item reference not found in canonical: CHIAVEKLEFKI2",
+      "details": {
+        "factId": 197,
+        "itemId": "CHIAVEKLEFKI2"
+      }
+    },
+    {
+      "level": "WARNING",
+      "layer": "derived",
+      "entity": "world_facts:198",
+      "field": "payload.itemId",
+      "message": "Item reference not found in canonical: CHIAVEKLEFKI2",
+      "details": {
+        "factId": 198,
+        "itemId": "CHIAVEKLEFKI2"
+      }
+    },
+    {
+      "level": "WARNING",
+      "layer": "derived",
+      "entity": "world_facts:199",
+      "field": "payload.itemId",
+      "message": "Item reference not found in canonical: CHIAVEKLEFKI2",
+      "details": {
+        "factId": 199,
+        "itemId": "CHIAVEKLEFKI2"
+      }
+    },
+    {
+      "level": "WARNING",
+      "layer": "derived",
+      "entity": "world_facts:200",
+      "field": "payload.itemId",
+      "message": "Item reference not found in canonical: CHIAVEKLEFKI2",
+      "details": {
+        "factId": 200,
+        "itemId": "CHIAVEKLEFKI2"
+      }
+    },
+    {
+      "level": "WARNING",
+      "layer": "derived",
+      "entity": "world_facts:201",
+      "field": "payload.itemId",
+      "message": "Item reference not found in canonical: CHIAVEKLEFKI2",
+      "details": {
+        "factId": 201,
+        "itemId": "CHIAVEKLEFKI2"
+      }
+    },
+    {
+      "level": "WARNING",
+      "layer": "derived",
+      "entity": "world_facts:202",
+      "field": "payload.itemId",
+      "message": "Item reference not found in canonical: CHIAVEKLEFKI2",
+      "details": {
+        "factId": 202,
+        "itemId": "CHIAVEKLEFKI2"
+      }
+    },
+    {
+      "level": "WARNING",
+      "layer": "derived",
+      "entity": "world_facts:203",
+      "field": "payload.itemId",
+      "message": "Item reference not found in canonical: PBI",
+      "details": {
+        "factId": 203,
+        "itemId": "PBI"
+      }
+    },
+    {
+      "level": "WARNING",
+      "layer": "derived",
+      "entity": "world_facts:204",
+      "field": "payload.itemId",
+      "message": "Item reference not found in canonical: PBI",
+      "details": {
+        "factId": 204,
+        "itemId": "PBI"
+      }
+    },
+    {
+      "level": "WARNING",
+      "layer": "derived",
+      "entity": "world_facts:205",
+      "field": "payload.itemId",
+      "message": "Item reference not found in canonical: PBI",
+      "details": {
+        "factId": 205,
+        "itemId": "PBI"
+      }
+    },
+    {
+      "level": "WARNING",
+      "layer": "derived",
+      "entity": "world_facts:206",
+      "field": "payload.itemId",
+      "message": "Item reference not found in canonical: PBI",
+      "details": {
+        "factId": 206,
+        "itemId": "PBI"
+      }
+    },
+    {
+      "level": "WARNING",
+      "layer": "derived",
+      "entity": "world_facts:211",
+      "field": "payload.itemId",
+      "message": "Item reference not found in canonical: SOUVENIRLEOPOLI",
+      "details": {
+        "factId": 211,
+        "itemId": "SOUVENIRLEOPOLI"
+      }
+    },
+    {
+      "level": "WARNING",
+      "layer": "derived",
+      "entity": "world_facts:215",
+      "field": "payload.itemId",
+      "message": "Item reference not found in canonical: PASSSHINOBI",
+      "details": {
+        "factId": 215,
+        "itemId": "PASSSHINOBI"
+      }
+    },
+    {
+      "level": "WARNING",
+      "layer": "derived",
+      "entity": "world_facts:216",
+      "field": "payload.itemId",
+      "message": "Item reference not found in canonical: ASTERLETTERA",
+      "details": {
+        "factId": 216,
+        "itemId": "ASTERLETTERA"
+      }
+    },
+    {
+      "level": "WARNING",
+      "layer": "derived",
+      "entity": "world_facts:218",
+      "field": "payload.itemId",
+      "message": "Item reference not found in canonical: PASSALAROCK",
+      "details": {
+        "factId": 218,
+        "itemId": "PASSALAROCK"
+      }
+    },
+    {
+      "level": "WARNING",
+      "layer": "derived",
+      "entity": "world_facts:224",
+      "field": "payload.itemId",
+      "message": "Item reference not found in canonical: PASSALAREGISTRAZIONE",
+      "details": {
+        "factId": 224,
+        "itemId": "PASSALAREGISTRAZIONE"
+      }
+    },
+    {
+      "level": "WARNING",
+      "layer": "derived",
+      "entity": "world_facts:228",
+      "field": "payload.itemId",
+      "message": "Item reference not found in canonical: SOUVENIRCAPRICORNIA",
+      "details": {
+        "factId": 228,
+        "itemId": "SOUVENIRCAPRICORNIA"
+      }
+    },
+    {
+      "level": "WARNING",
+      "layer": "derived",
+      "entity": "world_facts:234",
+      "field": "payload.itemId",
+      "message": "Item reference not found in canonical: PASSSHINOBI",
+      "details": {
+        "factId": 234,
+        "itemId": "PASSSHINOBI"
+      }
+    },
+    {
+      "level": "WARNING",
+      "layer": "derived",
+      "entity": "world_facts:235",
+      "field": "payload.itemId",
+      "message": "Item reference not found in canonical: ASTERLETTERA",
+      "details": {
+        "factId": 235,
+        "itemId": "ASTERLETTERA"
+      }
+    },
+    {
+      "level": "WARNING",
+      "layer": "derived",
+      "entity": "world_facts:252",
+      "field": "payload.itemId",
+      "message": "Item reference not found in canonical: MONTANARO",
+      "details": {
+        "factId": 252,
+        "itemId": "MONTANARO"
+      }
+    },
+    {
+      "level": "WARNING",
+      "layer": "derived",
+      "entity": "world_facts:253",
+      "field": "payload.itemId",
+      "message": "Item reference not found in canonical: MONTANARO",
+      "details": {
+        "factId": 253,
+        "itemId": "MONTANARO"
+      }
+    },
+    {
+      "level": "WARNING",
+      "layer": "derived",
+      "entity": "world_facts:256",
+      "field": "payload.itemId",
+      "message": "Item reference not found in canonical: KAISERIUMN",
+      "details": {
+        "factId": 256,
+        "itemId": "KAISERIUMN"
+      }
+    },
+    {
+      "level": "WARNING",
+      "layer": "derived",
+      "entity": "world_facts:259",
+      "field": "payload.itemId",
+      "message": "Item reference not found in canonical: SOUVENIROFIUCHIA",
+      "details": {
+        "factId": 259,
+        "itemId": "SOUVENIROFIUCHIA"
+      }
+    },
+    {
+      "level": "WARNING",
+      "layer": "derived",
+      "entity": "world_facts:270",
+      "field": "payload.itemId",
+      "message": "Item reference not found in canonical: SOUVENIRAQUARIOPOLI",
+      "details": {
+        "factId": 270,
+        "itemId": "SOUVENIRAQUARIOPOLI"
+      }
+    },
+    {
+      "level": "WARNING",
+      "layer": "derived",
+      "entity": "world_facts:276",
+      "field": "payload.itemId",
+      "message": "Item reference not found in canonical: PASSALADANCE",
+      "details": {
+        "factId": 276,
+        "itemId": "PASSALADANCE"
+      }
+    },
+    {
+      "level": "WARNING",
+      "layer": "derived",
+      "entity": "world_facts:279",
+      "field": "payload.itemId",
+      "message": "Item reference not found in canonical: BOTWES",
+      "details": {
+        "factId": 279,
+        "itemId": "BOTWES"
+      }
+    },
+    {
+      "level": "WARNING",
+      "layer": "derived",
+      "entity": "world_facts:280",
+      "field": "payload.itemId",
+      "message": "Item reference not found in canonical: MASCHERAROSSA",
+      "details": {
+        "factId": 280,
+        "itemId": "MASCHERAROSSA"
+      }
+    },
+    {
+      "level": "WARNING",
+      "layer": "derived",
+      "entity": "world_facts:281",
+      "field": "payload.itemId",
+      "message": "Item reference not found in canonical: MASCHERABLU",
+      "details": {
+        "factId": 281,
+        "itemId": "MASCHERABLU"
+      }
+    },
+    {
+      "level": "WARNING",
+      "layer": "derived",
+      "entity": "world_facts:282",
+      "field": "payload.itemId",
+      "message": "Item reference not found in canonical: MASCHERABLU",
+      "details": {
+        "factId": 282,
+        "itemId": "MASCHERABLU"
+      }
+    },
+    {
+      "level": "WARNING",
+      "layer": "derived",
+      "entity": "world_facts:284",
+      "field": "payload.itemId",
+      "message": "Item reference not found in canonical: MIRACOLSEMEDORATO",
+      "details": {
+        "factId": 284,
+        "itemId": "MIRACOLSEMEDORATO"
+      }
+    },
+    {
+      "level": "WARNING",
+      "layer": "derived",
+      "entity": "world_facts:285",
+      "field": "payload.itemId",
+      "message": "Item reference not found in canonical: MASCHERAVERDE",
+      "details": {
+        "factId": 285,
+        "itemId": "MASCHERAVERDE"
+      }
+    },
+    {
+      "level": "WARNING",
+      "layer": "derived",
+      "entity": "world_facts:286",
+      "field": "payload.itemId",
+      "message": "Item reference not found in canonical: BOTCHELE",
+      "details": {
+        "factId": 286,
+        "itemId": "BOTCHELE"
+      }
+    },
+    {
+      "level": "WARNING",
+      "layer": "derived",
+      "entity": "world_facts:290",
+      "field": "payload.itemId",
+      "message": "Item reference not found in canonical: PASSSHINOBI",
+      "details": {
+        "factId": 290,
+        "itemId": "PASSSHINOBI"
+      }
+    },
+    {
+      "level": "WARNING",
+      "layer": "derived",
+      "entity": "world_facts:291",
+      "field": "payload.itemId",
+      "message": "Item reference not found in canonical: ASTERLETTERA",
+      "details": {
+        "factId": 291,
+        "itemId": "ASTERLETTERA"
+      }
+    },
+    {
+      "level": "WARNING",
+      "layer": "derived",
+      "entity": "world_facts:293",
+      "field": "payload.itemId",
+      "message": "Item reference not found in canonical: STAMPOFOSSILE2",
+      "details": {
+        "factId": 293,
+        "itemId": "STAMPOFOSSILE2"
+      }
+    },
+    {
+      "level": "WARNING",
+      "layer": "derived",
+      "entity": "world_facts:294",
+      "field": "payload.itemId",
+      "message": "Item reference not found in canonical: STAMPOFOSSILE2",
+      "details": {
+        "factId": 294,
+        "itemId": "STAMPOFOSSILE2"
+      }
+    },
+    {
+      "level": "WARNING",
+      "layer": "derived",
+      "entity": "world_facts:295",
+      "field": "payload.itemId",
+      "message": "Item reference not found in canonical: STAMPOFOSSILE1",
+      "details": {
+        "factId": 295,
+        "itemId": "STAMPOFOSSILE1"
+      }
+    },
+    {
+      "level": "WARNING",
+      "layer": "derived",
+      "entity": "world_facts:296",
+      "field": "payload.itemId",
+      "message": "Item reference not found in canonical: STAMPOFOSSILE1",
+      "details": {
+        "factId": 296,
+        "itemId": "STAMPOFOSSILE1"
+      }
+    },
+    {
+      "level": "WARNING",
+      "layer": "derived",
+      "entity": "world_facts:300",
+      "field": "payload.itemId",
+      "message": "Item reference not found in canonical: PASSSHINOBI",
+      "details": {
+        "factId": 300,
+        "itemId": "PASSSHINOBI"
+      }
+    },
+    {
+      "level": "WARNING",
+      "layer": "derived",
+      "entity": "world_facts:301",
+      "field": "payload.itemId",
+      "message": "Item reference not found in canonical: ASTERLETTERA",
+      "details": {
+        "factId": 301,
+        "itemId": "ASTERLETTERA"
+      }
+    },
+    {
+      "level": "WARNING",
+      "layer": "derived",
+      "entity": "world_facts:305",
+      "field": "payload.itemId",
+      "message": "Item reference not found in canonical: XENOLITE",
+      "details": {
+        "factId": 305,
+        "itemId": "XENOLITE"
+      }
+    },
+    {
+      "level": "WARNING",
+      "layer": "derived",
+      "entity": "world_facts:306",
+      "field": "payload.itemId",
+      "message": "Item reference not found in canonical: RISOTTO",
+      "details": {
+        "factId": 306,
+        "itemId": "RISOTTO"
+      }
+    },
+    {
+      "level": "WARNING",
+      "layer": "derived",
+      "entity": "world_facts:308",
+      "field": "payload.itemId",
+      "message": "Item reference not found in canonical: PBI",
+      "details": {
+        "factId": 308,
+        "itemId": "PBI"
+      }
+    },
+    {
+      "level": "WARNING",
+      "layer": "derived",
+      "entity": "world_facts:310",
+      "field": "payload.itemId",
+      "message": "Item reference not found in canonical: BOTERRORE",
+      "details": {
+        "factId": 310,
+        "itemId": "BOTERRORE"
+      }
+    },
+    {
+      "level": "WARNING",
+      "layer": "derived",
+      "entity": "world_facts:312",
+      "field": "payload.itemId",
+      "message": "Item reference not found in canonical: PBI",
+      "details": {
+        "factId": 312,
+        "itemId": "PBI"
+      }
+    },
+    {
+      "level": "WARNING",
+      "layer": "derived",
+      "entity": "world_facts:317",
+      "field": "payload.itemId",
+      "message": "Item reference not found in canonical: BIGLIETTOAEREO",
+      "details": {
+        "factId": 317,
+        "itemId": "BIGLIETTOAEREO"
+      }
+    },
+    {
+      "level": "WARNING",
+      "layer": "derived",
+      "entity": "world_facts:318",
+      "field": "payload.itemId",
+      "message": "Item reference not found in canonical: ODYSSEUMN",
+      "details": {
+        "factId": 318,
+        "itemId": "ODYSSEUMN"
+      }
+    },
+    {
+      "level": "WARNING",
+      "layer": "derived",
+      "entity": "world_facts:323",
+      "field": "payload.itemId",
+      "message": "Item reference not found in canonical: SOUVENIRSAGITTOPOLI",
+      "details": {
+        "factId": 323,
+        "itemId": "SOUVENIRSAGITTOPOLI"
+      }
+    },
+    {
+      "level": "WARNING",
+      "layer": "derived",
+      "entity": "world_facts:333",
+      "field": "payload.itemId",
+      "message": "Item reference not found in canonical: PASSSHINOBI",
+      "details": {
+        "factId": 333,
+        "itemId": "PASSSHINOBI"
+      }
+    },
+    {
+      "level": "WARNING",
+      "layer": "derived",
+      "entity": "world_facts:334",
+      "field": "payload.itemId",
+      "message": "Item reference not found in canonical: ASTERLETTERA",
+      "details": {
+        "factId": 334,
+        "itemId": "ASTERLETTERA"
+      }
+    },
+    {
+      "level": "WARNING",
+      "layer": "derived",
+      "entity": "world_facts:335",
+      "field": "payload.itemId",
+      "message": "Item reference not found in canonical: PBI",
+      "details": {
+        "factId": 335,
+        "itemId": "PBI"
+      }
+    },
+    {
+      "level": "WARNING",
+      "layer": "derived",
+      "entity": "world_facts:336",
+      "field": "payload.itemId",
+      "message": "Item reference not found in canonical: BOTMARINO",
+      "details": {
+        "factId": 336,
+        "itemId": "BOTMARINO"
+      }
+    },
+    {
+      "level": "WARNING",
+      "layer": "derived",
+      "entity": "world_facts:339",
+      "field": "payload.itemId",
+      "message": "Item reference not found in canonical: SOUVENIRTAURONORDIA",
+      "details": {
+        "factId": 339,
+        "itemId": "SOUVENIRTAURONORDIA"
+      }
+    },
+    {
+      "level": "WARNING",
+      "layer": "derived",
+      "entity": "world_facts:340",
+      "field": "payload.itemId",
+      "message": "Item reference not found in canonical: SOUVENIRTAURONORDIA",
+      "details": {
+        "factId": 340,
+        "itemId": "SOUVENIRTAURONORDIA"
+      }
+    },
+    {
+      "level": "WARNING",
+      "layer": "derived",
+      "entity": "world_facts:342",
+      "field": "payload.itemId",
+      "message": "Item reference not found in canonical: BOTABISSO",
+      "details": {
+        "factId": 342,
+        "itemId": "BOTABISSO"
+      }
+    },
+    {
+      "level": "WARNING",
+      "layer": "derived",
+      "entity": "world_facts:344",
+      "field": "payload.itemId",
+      "message": "Item reference not found in canonical: BOTERRORE",
+      "details": {
+        "factId": 344,
+        "itemId": "BOTERRORE"
+      }
+    },
+    {
+      "level": "WARNING",
+      "layer": "derived",
+      "entity": "world_facts:356",
+      "field": "payload.itemId",
+      "message": "Item reference not found in canonical: PEZZIDIRICAMBIO",
+      "details": {
+        "factId": 356,
+        "itemId": "PEZZIDIRICAMBIO"
+      }
+    },
+    {
+      "level": "WARNING",
+      "layer": "derived",
+      "entity": "world_facts:359",
+      "field": "payload.itemId",
+      "message": "Item reference not found in canonical: SOUVENIRLEGA",
+      "details": {
+        "factId": 359,
+        "itemId": "SOUVENIRLEGA"
+      }
+    },
+    {
+      "level": "WARNING",
+      "layer": "derived",
+      "entity": "world_facts:362",
+      "field": "payload.itemId",
+      "message": "Item reference not found in canonical: PASSSHINOBI",
+      "details": {
+        "factId": 362,
+        "itemId": "PASSSHINOBI"
+      }
+    },
+    {
+      "level": "WARNING",
+      "layer": "derived",
+      "entity": "world_facts:363",
+      "field": "payload.itemId",
+      "message": "Item reference not found in canonical: ASTERLETTERA",
+      "details": {
+        "factId": 363,
+        "itemId": "ASTERLETTERA"
+      }
+    },
+    {
+      "level": "WARNING",
+      "layer": "derived",
+      "entity": "world_facts:370",
+      "field": "payload.itemId",
+      "message": "Item reference not found in canonical: PASSSHINOBI",
+      "details": {
+        "factId": 370,
+        "itemId": "PASSSHINOBI"
+      }
+    },
+    {
+      "level": "WARNING",
+      "layer": "derived",
+      "entity": "world_facts:371",
+      "field": "payload.itemId",
+      "message": "Item reference not found in canonical: ASTERLETTERA",
+      "details": {
+        "factId": 371,
+        "itemId": "ASTERLETTERA"
+      }
+    },
+    {
+      "level": "WARNING",
+      "layer": "derived",
+      "entity": "world_facts:379",
+      "field": "payload.itemId",
+      "message": "Item reference not found in canonical: PASSSHINOBI",
+      "details": {
+        "factId": 379,
+        "itemId": "PASSSHINOBI"
+      }
+    },
+    {
+      "level": "WARNING",
+      "layer": "derived",
+      "entity": "world_facts:380",
+      "field": "payload.itemId",
+      "message": "Item reference not found in canonical: ASTERLETTERA",
+      "details": {
+        "factId": 380,
+        "itemId": "ASTERLETTERA"
+      }
+    },
+    {
+      "level": "WARNING",
+      "layer": "derived",
+      "entity": "world_facts:403",
+      "field": "payload.itemId",
+      "message": "Item reference not found in canonical: WEAKNESSRPOLICY",
+      "details": {
+        "factId": 403,
+        "itemId": "WEAKNESSRPOLICY"
+      }
+    },
+    {
+      "level": "WARNING",
+      "layer": "derived",
+      "entity": "world_facts:406",
+      "field": "payload.itemId",
+      "message": "Item reference not found in canonical: PASSALAREGISTRAZIONE",
+      "details": {
+        "factId": 406,
+        "itemId": "PASSALAREGISTRAZIONE"
+      }
+    },
+    {
+      "level": "WARNING",
+      "layer": "derived",
+      "entity": "world_facts:408",
+      "field": "payload.itemId",
+      "message": "Item reference not found in canonical: FOSSILCOSMO",
+      "details": {
+        "factId": 408,
+        "itemId": "FOSSILCOSMO"
+      }
+    },
+    {
+      "level": "WARNING",
+      "layer": "derived",
+      "entity": "world_facts:409",
+      "field": "payload.itemId",
+      "message": "Item reference not found in canonical: CHIROFOSSILE",
+      "details": {
+        "factId": 409,
+        "itemId": "CHIROFOSSILE"
+      }
+    },
+    {
+      "level": "WARNING",
+      "layer": "derived",
+      "entity": "world_facts:410",
+      "field": "payload.itemId",
+      "message": "Item reference not found in canonical: SIGILLONINJA",
+      "details": {
+        "factId": 410,
+        "itemId": "SIGILLONINJA"
+      }
+    },
+    {
+      "level": "WARNING",
+      "layer": "derived",
+      "entity": "world_facts:411",
+      "field": "payload.itemId",
+      "message": "Item reference not found in canonical: CHARIZARDITET",
+      "details": {
+        "factId": 411,
+        "itemId": "CHARIZARDITET"
+      }
+    },
+    {
+      "level": "WARNING",
+      "layer": "derived",
+      "entity": "world_facts:413",
+      "field": "payload.itemId",
+      "message": "Item reference not found in canonical: FUNEDIFUGAPLUS",
+      "details": {
+        "factId": 413,
+        "itemId": "FUNEDIFUGAPLUS"
+      }
+    },
+    {
+      "level": "WARNING",
+      "layer": "derived",
+      "entity": "world_facts:414",
+      "field": "payload.itemId",
+      "message": "Item reference not found in canonical: INDUCTIVERING",
+      "details": {
+        "factId": 414,
+        "itemId": "INDUCTIVERING"
+      }
+    },
+    {
+      "level": "WARNING",
+      "layer": "derived",
+      "entity": "world_facts:423",
+      "field": "payload.itemId",
+      "message": "Item reference not found in canonical: PASSSHINOBI",
+      "details": {
+        "factId": 423,
+        "itemId": "PASSSHINOBI"
+      }
+    },
+    {
+      "level": "WARNING",
+      "layer": "derived",
+      "entity": "world_facts:424",
+      "field": "payload.itemId",
+      "message": "Item reference not found in canonical: ASTERLETTERA",
+      "details": {
+        "factId": 424,
+        "itemId": "ASTERLETTERA"
+      }
+    },
+    {
+      "level": "WARNING",
+      "layer": "derived",
+      "entity": "world_facts:126",
+      "field": "payload.trainerId",
+      "message": "Trainer reference not found in canonical: TEAMDIMENSION,Num.063,0",
+      "details": {
+        "factId": 126,
+        "trainerId": "TEAMDIMENSION,Num.063,0"
+      }
+    },
+    {
+      "level": "WARNING",
+      "layer": "derived",
+      "entity": "world_facts:127",
+      "field": "payload.trainerId",
+      "message": "Trainer reference not found in canonical: TEAMDIMENSION,Num.547,0",
+      "details": {
+        "factId": 127,
+        "trainerId": "TEAMDIMENSION,Num.547,0"
+      }
+    }
+  ],
+  "coverage": {
+    "mapsScanned": 195,
+    "eventsScanned": 350,
+    "factsByType": {
+      "hidden_item": 1,
+      "item_location": 349,
+      "shop": 81,
+      "trainer_location": 3
+    }
+  }
+}

@@ -1,0 +1,1932 @@
+{
+  "buildDir": "/home/aarav/Aarav/Xenoverse/Xenoverse-Ordem-et-Chaos-main/out",
+  "timestamp": "2026-02-02T03:17:49.995Z",
+  "summary": {
+    "total": 192,
+    "errors": 0,
+    "warnings": 192,
+    "info": 0
+  },
+  "issues": [
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species BARBOACH_0 has no front sprite or icon",
+      "entity": {
+        "species": "BARBOACH_0"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species REGICE_0 has no front sprite or icon",
+      "entity": {
+        "species": "REGICE_0"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species DARKRAI_0 has no front sprite or icon",
+      "entity": {
+        "species": "DARKRAI_0"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species AROMATISSE_0 has no front sprite or icon",
+      "entity": {
+        "species": "AROMATISSE_0"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species AMAURA_0 has no front sprite or icon",
+      "entity": {
+        "species": "AMAURA_0"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species AURORUS_0 has no front sprite or icon",
+      "entity": {
+        "species": "AURORUS_0"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species CARBINK_0 has no front sprite or icon",
+      "entity": {
+        "species": "CARBINK_0"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species XERNEAS_0 has no front sprite or icon",
+      "entity": {
+        "species": "XERNEAS_0"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species ZYGARDE_0 has no front sprite or icon",
+      "entity": {
+        "species": "ZYGARDE_0"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species DIANCIE_0 has no front sprite or icon",
+      "entity": {
+        "species": "DIANCIE_0"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species HOOPA_0 has no front sprite or icon",
+      "entity": {
+        "species": "HOOPA_0"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species VOLCANION_0 has no front sprite or icon",
+      "entity": {
+        "species": "VOLCANION_0"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species TRUMBEAK_0 has no front sprite or icon",
+      "entity": {
+        "species": "TRUMBEAK_0"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species MUDBRAY_0 has no front sprite or icon",
+      "entity": {
+        "species": "MUDBRAY_0"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species MUDSDALE_0 has no front sprite or icon",
+      "entity": {
+        "species": "MUDSDALE_0"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species FOMANTIS_0 has no front sprite or icon",
+      "entity": {
+        "species": "FOMANTIS_0"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species SALAZZLE_0 has no front sprite or icon",
+      "entity": {
+        "species": "SALAZZLE_0"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species BEWEAR_0 has no front sprite or icon",
+      "entity": {
+        "species": "BEWEAR_0"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species BOUNSWEET_0 has no front sprite or icon",
+      "entity": {
+        "species": "BOUNSWEET_0"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species COMFEY_0 has no front sprite or icon",
+      "entity": {
+        "species": "COMFEY_0"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species MINIOR_0 has no front sprite or icon",
+      "entity": {
+        "species": "MINIOR_0"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species TOGEDEMARU_0 has no front sprite or icon",
+      "entity": {
+        "species": "TOGEDEMARU_0"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species BRUXISH_0 has no front sprite or icon",
+      "entity": {
+        "species": "BRUXISH_0"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species DHELMISE_0 has no front sprite or icon",
+      "entity": {
+        "species": "DHELMISE_0"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species JANGMOO_0 has no front sprite or icon",
+      "entity": {
+        "species": "JANGMOO_0"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species HAKAMOO_0 has no front sprite or icon",
+      "entity": {
+        "species": "HAKAMOO_0"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species COSMOG_0 has no front sprite or icon",
+      "entity": {
+        "species": "COSMOG_0"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species COSMOEM_0 has no front sprite or icon",
+      "entity": {
+        "species": "COSMOEM_0"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species SOLGALEO_0 has no front sprite or icon",
+      "entity": {
+        "species": "SOLGALEO_0"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species LUNALA_0 has no front sprite or icon",
+      "entity": {
+        "species": "LUNALA_0"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species BUZZWOLE_0 has no front sprite or icon",
+      "entity": {
+        "species": "BUZZWOLE_0"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species XURKITREE_0 has no front sprite or icon",
+      "entity": {
+        "species": "XURKITREE_0"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species CELESTEELA_0 has no front sprite or icon",
+      "entity": {
+        "species": "CELESTEELA_0"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species MAGEARNA_0 has no front sprite or icon",
+      "entity": {
+        "species": "MAGEARNA_0"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species BLACEPHALON_0 has no front sprite or icon",
+      "entity": {
+        "species": "BLACEPHALON_0"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species ZERAORA_0 has no front sprite or icon",
+      "entity": {
+        "species": "ZERAORA_0"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species THWACKEY_0 has no front sprite or icon",
+      "entity": {
+        "species": "THWACKEY_0"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species RILLABOOM_0 has no front sprite or icon",
+      "entity": {
+        "species": "RILLABOOM_0"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species RABOOT_0 has no front sprite or icon",
+      "entity": {
+        "species": "RABOOT_0"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species CINDERACE_0 has no front sprite or icon",
+      "entity": {
+        "species": "CINDERACE_0"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species DRIZZILE_0 has no front sprite or icon",
+      "entity": {
+        "species": "DRIZZILE_0"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species BOLTUND_0 has no front sprite or icon",
+      "entity": {
+        "species": "BOLTUND_0"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species ROLYCOLY_0 has no front sprite or icon",
+      "entity": {
+        "species": "ROLYCOLY_0"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species CARKOL_0 has no front sprite or icon",
+      "entity": {
+        "species": "CARKOL_0"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species COALOSSAL_0 has no front sprite or icon",
+      "entity": {
+        "species": "COALOSSAL_0"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species APPLIN_0 has no front sprite or icon",
+      "entity": {
+        "species": "APPLIN_0"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species FLAPPLE_0 has no front sprite or icon",
+      "entity": {
+        "species": "FLAPPLE_0"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species APPLETUN_0 has no front sprite or icon",
+      "entity": {
+        "species": "APPLETUN_0"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species CRAMORANT_0 has no front sprite or icon",
+      "entity": {
+        "species": "CRAMORANT_0"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species ARROKUDA_0 has no front sprite or icon",
+      "entity": {
+        "species": "ARROKUDA_0"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species BARRASKEWDA_0 has no front sprite or icon",
+      "entity": {
+        "species": "BARRASKEWDA_0"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species CENTISKORCH_0 has no front sprite or icon",
+      "entity": {
+        "species": "CENTISKORCH_0"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species ALCREMIE_0 has no front sprite or icon",
+      "entity": {
+        "species": "ALCREMIE_0"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species FALINKS_0 has no front sprite or icon",
+      "entity": {
+        "species": "FALINKS_0"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species PINCURCHIN_0 has no front sprite or icon",
+      "entity": {
+        "species": "PINCURCHIN_0"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species CUFANT_0 has no front sprite or icon",
+      "entity": {
+        "species": "CUFANT_0"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species COPPERAJAH_0 has no front sprite or icon",
+      "entity": {
+        "species": "COPPERAJAH_0"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species DRACOZOLT_0 has no front sprite or icon",
+      "entity": {
+        "species": "DRACOZOLT_0"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species ARCTOZOLT_0 has no front sprite or icon",
+      "entity": {
+        "species": "ARCTOZOLT_0"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species DRACOVISH_0 has no front sprite or icon",
+      "entity": {
+        "species": "DRACOVISH_0"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species ARCTOVISH_0 has no front sprite or icon",
+      "entity": {
+        "species": "ARCTOVISH_0"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species DREEPY_0 has no front sprite or icon",
+      "entity": {
+        "species": "DREEPY_0"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species DRAKLOAK_0 has no front sprite or icon",
+      "entity": {
+        "species": "DRAKLOAK_0"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species DRAGAPULT_0 has no front sprite or icon",
+      "entity": {
+        "species": "DRAGAPULT_0"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species KUBFU_0 has no front sprite or icon",
+      "entity": {
+        "species": "KUBFU_0"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species CALYREX_0 has no front sprite or icon",
+      "entity": {
+        "species": "CALYREX_0"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species KLEAVOR_0 has no front sprite or icon",
+      "entity": {
+        "species": "KLEAVOR_0"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species BASCULEGION_0 has no front sprite or icon",
+      "entity": {
+        "species": "BASCULEGION_0"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species SNEASLER_0 has no front sprite or icon",
+      "entity": {
+        "species": "SNEASLER_0"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species ENAMORUS_0 has no front sprite or icon",
+      "entity": {
+        "species": "ENAMORUS_0"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species FUECOCO_0 has no front sprite or icon",
+      "entity": {
+        "species": "FUECOCO_0"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species CROCALOR_0 has no front sprite or icon",
+      "entity": {
+        "species": "CROCALOR_0"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species OINKOLOGNE_0 has no front sprite or icon",
+      "entity": {
+        "species": "OINKOLOGNE_0"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species PAWMOT_0 has no front sprite or icon",
+      "entity": {
+        "species": "PAWMOT_0"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species BELLIBOLT_0 has no front sprite or icon",
+      "entity": {
+        "species": "BELLIBOLT_0"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species BRAMBLIN_0 has no front sprite or icon",
+      "entity": {
+        "species": "BRAMBLIN_0"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species BRAMBLEGHAST_0 has no front sprite or icon",
+      "entity": {
+        "species": "BRAMBLEGHAST_0"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species TOEDSCRUEL_0 has no front sprite or icon",
+      "entity": {
+        "species": "TOEDSCRUEL_0"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species CAPSAKID_0 has no front sprite or icon",
+      "entity": {
+        "species": "CAPSAKID_0"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species FLITTLE_0 has no front sprite or icon",
+      "entity": {
+        "species": "FLITTLE_0"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species ESPATHRA_0 has no front sprite or icon",
+      "entity": {
+        "species": "ESPATHRA_0"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species BOMBIRDIER_0 has no front sprite or icon",
+      "entity": {
+        "species": "BOMBIRDIER_0"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species FINIZEN_0 has no front sprite or icon",
+      "entity": {
+        "species": "FINIZEN_0"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species REVAVROOM_0 has no front sprite or icon",
+      "entity": {
+        "species": "REVAVROOM_0"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species CYCLIZAR_0 has no front sprite or icon",
+      "entity": {
+        "species": "CYCLIZAR_0"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species GLIMMET_0 has no front sprite or icon",
+      "entity": {
+        "species": "GLIMMET_0"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species GLIMMORA_0 has no front sprite or icon",
+      "entity": {
+        "species": "GLIMMORA_0"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species FLAMIGO_0 has no front sprite or icon",
+      "entity": {
+        "species": "FLAMIGO_0"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species DONDOZO_0 has no front sprite or icon",
+      "entity": {
+        "species": "DONDOZO_0"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species ANNIHILAPE_0 has no front sprite or icon",
+      "entity": {
+        "species": "ANNIHILAPE_0"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species BRUTEBONNET_0 has no front sprite or icon",
+      "entity": {
+        "species": "BRUTEBONNET_0"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species FLUTTERMANE_0 has no front sprite or icon",
+      "entity": {
+        "species": "FLUTTERMANE_0"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species SLITHERWING_0 has no front sprite or icon",
+      "entity": {
+        "species": "SLITHERWING_0"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species IRONMOTH_0 has no front sprite or icon",
+      "entity": {
+        "species": "IRONMOTH_0"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species FRIGIBAX_0 has no front sprite or icon",
+      "entity": {
+        "species": "FRIGIBAX_0"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species ARCTIBAX_0 has no front sprite or icon",
+      "entity": {
+        "species": "ARCTIBAX_0"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species BAXCALIBUR_0 has no front sprite or icon",
+      "entity": {
+        "species": "BAXCALIBUR_0"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species WOCHIEN_0 has no front sprite or icon",
+      "entity": {
+        "species": "WOCHIEN_0"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species CHIENPAO_0 has no front sprite or icon",
+      "entity": {
+        "species": "CHIENPAO_0"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species CHIYU_0 has no front sprite or icon",
+      "entity": {
+        "species": "CHIYU_0"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species IRONVALIANT_0 has no front sprite or icon",
+      "entity": {
+        "species": "IRONVALIANT_0"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species DIPPLIN_0 has no front sprite or icon",
+      "entity": {
+        "species": "DIPPLIN_0"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species POLTCHAGEIST_0 has no front sprite or icon",
+      "entity": {
+        "species": "POLTCHAGEIST_0"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species SINISTCHA_0 has no front sprite or icon",
+      "entity": {
+        "species": "SINISTCHA_0"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species OKIDOGI_0 has no front sprite or icon",
+      "entity": {
+        "species": "OKIDOGI_0"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species MUNKIDORI_0 has no front sprite or icon",
+      "entity": {
+        "species": "MUNKIDORI_0"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species FEZANDIPITI_0 has no front sprite or icon",
+      "entity": {
+        "species": "FEZANDIPITI_0"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species OGERPON_0 has no front sprite or icon",
+      "entity": {
+        "species": "OGERPON_0"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species ARCHALUDON_0 has no front sprite or icon",
+      "entity": {
+        "species": "ARCHALUDON_0"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species HYDRAPPLE_0 has no front sprite or icon",
+      "entity": {
+        "species": "HYDRAPPLE_0"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species GOUGINGFIRE_0 has no front sprite or icon",
+      "entity": {
+        "species": "GOUGINGFIRE_0"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species RAGINGBOLT_0 has no front sprite or icon",
+      "entity": {
+        "species": "RAGINGBOLT_0"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species IRONBOULDER_0 has no front sprite or icon",
+      "entity": {
+        "species": "IRONBOULDER_0"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species IRONCROWN_0 has no front sprite or icon",
+      "entity": {
+        "species": "IRONCROWN_0"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species PECHARUNT_0 has no front sprite or icon",
+      "entity": {
+        "species": "PECHARUNT_0"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species VYELLOR_0 has no front sprite or icon",
+      "entity": {
+        "species": "VYELLOR_0"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species LUCARIOX_0 has no front sprite or icon",
+      "entity": {
+        "species": "LUCARIOX_0"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species NAWYVERN_0 has no front sprite or icon",
+      "entity": {
+        "species": "NAWYVERN_0"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species GOROCHU_0 has no front sprite or icon",
+      "entity": {
+        "species": "GOROCHU_0"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species FERROGONAL_0 has no front sprite or icon",
+      "entity": {
+        "species": "FERROGONAL_0"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species SCRAGGYX_0 has no front sprite or icon",
+      "entity": {
+        "species": "SCRAGGYX_0"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species GALAFTY_0 has no front sprite or icon",
+      "entity": {
+        "species": "GALAFTY_0"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species ARTICUNO_1_1 has no front sprite or icon",
+      "entity": {
+        "species": "ARTICUNO_1_1"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species BANETTE_1_1 has no front sprite or icon",
+      "entity": {
+        "species": "BANETTE_1_1"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species BURMY_1_1 has no front sprite or icon",
+      "entity": {
+        "species": "BURMY_1_1"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species BURMY_2_2 has no front sprite or icon",
+      "entity": {
+        "species": "BURMY_2_2"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species ARCEUS_1_1 has no front sprite or icon",
+      "entity": {
+        "species": "ARCEUS_1_1"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species ARCEUS_2_2 has no front sprite or icon",
+      "entity": {
+        "species": "ARCEUS_2_2"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species ARCEUS_3_3 has no front sprite or icon",
+      "entity": {
+        "species": "ARCEUS_3_3"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species ARCEUS_4_4 has no front sprite or icon",
+      "entity": {
+        "species": "ARCEUS_4_4"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species ARCEUS_5_5 has no front sprite or icon",
+      "entity": {
+        "species": "ARCEUS_5_5"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species ARCEUS_6_6 has no front sprite or icon",
+      "entity": {
+        "species": "ARCEUS_6_6"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species ARCEUS_7_7 has no front sprite or icon",
+      "entity": {
+        "species": "ARCEUS_7_7"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species ARCEUS_8_8 has no front sprite or icon",
+      "entity": {
+        "species": "ARCEUS_8_8"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species ARCEUS_9_9 has no front sprite or icon",
+      "entity": {
+        "species": "ARCEUS_9_9"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species ARCEUS_10_10 has no front sprite or icon",
+      "entity": {
+        "species": "ARCEUS_10_10"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species ARCEUS_11_11 has no front sprite or icon",
+      "entity": {
+        "species": "ARCEUS_11_11"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species ARCEUS_12_12 has no front sprite or icon",
+      "entity": {
+        "species": "ARCEUS_12_12"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species ARCEUS_13_13 has no front sprite or icon",
+      "entity": {
+        "species": "ARCEUS_13_13"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species ARCEUS_14_14 has no front sprite or icon",
+      "entity": {
+        "species": "ARCEUS_14_14"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species ARCEUS_15_15 has no front sprite or icon",
+      "entity": {
+        "species": "ARCEUS_15_15"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species ARCEUS_16_16 has no front sprite or icon",
+      "entity": {
+        "species": "ARCEUS_16_16"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species ARCEUS_17_17 has no front sprite or icon",
+      "entity": {
+        "species": "ARCEUS_17_17"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species ARCEUS_18_18 has no front sprite or icon",
+      "entity": {
+        "species": "ARCEUS_18_18"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species BASCULIN_1_1 has no front sprite or icon",
+      "entity": {
+        "species": "BASCULIN_1_1"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species DEERLING_1_1 has no front sprite or icon",
+      "entity": {
+        "species": "DEERLING_1_1"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species DEERLING_2_2 has no front sprite or icon",
+      "entity": {
+        "species": "DEERLING_2_2"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species DEERLING_3_3 has no front sprite or icon",
+      "entity": {
+        "species": "DEERLING_3_3"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species FURFROU_1_1 has no front sprite or icon",
+      "entity": {
+        "species": "FURFROU_1_1"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species FURFROU_2_2 has no front sprite or icon",
+      "entity": {
+        "species": "FURFROU_2_2"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species FURFROU_3_3 has no front sprite or icon",
+      "entity": {
+        "species": "FURFROU_3_3"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species FURFROU_4_4 has no front sprite or icon",
+      "entity": {
+        "species": "FURFROU_4_4"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species FURFROU_5_5 has no front sprite or icon",
+      "entity": {
+        "species": "FURFROU_5_5"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species FURFROU_6_6 has no front sprite or icon",
+      "entity": {
+        "species": "FURFROU_6_6"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species FURFROU_7_7 has no front sprite or icon",
+      "entity": {
+        "species": "FURFROU_7_7"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species FURFROU_8_8 has no front sprite or icon",
+      "entity": {
+        "species": "FURFROU_8_8"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species FURFROU_9_9 has no front sprite or icon",
+      "entity": {
+        "species": "FURFROU_9_9"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species XERNEAS_1_1 has no front sprite or icon",
+      "entity": {
+        "species": "XERNEAS_1_1"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species ZYGARDE_1_1 has no front sprite or icon",
+      "entity": {
+        "species": "ZYGARDE_1_1"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species ZYGARDE_2_2 has no front sprite or icon",
+      "entity": {
+        "species": "ZYGARDE_2_2"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species ZYGARDE_3_3 has no front sprite or icon",
+      "entity": {
+        "species": "ZYGARDE_3_3"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species DIANCIE_1_1 has no front sprite or icon",
+      "entity": {
+        "species": "DIANCIE_1_1"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species MINIOR_10_10 has no front sprite or icon",
+      "entity": {
+        "species": "MINIOR_10_10"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species MAGEARNA_1_1 has no front sprite or icon",
+      "entity": {
+        "species": "MAGEARNA_1_1"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species CRAMORANT_1_1 has no front sprite or icon",
+      "entity": {
+        "species": "CRAMORANT_1_1"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species CRAMORANT_2_2 has no front sprite or icon",
+      "entity": {
+        "species": "CRAMORANT_2_2"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species CALYREX_1_1 has no front sprite or icon",
+      "entity": {
+        "species": "CALYREX_1_1"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species CALYREX_2_2 has no front sprite or icon",
+      "entity": {
+        "species": "CALYREX_2_2"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species DIALGA_1_1 has no front sprite or icon",
+      "entity": {
+        "species": "DIALGA_1_1"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species LILLIGANT_1_1 has no front sprite or icon",
+      "entity": {
+        "species": "LILLIGANT_1_1"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species BASCULIN_2_2 has no front sprite or icon",
+      "entity": {
+        "species": "BASCULIN_2_2"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species BASCULEGION_1_1 has no front sprite or icon",
+      "entity": {
+        "species": "BASCULEGION_1_1"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species ENAMORUS_1_1 has no front sprite or icon",
+      "entity": {
+        "species": "ENAMORUS_1_1"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species OINKOLOGNE_1_1 has no front sprite or icon",
+      "entity": {
+        "species": "OINKOLOGNE_1_1"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species REVAVROOM_1_1 has no front sprite or icon",
+      "entity": {
+        "species": "REVAVROOM_1_1"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species REVAVROOM_2_2 has no front sprite or icon",
+      "entity": {
+        "species": "REVAVROOM_2_2"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species REVAVROOM_3_3 has no front sprite or icon",
+      "entity": {
+        "species": "REVAVROOM_3_3"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species REVAVROOM_4_4 has no front sprite or icon",
+      "entity": {
+        "species": "REVAVROOM_4_4"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species REVAVROOM_5_5 has no front sprite or icon",
+      "entity": {
+        "species": "REVAVROOM_5_5"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species POLTCHAGEIST_1_1 has no front sprite or icon",
+      "entity": {
+        "species": "POLTCHAGEIST_1_1"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species SINISTCHA_1_1 has no front sprite or icon",
+      "entity": {
+        "species": "SINISTCHA_1_1"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species OGERPON_1_1 has no front sprite or icon",
+      "entity": {
+        "species": "OGERPON_1_1"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species OGERPON_2_2 has no front sprite or icon",
+      "entity": {
+        "species": "OGERPON_2_2"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species OGERPON_3_3 has no front sprite or icon",
+      "entity": {
+        "species": "OGERPON_3_3"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species OGERPON_4_4 has no front sprite or icon",
+      "entity": {
+        "species": "OGERPON_4_4"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species OGERPON_5_5 has no front sprite or icon",
+      "entity": {
+        "species": "OGERPON_5_5"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species OGERPON_6_6 has no front sprite or icon",
+      "entity": {
+        "species": "OGERPON_6_6"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species OGERPON_7_7 has no front sprite or icon",
+      "entity": {
+        "species": "OGERPON_7_7"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species OGERPON_8_8 has no front sprite or icon",
+      "entity": {
+        "species": "OGERPON_8_8"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species OGERPON_9_9 has no front sprite or icon",
+      "entity": {
+        "species": "OGERPON_9_9"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species OGERPON_10_10 has no front sprite or icon",
+      "entity": {
+        "species": "OGERPON_10_10"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    },
+    {
+      "code": "MISSING_SPRITE",
+      "message": "Species OGERPON_11_11 has no front sprite or icon",
+      "entity": {
+        "species": "OGERPON_11_11"
+      },
+      "severity": "warning",
+      "suggestion": "Check Graphics/EBDX/Battlers/Front/ or Graphics/Pokemon/Icons/",
+      "timestamp": "2026-02-02T03:17:49.994Z"
+    }
+  ]
+}

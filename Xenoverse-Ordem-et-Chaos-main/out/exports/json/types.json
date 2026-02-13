@@ -1,0 +1,208 @@
+{
+  "$schema": "xenoverse-dex/types/v1.0.0",
+  "version": "1.0.0",
+  "exportTime": "2026-01-29T23:18:06.174Z",
+  "count": 20,
+  "data": [
+    {
+      "id": "NORMAL",
+      "name": "Normal",
+      "is_pseudo_type": 0,
+      "is_special_type": 0,
+      "weaknesses": "[\"FIGHTING\"]",
+      "resistances": "[]",
+      "immunities": "[\"GHOST\"]",
+      "icon_position": 0
+    },
+    {
+      "id": "FIGHTING",
+      "name": "Fighting",
+      "is_pseudo_type": 0,
+      "is_special_type": 0,
+      "weaknesses": "[\"FLYING\",\"PSYCHIC\",\"FAIRY\"]",
+      "resistances": "[\"ROCK\",\"DARK\",\"BUG\"]",
+      "immunities": "[]",
+      "icon_position": 1
+    },
+    {
+      "id": "FLYING",
+      "name": "Flying",
+      "is_pseudo_type": 0,
+      "is_special_type": 0,
+      "weaknesses": "[\"ROCK\",\"ELECTRIC\",\"ICE\"]",
+      "resistances": "[\"FIGHTING\",\"BUG\",\"GRASS\"]",
+      "immunities": "[\"GROUND\"]",
+      "icon_position": 2
+    },
+    {
+      "id": "POISON",
+      "name": "Poison",
+      "is_pseudo_type": 0,
+      "is_special_type": 0,
+      "weaknesses": "[\"GROUND\",\"PSYCHIC\"]",
+      "resistances": "[\"FIGHTING\",\"POISON\",\"BUG\",\"GRASS\",\"FAIRY\"]",
+      "immunities": "[]",
+      "icon_position": 3
+    },
+    {
+      "id": "GROUND",
+      "name": "Ground",
+      "is_pseudo_type": 0,
+      "is_special_type": 0,
+      "weaknesses": "[\"WATER\",\"GRASS\",\"ICE\"]",
+      "resistances": "[\"POISON\",\"ROCK\"]",
+      "immunities": "[\"ELECTRIC\"]",
+      "icon_position": 4
+    },
+    {
+      "id": "ROCK",
+      "name": "Rock",
+      "is_pseudo_type": 0,
+      "is_special_type": 0,
+      "weaknesses": "[\"FIGHTING\",\"GROUND\",\"STEEL\",\"WATER\",\"GRASS\"]",
+      "resistances": "[\"NORMAL\",\"FLYING\",\"POISON\",\"FIRE\",\"GHOST\"]",
+      "immunities": "[]",
+      "icon_position": 5
+    },
+    {
+      "id": "BUG",
+      "name": "Bug",
+      "is_pseudo_type": 0,
+      "is_special_type": 0,
+      "weaknesses": "[\"FLYING\",\"ROCK\",\"FIRE\"]",
+      "resistances": "[\"FIGHTING\",\"GROUND\",\"GRASS\"]",
+      "immunities": "[]",
+      "icon_position": 6
+    },
+    {
+      "id": "GHOST",
+      "name": "Ghost",
+      "is_pseudo_type": 0,
+      "is_special_type": 0,
+      "weaknesses": "[\"GHOST\",\"DARK\"]",
+      "resistances": "[\"POISON\"]",
+      "immunities": "[\"NORMAL\",\"FIGHTING\"]",
+      "icon_position": 7
+    },
+    {
+      "id": "STEEL",
+      "name": "Steel",
+      "is_pseudo_type": 0,
+      "is_special_type": 0,
+      "weaknesses": "[\"FIGHTING\",\"GROUND\",\"FIRE\",\"SOUND\"]",
+      "resistances": "[\"NORMAL\",\"FLYING\",\"ROCK\",\"BUG\",\"STEEL\",\"GRASS\",\"PSYCHIC\",\"ICE\",\"DRAGON\",\"FAIRY\"]",
+      "immunities": "[\"POISON\"]",
+      "icon_position": 8
+    },
+    {
+      "id": "QMARKS",
+      "name": "???",
+      "is_pseudo_type": 1,
+      "is_special_type": 0,
+      "weaknesses": "[]",
+      "resistances": "[]",
+      "immunities": "[]",
+      "icon_position": 19
+    },
+    {
+      "id": "FIRE",
+      "name": "Fire",
+      "is_pseudo_type": 0,
+      "is_special_type": 1,
+      "weaknesses": "[\"GROUND\",\"ROCK\",\"WATER\"]",
+      "resistances": "[\"BUG\",\"STEEL\",\"FIRE\",\"GRASS\",\"ICE\",\"FAIRY\"]",
+      "immunities": "[]",
+      "icon_position": 10
+    },
+    {
+      "id": "WATER",
+      "name": "Water",
+      "is_pseudo_type": 0,
+      "is_special_type": 1,
+      "weaknesses": "[\"GRASS\",\"ELECTRIC\",\"SOUND\"]",
+      "resistances": "[\"STEEL\",\"FIRE\",\"WATER\",\"ICE\"]",
+      "immunities": "[]",
+      "icon_position": 11
+    },
+    {
+      "id": "GRASS",
+      "name": "Grass",
+      "is_pseudo_type": 0,
+      "is_special_type": 1,
+      "weaknesses": "[\"FLYING\",\"POISON\",\"BUG\",\"FIRE\",\"ICE\"]",
+      "resistances": "[\"GROUND\",\"WATER\",\"GRASS\",\"ELECTRIC\",\"FAIRY\",\"SOUND\"]",
+      "immunities": "[]",
+      "icon_position": 12
+    },
+    {
+      "id": "ELECTRIC",
+      "name": "Electric",
+      "is_pseudo_type": 0,
+      "is_special_type": 1,
+      "weaknesses": "[\"GROUND\"]",
+      "resistances": "[\"FLYING\",\"STEEL\",\"ELECTRIC\",\"SOUND\"]",
+      "immunities": "[]",
+      "icon_position": 13
+    },
+    {
+      "id": "PSYCHIC",
+      "name": "Psychic",
+      "is_pseudo_type": 0,
+      "is_special_type": 1,
+      "weaknesses": "[\"BUG\",\"GHOST\",\"DARK\"]",
+      "resistances": "[\"FIGHTING\",\"PSYCHIC\"]",
+      "immunities": "[\"SOUND\"]",
+      "icon_position": 14
+    },
+    {
+      "id": "ICE",
+      "name": "Ice",
+      "is_pseudo_type": 0,
+      "is_special_type": 1,
+      "weaknesses": "[\"FIGHTING\",\"ROCK\",\"STEEL\",\"FIRE\"]",
+      "resistances": "[\"ICE\",\"WATER\",\"ELECTRIC\"]",
+      "immunities": "[]",
+      "icon_position": 15
+    },
+    {
+      "id": "DRAGON",
+      "name": "Dragon",
+      "is_pseudo_type": 0,
+      "is_special_type": 1,
+      "weaknesses": "[\"ICE\",\"DRAGON\",\"FAIRY\"]",
+      "resistances": "[\"FIRE\",\"WATER\",\"GRASS\",\"ELECTRIC\",\"SOUND\"]",
+      "immunities": "[]",
+      "icon_position": 16
+    },
+    {
+      "id": "DARK",
+      "name": "Dark",
+      "is_pseudo_type": 0,
+      "is_special_type": 1,
+      "weaknesses": "[\"FIGHTING\",\"BUG\",\"FAIRY\"]",
+      "resistances": "[\"GHOST\",\"DARK\"]",
+      "immunities": "[\"PSYCHIC\"]",
+      "icon_position": 17
+    },
+    {
+      "id": "FAIRY",
+      "name": "Fairy",
+      "is_pseudo_type": 0,
+      "is_special_type": 1,
+      "weaknesses": "[\"POISON\",\"STEEL\",\"SOUND\"]",
+      "resistances": "[\"FIGHTING\",\"DARK\"]",
+      "immunities": "[\"DRAGON\"]",
+      "icon_position": 18
+    },
+    {
+      "id": "SOUND",
+      "name": "Sound",
+      "is_pseudo_type": 0,
+      "is_special_type": 1,
+      "weaknesses": "[\"ELECTRIC\",\"DRAGON\"]",
+      "resistances": "[\"WATER\",\"FAIRY\",\"SOUND\"]",
+      "immunities": "[]",
+      "icon_position": 9
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "exportTime": "2026-02-02T03:17:48.897Z",
+  "files": [
+    {
+      "file": "species.dat",
+      "size": 1157153,
+      "format": "ruby-marshal",
+      "version": "4.8",
+      "signature": "0408"
+    },
+    {
+      "file": "moves.dat",
+      "size": 241045,
+      "format": "ruby-marshal",
+      "version": "4.8",
+      "signature": "0408"
+    },
+    {
+      "file": "types.dat",
+      "size": 1591,
+      "format": "ruby-marshal",
+      "version": "4.8",
+      "signature": "0408"
+    },
+    {
+      "file": "abilities.dat",
+      "size": 36344,
+      "format": "ruby-marshal",
+      "version": "4.8",
+      "signature": "0408"
+    }
+  ]
+}

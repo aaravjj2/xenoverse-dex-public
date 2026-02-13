@@ -1,0 +1,62 @@
+{
+  "from": {
+    "id": "20260201-220000"
+  },
+  "to": {
+    "id": "20260202-000000"
+  },
+  "generated": "2026-02-02T03:18:05.107Z",
+  "summary": {
+    "species": {
+      "added": 0,
+      "removed": 0,
+      "changed": 0
+    },
+    "moves": {
+      "added": 0,
+      "removed": 0,
+      "changed": 0
+    },
+    "evolutions": {
+      "added": 0,
+      "removed": 0,
+      "changed": 0
+    },
+    "counts": {
+      "from": {
+        "species": 1564,
+        "items": 863,
+        "trainers": 159,
+        "world_facts": 0
+      },
+      "to": {
+        "species": 1564,
+        "items": 863,
+        "trainers": 159,
+        "world_facts": 0
+      },
+      "delta": {}
+    }
+  },
+  "entities": {
+    "species": {
+      "entityName": "species",
+      "added": [],
+      "removed": [],
+      "changed": []
+    },
+    "moves": {
+      "entityName": "moves",
+      "added": [],
+      "removed": [],
+      "changed": []
+    },
+    "evolutions": {
+      "entityName": "evolutions",
+      "added": [],
+      "removed": [],
+      "changed": []
+    }
+  },
+  "breaking": []
+}
