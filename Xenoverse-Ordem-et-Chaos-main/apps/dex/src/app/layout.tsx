@@ -1,11 +1,26 @@
 import './globals.css';
 import type { Metadata } from 'next';
 import Link from 'next/link';
+import MobileNav from '@/components/MobileNav';
+import { ThemeProvider } from '@/components/ThemeProvider';
+import ThemeToggle from '@/components/ThemeToggle';
 
 export const metadata: Metadata = {
   title: 'Xenoverse Dex',
-  description: 'Local canonical dex for Xenoverse-Ordem-et-Chaos',
+  description: 'Complete Pokédex for Pokémon Xenoverse - Ordem et Chaos',
 };
+
+const NAV_LINKS = [
+  { href: '/', label: 'Pokédex', color: 'blue' },
+  { href: '/types', label: 'Types', color: 'purple' },
+  { href: '/abilities', label: 'Abilities', color: 'cyan' },
+  { href: '/moves', label: 'Moves', color: 'blue' },
+  { href: '/items', label: 'Items', color: 'amber' },
+  { href: '/trainers', label: 'Trainers', color: 'rose' },
+  { href: '/world', label: 'World', color: 'emerald' },
+  { href: '/compare', label: 'Compare', color: 'blue' },
+  { href: '/team', label: 'Team', color: 'purple' },
+];
 
 export default function RootLayout({
   children,
@@ -13,64 +28,72 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
-      <body className="min-h-screen bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 text-white antialiased">
-        {/* Top Navigation */}
-        <nav className="bg-slate-900/80 backdrop-blur-md border-b border-slate-700/50 sticky top-0 z-50 shadow-lg">
-          <div className="max-w-7xl mx-auto px-6">
-            <div className="flex items-center justify-between h-16">
-              <div className="flex items-center space-x-8">
-                <div className="flex items-center space-x-3">
-                  <div className="w-8 h-8 bg-gradient-to-br from-blue-500 to-purple-600 rounded-lg flex items-center justify-center font-bold text-sm shadow-lg">
-                    XV
+    <html lang="en" suppressHydrationWarning>
+      <head>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              (function() {
+                try {
+                  var theme = localStorage.getItem('theme');
+                  if (!theme) {
+                    theme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+                  }
+                  document.documentElement.setAttribute('data-theme', theme);
+                } catch (e) {}
+              })();
+            `,
+          }}
+        />
+      </head>
+      <body className="min-h-screen bg-[var(--bg-primary)] text-[var(--text-primary)] antialiased">
+        <ThemeProvider>
+          {/* Top Navigation */}
+          <nav className="sticky top-0 z-50 glass border-b border-[var(--border-subtle)]">
+            <div className="max-w-[1800px] mx-auto px-4 sm:px-6">
+              <div className="flex items-center justify-between h-16">
+                {/* Logo & Desktop Nav */}
+                <div className="flex items-center gap-6">
+                  <Link href="/" className="flex items-center gap-3 group">
+                    <div className="relative w-9 h-9 bg-gradient-to-br from-blue-500 to-purple-600 rounded-xl flex items-center justify-center font-bold text-sm shadow-lg group-hover:shadow-blue-500/30 transition-all duration-300 group-hover:scale-105">
+                      <span className="relative z-10">XV</span>
+                      <div className="absolute inset-0 rounded-xl bg-gradient-to-br from-blue-400 to-purple-500 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+                    </div>
+                    <span className="hidden sm:block text-xl font-bold text-gradient">
+                      Xenoverse Dex
+                    </span>
+                  </Link>
+
+                  {/* Desktop Navigation Links */}
+                  <div className="hidden lg:flex items-center gap-1">
+                    {NAV_LINKS.map((link) => (
+                      <Link
+                        key={link.href}
+                        href={link.href}
+                        className="nav-link text-slate-300 hover:text-white"
+                      >
+                        {link.label}
+                      </Link>
+                    ))}
                   </div>
-                  <span className="text-xl font-bold bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
-                    Xenoverse Dex
+                </div>
+
+                {/* Right side - Theme toggle, version, Mobile menu */}
+                <div className="flex items-center gap-3">
+                  <ThemeToggle />
+                  <span className="hidden md:block text-xs text-slate-500 font-medium px-3 py-1.5 rounded-full bg-slate-800/50 border border-slate-700/50">
+                    v0.3.0
                   </span>
+                  <MobileNav links={NAV_LINKS} />
                 </div>
-                <div className="flex space-x-2">
-                  <Link href="/" className="px-4 py-2 rounded-lg hover:bg-slate-700/50 transition-all duration-200 text-sm font-medium hover:text-blue-400">
-                    Pokédex
-                  </Link>
-                  <Link href="/types" className="px-4 py-2 rounded-lg hover:bg-slate-700/50 transition-all duration-200 text-sm font-medium hover:text-blue-400">
-                    Types
-                  </Link>
-                  <Link href="/abilities" className="px-4 py-2 rounded-lg hover:bg-slate-700/50 transition-all duration-200 text-sm font-medium hover:text-blue-400">
-                    Abilities
-                  </Link>
-                  <Link href="/moves" className="px-4 py-2 rounded-lg hover:bg-slate-700/50 transition-all duration-200 text-sm font-medium hover:text-blue-400">
-                    Moves
-                  </Link>
-                  <Link href="/items" className="px-4 py-2 rounded-lg hover:bg-slate-700/50 transition-all duration-200 text-sm font-medium hover:text-amber-400">
-                    Items
-                  </Link>
-                  {/* <Link href="/trainers" className="px-4 py-2 rounded-lg hover:bg-slate-700/50 transition-all duration-200 text-sm font-medium hover:text-red-400">
-                    Trainers
-                  </Link> */}
-                  <Link href="/world" className="px-4 py-2 rounded-lg hover:bg-slate-700/50 transition-all duration-200 text-sm font-medium hover:text-emerald-400">
-                    World
-                  </Link>
-                  <Link href="/compare" className="px-4 py-2 rounded-lg hover:bg-slate-700/50 transition-all duration-200 text-sm font-medium hover:text-blue-400">
-                    Compare
-                  </Link>
-                  <Link href="/team" className="px-4 py-2 rounded-lg hover:bg-slate-700/50 transition-all duration-200 text-sm font-medium hover:text-purple-400">
-                    Team
-                  </Link>
-                  <Link href="/diagnostics" className="px-4 py-2 rounded-lg hover:bg-slate-700/50 transition-all duration-200 text-sm font-medium text-slate-400 hover:text-slate-300">
-                    ⚙️
-                  </Link>
-                </div>
-              </div>
-              <div className="text-xs text-slate-400 font-medium">
-                Local-First Dex
               </div>
             </div>
-          </div>
-        </nav>
+          </nav>
 
-        <main className="max-w-7xl mx-auto px-6 py-6">
-          {children}
-        </main>
+          <main className="relative z-10 max-w-[1800px] mx-auto px-4 sm:px-6 py-6">
+            {children}
+          </main>
+        </ThemeProvider>
       </body>
     </html>
   );

@@ -3,9 +3,9 @@ import { getSpeciesById, getEvolutions, getLearnset, getAdjacentSpecies, getType
 
 export async function GET(
   request: NextRequest,
-  { params }: { params: { id: string } }
+  { params }: { params: Promise<{ id: string }> }
 ) {
-  const { id } = params;
+  const { id } = await params;
   const { searchParams } = new URL(request.url);
   const formId = parseInt(searchParams.get('form') || '0');
 

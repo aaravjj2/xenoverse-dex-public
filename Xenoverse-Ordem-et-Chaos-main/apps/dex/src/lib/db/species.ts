@@ -92,7 +92,7 @@ export function getSpeciesList(options: {
       rd.dex_section,
       rd.sort_order
     FROM species s
-    JOIN regional_dex rd ON s.id = rd.species_id
+    LEFT JOIN regional_dex rd ON s.id = rd.species_id
     LEFT JOIN assets a ON s.id = a.species_id AND s.form_id = a.form_id
     WHERE 1=1
   `;
@@ -192,11 +192,14 @@ export function getSpeciesList(options: {
 
     const sortOrder = options.sortOrder === 'desc' ? 'DESC' : 'ASC';
 
-    // If sorting by dex or id (default), adhere to section + sort_order
+    // If sorting by dex or id (default), adhere to section + sort_order.
+    // LEFT JOIN means non-dex species have NULL section/sort_order — push those
+    // (forms, national-dex-only species) AFTER the game's regional dex order,
+    // then by form id then name for a stable order.
     if (sortColumn === 'rd.sort_order') {
-        sql += ` ORDER BY rd.dex_section ${sortOrder}, rd.sort_order ${sortOrder}, s.form_id ASC`;
+        sql += ` ORDER BY (rd.dex_section IS NULL) ${sortOrder}, rd.dex_section ${sortOrder}, rd.sort_order ${sortOrder}, s.form_id ASC, s.name ASC`;
     } else {
-        sql += ` ORDER BY ${sortColumn} ${sortOrder}, rd.sort_order ASC, s.form_id ASC`;
+        sql += ` ORDER BY ${sortColumn} ${sortOrder}, (rd.dex_section IS NULL) ASC, rd.sort_order ASC, s.form_id ASC, s.name ASC`;
     }
 
     if (options.limit) {

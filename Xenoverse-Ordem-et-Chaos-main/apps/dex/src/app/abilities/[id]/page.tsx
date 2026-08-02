@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
+import { useParams } from 'next/navigation';
 import SpriteDisplay from '@/components/SpriteDisplay';
 
 interface Ability {
@@ -23,8 +24,8 @@ interface Species {
   icon_path: string | null;
 }
 
-export default function AbilityDetailPage({ params }: { params: { id: string } }) {
-  const { id } = params;
+export default function AbilityDetailPage() {
+  const { id } = useParams<{ id: string }>();
   const [ability, setAbility] = useState<Ability | null>(null);
   const [species, setSpecies] = useState<Species[]>([]);
   const [loading, setLoading] = useState(true);

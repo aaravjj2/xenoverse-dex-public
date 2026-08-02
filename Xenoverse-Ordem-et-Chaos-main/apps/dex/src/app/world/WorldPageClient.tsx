@@ -43,120 +43,103 @@ Type: ${fact.type}
 Confidence: ${fact.confidence}`;
 
     return (
-        <div className="fixed inset-y-0 right-0 w-96 bg-gray-900 border-l border-gray-700 shadow-2xl z-50 overflow-y-auto">
-            <div className="sticky top-0 bg-gray-900 border-b border-gray-700 p-4 flex items-center justify-between">
-                <h2 className="text-lg font-semibold text-white">Provenance</h2>
-                <button onClick={onClose} className="text-gray-400 hover:text-white text-xl">×</button>
+        <div className="fixed inset-y-0 right-0 w-96 glass border-l border-[var(--border-subtle)] shadow-2xl z-50 overflow-y-auto bg-[var(--bg-secondary)]">
+            <div className="sticky top-0 glass border-b border-[var(--border-subtle)] p-4 flex items-center justify-between">
+                <h2 className="text-lg font-semibold text-gradient">Provenance</h2>
+                <button onClick={onClose} className="text-slate-400 hover:text-white text-xl p-1">×</button>
             </div>
 
             <div className="p-4 space-y-4">
                 {/* Type & Confidence */}
                 <div className="flex items-center gap-2">
-                    <span className={`px-2 py-1 rounded text-xs font-medium ${fact.type === 'item_location' ? 'bg-amber-900/50 text-amber-300' :
-                        fact.type === 'shop' ? 'bg-blue-900/50 text-blue-300' :
-                            fact.type === 'trainer_location' ? 'bg-red-900/50 text-red-300' :
-                                fact.type === 'hidden_item' ? 'bg-purple-900/50 text-purple-300' :
-                                    fact.type === 'wild_encounter' ? 'bg-emerald-900/50 text-emerald-300' :
-                                        fact.type === 'gift_pokemon' ? 'bg-pink-900/50 text-pink-300' :
-                                            fact.type === 'static_encounter' ? 'bg-orange-900/50 text-orange-300' :
-                                                'bg-gray-700 text-gray-300'
+                    <span className={`px-2.5 py-1 rounded-lg text-xs font-medium ${fact.type === 'item_location' ? 'bg-amber-900/30 text-amber-300 border border-amber-500/20' :
+                        fact.type === 'shop' ? 'bg-blue-900/30 text-blue-300 border border-blue-500/20' :
+                            fact.type === 'trainer_location' ? 'bg-red-900/30 text-red-300 border border-red-500/20' :
+                                fact.type === 'hidden_item' ? 'bg-purple-900/30 text-purple-300 border border-purple-500/20' :
+                                    fact.type === 'wild_encounter' ? 'bg-emerald-900/30 text-emerald-300 border border-emerald-500/20' :
+                                        fact.type === 'gift_pokemon' ? 'bg-pink-900/30 text-pink-300 border border-pink-500/20' :
+                                            fact.type === 'static_encounter' ? 'bg-orange-900/30 text-orange-300 border border-orange-500/20' :
+                                                'bg-slate-800 text-slate-300 border border-[var(--border-subtle)]'
                         }`}>
                         {fact.type}
                     </span>
-                    <span className={`px-2 py-1 rounded text-xs ${fact.confidence === 'high' ? 'bg-green-900/50 text-green-300' :
-                        fact.confidence === 'medium' ? 'bg-yellow-900/50 text-yellow-300' :
-                            'bg-red-900/50 text-red-300'
+                    <span className={`px-2.5 py-1 rounded-lg text-xs font-medium ${fact.confidence === 'high' ? 'bg-green-900/30 text-green-300 border border-green-500/20' :
+                        fact.confidence === 'medium' ? 'bg-yellow-900/30 text-yellow-300 border border-yellow-500/20' :
+                            'bg-red-900/30 text-red-300 border border-red-500/20'
                         }`}>
                         {fact.confidence}
                     </span>
                 </div>
 
                 {/* Location */}
-                <div className="bg-gray-800/50 rounded-lg p-3">
-                    <h3 className="text-xs text-gray-500 uppercase mb-2">Location</h3>
+                <div className="glass-card p-4">
+                    <h3 className="text-[10px] text-slate-500 uppercase tracking-wider mb-3 font-bold">Location</h3>
 
-                    {/* Contextual Map */}
                     <div className="mb-3">
                         <RegionMap mapName={fact.mapName} className="w-full" />
                     </div>
 
-                    <div className="space-y-1 text-sm">
+                    <div className="space-y-2 text-sm">
                         <div className="flex justify-between">
-                            <span className="text-gray-400">Map</span>
-                            <span className="text-white">{fact.mapName || `Map ${fact.mapId}`}</span>
+                            <span className="text-slate-400">Map</span>
+                            <span className="text-white font-medium">{fact.mapName || `Map ${fact.mapId}`}</span>
                         </div>
                         <div className="flex justify-between">
-                            <span className="text-gray-400">Map ID</span>
-                            <span className="text-white">{fact.mapId}</span>
+                            <span className="text-slate-400">Map ID</span>
+                            <span className="text-white font-mono">{fact.mapId}</span>
                         </div>
                         <div className="flex justify-between">
-                            <span className="text-gray-400">Event ID</span>
-                            <span className="text-white">{fact.eventId ?? 'N/A'}</span>
-                        </div>
-                        <div className="flex justify-between">
-                            <span className="text-gray-400">Page Index</span>
-                            <span className="text-white">{fact.pageIndex ?? 'N/A'}</span>
-                        </div>
-                        <div className="flex justify-between">
-                            <span className="text-gray-400">Command Index</span>
-                            <span className="text-white">{fact.commandIndex ?? 'N/A'}</span>
+                            <span className="text-slate-400">Event ID</span>
+                            <span className="text-white font-mono">{fact.eventId ?? 'N/A'}</span>
                         </div>
                     </div>
                 </div>
 
                 {/* Payload */}
-                <div className="bg-gray-800/50 rounded-lg p-3">
-                    <h3 className="text-xs text-gray-500 uppercase mb-2">Payload</h3>
-                    <pre className="text-xs text-gray-300 overflow-x-auto whitespace-pre-wrap">
+                <div className="glass-card p-4">
+                    <h3 className="text-[10px] text-slate-500 uppercase tracking-wider mb-3 font-bold">Payload</h3>
+                    <pre className="text-xs text-slate-300 overflow-x-auto whitespace-pre-wrap bg-slate-900/50 rounded-lg p-3 border border-[var(--border-subtle)]">
                         {JSON.stringify(fact.payload, null, 2)}
                     </pre>
 
                     {/* Links to canonical entities */}
-                    {(fact.payload.species || fact.payload.pokemonId) && (
-                        <Link
-                            href={`/pokemon/${(fact.payload.species || fact.payload.pokemonId).toLowerCase()}`}
-                            className="mt-2 block text-xs text-emerald-400 hover:text-emerald-300"
-                        >
-                            → View Pokémon: {fact.payload.species || fact.payload.pokemonId}
-                        </Link>
-                    )}
-                    {fact.payload.itemId && (
-                        <Link
-                            href={`/items/${fact.payload.itemId.toLowerCase()}`}
-                            className="mt-2 block text-xs text-amber-400 hover:text-amber-300"
-                        >
-                            → View Item: {fact.payload.itemId}
-                        </Link>
-                    )}
-                    {fact.payload.trainerId && (
-                        <Link
-                            href={`/trainers/${encodeURIComponent(fact.payload.trainerId)}`}
-                            className="mt-2 block text-xs text-red-400 hover:text-red-300"
-                        >
-                            → View Trainer: {fact.payload.trainerName || fact.payload.trainerId}
-                        </Link>
-                    )}
+                    <div className="flex flex-wrap gap-2 mt-3">
+                        {(fact.payload.species || fact.payload.pokemonId) && (
+                            <Link
+                                href={`/pokemon/${(fact.payload.species || fact.payload.pokemonId).toLowerCase()}`}
+                                className="text-xs text-emerald-400 hover:text-emerald-300 px-2 py-1 rounded-lg bg-emerald-900/20 border border-emerald-500/20"
+                            >
+                                → {fact.payload.species || fact.payload.pokemonId}
+                            </Link>
+                        )}
+                        {fact.payload.itemId && (
+                            <Link
+                                href={`/items/${fact.payload.itemId.toLowerCase()}`}
+                                className="text-xs text-amber-400 hover:text-amber-300 px-2 py-1 rounded-lg bg-amber-900/20 border border-amber-500/20"
+                            >
+                                → {fact.payload.itemId}
+                            </Link>
+                        )}
+                    </div>
                 </div>
 
                 {/* Conditions */}
                 {fact.conditions && Object.keys(fact.conditions).length > 0 && (
-                    <div className="bg-yellow-900/30 border border-yellow-700/50 rounded-lg p-3">
-                        <h3 className="text-xs text-yellow-500 uppercase mb-2">Conditions</h3>
-                        <pre className="text-xs text-yellow-300 overflow-x-auto">
+                    <div className="glass-card p-4 bg-yellow-900/10 border-yellow-500/20">
+                        <h3 className="text-[10px] text-yellow-500 uppercase tracking-wider mb-2 font-bold">Conditions</h3>
+                        <pre className="text-xs text-yellow-300/80 overflow-x-auto">
                             {JSON.stringify(fact.conditions, null, 2)}
                         </pre>
                     </div>
                 )}
 
-                {/* Copy Buttons */}
-                <div className="flex gap-2">
-                    <button
-                        onClick={() => copyToClipboard(provenanceText, 'provenance')}
-                        className="flex-1 px-3 py-2 bg-gray-700 hover:bg-gray-600 text-white text-xs rounded transition-colors"
-                    >
-                        {copied === 'provenance' ? '✓ Copied!' : 'Copy Provenance'}
-                    </button>
-                </div>
+                {/* Copy Button */}
+                <button
+                    onClick={() => copyToClipboard(provenanceText, 'provenance')}
+                    className="w-full btn-secondary text-xs py-2.5"
+                >
+                    {copied === 'provenance' ? '✓ Copied!' : 'Copy Provenance'}
+                </button>
             </div>
         </div>
     );
@@ -196,31 +179,28 @@ export default function WorldPageClient({
         return JSON.stringify(fact.payload).slice(0, 30);
     };
 
-    // Check filters
     const hasActiveFilters = searchParams.has('q') || searchParams.has('type') || searchParams.has('confidence');
 
     return (
-        <div className="min-h-screen bg-gradient-to-b from-gray-900 via-emerald-950/20 to-gray-900">
+        <div className="animate-fade-in">
             {/* Header */}
-            <div className="bg-gradient-to-r from-emerald-600/20 via-teal-500/20 to-emerald-600/20 border-b border-emerald-500/30">
-                <div className="max-w-7xl mx-auto px-4 py-8">
-                    <div className="flex items-center gap-3 mb-2">
-                        <span className="text-4xl">🗺️</span>
-                        <div>
-                            <h1 className="text-4xl font-bold text-emerald-100">Eldiw Region</h1>
-                            <p className="text-emerald-200/80 text-sm mt-1">
-                                Interactive map of the Pokémon Xenoverse world. Click any location marker to explore, or browse the world data below.
-                            </p>
-                        </div>
+            <div className="glass-card !rounded-2xl p-6 mb-6 bg-gradient-to-r from-emerald-600/10 via-teal-500/5 to-emerald-600/10 border-emerald-500/20">
+                <div className="flex items-center gap-4">
+                    <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-emerald-500/20 to-teal-500/20 flex items-center justify-center border border-emerald-400/20">
+                        <span className="text-2xl">🗺️</span>
+                    </div>
+                    <div>
+                        <h1 className="text-3xl font-bold text-gradient-emerald">Eldiw Region</h1>
+                        <p className="text-emerald-200/50 text-sm mt-1">
+                            Interactive map of the Pokémon Xenoverse world
+                        </p>
                     </div>
                 </div>
             </div>
 
-            <div className="max-w-7xl mx-auto px-4 py-6">
-                {/* Global Map View Only */}
-                <div className="mb-8">
-                    <InteractiveWorldMap className="w-full max-w-5xl mx-auto border-4 border-emerald-500/30 shadow-2xl" />
-                </div>
+            {/* World Map */}
+            <div className="glass-card !rounded-2xl p-4 mb-6 overflow-hidden">
+                <InteractiveWorldMap className="w-full max-w-5xl mx-auto rounded-xl" />
             </div>
 
             {/* Provenance Panel */}

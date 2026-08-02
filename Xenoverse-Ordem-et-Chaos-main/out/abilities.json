@@ -1,8 +1,8 @@
 {
   "meta": {
-    "exportTime": "2026-02-04T22:07:45.451Z",
-    "commitHash": "4de5636ea01014226c44edfa1b8f0a5288721127",
-    "count": 347,
+    "exportTime": "2026-08-02T17:53:05.478Z",
+    "commitHash": "787cd73e2f99fa794320ee7928faa187b9ddbe9e",
+    "count": 356,
     "decodingStrategy": "ruby-marshal",
     "warnings": []
   },
@@ -147,7 +147,7 @@
       "id": "FLASHFIRE",
       "internalName": "FLASHFIRE",
       "name": "Flash Fire",
-      "description": "It powers up Fire-type moves if it's hit by one.",
+      "description": "The user absorbs Fire-type moves, increasing Special Attack.",
       "flags": [],
       "_source": "abilities.dat"
     },
@@ -1063,7 +1063,7 @@
       "id": "FRIENDGUARD",
       "internalName": "FRIENDGUARD",
       "name": "Friend Guard",
-      "description": "Reduces damage done to allies.",
+      "description": "Reduces damage done to allies by 25%.",
       "flags": [],
       "_source": "abilities.dat"
     },
@@ -1367,7 +1367,7 @@
       "id": "MAGICIAN",
       "internalName": "MAGICIAN",
       "name": "Magician",
-      "description": "Steals the held item of a Pokémon it hits.",
+      "description": "The user performs a trick, swapping items with an opponent.",
       "flags": [],
       "_source": "abilities.dat"
     },
@@ -1599,7 +1599,7 @@
       "id": "WATERBUBBLE",
       "internalName": "WATERBUBBLE",
       "name": "Water Bubble",
-      "description": "Weakens incoming Fire-type moves and prevents burns.",
+      "description": "Weakens incoming Fire-type moves, doubles the power of Water-type moves, and prevents burns.",
       "flags": [],
       "_source": "abilities.dat"
     },
@@ -1703,7 +1703,7 @@
       "id": "CORROSION",
       "internalName": "CORROSION",
       "name": "Corrosion",
-      "description": "It can poison Steel and Poison-type targets. Also hits Steel with poison moves.",
+      "description": "It can poison Steel and Poison-type targets. Steel-types can be hit by Poison-type moves for resisted damage.",
       "flags": [],
       "_source": "abilities.dat"
     },
@@ -2089,7 +2089,7 @@
       "id": "UNSEENFIST",
       "internalName": "UNSEENFIST",
       "name": "Unseen Fist",
-      "description": "The Pokémon's contact moves ignore protections.",
+      "description": "The Pokémon's contact moves ignore protections and do half damage.",
       "flags": [],
       "_source": "abilities.dat"
     },
@@ -2494,6 +2494,30 @@
       "_source": "abilities.dat"
     },
     {
+      "id": "MEGASOL",
+      "internalName": "MEGASOL",
+      "name": "Mega Sol",
+      "description": "The user uses moves as if Sun is active.",
+      "flags": [],
+      "_source": "abilities.dat"
+    },
+    {
+      "id": "SPICYSPRAY",
+      "internalName": "SPICYSPRAY",
+      "name": "Spicy Spray",
+      "description": "The user burns the target half the time when hit by an attack.",
+      "flags": [],
+      "_source": "abilities.dat"
+    },
+    {
+      "id": "PIERCINGDRILL",
+      "internalName": "PIERCINGDRILL",
+      "name": "Piercing Drill",
+      "description": "The Pokémon's contact moves ignore protections and do half damage.",
+      "flags": [],
+      "_source": "abilities.dat"
+    },
+    {
       "id": "MAJESTICAURA",
       "internalName": "MAJESTICAURA",
       "name": "Majestic Aura",
@@ -2593,7 +2617,7 @@
       "id": "PIGGYBANK",
       "internalName": "PIGGYBANK",
       "name": "Piggy Bank",
-      "description": "Doubles money earned from battles. Heals HP if it holds valuable items.",
+      "description": "Doubles money earned from battles. Heals HP if it holds items that sell for at least 4000$.",
       "flags": [],
       "_source": "abilities.dat"
     },
@@ -2601,7 +2625,7 @@
       "id": "CLOUDBURST",
       "internalName": "CLOUDBURST",
       "name": "Cloud Burst",
-      "description": "Changes the Pokémon's form when HP is halved.",
+      "description": "Changes the Pokémon's form at half HP or when it rains.",
       "flags": [],
       "_source": "abilities.dat"
     },
@@ -2614,10 +2638,10 @@
       "_source": "abilities.dat"
     },
     {
-      "id": "REVERB",
-      "internalName": "REVERB",
-      "name": "Reverb",
-      "description": "Powers up moves used in succession.",
+      "id": "NATURALREVERB",
+      "internalName": "NATURALREVERB",
+      "name": "Natural Reverb",
+      "description": "Sound-type and Sound-based moves also apply Leech Seeds to the target.",
       "flags": [],
       "_source": "abilities.dat"
     },
@@ -2777,7 +2801,7 @@
       "id": "XENOMELODY",
       "internalName": "XENOMELODY",
       "name": "Xenomelody",
-      "description": "The user’s moves use the opposite attacking stat.",
+      "description": "The user warps its foes' perception with a weird melody. Its moves use the opposite base attacking stat.",
       "flags": [],
       "_source": "abilities.dat"
     },
@@ -2785,7 +2809,55 @@
       "id": "SOULSONG",
       "internalName": "SOULSONG",
       "name": "Soul Song",
-      "description": "Gains protection from status effects and Ghost-type moves.",
+      "description": "The user's hallowed song grants it protection from status effects and Ghost-type moves.",
+      "flags": [],
+      "_source": "abilities.dat"
+    },
+    {
+      "id": "HAUNTINGECHOES",
+      "internalName": "HAUNTINGECHOES",
+      "name": "Haunting Echoes",
+      "description": "The user's sound-based moves reverberate with spectral force, dealing a second weaker hit.",
+      "flags": [],
+      "_source": "abilities.dat"
+    },
+    {
+      "id": "RAINMASQUERADE",
+      "internalName": "RAINMASQUERADE",
+      "name": "Rain Masquerade",
+      "description": "The user uses moves as if Rain is active.",
+      "flags": [],
+      "_source": "abilities.dat"
+    },
+    {
+      "id": "PUFFUP",
+      "internalName": "PUFFUP",
+      "name": "Puff Up (WIP)",
+      "description": "The user puffs up and becomes gigantic, increasing its HP.",
+      "flags": [],
+      "_source": "abilities.dat"
+    },
+    {
+      "id": "XENOSITE",
+      "internalName": "XENOSITE",
+      "name": "Xenosite",
+      "description": "The user latches on another X Pokemon, giving it a boost.",
+      "flags": [],
+      "_source": "abilities.dat"
+    },
+    {
+      "id": "AGGLOMERATION",
+      "internalName": "AGGLOMERATION",
+      "name": "Agglomeration (WIP)",
+      "description": "The user latches on another X Pokemon, giving it a boost.",
+      "flags": [],
+      "_source": "abilities.dat"
+    },
+    {
+      "id": "GHOSTLIGHTNINGROD",
+      "internalName": "GHOSTLIGHTNINGROD",
+      "name": "Ghost LightningRod",
+      "description": "Absorb both Ghost and Electric type moves, boosting Sp.Atk.",
       "flags": [],
       "_source": "abilities.dat"
     }

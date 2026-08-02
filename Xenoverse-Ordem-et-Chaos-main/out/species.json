@@ -1,10 +1,10 @@
 {
   "meta": {
-    "exportTime": "2026-02-04T22:07:45.493Z",
-    "commitHash": "4de5636ea01014226c44edfa1b8f0a5288721127",
-    "count": 1564,
-    "uniqueSpecies": 1159,
-    "formsCount": 405,
+    "exportTime": "2026-08-02T17:53:05.514Z",
+    "commitHash": "787cd73e2f99fa794320ee7928faa187b9ddbe9e",
+    "count": 1602,
+    "uniqueSpecies": 1190,
+    "formsCount": 412,
     "decodingStrategy": "ruby-marshal",
     "warnings": []
   },
@@ -4583,6 +4583,7 @@
       "formName": null,
       "name": "Ponyta",
       "types": [
+        "NORMAL",
         "FIRE"
       ],
       "stats": {
@@ -4639,6 +4640,7 @@
       "formName": null,
       "name": "Rapidash",
       "types": [
+        "NORMAL",
         "FIRE"
       ],
       "stats": {
@@ -5690,12 +5692,12 @@
         {
           "target": "REVERBERIX",
           "method": "LocationFlag",
-          "param": "Westar",
+          "param": "westartower",
           "targetForm": 0,
           "raw": [
             "REVERBERIX",
             "LocationFlag",
-            "Westar",
+            "westartower",
             false
           ]
         }
@@ -5794,10 +5796,10 @@
       "abilities": {
         "normal": [
           "INSOMNIA",
-          "INTIMIDATE"
+          "NOGUARD"
         ],
         "hidden": [
-          "NOGUARD"
+          "BADDREAMS"
         ]
       },
       "evolutions": [
@@ -8016,7 +8018,8 @@
       "bst": 525,
       "abilities": {
         "normal": [
-          "WATERABSORB"
+          "WATERABSORB",
+          "MOLDBREAKER"
         ],
         "hidden": [
           "HYDRATION"
@@ -8071,7 +8074,8 @@
       "bst": 525,
       "abilities": {
         "normal": [
-          "VOLTABSORB"
+          "VOLTABSORB",
+          "MOLDBREAKER"
         ],
         "hidden": [
           "QUICKFEET"
@@ -8126,7 +8130,8 @@
       "bst": 520,
       "abilities": {
         "normal": [
-          "FLASHFIRE"
+          "FLASHFIRE",
+          "MOLDBREAKER"
         ],
         "hidden": [
           "GUTS"
@@ -8192,12 +8197,12 @@
         {
           "target": "PORYGON2",
           "method": "Item",
-          "param": "VIRTUALUPDATE",
+          "param": "UNIVERSALUPDATE",
           "targetForm": 0,
           "raw": [
             "PORYGON2",
             "Item",
-            "VIRTUALUPDATE",
+            "UNIVERSALUPDATE",
             false
           ]
         }
@@ -9218,12 +9223,12 @@
         {
           "target": "TYPHLOSION",
           "method": "Level",
-          "param": 36,
+          "param": 34,
           "targetForm": 0,
           "raw": [
             "TYPHLOSION",
             "Level",
-            36,
+            34,
             false
           ]
         },
@@ -9286,12 +9291,12 @@
         {
           "target": "QUILAVA",
           "method": "Level",
-          "param": 36,
+          "param": 34,
           "targetForm": true,
           "raw": [
             "QUILAVA",
             "Level",
-            36,
+            34,
             true
           ]
         }
@@ -9397,12 +9402,12 @@
         {
           "target": "FERALIGATR",
           "method": "Level",
-          "param": 30,
+          "param": 34,
           "targetForm": 0,
           "raw": [
             "FERALIGATR",
             "Level",
-            30,
+            34,
             false
           ]
         },
@@ -9465,12 +9470,12 @@
         {
           "target": "CROCONAW",
           "method": "Level",
-          "param": 30,
+          "param": 34,
           "targetForm": true,
           "raw": [
             "CROCONAW",
             "Level",
-            30,
+            34,
             true
           ]
         }
@@ -9902,11 +9907,11 @@
         "hp": 95,
         "attack": 115,
         "defense": 85,
-        "special_attack": 40,
-        "special_defense": 85,
-        "speed": 40
+        "special_attack": 45,
+        "special_defense": 90,
+        "speed": 45
       },
-      "bst": 460,
+      "bst": 475,
       "abilities": {
         "normal": [
           "INSOMNIA",
@@ -10072,11 +10077,11 @@
         "hp": 125,
         "attack": 58,
         "defense": 58,
-        "special_attack": 76,
-        "special_defense": 76,
+        "special_attack": 91,
+        "special_defense": 81,
         "speed": 67
       },
-      "bst": 460,
+      "bst": 480,
       "abilities": {
         "normal": [
           "VOLTABSORB",
@@ -10304,7 +10309,7 @@
       "bst": 245,
       "abilities": {
         "normal": [
-          "HUSTLE",
+          "FRISK",
           "SERENEGRACE"
         ],
         "hidden": [
@@ -10351,14 +10356,14 @@
         "FLYING"
       ],
       "stats": {
-        "hp": 55,
+        "hp": 65,
         "attack": 40,
         "defense": 85,
-        "special_attack": 80,
+        "special_attack": 90,
         "special_defense": 105,
-        "speed": 40
+        "speed": 60
       },
-      "bst": 405,
+      "bst": 445,
       "abilities": {
         "normal": [
           "HEALER",
@@ -10442,12 +10447,12 @@
         {
           "target": "XATU",
           "method": "Level",
-          "param": 45,
+          "param": 43,
           "targetForm": 0,
           "raw": [
             "XATU",
             "Level",
-            45,
+            43,
             false
           ]
         }
@@ -10499,12 +10504,12 @@
         {
           "target": "NATU",
           "method": "Level",
-          "param": 45,
+          "param": 43,
           "targetForm": true,
           "raw": [
             "NATU",
             "Level",
-            45,
+            43,
             true
           ]
         }
@@ -10792,12 +10797,12 @@
         {
           "target": "AZUMARILL",
           "method": "Level",
-          "param": 22,
+          "param": 24,
           "targetForm": 0,
           "raw": [
             "AZUMARILL",
             "Level",
-            22,
+            24,
             false
           ]
         },
@@ -10862,12 +10867,12 @@
         {
           "target": "MARILL",
           "method": "Level",
-          "param": 22,
+          "param": 24,
           "targetForm": true,
           "raw": [
             "MARILL",
             "Level",
-            22,
+            24,
             true
           ]
         }
@@ -11264,7 +11269,7 @@
       "abilities": {
         "normal": [
           "CHLOROPHYLL",
-          "MIMICRY"
+          "SOLARPOWER"
         ],
         "hidden": [
           "EARLYBIRD"
@@ -11413,7 +11418,7 @@
       ],
       "growthRate": "Medium",
       "genderRatio": "Female50Percent",
-      "catchRate": 75,
+      "catchRate": 120,
       "baseExp": 78,
       "height": 12,
       "weight": 380,
@@ -11571,7 +11576,8 @@
       "bst": 525,
       "abilities": {
         "normal": [
-          "SYNCHRONIZE"
+          "SYNCHRONIZE",
+          "ILLUMINATE"
         ],
         "hidden": [
           "MAGICBOUNCE"
@@ -11626,7 +11632,8 @@
       "bst": 525,
       "abilities": {
         "normal": [
-          "SYNCHRONIZE"
+          "SYNCHRONIZE",
+          "ILLUMINATE"
         ],
         "hidden": [
           "INNERFOCUS"
@@ -11708,7 +11715,7 @@
       ],
       "growthRate": "Parabolic",
       "genderRatio": "Female50Percent",
-      "catchRate": 30,
+      "catchRate": 80,
       "baseExp": 81,
       "height": 5,
       "weight": 21,
@@ -11798,7 +11805,9 @@
         "normal": [
           "LEVITATE"
         ],
-        "hidden": []
+        "hidden": [
+          "HAUNTINGECHOES"
+        ]
       },
       "evolutions": [
         {
@@ -11819,7 +11828,7 @@
       ],
       "growthRate": "Fast",
       "genderRatio": "Female50Percent",
-      "catchRate": 45,
+      "catchRate": 85,
       "baseExp": 87,
       "height": 7,
       "weight": 10,
@@ -11892,7 +11901,7 @@
           "SHADOWTAG"
         ],
         "hidden": [
-          "TELEPATHY"
+          "MAGICBOUNCE"
         ]
       },
       "evolutions": [
@@ -11988,10 +11997,11 @@
       "bst": 290,
       "abilities": {
         "normal": [
-          "STURDY"
+          "STURDY",
+          "OVERCOAT"
         ],
         "hidden": [
-          "OVERCOAT"
+          "SKILLLINK"
         ]
       },
       "evolutions": [
@@ -12045,10 +12055,10 @@
       "abilities": {
         "normal": [
           "STURDY",
-          "SKILLLINK"
+          "HEATPROOF"
         ],
         "hidden": [
-          "HEATPROOF"
+          "SKILLLINK"
         ]
       },
       "evolutions": [
@@ -13332,12 +13342,12 @@
         {
           "target": "SKARLING",
           "method": "HasMove",
-          "param": "STEELWING",
+          "param": "SCORCHEDASHES",
           "targetForm": true,
           "raw": [
             "SKARLING",
             "HasMove",
-            "STEELWING",
+            "SCORCHEDASHES",
             true
           ]
         }
@@ -13389,12 +13399,12 @@
         {
           "target": "HOUNDOOM",
           "method": "Level",
-          "param": 24,
+          "param": 38,
           "targetForm": 0,
           "raw": [
             "HOUNDOOM",
             "Level",
-            24,
+            38,
             false
           ]
         }
@@ -13446,12 +13456,12 @@
         {
           "target": "HOUNDOUR",
           "method": "Level",
-          "param": 24,
+          "param": 38,
           "targetForm": true,
           "raw": [
             "HOUNDOUR",
             "Level",
-            24,
+            38,
             true
           ]
         }
@@ -13696,12 +13706,12 @@
         {
           "target": "PORYGON",
           "method": "Item",
-          "param": "VIRTUALUPDATE",
+          "param": "UNIVERSALUPDATE",
           "targetForm": true,
           "raw": [
             "PORYGON",
             "Item",
-            "VIRTUALUPDATE",
+            "UNIVERSALUPDATE",
             true
           ]
         }
@@ -16615,7 +16625,7 @@
       "name": "Masquerain",
       "types": [
         "BUG",
-        "WATER"
+        "FLYING"
       ],
       "stats": {
         "hp": 80,
@@ -16632,7 +16642,7 @@
           "LEVITATE"
         ],
         "hidden": [
-          "DRIZZLE"
+          "RAINMASQUERADE"
         ]
       },
       "evolutions": [
@@ -16743,7 +16753,7 @@
       "bst": 460,
       "abilities": {
         "normal": [
-          "EFFECTSPORE",
+          "STRIKER",
           "POISONHEAL"
         ],
         "hidden": [
@@ -17674,14 +17684,14 @@
         "GHOST"
       ],
       "stats": {
-        "hp": 50,
-        "attack": 75,
-        "defense": 75,
-        "special_attack": 65,
-        "special_defense": 65,
+        "hp": 70,
+        "attack": 85,
+        "defense": 85,
+        "special_attack": 85,
+        "special_defense": 75,
         "speed": 50
       },
-      "bst": 380,
+      "bst": 450,
       "abilities": {
         "normal": [
           "KEENEYE",
@@ -17718,17 +17728,17 @@
         "FAIRY"
       ],
       "stats": {
-        "hp": 50,
-        "attack": 85,
+        "hp": 70,
+        "attack": 105,
         "defense": 85,
         "special_attack": 55,
-        "special_defense": 55,
+        "special_defense": 85,
         "speed": 50
       },
-      "bst": 380,
+      "bst": 450,
       "abilities": {
         "normal": [
-          "HYPERCUTTER",
+          "STRONGJAW",
           "INTIMIDATE"
         ],
         "hidden": [
@@ -17830,7 +17840,7 @@
       "bst": 430,
       "abilities": {
         "normal": [
-          "FILTER",
+          "STURDY",
           "ROCKHEAD"
         ],
         "hidden": [
@@ -17899,7 +17909,7 @@
       "bst": 530,
       "abilities": {
         "normal": [
-          "FILTER",
+          "EARTHEATER",
           "ROCKHEAD"
         ],
         "hidden": [
@@ -19381,12 +19391,12 @@
         {
           "target": "ALTARIA",
           "method": "Level",
-          "param": 35,
+          "param": 30,
           "targetForm": 0,
           "raw": [
             "ALTARIA",
             "Level",
-            35,
+            30,
             false
           ]
         }
@@ -19439,12 +19449,12 @@
         {
           "target": "SWABLU",
           "method": "Level",
-          "param": 35,
+          "param": 30,
           "targetForm": true,
           "raw": [
             "SWABLU",
             "Level",
-            35,
+            30,
             true
           ]
         }
@@ -21037,12 +21047,12 @@
         {
           "target": "WALREIN",
           "method": "Level",
-          "param": 44,
+          "param": 42,
           "targetForm": 0,
           "raw": [
             "WALREIN",
             "Level",
-            44,
+            42,
             false
           ]
         },
@@ -21107,12 +21117,12 @@
         {
           "target": "SEALEO",
           "method": "Level",
-          "param": 44,
+          "param": 42,
           "targetForm": true,
           "raw": [
             "SEALEO",
             "Level",
-            44,
+            42,
             true
           ]
         }
@@ -23093,13 +23103,13 @@
       ],
       "stats": {
         "hp": 80,
-        "attack": 65,
+        "attack": 70,
         "defense": 70,
         "special_attack": 90,
         "special_defense": 60,
         "speed": 70
       },
-      "bst": 435,
+      "bst": 440,
       "abilities": {
         "normal": [
           "COSTAR",
@@ -24652,7 +24662,9 @@
         "normal": [
           "LEVITATE"
         ],
-        "hidden": []
+        "hidden": [
+          "HAUNTINGECHOES"
+        ]
       },
       "evolutions": [
         {
@@ -25101,7 +25113,7 @@
           "HEATPROOF"
         ],
         "hidden": [
-          "HEAVYMETAL"
+          "AMPLIFY"
         ]
       },
       "evolutions": [
@@ -25877,19 +25889,19 @@
           "SNIPER"
         ],
         "hidden": [
-          "KEENEYE"
+          "SANDRUSH"
         ]
       },
       "evolutions": [
         {
           "target": "DRAPION",
           "method": "Level",
-          "param": 40,
+          "param": 45,
           "targetForm": 0,
           "raw": [
             "DRAPION",
             "Level",
-            40,
+            45,
             false
           ]
         }
@@ -25922,32 +25934,32 @@
       ],
       "stats": {
         "hp": 70,
-        "attack": 90,
-        "defense": 110,
-        "special_attack": 60,
+        "attack": 95,
+        "defense": 105,
+        "special_attack": 55,
         "special_defense": 75,
-        "speed": 95
+        "speed": 100
       },
       "bst": 500,
       "abilities": {
         "normal": [
-          "BATTLEARMOR",
+          "SHEERFORCE",
           "SNIPER"
         ],
         "hidden": [
-          "KEENEYE"
+          "SANDRUSH"
         ]
       },
       "evolutions": [
         {
           "target": "SKORUPI",
           "method": "Level",
-          "param": 40,
+          "param": 45,
           "targetForm": true,
           "raw": [
             "SKORUPI",
             "Level",
-            40,
+            45,
             true
           ]
         }
@@ -26714,7 +26726,7 @@
           "MOTORDRIVE"
         ],
         "hidden": [
-          "VITALSPIRIT"
+          "IRONFIST"
         ]
       },
       "evolutions": [
@@ -26936,7 +26948,8 @@
       "bst": 525,
       "abilities": {
         "normal": [
-          "LEAFGUARD"
+          "LEAFGUARD",
+          "ADAPTABILITY"
         ],
         "hidden": [
           "CHLOROPHYLL"
@@ -26991,10 +27004,11 @@
       "bst": 525,
       "abilities": {
         "normal": [
-          "SNOWCLOAK"
+          "SNOWCLOAK",
+          "ADAPTABILITY"
         ],
         "hidden": [
-          "ICEBODY"
+          "SLUSHRUSH"
         ]
       },
       "evolutions": [
@@ -27274,7 +27288,7 @@
       "bst": 525,
       "abilities": {
         "normal": [
-          "LEVITATE",
+          "STURDY",
           "MAGNETPULL"
         ],
         "hidden": [
@@ -30213,13 +30227,13 @@
         "defense": 86,
         "special_attack": 60,
         "special_defense": 86,
-        "speed": 50
+        "speed": 60
       },
-      "bst": 445,
+      "bst": 455,
       "abilities": {
         "normal": [
           "FRIENDGUARD",
-          "REGENERATOR"
+          "HEALER"
         ],
         "hidden": [
           "KLUTZ"
@@ -31657,7 +31671,7 @@
       "abilities": {
         "normal": [
           "STORMDRAIN",
-          "CHLOROPHYLL"
+          "TRIAGE"
         ],
         "hidden": [
           "DANCER"
@@ -38492,12 +38506,12 @@
         {
           "target": "DOUBLADE",
           "method": "Level",
-          "param": 35,
+          "param": 45,
           "targetForm": 0,
           "raw": [
             "DOUBLADE",
             "Level",
-            35,
+            45,
             false
           ]
         }
@@ -38545,25 +38559,25 @@
       "evolutions": [
         {
           "target": "AEGISLASH",
-          "method": "Item",
-          "param": "DUSKSTONE",
+          "method": "Level",
+          "param": 56,
           "targetForm": 0,
           "raw": [
             "AEGISLASH",
-            "Item",
-            "DUSKSTONE",
+            "Level",
+            56,
             false
           ]
         },
         {
           "target": "HONEDGE",
           "method": "Level",
-          "param": 35,
+          "param": 45,
           "targetForm": true,
           "raw": [
             "HONEDGE",
             "Level",
-            35,
+            45,
             true
           ]
         }
@@ -38596,12 +38610,12 @@
       "stats": {
         "hp": 60,
         "attack": 50,
-        "defense": 140,
+        "defense": 150,
         "special_attack": 50,
-        "special_defense": 140,
+        "special_defense": 150,
         "speed": 60
       },
-      "bst": 500,
+      "bst": 520,
       "abilities": {
         "normal": [
           "STANCECHANGE"
@@ -38611,13 +38625,13 @@
       "evolutions": [
         {
           "target": "DOUBLADE",
-          "method": "Item",
-          "param": "DUSKSTONE",
+          "method": "Level",
+          "param": 56,
           "targetForm": true,
           "raw": [
             "DOUBLADE",
-            "Item",
-            "DUSKSTONE",
+            "Level",
+            56,
             true
           ]
         }
@@ -38767,7 +38781,8 @@
       "bst": 341,
       "abilities": {
         "normal": [
-          "SWEETVEIL"
+          "SWEETVEIL",
+          "MARSHMALLOW"
         ],
         "hidden": [
           "UNBURDEN"
@@ -38776,13 +38791,13 @@
       "evolutions": [
         {
           "target": "SLURPUFF",
-          "method": "Item",
-          "param": "UNIVERSALUPDATE",
+          "method": "Happiness",
+          "param": null,
           "targetForm": 0,
           "raw": [
             "SLURPUFF",
-            "Item",
-            "UNIVERSALUPDATE",
+            "Happiness",
+            null,
             false
           ]
         }
@@ -38813,16 +38828,17 @@
       ],
       "stats": {
         "hp": 82,
-        "attack": 80,
+        "attack": 85,
         "defense": 86,
         "special_attack": 85,
         "special_defense": 75,
         "speed": 72
       },
-      "bst": 480,
+      "bst": 485,
       "abilities": {
         "normal": [
-          "SWEETVEIL"
+          "SWEETVEIL",
+          "MARSHMALLOW"
         ],
         "hidden": [
           "UNBURDEN"
@@ -38831,13 +38847,13 @@
       "evolutions": [
         {
           "target": "SWIRLIX",
-          "method": "Item",
-          "param": "UNIVERSALUPDATE",
+          "method": "Happiness",
+          "param": null,
           "targetForm": true,
           "raw": [
             "SWIRLIX",
-            "Item",
-            "UNIVERSALUPDATE",
+            "Happiness",
+            null,
             true
           ]
         }
@@ -39676,7 +39692,8 @@
       "bst": 525,
       "abilities": {
         "normal": [
-          "CUTECHARM"
+          "CUTECHARM",
+          "DAZZLING"
         ],
         "hidden": [
           "PIXILATE"
@@ -42045,10 +42062,10 @@
         "attack": 55,
         "defense": 60,
         "special_attack": 95,
-        "special_defense": 70,
+        "special_defense": 80,
         "speed": 124
       },
-      "bst": 464,
+      "bst": 474,
       "abilities": {
         "normal": [
           "HARVEST",
@@ -42600,7 +42617,8 @@
       "bst": 250,
       "abilities": {
         "normal": [
-          "LEAFGUARD"
+          "LEAFGUARD",
+          "CHLOROPHYLL"
         ],
         "hidden": [
           "CONTRARY"
@@ -42650,12 +42668,13 @@
         "defense": 90,
         "special_attack": 80,
         "special_defense": 90,
-        "speed": 45
+        "speed": 65
       },
-      "bst": 480,
+      "bst": 500,
       "abilities": {
         "normal": [
-          "LEAFGUARD"
+          "LEAFGUARD",
+          "CHLOROPHYLL"
         ],
         "hidden": [
           "CONTRARY"
@@ -46116,11 +46135,11 @@
       "bst": 245,
       "abilities": {
         "normal": [
-          "KEENEYE",
+          "BIGPECKS",
           "UNNERVE"
         ],
         "hidden": [
-          "BIGPECKS"
+          "KEENEYE"
         ]
       },
       "evolutions": [
@@ -46172,11 +46191,11 @@
       "bst": 365,
       "abilities": {
         "normal": [
-          "KEENEYE",
+          "BIGPECKS",
           "UNNERVE"
         ],
         "hidden": [
-          "BIGPECKS"
+          "KEENEYE"
         ]
       },
       "evolutions": [
@@ -46241,8 +46260,8 @@
       "bst": 495,
       "abilities": {
         "normal": [
-          "DISHEARTEN",
-          "STAMINA"
+          "BIGPECKS",
+          "UNNERVE"
         ],
         "hidden": [
           "MIRRORARMOR"
@@ -47686,12 +47705,12 @@
         {
           "target": "TOXTRICITY",
           "method": "Level",
-          "param": 45,
+          "param": 30,
           "targetForm": 0,
           "raw": [
             "TOXTRICITY",
             "Level",
-            45,
+            30,
             false
           ]
         }
@@ -47743,12 +47762,12 @@
         {
           "target": "TOXEL",
           "method": "Level",
-          "param": 45,
+          "param": 30,
           "targetForm": true,
           "raw": [
             "TOXEL",
             "Level",
-            45,
+            30,
             true
           ]
         }
@@ -49503,15 +49522,15 @@
         "hp": 90,
         "attack": 100,
         "defense": 90,
-        "special_attack": 80,
+        "special_attack": 70,
         "special_defense": 70,
-        "speed": 75
+        "speed": 85
       },
       "bst": 505,
       "abilities": {
         "normal": [
           "VOLTABSORB",
-          "HUSTLE"
+          "RECKLESS"
         ],
         "hidden": [
           "SANDRUSH"
@@ -49635,15 +49654,15 @@
         "hp": 90,
         "attack": 90,
         "defense": 100,
-        "special_attack": 80,
+        "special_attack": 70,
         "special_defense": 90,
-        "speed": 55
+        "speed": 65
       },
       "bst": 505,
       "abilities": {
         "normal": [
           "WATERABSORB",
-          "ICEBODY"
+          "SWIFTSWIM"
         ],
         "hidden": [
           "SLUSHRUSH"
@@ -50693,8 +50712,8 @@
         "hp": 105,
         "attack": 115,
         "defense": 95,
-        "special_attack": 65,
-        "special_defense": 75,
+        "special_attack": 55,
+        "special_defense": 85,
         "speed": 55
       },
       "bst": 510,
@@ -51991,12 +52010,12 @@
         {
           "target": "DACHSBUN",
           "method": "Level",
-          "param": 26,
+          "param": 30,
           "targetForm": 0,
           "raw": [
             "DACHSBUN",
             "Level",
-            26,
+            30,
             false
           ]
         }
@@ -52048,12 +52067,12 @@
         {
           "target": "FIDOUGH",
           "method": "Level",
-          "param": 26,
+          "param": 30,
           "targetForm": true,
           "raw": [
             "FIDOUGH",
             "Level",
-            26,
+            30,
             true
           ]
         }
@@ -55847,10 +55866,10 @@
       "abilities": {
         "normal": [
           "RATTLED",
-          "PIGGYBANK"
+          "RUNAWAY"
         ],
         "hidden": [
-          "RUNAWAY"
+          "PIGGYBANK"
         ]
       },
       "evolutions": [
@@ -55905,7 +55924,9 @@
         "normal": [
           "GOODASGOLD"
         ],
-        "hidden": []
+        "hidden": [
+          "PIGGYBANK"
+        ]
       },
       "evolutions": [
         {
@@ -57527,7 +57548,7 @@
       "bst": 460,
       "abilities": {
         "normal": [
-          "PICKUP",
+          "MAGICIAN",
           "MAGICGUARD"
         ],
         "hidden": [
@@ -57623,10 +57644,10 @@
         "attack": 100,
         "defense": 60,
         "special_attack": 100,
-        "special_defense": 80,
+        "special_defense": 60,
         "speed": 80
       },
-      "bst": 500,
+      "bst": 480,
       "abilities": {
         "normal": [
           "MOLDBREAKER"
@@ -57677,7 +57698,7 @@
           "FRISK"
         ],
         "hidden": [
-          "SHADOWTAG"
+          "SPIRITFEAST"
         ]
       },
       "evolutions": [
@@ -57734,7 +57755,7 @@
           "SPIRITFEAST"
         ],
         "hidden": [
-          "SHADOWTAG"
+          "DARKAURA"
         ]
       },
       "evolutions": [
@@ -57791,7 +57812,7 @@
           "ANTICIPATION"
         ],
         "hidden": [
-          "LEVITATE"
+          "SPIRITFEAST"
         ]
       },
       "evolutions": [
@@ -57848,7 +57869,7 @@
           "SPIRITFEAST"
         ],
         "hidden": [
-          "LEVITATE"
+          "FAIRYAURA"
         ]
       },
       "evolutions": [
@@ -58017,7 +58038,7 @@
           "POISONTOUCH"
         ],
         "hidden": [
-          "TOUGHCLAWS"
+          "PIERCINGDRILL"
         ]
       },
       "evolutions": [
@@ -58075,7 +58096,7 @@
           "POISONTOUCH"
         ],
         "hidden": [
-          "TOUGHCLAWS"
+          "PIERCINGDRILL"
         ]
       },
       "evolutions": [
@@ -58300,7 +58321,7 @@
       "bst": 500,
       "abilities": {
         "normal": [
-          "ICEBODY",
+          "TOUGHCLAWS",
           "FURCOAT"
         ],
         "hidden": [
@@ -58357,10 +58378,11 @@
       "bst": 220,
       "abilities": {
         "normal": [
-          "DRYSKIN"
+          "DRYSKIN",
+          "WINDRIDER"
         ],
         "hidden": [
-          "WINDRIDER"
+          "PROPELLERTAIL"
         ]
       },
       "evolutions": [
@@ -58412,10 +58434,11 @@
       "bst": 540,
       "abilities": {
         "normal": [
-          "DRYSKIN"
+          "DRYSKIN",
+          "WINDRIDER"
         ],
         "hidden": [
-          "WINDRIDER"
+          "DRIZZLE"
         ]
       },
       "evolutions": [
@@ -58639,7 +58662,8 @@
       "bst": 510,
       "abilities": {
         "normal": [
-          "SUNBLESSED"
+          "SUNBLESSED",
+          "FILTER"
         ],
         "hidden": [
           "REGENERATOR"
@@ -58756,7 +58780,7 @@
           "MAGICGUARD"
         ],
         "hidden": [
-          "REVERB"
+          "SYNTHESIZER"
         ]
       },
       "evolutions": [
@@ -58820,12 +58844,12 @@
         {
           "target": "ONIX",
           "method": "LocationFlag",
-          "param": "Westar",
+          "param": "westartower",
           "targetForm": true,
           "raw": [
             "ONIX",
             "LocationFlag",
-            "Westar",
+            "westartower",
             true
           ]
         }
@@ -58857,13 +58881,13 @@
       ],
       "stats": {
         "hp": 70,
-        "attack": 120,
+        "attack": 125,
         "defense": 60,
         "special_attack": 45,
         "special_defense": 80,
         "speed": 120
       },
-      "bst": 495,
+      "bst": 500,
       "abilities": {
         "normal": [
           "SWARM",
@@ -58922,9 +58946,12 @@
       "bst": 455,
       "abilities": {
         "normal": [
-          "PIGGYBANK"
+          "PIGGYBANK",
+          "THICKFAT"
         ],
-        "hidden": []
+        "hidden": [
+          "KLUTZ"
+        ]
       },
       "evolutions": [],
       "eggGroups": [
@@ -59233,10 +59260,10 @@
       "bst": 240,
       "abilities": {
         "normal": [
-          "SYNTHESIZER"
+          "CACOPHONY"
         ],
         "hidden": [
-          "REVERB"
+          "NATURALREVERB"
         ]
       },
       "evolutions": [
@@ -59290,10 +59317,10 @@
       "bst": 496,
       "abilities": {
         "normal": [
-          "REVERB"
+          "CACOPHONY"
         ],
         "hidden": [
-          "GRASSYSURGE"
+          "NATURALREVERB"
         ]
       },
       "evolutions": [
@@ -59691,10 +59718,11 @@
       "bst": 365,
       "abilities": {
         "normal": [
-          "LEVITATE"
+          "LEVITATE",
+          "ANALYTIC"
         ],
         "hidden": [
-          "ANALYTIC"
+          "TELEPATHY"
         ]
       },
       "evolutions": [
@@ -59748,7 +59776,8 @@
       "bst": 495,
       "abilities": {
         "normal": [
-          "LEVITATE"
+          "LEVITATE",
+          "ANALYTIC"
         ],
         "hidden": [
           "SUBZERO"
@@ -59891,7 +59920,7 @@
       "growthRate": "Medium",
       "genderRatio": "Female50Percent",
       "catchRate": 120,
-      "baseExp": 68,
+      "baseExp": 219,
       "height": 120,
       "weight": 6,
       "color": "Brown",
@@ -60332,12 +60361,12 @@
         {
           "target": "SCARPHASMO",
           "method": "LocationFlag",
-          "param": "GhostTown",
+          "param": "westartower",
           "targetForm": 0,
           "raw": [
             "SCARPHASMO",
             "LocationFlag",
-            "GhostTown",
+            "westartower",
             false
           ]
         },
@@ -60394,19 +60423,19 @@
           "VOLTABSORB"
         ],
         "hidden": [
-          "NOGUARD"
+          "INTIMIDATE"
         ]
       },
       "evolutions": [
         {
           "target": "SCARACLUO",
           "method": "LocationFlag",
-          "param": "GhostTown",
+          "param": "westartower",
           "targetForm": true,
           "raw": [
             "SCARACLUO",
             "LocationFlag",
-            "GhostTown",
+            "westartower",
             true
           ]
         }
@@ -60609,7 +60638,7 @@
           "SPEEDBOOST"
         ],
         "hidden": [
-          "FILTER"
+          "FLAREBOOST"
         ]
       },
       "evolutions": [
@@ -60720,7 +60749,8 @@
       "bst": 525,
       "abilities": {
         "normal": [
-          "FILTER"
+          "FILTER",
+          "TECHNICIAN"
         ],
         "hidden": [
           "EQUALIZE"
@@ -60775,7 +60805,8 @@
       "bst": 525,
       "abilities": {
         "normal": [
-          "HYPERCUTTER"
+          "HYPERCUTTER",
+          "GALEWINGS"
         ],
         "hidden": [
           "SCALATE"
@@ -61384,12 +61415,12 @@
         {
           "target": "SKARMORY",
           "method": "HasMove",
-          "param": "STEELWING",
+          "param": "SCORCHEDASHES",
           "targetForm": 0,
           "raw": [
             "SKARMORY",
             "HasMove",
-            "STEELWING",
+            "SCORCHEDASHES",
             false
           ]
         }
@@ -61456,7 +61487,7 @@
       ],
       "growthRate": "Fast",
       "genderRatio": "Female50Percent",
-      "catchRate": 45,
+      "catchRate": 85,
       "baseExp": 87,
       "height": 7,
       "weight": 10,
@@ -61714,7 +61745,7 @@
       "bst": 500,
       "abilities": {
         "normal": [
-          "STURDY",
+          "TECHNICIAN",
           "SHIELDDUST"
         ],
         "hidden": [
@@ -61884,8 +61915,8 @@
       ],
       "growthRate": "Medium",
       "genderRatio": "Genderless",
-      "catchRate": 1,
-      "baseExp": 100,
+      "catchRate": 45,
+      "baseExp": 165,
       "height": 5,
       "weight": 980,
       "color": "Black",
@@ -62003,7 +62034,8 @@
       "formName": null,
       "name": "Egohiss",
       "types": [
-        "DRAGON"
+        "DRAGON",
+        "ELECTRIC"
       ],
       "stats": {
         "hp": 70,
@@ -62221,7 +62253,7 @@
         }
       ],
       "eggGroups": [
-        "Undiscovered"
+        "Xenoverse"
       ],
       "growthRate": "Medium",
       "genderRatio": "Female25Percent",
@@ -62248,13 +62280,13 @@
       ],
       "stats": {
         "hp": 65,
-        "attack": 83,
+        "attack": 88,
         "defense": 57,
         "special_attack": 95,
         "special_defense": 85,
         "speed": 105
       },
-      "bst": 490,
+      "bst": 495,
       "abilities": {
         "normal": [
           "AFTERMATH"
@@ -62292,7 +62324,7 @@
       "eggGroups": [
         "Xenoverse"
       ],
-      "growthRate": "Parabolic",
+      "growthRate": "Medium",
       "genderRatio": "Female25Percent",
       "catchRate": 45,
       "baseExp": 102,
@@ -62350,7 +62382,7 @@
       "eggGroups": [
         "Xenoverse"
       ],
-      "growthRate": "Parabolic",
+      "growthRate": "Medium",
       "genderRatio": "Female25Percent",
       "catchRate": 45,
       "baseExp": 102,
@@ -62594,7 +62626,9 @@
         "normal": [
           "FRIENDGUARD"
         ],
-        "hidden": []
+        "hidden": [
+          "MINUS"
+        ]
       },
       "evolutions": [],
       "eggGroups": [
@@ -62721,7 +62755,7 @@
       "growthRate": "Medium",
       "genderRatio": "Female50Percent",
       "catchRate": 45,
-      "baseExp": 64,
+      "baseExp": 165,
       "height": 8,
       "weight": 186,
       "color": "White",
@@ -63165,17 +63199,17 @@
       ],
       "stats": {
         "hp": 50,
-        "attack": 75,
-        "defense": 55,
+        "attack": 65,
+        "defense": 60,
         "special_attack": 75,
-        "special_defense": 55,
+        "special_defense": 60,
         "speed": 100
       },
       "bst": 410,
       "abilities": {
         "normal": [
-          "CLOUDNINE",
-          "RATTLED"
+          "RATTLED",
+          "CLOUDNINE"
         ],
         "hidden": []
       },
@@ -63221,19 +63255,21 @@
       ],
       "stats": {
         "hp": 65,
-        "attack": 95,
-        "defense": 70,
+        "attack": 85,
+        "defense": 75,
         "special_attack": 95,
-        "special_defense": 70,
+        "special_defense": 75,
         "speed": 115
       },
       "bst": 510,
       "abilities": {
         "normal": [
-          "CLOUDNINE",
-          "CLOUDBURST"
+          "CLOUDBURST",
+          "CLOUDNINE"
         ],
-        "hidden": []
+        "hidden": [
+          "STRIKER"
+        ]
       },
       "evolutions": [
         {
@@ -63512,6 +63548,136 @@
       "_source": "species.dat"
     },
     {
+      "id": "SWIRLIXX",
+      "species": "SWIRLIXX",
+      "formId": 0,
+      "formName": null,
+      "name": "SWIRLIXX",
+      "types": [
+        "NORMAL",
+        "SOUND"
+      ],
+      "stats": {
+        "hp": 1,
+        "attack": 1,
+        "defense": 1,
+        "special_attack": 1,
+        "special_defense": 1,
+        "speed": 1
+      },
+      "bst": 6,
+      "abilities": {
+        "normal": [
+          "RUNAWAY"
+        ],
+        "hidden": []
+      },
+      "evolutions": [],
+      "eggGroups": [
+        "Undiscovered"
+      ],
+      "growthRate": "Slow",
+      "genderRatio": "Female50Percent",
+      "catchRate": 1,
+      "baseExp": 100,
+      "height": 10,
+      "weight": 10,
+      "color": "Black",
+      "shape": "Head",
+      "habitat": "None",
+      "flags": [
+        "XMon"
+      ],
+      "_source": "species.dat"
+    },
+    {
+      "id": "SLURPUFFX",
+      "species": "SLURPUFFX",
+      "formId": 0,
+      "formName": null,
+      "name": "SLURPUFFX",
+      "types": [
+        "NORMAL",
+        "SOUND"
+      ],
+      "stats": {
+        "hp": 1,
+        "attack": 1,
+        "defense": 1,
+        "special_attack": 1,
+        "special_defense": 1,
+        "speed": 1
+      },
+      "bst": 6,
+      "abilities": {
+        "normal": [
+          "RUNAWAY"
+        ],
+        "hidden": []
+      },
+      "evolutions": [],
+      "eggGroups": [
+        "Undiscovered"
+      ],
+      "growthRate": "Slow",
+      "genderRatio": "Female50Percent",
+      "catchRate": 1,
+      "baseExp": 100,
+      "height": 10,
+      "weight": 10,
+      "color": "Black",
+      "shape": "Head",
+      "habitat": "None",
+      "flags": [
+        "XMon"
+      ],
+      "_source": "species.dat"
+    },
+    {
+      "id": "BUDEWX",
+      "species": "BUDEWX",
+      "formId": 0,
+      "formName": null,
+      "name": "Budew",
+      "types": [
+        "POISON",
+        "SOUND"
+      ],
+      "stats": {
+        "hp": 40,
+        "attack": 30,
+        "defense": 35,
+        "special_attack": 70,
+        "special_defense": 55,
+        "speed": 50
+      },
+      "bst": 280,
+      "abilities": {
+        "normal": [
+          "SERENEGRACE",
+          "XENOMELODY"
+        ],
+        "hidden": []
+      },
+      "evolutions": [],
+      "eggGroups": [
+        "Undiscovered"
+      ],
+      "growthRate": "Slow",
+      "genderRatio": "Female50Percent",
+      "catchRate": 1,
+      "baseExp": 56,
+      "height": 10,
+      "weight": 10,
+      "color": "Black",
+      "shape": "Head",
+      "habitat": "None",
+      "flags": [
+        "XMon"
+      ],
+      "_source": "species.dat"
+    },
+    {
       "id": "ROSELIAX",
       "species": "ROSELIAX",
       "formId": 0,
@@ -63533,6 +63699,695 @@
       "abilities": {
         "normal": [
           "SERENEGRACE"
+        ],
+        "hidden": [
+          "XENOMELODY"
+        ]
+      },
+      "evolutions": [],
+      "eggGroups": [
+        "Undiscovered"
+      ],
+      "growthRate": "Slow",
+      "genderRatio": "Female50Percent",
+      "catchRate": 1,
+      "baseExp": 100,
+      "height": 10,
+      "weight": 10,
+      "color": "Black",
+      "shape": "Head",
+      "habitat": "None",
+      "flags": [
+        "XMon"
+      ],
+      "_source": "species.dat"
+    },
+    {
+      "id": "ROSERADEX",
+      "species": "ROSERADEX",
+      "formId": 0,
+      "formName": null,
+      "name": "ROSERADEX",
+      "types": [
+        "NORMAL",
+        "SOUND"
+      ],
+      "stats": {
+        "hp": 1,
+        "attack": 1,
+        "defense": 1,
+        "special_attack": 1,
+        "special_defense": 1,
+        "speed": 1
+      },
+      "bst": 6,
+      "abilities": {
+        "normal": [
+          "RUNAWAY"
+        ],
+        "hidden": []
+      },
+      "evolutions": [],
+      "eggGroups": [
+        "Undiscovered"
+      ],
+      "growthRate": "Slow",
+      "genderRatio": "Female50Percent",
+      "catchRate": 1,
+      "baseExp": 100,
+      "height": 10,
+      "weight": 10,
+      "color": "Black",
+      "shape": "Head",
+      "habitat": "None",
+      "flags": [
+        "XMon"
+      ],
+      "_source": "species.dat"
+    },
+    {
+      "id": "MAREANIEX",
+      "species": "MAREANIEX",
+      "formId": 0,
+      "formName": null,
+      "name": "MAREANIEX",
+      "types": [
+        "NORMAL",
+        "SOUND"
+      ],
+      "stats": {
+        "hp": 1,
+        "attack": 1,
+        "defense": 1,
+        "special_attack": 1,
+        "special_defense": 1,
+        "speed": 1
+      },
+      "bst": 6,
+      "abilities": {
+        "normal": [
+          "RUNAWAY"
+        ],
+        "hidden": []
+      },
+      "evolutions": [],
+      "eggGroups": [
+        "Undiscovered"
+      ],
+      "growthRate": "Slow",
+      "genderRatio": "Female50Percent",
+      "catchRate": 1,
+      "baseExp": 100,
+      "height": 10,
+      "weight": 10,
+      "color": "Black",
+      "shape": "Head",
+      "habitat": "None",
+      "flags": [
+        "XMon"
+      ],
+      "_source": "species.dat"
+    },
+    {
+      "id": "TOXAPEXX",
+      "species": "TOXAPEXX",
+      "formId": 0,
+      "formName": null,
+      "name": "TOXAPEXX",
+      "types": [
+        "NORMAL",
+        "SOUND"
+      ],
+      "stats": {
+        "hp": 1,
+        "attack": 1,
+        "defense": 1,
+        "special_attack": 1,
+        "special_defense": 1,
+        "speed": 1
+      },
+      "bst": 6,
+      "abilities": {
+        "normal": [
+          "RUNAWAY"
+        ],
+        "hidden": []
+      },
+      "evolutions": [],
+      "eggGroups": [
+        "Undiscovered"
+      ],
+      "growthRate": "Slow",
+      "genderRatio": "Female50Percent",
+      "catchRate": 1,
+      "baseExp": 100,
+      "height": 10,
+      "weight": 10,
+      "color": "Black",
+      "shape": "Head",
+      "habitat": "None",
+      "flags": [
+        "XMon"
+      ],
+      "_source": "species.dat"
+    },
+    {
+      "id": "GRENINJAX",
+      "species": "GRENINJAX",
+      "formId": 0,
+      "formName": null,
+      "name": "GRENINJAX",
+      "types": [
+        "NORMAL",
+        "SOUND"
+      ],
+      "stats": {
+        "hp": 1,
+        "attack": 1,
+        "defense": 1,
+        "special_attack": 1,
+        "special_defense": 1,
+        "speed": 1
+      },
+      "bst": 6,
+      "abilities": {
+        "normal": [
+          "RUNAWAY"
+        ],
+        "hidden": []
+      },
+      "evolutions": [],
+      "eggGroups": [
+        "Undiscovered"
+      ],
+      "growthRate": "Slow",
+      "genderRatio": "Female50Percent",
+      "catchRate": 1,
+      "baseExp": 100,
+      "height": 10,
+      "weight": 10,
+      "color": "Black",
+      "shape": "Head",
+      "habitat": "None",
+      "flags": [
+        "XMon"
+      ],
+      "_source": "species.dat"
+    },
+    {
+      "id": "MEWTWOX",
+      "species": "MEWTWOX",
+      "formId": 0,
+      "formName": null,
+      "name": "MEWTWOX",
+      "types": [
+        "NORMAL",
+        "SOUND"
+      ],
+      "stats": {
+        "hp": 1,
+        "attack": 1,
+        "defense": 1,
+        "special_attack": 1,
+        "special_defense": 1,
+        "speed": 1
+      },
+      "bst": 6,
+      "abilities": {
+        "normal": [
+          "RUNAWAY"
+        ],
+        "hidden": []
+      },
+      "evolutions": [],
+      "eggGroups": [
+        "Undiscovered"
+      ],
+      "growthRate": "Slow",
+      "genderRatio": "Female50Percent",
+      "catchRate": 1,
+      "baseExp": 100,
+      "height": 10,
+      "weight": 10,
+      "color": "Black",
+      "shape": "Head",
+      "habitat": "None",
+      "flags": [
+        "XMon"
+      ],
+      "_source": "species.dat"
+    },
+    {
+      "id": "RAICHUX",
+      "species": "RAICHUX",
+      "formId": 0,
+      "formName": null,
+      "name": "RAICHUX",
+      "types": [
+        "NORMAL",
+        "SOUND"
+      ],
+      "stats": {
+        "hp": 1,
+        "attack": 1,
+        "defense": 1,
+        "special_attack": 1,
+        "special_defense": 1,
+        "speed": 1
+      },
+      "bst": 6,
+      "abilities": {
+        "normal": [
+          "RUNAWAY"
+        ],
+        "hidden": []
+      },
+      "evolutions": [],
+      "eggGroups": [
+        "Undiscovered"
+      ],
+      "growthRate": "Slow",
+      "genderRatio": "Female50Percent",
+      "catchRate": 1,
+      "baseExp": 100,
+      "height": 10,
+      "weight": 10,
+      "color": "Black",
+      "shape": "Head",
+      "habitat": "None",
+      "flags": [
+        "XMon"
+      ],
+      "_source": "species.dat"
+    },
+    {
+      "id": "BISHARPX",
+      "species": "BISHARPX",
+      "formId": 0,
+      "formName": null,
+      "name": "BISHARPX",
+      "types": [
+        "NORMAL",
+        "SOUND"
+      ],
+      "stats": {
+        "hp": 1,
+        "attack": 1,
+        "defense": 1,
+        "special_attack": 1,
+        "special_defense": 1,
+        "speed": 1
+      },
+      "bst": 6,
+      "abilities": {
+        "normal": [
+          "RUNAWAY"
+        ],
+        "hidden": []
+      },
+      "evolutions": [],
+      "eggGroups": [
+        "Undiscovered"
+      ],
+      "growthRate": "Slow",
+      "genderRatio": "Female50Percent",
+      "catchRate": 1,
+      "baseExp": 100,
+      "height": 10,
+      "weight": 10,
+      "color": "Black",
+      "shape": "Head",
+      "habitat": "None",
+      "flags": [
+        "XMon"
+      ],
+      "_source": "species.dat"
+    },
+    {
+      "id": "SCOVILEX",
+      "species": "SCOVILEX",
+      "formId": 0,
+      "formName": null,
+      "name": "SCOVILEX",
+      "types": [
+        "NORMAL",
+        "SOUND"
+      ],
+      "stats": {
+        "hp": 1,
+        "attack": 1,
+        "defense": 1,
+        "special_attack": 1,
+        "special_defense": 1,
+        "speed": 1
+      },
+      "bst": 6,
+      "abilities": {
+        "normal": [
+          "RUNAWAY"
+        ],
+        "hidden": []
+      },
+      "evolutions": [],
+      "eggGroups": [
+        "Undiscovered"
+      ],
+      "growthRate": "Slow",
+      "genderRatio": "Female50Percent",
+      "catchRate": 1,
+      "baseExp": 100,
+      "height": 10,
+      "weight": 10,
+      "color": "Black",
+      "shape": "Head",
+      "habitat": "None",
+      "flags": [
+        "XMon"
+      ],
+      "_source": "species.dat"
+    },
+    {
+      "id": "TYRANITARX",
+      "species": "TYRANITARX",
+      "formId": 0,
+      "formName": null,
+      "name": "TYRANITARX",
+      "types": [
+        "NORMAL",
+        "SOUND"
+      ],
+      "stats": {
+        "hp": 1,
+        "attack": 1,
+        "defense": 1,
+        "special_attack": 1,
+        "special_defense": 1,
+        "speed": 1
+      },
+      "bst": 6,
+      "abilities": {
+        "normal": [
+          "RUNAWAY"
+        ],
+        "hidden": []
+      },
+      "evolutions": [],
+      "eggGroups": [
+        "Undiscovered"
+      ],
+      "growthRate": "Slow",
+      "genderRatio": "Female50Percent",
+      "catchRate": 1,
+      "baseExp": 100,
+      "height": 10,
+      "weight": 10,
+      "color": "Black",
+      "shape": "Head",
+      "habitat": "None",
+      "flags": [
+        "XMon"
+      ],
+      "_source": "species.dat"
+    },
+    {
+      "id": "DITTOX",
+      "species": "DITTOX",
+      "formId": 0,
+      "formName": null,
+      "name": "Ditto",
+      "types": [
+        "DARK"
+      ],
+      "stats": {
+        "hp": 48,
+        "attack": 48,
+        "defense": 48,
+        "special_attack": 48,
+        "special_defense": 48,
+        "speed": 48
+      },
+      "bst": 288,
+      "abilities": {
+        "normal": [
+          "XENOSITE"
+        ],
+        "hidden": []
+      },
+      "evolutions": [],
+      "eggGroups": [
+        "Xenoverse"
+      ],
+      "growthRate": "Medium",
+      "genderRatio": "Genderless",
+      "catchRate": 35,
+      "baseExp": 101,
+      "height": 3,
+      "weight": 40,
+      "color": "Purple",
+      "shape": "Head",
+      "habitat": "Urban",
+      "flags": [
+        "XMon"
+      ],
+      "_source": "species.dat"
+    },
+    {
+      "id": "AEGISLASHX",
+      "species": "AEGISLASHX",
+      "formId": 0,
+      "formName": null,
+      "name": "AEGISLASHX",
+      "types": [
+        "NORMAL",
+        "SOUND"
+      ],
+      "stats": {
+        "hp": 1,
+        "attack": 1,
+        "defense": 1,
+        "special_attack": 1,
+        "special_defense": 1,
+        "speed": 1
+      },
+      "bst": 6,
+      "abilities": {
+        "normal": [
+          "RUNAWAY"
+        ],
+        "hidden": []
+      },
+      "evolutions": [],
+      "eggGroups": [
+        "Undiscovered"
+      ],
+      "growthRate": "Slow",
+      "genderRatio": "Female50Percent",
+      "catchRate": 1,
+      "baseExp": 100,
+      "height": 10,
+      "weight": 10,
+      "color": "Black",
+      "shape": "Head",
+      "habitat": "None",
+      "flags": [
+        "XMon"
+      ],
+      "_source": "species.dat"
+    },
+    {
+      "id": "TAPUFINIX",
+      "species": "TAPUFINIX",
+      "formId": 0,
+      "formName": null,
+      "name": "TAPUFINIX",
+      "types": [
+        "NORMAL",
+        "SOUND"
+      ],
+      "stats": {
+        "hp": 1,
+        "attack": 1,
+        "defense": 1,
+        "special_attack": 1,
+        "special_defense": 1,
+        "speed": 1
+      },
+      "bst": 6,
+      "abilities": {
+        "normal": [
+          "RUNAWAY"
+        ],
+        "hidden": []
+      },
+      "evolutions": [],
+      "eggGroups": [
+        "Undiscovered"
+      ],
+      "growthRate": "Slow",
+      "genderRatio": "Female50Percent",
+      "catchRate": 1,
+      "baseExp": 100,
+      "height": 10,
+      "weight": 10,
+      "color": "Black",
+      "shape": "Head",
+      "habitat": "None",
+      "flags": [
+        "XMon"
+      ],
+      "_source": "species.dat"
+    },
+    {
+      "id": "TAPULELEX",
+      "species": "TAPULELEX",
+      "formId": 0,
+      "formName": null,
+      "name": "TAPULELEX",
+      "types": [
+        "NORMAL",
+        "SOUND"
+      ],
+      "stats": {
+        "hp": 1,
+        "attack": 1,
+        "defense": 1,
+        "special_attack": 1,
+        "special_defense": 1,
+        "speed": 1
+      },
+      "bst": 6,
+      "abilities": {
+        "normal": [
+          "RUNAWAY"
+        ],
+        "hidden": []
+      },
+      "evolutions": [],
+      "eggGroups": [
+        "Undiscovered"
+      ],
+      "growthRate": "Slow",
+      "genderRatio": "Female50Percent",
+      "catchRate": 1,
+      "baseExp": 100,
+      "height": 10,
+      "weight": 10,
+      "color": "Black",
+      "shape": "Head",
+      "habitat": "None",
+      "flags": [
+        "XMon"
+      ],
+      "_source": "species.dat"
+    },
+    {
+      "id": "TAPUKOKOX",
+      "species": "TAPUKOKOX",
+      "formId": 0,
+      "formName": null,
+      "name": "TAPUKOKOX",
+      "types": [
+        "NORMAL",
+        "SOUND"
+      ],
+      "stats": {
+        "hp": 1,
+        "attack": 1,
+        "defense": 1,
+        "special_attack": 1,
+        "special_defense": 1,
+        "speed": 1
+      },
+      "bst": 6,
+      "abilities": {
+        "normal": [
+          "RUNAWAY"
+        ],
+        "hidden": []
+      },
+      "evolutions": [],
+      "eggGroups": [
+        "Undiscovered"
+      ],
+      "growthRate": "Slow",
+      "genderRatio": "Female50Percent",
+      "catchRate": 1,
+      "baseExp": 100,
+      "height": 10,
+      "weight": 10,
+      "color": "Black",
+      "shape": "Head",
+      "habitat": "None",
+      "flags": [
+        "XMon"
+      ],
+      "_source": "species.dat"
+    },
+    {
+      "id": "TAPUBULUX",
+      "species": "TAPUBULUX",
+      "formId": 0,
+      "formName": null,
+      "name": "TAPUBULUX",
+      "types": [
+        "NORMAL",
+        "SOUND"
+      ],
+      "stats": {
+        "hp": 1,
+        "attack": 1,
+        "defense": 1,
+        "special_attack": 1,
+        "special_defense": 1,
+        "speed": 1
+      },
+      "bst": 6,
+      "abilities": {
+        "normal": [
+          "RUNAWAY"
+        ],
+        "hidden": []
+      },
+      "evolutions": [],
+      "eggGroups": [
+        "Undiscovered"
+      ],
+      "growthRate": "Slow",
+      "genderRatio": "Female50Percent",
+      "catchRate": 1,
+      "baseExp": 100,
+      "height": 10,
+      "weight": 10,
+      "color": "Black",
+      "shape": "Head",
+      "habitat": "None",
+      "flags": [
+        "XMon"
+      ],
+      "_source": "species.dat"
+    },
+    {
+      "id": "DRAGALISKX",
+      "species": "DRAGALISKX",
+      "formId": 0,
+      "formName": null,
+      "name": "DRAGALISKX",
+      "types": [
+        "NORMAL",
+        "SOUND"
+      ],
+      "stats": {
+        "hp": 1,
+        "attack": 1,
+        "defense": 1,
+        "special_attack": 1,
+        "special_defense": 1,
+        "speed": 1
+      },
+      "bst": 6,
+      "abilities": {
+        "normal": [
+          "RUNAWAY"
         ],
         "hidden": []
       },
@@ -64523,6 +65378,536 @@
       "weight": 800,
       "color": "Gray",
       "shape": "BipedalTail",
+      "habitat": "None",
+      "flags": [
+        "XMon"
+      ],
+      "_source": "species.dat"
+    },
+    {
+      "id": "BUSTER",
+      "species": "BUSTER",
+      "formId": 0,
+      "formName": null,
+      "name": "Buster",
+      "types": [
+        "WATER"
+      ],
+      "stats": {
+        "hp": 79,
+        "attack": 83,
+        "defense": 100,
+        "special_attack": 85,
+        "special_defense": 105,
+        "speed": 78
+      },
+      "bst": 530,
+      "abilities": {
+        "normal": [
+          "GHOSTLIGHTNINGROD"
+        ],
+        "hidden": []
+      },
+      "evolutions": [
+        {
+          "target": "GENGARX",
+          "method": "Item",
+          "param": "XENOLITH",
+          "targetForm": 0,
+          "raw": [
+            "GENGARX",
+            "Item",
+            "XENOLITH",
+            false
+          ]
+        }
+      ],
+      "eggGroups": [
+        "Monster",
+        "Water1"
+      ],
+      "growthRate": "Parabolic",
+      "genderRatio": "FemaleOneEighth",
+      "catchRate": 45,
+      "baseExp": 265,
+      "height": 16,
+      "weight": 855,
+      "color": "Blue",
+      "shape": "BipedalTail",
+      "habitat": "WatersEdge",
+      "flags": [],
+      "_source": "species.dat"
+    },
+    {
+      "id": "GENGARX2",
+      "species": "GENGARX2",
+      "formId": 0,
+      "formName": null,
+      "name": "Gengar",
+      "types": [
+        "DRAGON",
+        "PSYCHIC"
+      ],
+      "stats": {
+        "hp": 80,
+        "attack": 70,
+        "defense": 80,
+        "special_attack": 130,
+        "special_defense": 85,
+        "speed": 55
+      },
+      "bst": 500,
+      "abilities": {
+        "normal": [
+          "OBLIVIOUS",
+          "ILLUMINATE"
+        ],
+        "hidden": [
+          "BERSERK"
+        ]
+      },
+      "evolutions": [],
+      "eggGroups": [
+        "Xenoverse"
+      ],
+      "growthRate": "Parabolic",
+      "genderRatio": "AlwaysMale",
+      "catchRate": 45,
+      "baseExp": 250,
+      "height": 16,
+      "weight": 340,
+      "color": "Red",
+      "shape": "Head",
+      "habitat": "None",
+      "flags": [
+        "XMon"
+      ],
+      "_source": "species.dat"
+    },
+    {
+      "id": "CHIMAOOZE",
+      "species": "CHIMAOOZE",
+      "formId": 0,
+      "formName": null,
+      "name": "CHIMAOOZE",
+      "types": [
+        "NORMAL",
+        "SOUND"
+      ],
+      "stats": {
+        "hp": 1,
+        "attack": 1,
+        "defense": 1,
+        "special_attack": 1,
+        "special_defense": 1,
+        "speed": 1
+      },
+      "bst": 6,
+      "abilities": {
+        "normal": [
+          "RUNAWAY"
+        ],
+        "hidden": []
+      },
+      "evolutions": [],
+      "eggGroups": [
+        "Undiscovered"
+      ],
+      "growthRate": "Slow",
+      "genderRatio": "Female50Percent",
+      "catchRate": 1,
+      "baseExp": 100,
+      "height": 10,
+      "weight": 10,
+      "color": "Black",
+      "shape": "Head",
+      "habitat": "None",
+      "flags": [
+        "XMon"
+      ],
+      "_source": "species.dat"
+    },
+    {
+      "id": "LUXFLON",
+      "species": "LUXFLON",
+      "formId": 0,
+      "formName": null,
+      "name": "LUXFLON",
+      "types": [
+        "NORMAL",
+        "SOUND"
+      ],
+      "stats": {
+        "hp": 1,
+        "attack": 1,
+        "defense": 1,
+        "special_attack": 1,
+        "special_defense": 1,
+        "speed": 1
+      },
+      "bst": 6,
+      "abilities": {
+        "normal": [
+          "RUNAWAY"
+        ],
+        "hidden": []
+      },
+      "evolutions": [],
+      "eggGroups": [
+        "Undiscovered"
+      ],
+      "growthRate": "Slow",
+      "genderRatio": "Female50Percent",
+      "catchRate": 1,
+      "baseExp": 100,
+      "height": 10,
+      "weight": 10,
+      "color": "Black",
+      "shape": "Head",
+      "habitat": "None",
+      "flags": [
+        "XMon"
+      ],
+      "_source": "species.dat"
+    },
+    {
+      "id": "DIELEBI",
+      "species": "DIELEBI",
+      "formId": 0,
+      "formName": null,
+      "name": "DIELEBI",
+      "types": [
+        "NORMAL",
+        "SOUND"
+      ],
+      "stats": {
+        "hp": 1,
+        "attack": 1,
+        "defense": 1,
+        "special_attack": 1,
+        "special_defense": 1,
+        "speed": 1
+      },
+      "bst": 6,
+      "abilities": {
+        "normal": [
+          "RUNAWAY"
+        ],
+        "hidden": []
+      },
+      "evolutions": [],
+      "eggGroups": [
+        "Undiscovered"
+      ],
+      "growthRate": "Slow",
+      "genderRatio": "Female50Percent",
+      "catchRate": 1,
+      "baseExp": 100,
+      "height": 10,
+      "weight": 10,
+      "color": "Black",
+      "shape": "Head",
+      "habitat": "None",
+      "flags": [
+        "XMon"
+      ],
+      "_source": "species.dat"
+    },
+    {
+      "id": "TWINZ",
+      "species": "TWINZ",
+      "formId": 0,
+      "formName": null,
+      "name": "TWINZ",
+      "types": [
+        "NORMAL",
+        "SOUND"
+      ],
+      "stats": {
+        "hp": 1,
+        "attack": 1,
+        "defense": 1,
+        "special_attack": 1,
+        "special_defense": 1,
+        "speed": 1
+      },
+      "bst": 6,
+      "abilities": {
+        "normal": [
+          "RUNAWAY"
+        ],
+        "hidden": []
+      },
+      "evolutions": [],
+      "eggGroups": [
+        "Undiscovered"
+      ],
+      "growthRate": "Slow",
+      "genderRatio": "Female50Percent",
+      "catchRate": 1,
+      "baseExp": 100,
+      "height": 10,
+      "weight": 10,
+      "color": "Black",
+      "shape": "Head",
+      "habitat": "None",
+      "flags": [
+        "XMon"
+      ],
+      "_source": "species.dat"
+    },
+    {
+      "id": "PARA",
+      "species": "PARA",
+      "formId": 0,
+      "formName": null,
+      "name": "PARA",
+      "types": [
+        "NORMAL",
+        "SOUND"
+      ],
+      "stats": {
+        "hp": 1,
+        "attack": 1,
+        "defense": 1,
+        "special_attack": 1,
+        "special_defense": 1,
+        "speed": 1
+      },
+      "bst": 6,
+      "abilities": {
+        "normal": [
+          "RUNAWAY"
+        ],
+        "hidden": []
+      },
+      "evolutions": [],
+      "eggGroups": [
+        "Undiscovered"
+      ],
+      "growthRate": "Slow",
+      "genderRatio": "Female50Percent",
+      "catchRate": 1,
+      "baseExp": 100,
+      "height": 10,
+      "weight": 10,
+      "color": "Black",
+      "shape": "Head",
+      "habitat": "None",
+      "flags": [
+        "XMon"
+      ],
+      "_source": "species.dat"
+    },
+    {
+      "id": "GHIFT",
+      "species": "GHIFT",
+      "formId": 0,
+      "formName": null,
+      "name": "GHIFT",
+      "types": [
+        "NORMAL",
+        "SOUND"
+      ],
+      "stats": {
+        "hp": 1,
+        "attack": 1,
+        "defense": 1,
+        "special_attack": 1,
+        "special_defense": 1,
+        "speed": 1
+      },
+      "bst": 6,
+      "abilities": {
+        "normal": [
+          "RUNAWAY"
+        ],
+        "hidden": []
+      },
+      "evolutions": [],
+      "eggGroups": [
+        "Undiscovered"
+      ],
+      "growthRate": "Slow",
+      "genderRatio": "Female50Percent",
+      "catchRate": 1,
+      "baseExp": 100,
+      "height": 10,
+      "weight": 10,
+      "color": "Black",
+      "shape": "Head",
+      "habitat": "None",
+      "flags": [
+        "XMon"
+      ],
+      "_source": "species.dat"
+    },
+    {
+      "id": "SUNNEE",
+      "species": "SUNNEE",
+      "formId": 0,
+      "formName": null,
+      "name": "SUNNEE",
+      "types": [
+        "NORMAL",
+        "SOUND"
+      ],
+      "stats": {
+        "hp": 1,
+        "attack": 1,
+        "defense": 1,
+        "special_attack": 1,
+        "special_defense": 1,
+        "speed": 1
+      },
+      "bst": 6,
+      "abilities": {
+        "normal": [
+          "RUNAWAY"
+        ],
+        "hidden": []
+      },
+      "evolutions": [],
+      "eggGroups": [
+        "Undiscovered"
+      ],
+      "growthRate": "Slow",
+      "genderRatio": "Female50Percent",
+      "catchRate": 1,
+      "baseExp": 100,
+      "height": 10,
+      "weight": 10,
+      "color": "Black",
+      "shape": "Head",
+      "habitat": "None",
+      "flags": [
+        "XMon"
+      ],
+      "_source": "species.dat"
+    },
+    {
+      "id": "TRIFOX",
+      "species": "TRIFOX",
+      "formId": 0,
+      "formName": null,
+      "name": "TRIFOX",
+      "types": [
+        "NORMAL",
+        "SOUND"
+      ],
+      "stats": {
+        "hp": 1,
+        "attack": 1,
+        "defense": 1,
+        "special_attack": 1,
+        "special_defense": 1,
+        "speed": 1
+      },
+      "bst": 6,
+      "abilities": {
+        "normal": [
+          "RUNAWAY"
+        ],
+        "hidden": []
+      },
+      "evolutions": [],
+      "eggGroups": [
+        "Undiscovered"
+      ],
+      "growthRate": "Slow",
+      "genderRatio": "Female50Percent",
+      "catchRate": 1,
+      "baseExp": 100,
+      "height": 10,
+      "weight": 10,
+      "color": "Black",
+      "shape": "Head",
+      "habitat": "None",
+      "flags": [
+        "XMon"
+      ],
+      "_source": "species.dat"
+    },
+    {
+      "id": "PUDDI",
+      "species": "PUDDI",
+      "formId": 0,
+      "formName": null,
+      "name": "PUDDI",
+      "types": [
+        "NORMAL",
+        "SOUND"
+      ],
+      "stats": {
+        "hp": 1,
+        "attack": 1,
+        "defense": 1,
+        "special_attack": 1,
+        "special_defense": 1,
+        "speed": 1
+      },
+      "bst": 6,
+      "abilities": {
+        "normal": [
+          "RUNAWAY"
+        ],
+        "hidden": []
+      },
+      "evolutions": [],
+      "eggGroups": [
+        "Undiscovered"
+      ],
+      "growthRate": "Slow",
+      "genderRatio": "Female50Percent",
+      "catchRate": 1,
+      "baseExp": 100,
+      "height": 10,
+      "weight": 10,
+      "color": "Black",
+      "shape": "Head",
+      "habitat": "None",
+      "flags": [
+        "XMon"
+      ],
+      "_source": "species.dat"
+    },
+    {
+      "id": "DRAGALISK",
+      "species": "DRAGALISK",
+      "formId": 0,
+      "formName": null,
+      "name": "Dragalisk",
+      "types": [
+        "ICE",
+        "GROUND"
+      ],
+      "stats": {
+        "hp": 1,
+        "attack": 1,
+        "defense": 1,
+        "special_attack": 1,
+        "special_defense": 1,
+        "speed": 1
+      },
+      "bst": 6,
+      "abilities": {
+        "normal": [
+          "RUNAWAY"
+        ],
+        "hidden": []
+      },
+      "evolutions": [],
+      "eggGroups": [
+        "Undiscovered"
+      ],
+      "growthRate": "Slow",
+      "genderRatio": "Female50Percent",
+      "catchRate": 1,
+      "baseExp": 100,
+      "height": 10,
+      "weight": 10,
+      "color": "Black",
+      "shape": "Head",
       "habitat": "None",
       "flags": [
         "XMon"
@@ -66546,13 +67931,13 @@
       ],
       "stats": {
         "hp": 65,
-        "attack": 95,
+        "attack": 90,
         "defense": 90,
         "special_attack": 120,
         "special_defense": 70,
-        "speed": 65
+        "speed": 60
       },
-      "bst": 505,
+      "bst": 495,
       "abilities": {
         "normal": [
           "LEVITATE",
@@ -67072,6 +68457,63 @@
       "_source": "species.dat"
     },
     {
+      "id": "MEGANIUM_1",
+      "species": "MEGANIUM",
+      "formId": 1,
+      "formName": null,
+      "name": "Meganium",
+      "types": [
+        "GRASS",
+        "FAIRY"
+      ],
+      "stats": {
+        "hp": 90,
+        "attack": 80,
+        "defense": 135,
+        "special_attack": 115,
+        "special_defense": 135,
+        "speed": 80
+      },
+      "bst": 635,
+      "abilities": {
+        "normal": [
+          "MEGASOL"
+        ],
+        "hidden": [
+          "MEGASOL"
+        ]
+      },
+      "evolutions": [
+        {
+          "target": "BAYLEEF",
+          "method": "Level",
+          "param": 32,
+          "targetForm": true,
+          "raw": [
+            "BAYLEEF",
+            "Level",
+            32,
+            true
+          ]
+        }
+      ],
+      "eggGroups": [
+        "Monster",
+        "Grass"
+      ],
+      "growthRate": "Parabolic",
+      "genderRatio": "FemaleOneEighth",
+      "catchRate": 45,
+      "baseExp": 313,
+      "height": 24,
+      "weight": 1405,
+      "color": "Green",
+      "shape": "Quadruped",
+      "habitat": "Grassland",
+      "flags": [],
+      "_source": "species.dat"
+    },
+    {
       "id": "PICHU_2",
       "species": "PICHU",
       "formId": 2,
@@ -67242,6 +68684,61 @@
       "flags": [
         "InheritFormWithEverStone"
       ],
+      "_source": "species.dat"
+    },
+    {
+      "id": "MISDREAVUS_1",
+      "species": "MISDREAVUS",
+      "formId": 1,
+      "formName": null,
+      "name": "Misdreavus",
+      "types": [
+        "GHOST"
+      ],
+      "stats": {
+        "hp": 60,
+        "attack": 60,
+        "defense": 60,
+        "special_attack": 85,
+        "special_defense": 85,
+        "speed": 85
+      },
+      "bst": 435,
+      "abilities": {
+        "normal": [
+          "LEVITATE"
+        ],
+        "hidden": [
+          "HAUNTINGECHOES"
+        ]
+      },
+      "evolutions": [
+        {
+          "target": "MISMAGIUS",
+          "method": "None",
+          "param": null,
+          "targetForm": 0,
+          "raw": [
+            "MISMAGIUS",
+            "None",
+            null,
+            false
+          ]
+        }
+      ],
+      "eggGroups": [
+        "Amorphous"
+      ],
+      "growthRate": "Fast",
+      "genderRatio": "Female50Percent",
+      "catchRate": 85,
+      "baseExp": 87,
+      "height": 7,
+      "weight": 10,
+      "color": "Gray",
+      "shape": "Head",
+      "habitat": "Cave",
+      "flags": [],
       "_source": "species.dat"
     },
     {
@@ -68568,12 +70065,12 @@
         {
           "target": "HOUNDOUR",
           "method": "Level",
-          "param": 24,
+          "param": 38,
           "targetForm": true,
           "raw": [
             "HOUNDOUR",
             "Level",
-            24,
+            38,
             true
           ]
         }
@@ -69060,14 +70557,14 @@
         "FAIRY"
       ],
       "stats": {
-        "hp": 50,
+        "hp": 70,
         "attack": 105,
         "defense": 125,
-        "special_attack": 55,
-        "special_defense": 95,
-        "speed": 50
+        "special_attack": 85,
+        "special_defense": 105,
+        "speed": 60
       },
-      "bst": 480,
+      "bst": 550,
       "abilities": {
         "normal": [
           "HUGEPOWER"
@@ -69403,12 +70900,12 @@
         {
           "target": "SWABLU",
           "method": "Level",
-          "param": 35,
+          "param": 30,
           "targetForm": true,
           "raw": [
             "SWABLU",
             "Level",
-            35,
+            30,
             true
           ]
         }
@@ -69443,11 +70940,11 @@
         "hp": 80,
         "attack": 80,
         "defense": 80,
-        "special_attack": 100,
+        "special_attack": 90,
         "special_defense": 80,
-        "speed": 100
+        "speed": 90
       },
-      "bst": 520,
+      "bst": 500,
       "abilities": {
         "normal": [
           "FORECAST"
@@ -69485,11 +70982,11 @@
         "hp": 80,
         "attack": 80,
         "defense": 80,
-        "special_attack": 100,
+        "special_attack": 80,
         "special_defense": 80,
         "speed": 100
       },
-      "bst": 520,
+      "bst": 500,
       "abilities": {
         "normal": [
           "FORECAST"
@@ -69529,9 +71026,9 @@
         "defense": 80,
         "special_attack": 100,
         "special_defense": 80,
-        "speed": 100
+        "speed": 80
       },
-      "bst": 520,
+      "bst": 500,
       "abilities": {
         "normal": [
           "FORECAST"
@@ -69571,9 +71068,9 @@
         "defense": 80,
         "special_attack": 100,
         "special_defense": 80,
-        "speed": 100
+        "speed": 80
       },
-      "bst": 520,
+      "bst": 500,
       "abilities": {
         "normal": [
           "FORECAST"
@@ -69611,11 +71108,11 @@
         "hp": 80,
         "attack": 80,
         "defense": 80,
-        "special_attack": 100,
+        "special_attack": 80,
         "special_defense": 80,
         "speed": 100
       },
-      "bst": 520,
+      "bst": 500,
       "abilities": {
         "normal": [
           "FORECAST"
@@ -72413,15 +73910,15 @@
         "defense": 126,
         "special_attack": 80,
         "special_defense": 126,
-        "speed": 50
+        "speed": 60
       },
-      "bst": 545,
+      "bst": 555,
       "abilities": {
         "normal": [
-          "HEALER"
+          "TRIAGE"
         ],
         "hidden": [
-          "HEALER"
+          "TRIAGE"
         ]
       },
       "evolutions": [],
@@ -76216,13 +77713,13 @@
       ],
       "stats": {
         "hp": 60,
-        "attack": 140,
+        "attack": 150,
         "defense": 50,
-        "special_attack": 140,
+        "special_attack": 150,
         "special_defense": 50,
         "speed": 60
       },
-      "bst": 500,
+      "bst": 520,
       "abilities": {
         "normal": [
           "STANCECHANGE"
@@ -76232,13 +77729,13 @@
       "evolutions": [
         {
           "target": "DOUBLADE",
-          "method": "Item",
-          "param": "DUSKSTONE",
+          "method": "Level",
+          "param": 56,
           "targetForm": true,
           "raw": [
             "DOUBLADE",
-            "Item",
-            "DUSKSTONE",
+            "Level",
+            56,
             true
           ]
         }
@@ -78880,12 +80377,12 @@
         {
           "target": "TOXEL",
           "method": "Level",
-          "param": 45,
+          "param": 30,
           "targetForm": true,
           "raw": [
             "TOXEL",
             "Level",
-            45,
+            30,
             true
           ]
         }
@@ -79776,12 +81273,12 @@
         {
           "target": "QUILAVA",
           "method": "Level",
-          "param": 36,
+          "param": 34,
           "targetForm": true,
           "raw": [
             "QUILAVA",
             "Level",
-            36,
+            34,
             true
           ]
         }
@@ -81465,7 +82962,7 @@
           "RUNAWAY"
         ],
         "hidden": [
-          "RUNAWAY"
+          "PIGGYBANK"
         ]
       },
       "evolutions": [
@@ -82277,11 +83774,11 @@
       ],
       "stats": {
         "hp": 133,
-        "attack": 94,
-        "defense": 83,
-        "special_attack": 128,
-        "special_defense": 98,
-        "speed": 144
+        "attack": 74,
+        "defense": 88,
+        "special_attack": 133,
+        "special_defense": 103,
+        "speed": 149
       },
       "bst": 680,
       "abilities": {
@@ -82303,7 +83800,7 @@
       "height": 29,
       "weight": 800,
       "color": "Green",
-      "shape": "Winged",
+      "shape": "Bipedal",
       "habitat": "None",
       "flags": [],
       "_source": "species.dat"
@@ -82406,10 +83903,10 @@
       ],
       "stats": {
         "hp": 133,
-        "attack": 140,
-        "defense": 100,
-        "special_attack": 95,
-        "special_defense": 85,
+        "attack": 150,
+        "defense": 105,
+        "special_attack": 75,
+        "special_defense": 90,
         "speed": 127
       },
       "bst": 680,
@@ -82501,10 +83998,10 @@
       "bst": 550,
       "abilities": {
         "normal": [
-          "CLEARBODY"
+          "SWIFTSWIM"
         ],
         "hidden": [
-          "SWIFTSWIM"
+          "CLEARBODY"
         ]
       },
       "evolutions": [],
@@ -82590,7 +84087,7 @@
           "ANTICIPATION"
         ],
         "hidden": [
-          "UNNERVE"
+          "PSYCHICSURGE"
         ]
       },
       "evolutions": [
@@ -83544,7 +85041,9 @@
         "normal": [
           "FRIENDGUARD"
         ],
-        "hidden": []
+        "hidden": [
+          "PLUS"
+        ]
       },
       "evolutions": [],
       "eggGroups": [
@@ -83575,19 +85074,21 @@
       ],
       "stats": {
         "hp": 65,
-        "attack": 110,
-        "defense": 70,
-        "special_attack": 110,
-        "special_defense": 70,
+        "attack": 95,
+        "defense": 75,
+        "special_attack": 130,
+        "special_defense": 75,
         "speed": 135
       },
-      "bst": 560,
+      "bst": 575,
       "abilities": {
         "normal": [
-          "CLOUDNINE",
-          "CLOUDBURST"
+          "CLOUDBURST",
+          "CLOUDNINE"
         ],
-        "hidden": []
+        "hidden": [
+          "STRIKER"
+        ]
       },
       "evolutions": [
         {
@@ -83754,7 +85255,9 @@
       "color": "Blue",
       "shape": "HeadArms",
       "habitat": "None",
-      "flags": [],
+      "flags": [
+        "InheritFormWithEverStone"
+      ],
       "_source": "species.dat"
     },
     {
@@ -83799,7 +85302,8 @@
         }
       ],
       "eggGroups": [
-        "Undiscovered"
+        "Amorphous",
+        "Fairy"
       ],
       "growthRate": "Fast",
       "genderRatio": "Female50Percent",
@@ -83810,7 +85314,9 @@
       "color": "Blue",
       "shape": "HeadArms",
       "habitat": "Grassland",
-      "flags": [],
+      "flags": [
+        "InheritFormWithEverStone"
+      ],
       "_source": "species.dat"
     },
     {
@@ -83868,7 +85374,9 @@
       "color": "Red",
       "shape": "Bipedal",
       "habitat": "Urban",
-      "flags": [],
+      "flags": [
+        "InheritFormWithEverStone"
+      ],
       "_source": "species.dat"
     },
     {
@@ -83950,7 +85458,9 @@
       "color": "Red",
       "shape": "Bipedal",
       "habitat": "Urban",
-      "flags": [],
+      "flags": [
+        "InheritFormWithEverStone"
+      ],
       "_source": "species.dat"
     },
     {
@@ -84008,7 +85518,9 @@
       "color": "Red",
       "shape": "Bipedal",
       "habitat": "Urban",
-      "flags": [],
+      "flags": [
+        "InheritFormWithEverStone"
+      ],
       "_source": "species.dat"
     },
     {
@@ -84066,7 +85578,9 @@
       "color": "Red",
       "shape": "Bipedal",
       "habitat": "None",
-      "flags": [],
+      "flags": [
+        "InheritFormWithEverStone"
+      ],
       "_source": "species.dat"
     },
     {
@@ -84986,6 +86500,221 @@
       "flags": [
         "InheritFormWithEverStone"
       ],
+      "_source": "species.dat"
+    },
+    {
+      "id": "HOLINKS_1",
+      "species": "HOLINKS",
+      "formId": 1,
+      "formName": null,
+      "name": "Holinks",
+      "types": [
+        "ELECTRIC",
+        "PSYCHIC"
+      ],
+      "stats": {
+        "hp": 80,
+        "attack": 55,
+        "defense": 75,
+        "special_attack": 100,
+        "special_defense": 100,
+        "speed": 60
+      },
+      "bst": 470,
+      "abilities": {
+        "normal": [
+          "HOLOGRAM"
+        ],
+        "hidden": [
+          "ROOMWARPER"
+        ]
+      },
+      "evolutions": [],
+      "eggGroups": [
+        "Undiscovered"
+      ],
+      "growthRate": "Medium",
+      "genderRatio": "Genderless",
+      "catchRate": 45,
+      "baseExp": 165,
+      "height": 5,
+      "weight": 980,
+      "color": "Black",
+      "shape": "Head",
+      "habitat": "None",
+      "flags": [],
+      "_source": "species.dat"
+    },
+    {
+      "id": "TOKAKLE_1",
+      "species": "TOKAKLE",
+      "formId": 1,
+      "formName": null,
+      "name": "Tokakle",
+      "types": [
+        "SOUND"
+      ],
+      "stats": {
+        "hp": 66,
+        "attack": 99,
+        "defense": 77,
+        "special_attack": 66,
+        "special_defense": 77,
+        "speed": 99
+      },
+      "bst": 484,
+      "abilities": {
+        "normal": [
+          "SIMPLE",
+          "PRANKSTER"
+        ],
+        "hidden": [
+          "PROTEAN"
+        ]
+      },
+      "evolutions": [],
+      "eggGroups": [
+        "Amorphous"
+      ],
+      "growthRate": "Fast",
+      "genderRatio": "Female50Percent",
+      "catchRate": 200,
+      "baseExp": 149,
+      "height": 7,
+      "weight": 20,
+      "color": "Green",
+      "shape": "Head",
+      "habitat": "None",
+      "flags": [],
+      "_source": "species.dat"
+    },
+    {
+      "id": "TOKAKLE_2",
+      "species": "TOKAKLE",
+      "formId": 2,
+      "formName": null,
+      "name": "Tokakle",
+      "types": [
+        "SOUND"
+      ],
+      "stats": {
+        "hp": 66,
+        "attack": 99,
+        "defense": 77,
+        "special_attack": 66,
+        "special_defense": 77,
+        "speed": 99
+      },
+      "bst": 484,
+      "abilities": {
+        "normal": [
+          "SIMPLE",
+          "PRANKSTER"
+        ],
+        "hidden": [
+          "PROTEAN"
+        ]
+      },
+      "evolutions": [],
+      "eggGroups": [
+        "Amorphous"
+      ],
+      "growthRate": "Fast",
+      "genderRatio": "Female50Percent",
+      "catchRate": 200,
+      "baseExp": 149,
+      "height": 7,
+      "weight": 20,
+      "color": "Green",
+      "shape": "Head",
+      "habitat": "None",
+      "flags": [],
+      "_source": "species.dat"
+    },
+    {
+      "id": "TOKAKLE_3",
+      "species": "TOKAKLE",
+      "formId": 3,
+      "formName": null,
+      "name": "Tokakle",
+      "types": [
+        "SOUND"
+      ],
+      "stats": {
+        "hp": 66,
+        "attack": 99,
+        "defense": 77,
+        "special_attack": 66,
+        "special_defense": 77,
+        "speed": 99
+      },
+      "bst": 484,
+      "abilities": {
+        "normal": [
+          "SIMPLE",
+          "PRANKSTER"
+        ],
+        "hidden": [
+          "PROTEAN"
+        ]
+      },
+      "evolutions": [],
+      "eggGroups": [
+        "Amorphous"
+      ],
+      "growthRate": "Fast",
+      "genderRatio": "Female50Percent",
+      "catchRate": 200,
+      "baseExp": 149,
+      "height": 7,
+      "weight": 20,
+      "color": "Green",
+      "shape": "Head",
+      "habitat": "None",
+      "flags": [],
+      "_source": "species.dat"
+    },
+    {
+      "id": "TOKAKLE_4",
+      "species": "TOKAKLE",
+      "formId": 4,
+      "formName": null,
+      "name": "Tokakle",
+      "types": [
+        "SOUND"
+      ],
+      "stats": {
+        "hp": 66,
+        "attack": 99,
+        "defense": 77,
+        "special_attack": 66,
+        "special_defense": 77,
+        "speed": 99
+      },
+      "bst": 484,
+      "abilities": {
+        "normal": [
+          "SIMPLE",
+          "PRANKSTER"
+        ],
+        "hidden": [
+          "PROTEAN"
+        ]
+      },
+      "evolutions": [],
+      "eggGroups": [
+        "Amorphous"
+      ],
+      "growthRate": "Fast",
+      "genderRatio": "Female50Percent",
+      "catchRate": 200,
+      "baseExp": 149,
+      "height": 7,
+      "weight": 20,
+      "color": "Green",
+      "shape": "Head",
+      "habitat": "None",
+      "flags": [],
       "_source": "species.dat"
     }
   ]

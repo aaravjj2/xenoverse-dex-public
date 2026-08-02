@@ -254,13 +254,17 @@ function generateCryCandidates(speciesId, formId, speciesName) {
   if (speciesName) {
     const upper = speciesName.toUpperCase();
     const lower = speciesName.toLowerCase();
-    
+
     candidates.push(`${upper}Cry.ogg`, `${lower}cry.ogg`);
     candidates.push(`${upper}Cry.wav`, `${lower}cry.wav`);
     candidates.push(`${upper}cry.wav`, `${lower}Cry.wav`);
-    
+    // Xenoverse uses bare named cries: VYELLOR.ogg (no "Cry" suffix)
+    candidates.push(`${upper}.ogg`, `${lower}.ogg`);
+    candidates.push(`${upper}.wav`, `${lower}.wav`);
+
     if (formId > 0) {
       candidates.push(`${upper}_${formId}Cry.ogg`, `${lower}_${formId}cry.ogg`);
+      candidates.push(`${upper}_${formId}.ogg`, `${lower}_${formId}.ogg`);
     }
   }
   
@@ -308,13 +312,19 @@ function resolveAssets(speciesId, formId, speciesName, assetIndices, fileCache, 
   // Also try national dex numbers for numeric sprites (022.png for Fearow, etc.)
   const generateNamedCandidates = (name, form, ext = '.png') => {
     const candidates = [];
+    const exts = [ext, ext.toUpperCase()]; // cover .png and .PNG (upstream uses both)
     if (name) {
       const upper = name.toUpperCase();
+      const lower = name.toLowerCase();
+      const title = name.charAt(0).toUpperCase() + name.slice(1).toLowerCase();
+      const names = [upper, title, lower];
       if (form === 0) {
-        candidates.push(`${upper}${ext}`);
+        for (const n of names) for (const e of exts) candidates.push(`${n}${e}`);
       } else {
-        candidates.push(`${upper}_${form}${ext}`);
-        candidates.push(`${upper}${ext}`); // Fallback to base form
+        for (const n of names) {
+          for (const e of exts) candidates.push(`${n}_${form}${e}`);
+          for (const e of exts) candidates.push(`${n}${e}`); // Fallback to base form
+        }
       }
     }
     // Try national dex number (for numeric sprite files like 022.png)
@@ -373,6 +383,15 @@ function resolveAssets(speciesId, formId, speciesName, assetIndices, fileCache, 
     cryCandidates.push(`${speciesName.toUpperCase()}Cry.ogg`);
     cryCandidates.push(`${speciesName.toLowerCase()}cry.wav`);
     cryCandidates.push(`${speciesName}cry.wav`);
+    // Xenoverse uses bare named cries: VYELLOR.ogg (no "Cry" suffix)
+    cryCandidates.push(`${speciesName.toUpperCase()}.ogg`);
+    cryCandidates.push(`${speciesName.toLowerCase()}.ogg`);
+    cryCandidates.push(`${speciesName.toUpperCase()}.wav`);
+    cryCandidates.push(`${speciesName.toLowerCase()}.wav`);
+    if (formId > 0) {
+      cryCandidates.push(`${speciesName.toUpperCase()}_${formId}.ogg`);
+      cryCandidates.push(`${speciesName.toLowerCase()}_${formId}.ogg`);
+    }
   }
   findAsset('cry', ASSET_PATHS.cries, cryCandidates);
   

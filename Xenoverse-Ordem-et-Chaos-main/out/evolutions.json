@@ -1,8 +1,8 @@
 {
   "meta": {
-    "exportTime": "2026-02-04T22:07:45.493Z",
-    "commitHash": "4de5636ea01014226c44edfa1b8f0a5288721127",
-    "count": 1133,
+    "exportTime": "2026-08-02T17:53:05.514Z",
+    "commitHash": "787cd73e2f99fa794320ee7928faa187b9ddbe9e",
+    "count": 1136,
     "decodingStrategy": "derived-from-species.dat",
     "warnings": []
   },
@@ -2137,12 +2137,12 @@
         {
           "target": "REVERBERIX",
           "method": "LocationFlag",
-          "param": "Westar",
+          "param": "westartower",
           "targetForm": 0,
           "raw": [
             "REVERBERIX",
             "LocationFlag",
-            "Westar",
+            "westartower",
             false
           ]
         }
@@ -3044,12 +3044,12 @@
         {
           "target": "PORYGON2",
           "method": "Item",
-          "param": "VIRTUALUPDATE",
+          "param": "UNIVERSALUPDATE",
           "targetForm": 0,
           "raw": [
             "PORYGON2",
             "Item",
-            "VIRTUALUPDATE",
+            "UNIVERSALUPDATE",
             false
           ]
         }
@@ -3315,12 +3315,12 @@
         {
           "target": "TYPHLOSION",
           "method": "Level",
-          "param": 36,
+          "param": 34,
           "targetForm": 0,
           "raw": [
             "TYPHLOSION",
             "Level",
-            36,
+            34,
             false
           ]
         },
@@ -3346,12 +3346,12 @@
         {
           "target": "QUILAVA",
           "method": "Level",
-          "param": 36,
+          "param": 34,
           "targetForm": true,
           "raw": [
             "QUILAVA",
             "Level",
-            36,
+            34,
             true
           ]
         }
@@ -3384,12 +3384,12 @@
         {
           "target": "FERALIGATR",
           "method": "Level",
-          "param": 30,
+          "param": 34,
           "targetForm": 0,
           "raw": [
             "FERALIGATR",
             "Level",
-            30,
+            34,
             false
           ]
         },
@@ -3415,12 +3415,12 @@
         {
           "target": "CROCONAW",
           "method": "Level",
-          "param": 30,
+          "param": 34,
           "targetForm": true,
           "raw": [
             "CROCONAW",
             "Level",
-            30,
+            34,
             true
           ]
         }
@@ -3750,12 +3750,12 @@
         {
           "target": "XATU",
           "method": "Level",
-          "param": 45,
+          "param": 43,
           "targetForm": 0,
           "raw": [
             "XATU",
             "Level",
-            45,
+            43,
             false
           ]
         }
@@ -3769,12 +3769,12 @@
         {
           "target": "NATU",
           "method": "Level",
-          "param": 45,
+          "param": 43,
           "targetForm": true,
           "raw": [
             "NATU",
             "Level",
-            45,
+            43,
             true
           ]
         }
@@ -3876,12 +3876,12 @@
         {
           "target": "AZUMARILL",
           "method": "Level",
-          "param": 22,
+          "param": 24,
           "targetForm": 0,
           "raw": [
             "AZUMARILL",
             "Level",
-            22,
+            24,
             false
           ]
         },
@@ -3907,12 +3907,12 @@
         {
           "target": "MARILL",
           "method": "Level",
-          "param": 22,
+          "param": 24,
           "targetForm": true,
           "raw": [
             "MARILL",
             "Level",
-            22,
+            24,
             true
           ]
         }
@@ -4731,12 +4731,12 @@
         {
           "target": "SKARLING",
           "method": "HasMove",
-          "param": "STEELWING",
+          "param": "SCORCHEDASHES",
           "targetForm": true,
           "raw": [
             "SKARLING",
             "HasMove",
-            "STEELWING",
+            "SCORCHEDASHES",
             true
           ]
         }
@@ -4750,12 +4750,12 @@
         {
           "target": "HOUNDOOM",
           "method": "Level",
-          "param": 24,
+          "param": 38,
           "targetForm": 0,
           "raw": [
             "HOUNDOOM",
             "Level",
-            24,
+            38,
             false
           ]
         }
@@ -4769,12 +4769,12 @@
         {
           "target": "HOUNDOUR",
           "method": "Level",
-          "param": 24,
+          "param": 38,
           "targetForm": true,
           "raw": [
             "HOUNDOUR",
             "Level",
-            24,
+            38,
             true
           ]
         }
@@ -4869,12 +4869,12 @@
         {
           "target": "PORYGON",
           "method": "Item",
-          "param": "VIRTUALUPDATE",
+          "param": "UNIVERSALUPDATE",
           "targetForm": true,
           "raw": [
             "PORYGON",
             "Item",
-            "VIRTUALUPDATE",
+            "UNIVERSALUPDATE",
             true
           ]
         }
@@ -6717,12 +6717,12 @@
         {
           "target": "ALTARIA",
           "method": "Level",
-          "param": 35,
+          "param": 30,
           "targetForm": 0,
           "raw": [
             "ALTARIA",
             "Level",
-            35,
+            30,
             false
           ]
         }
@@ -6736,12 +6736,12 @@
         {
           "target": "SWABLU",
           "method": "Level",
-          "param": 35,
+          "param": 30,
           "targetForm": true,
           "raw": [
             "SWABLU",
             "Level",
-            35,
+            30,
             true
           ]
         }
@@ -7178,12 +7178,12 @@
         {
           "target": "WALREIN",
           "method": "Level",
-          "param": 44,
+          "param": 42,
           "targetForm": 0,
           "raw": [
             "WALREIN",
             "Level",
-            44,
+            42,
             false
           ]
         },
@@ -7209,12 +7209,12 @@
         {
           "target": "SEALEO",
           "method": "Level",
-          "param": 44,
+          "param": 42,
           "targetForm": true,
           "raw": [
             "SEALEO",
             "Level",
-            44,
+            42,
             true
           ]
         }
@@ -8690,12 +8690,12 @@
         {
           "target": "DRAPION",
           "method": "Level",
-          "param": 40,
+          "param": 45,
           "targetForm": 0,
           "raw": [
             "DRAPION",
             "Level",
-            40,
+            45,
             false
           ]
         }
@@ -8709,12 +8709,12 @@
         {
           "target": "SKORUPI",
           "method": "Level",
-          "param": 40,
+          "param": 45,
           "targetForm": true,
           "raw": [
             "SKORUPI",
             "Level",
-            40,
+            45,
             true
           ]
         }
@@ -12550,12 +12550,12 @@
         {
           "target": "DOUBLADE",
           "method": "Level",
-          "param": 35,
+          "param": 45,
           "targetForm": 0,
           "raw": [
             "DOUBLADE",
             "Level",
-            35,
+            45,
             false
           ]
         }
@@ -12568,25 +12568,25 @@
       "evolutions": [
         {
           "target": "AEGISLASH",
-          "method": "Item",
-          "param": "DUSKSTONE",
+          "method": "Level",
+          "param": 56,
           "targetForm": 0,
           "raw": [
             "AEGISLASH",
-            "Item",
-            "DUSKSTONE",
+            "Level",
+            56,
             false
           ]
         },
         {
           "target": "HONEDGE",
           "method": "Level",
-          "param": 35,
+          "param": 45,
           "targetForm": true,
           "raw": [
             "HONEDGE",
             "Level",
-            35,
+            45,
             true
           ]
         }
@@ -12599,13 +12599,13 @@
       "evolutions": [
         {
           "target": "DOUBLADE",
-          "method": "Item",
-          "param": "DUSKSTONE",
+          "method": "Level",
+          "param": 56,
           "targetForm": true,
           "raw": [
             "DOUBLADE",
-            "Item",
-            "DUSKSTONE",
+            "Level",
+            56,
             true
           ]
         }
@@ -12656,13 +12656,13 @@
       "evolutions": [
         {
           "target": "SLURPUFF",
-          "method": "Item",
-          "param": "UNIVERSALUPDATE",
+          "method": "Happiness",
+          "param": null,
           "targetForm": 0,
           "raw": [
             "SLURPUFF",
-            "Item",
-            "UNIVERSALUPDATE",
+            "Happiness",
+            null,
             false
           ]
         }
@@ -12675,13 +12675,13 @@
       "evolutions": [
         {
           "target": "SWIRLIX",
-          "method": "Item",
-          "param": "UNIVERSALUPDATE",
+          "method": "Happiness",
+          "param": null,
           "targetForm": true,
           "raw": [
             "SWIRLIX",
-            "Item",
-            "UNIVERSALUPDATE",
+            "Happiness",
+            null,
             true
           ]
         }
@@ -15191,12 +15191,12 @@
         {
           "target": "TOXTRICITY",
           "method": "Level",
-          "param": 45,
+          "param": 30,
           "targetForm": 0,
           "raw": [
             "TOXTRICITY",
             "Level",
-            45,
+            30,
             false
           ]
         }
@@ -15210,12 +15210,12 @@
         {
           "target": "TOXEL",
           "method": "Level",
-          "param": 45,
+          "param": 30,
           "targetForm": true,
           "raw": [
             "TOXEL",
             "Level",
-            45,
+            30,
             true
           ]
         }
@@ -16430,12 +16430,12 @@
         {
           "target": "DACHSBUN",
           "method": "Level",
-          "param": 26,
+          "param": 30,
           "targetForm": 0,
           "raw": [
             "DACHSBUN",
             "Level",
-            26,
+            30,
             false
           ]
         }
@@ -16449,12 +16449,12 @@
         {
           "target": "FIDOUGH",
           "method": "Level",
-          "param": 26,
+          "param": 30,
           "targetForm": true,
           "raw": [
             "FIDOUGH",
             "Level",
-            26,
+            30,
             true
           ]
         }
@@ -18060,12 +18060,12 @@
         {
           "target": "ONIX",
           "method": "LocationFlag",
-          "param": "Westar",
+          "param": "westartower",
           "targetForm": true,
           "raw": [
             "ONIX",
             "LocationFlag",
-            "Westar",
+            "westartower",
             true
           ]
         }
@@ -18521,12 +18521,12 @@
         {
           "target": "SCARPHASMO",
           "method": "LocationFlag",
-          "param": "GhostTown",
+          "param": "westartower",
           "targetForm": 0,
           "raw": [
             "SCARPHASMO",
             "LocationFlag",
-            "GhostTown",
+            "westartower",
             false
           ]
         },
@@ -18552,12 +18552,12 @@
         {
           "target": "SCARACLUO",
           "method": "LocationFlag",
-          "param": "GhostTown",
+          "param": "westartower",
           "targetForm": true,
           "raw": [
             "SCARACLUO",
             "LocationFlag",
-            "GhostTown",
+            "westartower",
             true
           ]
         }
@@ -18892,12 +18892,12 @@
         {
           "target": "SKARMORY",
           "method": "HasMove",
-          "param": "STEELWING",
+          "param": "SCORCHEDASHES",
           "targetForm": 0,
           "raw": [
             "SKARMORY",
             "HasMove",
-            "STEELWING",
+            "SCORCHEDASHES",
             false
           ]
         }
@@ -19755,6 +19755,25 @@
       ]
     },
     {
+      "species": "BUSTER",
+      "speciesId": "BUSTER",
+      "formId": 0,
+      "evolutions": [
+        {
+          "target": "GENGARX",
+          "method": "Item",
+          "param": "XENOLITH",
+          "targetForm": 0,
+          "raw": [
+            "GENGARX",
+            "Item",
+            "XENOLITH",
+            false
+          ]
+        }
+      ]
+    },
+    {
       "species": "VENUSAUR",
       "speciesId": "VENUSAUR_1",
       "formId": 1,
@@ -20506,6 +20525,25 @@
       ]
     },
     {
+      "species": "MEGANIUM",
+      "speciesId": "MEGANIUM_1",
+      "formId": 1,
+      "evolutions": [
+        {
+          "target": "BAYLEEF",
+          "method": "Level",
+          "param": 32,
+          "targetForm": true,
+          "raw": [
+            "BAYLEEF",
+            "Level",
+            32,
+            true
+          ]
+        }
+      ]
+    },
+    {
       "species": "PICHU",
       "speciesId": "PICHU_2",
       "formId": 2,
@@ -20558,6 +20596,25 @@
             "Item",
             "GALARICAWREATH",
             true
+          ]
+        }
+      ]
+    },
+    {
+      "species": "MISDREAVUS",
+      "speciesId": "MISDREAVUS_1",
+      "formId": 1,
+      "evolutions": [
+        {
+          "target": "MISMAGIUS",
+          "method": "None",
+          "param": null,
+          "targetForm": 0,
+          "raw": [
+            "MISMAGIUS",
+            "None",
+            null,
+            false
           ]
         }
       ]
@@ -20627,12 +20684,12 @@
         {
           "target": "HOUNDOUR",
           "method": "Level",
-          "param": 24,
+          "param": 38,
           "targetForm": true,
           "raw": [
             "HOUNDOUR",
             "Level",
-            24,
+            38,
             true
           ]
         }
@@ -20886,12 +20943,12 @@
         {
           "target": "SWABLU",
           "method": "Level",
-          "param": 35,
+          "param": 30,
           "targetForm": true,
           "raw": [
             "SWABLU",
             "Level",
-            35,
+            30,
             true
           ]
         }
@@ -22204,13 +22261,13 @@
       "evolutions": [
         {
           "target": "DOUBLADE",
-          "method": "Item",
-          "param": "DUSKSTONE",
+          "method": "Level",
+          "param": 56,
           "targetForm": true,
           "raw": [
             "DOUBLADE",
-            "Item",
-            "DUSKSTONE",
+            "Level",
+            56,
             true
           ]
         }
@@ -22737,12 +22794,12 @@
         {
           "target": "TOXEL",
           "method": "Level",
-          "param": 45,
+          "param": 30,
           "targetForm": true,
           "raw": [
             "TOXEL",
             "Level",
-            45,
+            30,
             true
           ]
         }
@@ -22889,12 +22946,12 @@
         {
           "target": "QUILAVA",
           "method": "Level",
-          "param": 36,
+          "param": 34,
           "targetForm": true,
           "raw": [
             "QUILAVA",
             "Level",
-            36,
+            34,
             true
           ]
         }

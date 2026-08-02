@@ -1,8 +1,8 @@
 {
   "meta": {
-    "exportTime": "2026-02-04T22:07:45.503Z",
-    "commitHash": "4de5636ea01014226c44edfa1b8f0a5288721127",
-    "count": 196,
+    "exportTime": "2026-08-02T17:53:05.522Z",
+    "commitHash": "787cd73e2f99fa794320ee7928faa187b9ddbe9e",
+    "count": 193,
     "decodingStrategy": "ruby-marshal",
     "warnings": []
   },
@@ -58,7 +58,7 @@
         {
           "type": "GoodRod",
           "chance": 20,
-          "species": "DRATINI",
+          "species": "QWILFISH_1",
           "minLevel": 20,
           "maxLevel": 25
         },
@@ -101,15 +101,15 @@
       "slots": [
         {
           "type": "ShallowWater",
-          "chance": 30,
-          "species": "GRIMER",
+          "chance": 20,
+          "species": "CARVANHA",
           "minLevel": 14,
           "maxLevel": 16
         },
         {
           "type": "ShallowWater",
-          "chance": 20,
-          "species": "CARVANHA",
+          "chance": 15,
+          "species": "GRIMER",
           "minLevel": 14,
           "maxLevel": 16
         },
@@ -123,13 +123,20 @@
         {
           "type": "ShallowWater",
           "chance": 10,
+          "species": "CLAUNCHER",
+          "minLevel": 14,
+          "maxLevel": 16
+        },
+        {
+          "type": "ShallowWater",
+          "chance": 10,
           "species": "SKRELP",
           "minLevel": 14,
           "maxLevel": 16
         },
         {
           "type": "ShallowWater",
-          "chance": 5,
+          "chance": 10,
           "species": "YARDREAVUS",
           "minLevel": 14,
           "maxLevel": 16
@@ -179,7 +186,7 @@
         {
           "type": "GoodRod",
           "chance": 20,
-          "species": "DRATINI",
+          "species": "QWILFISH_1",
           "minLevel": 20,
           "maxLevel": 25
         },
@@ -229,7 +236,7 @@
         },
         {
           "type": "ShallowWater",
-          "chance": 20,
+          "chance": 15,
           "species": "GRIMER",
           "minLevel": 14,
           "maxLevel": 16
@@ -257,7 +264,7 @@
         },
         {
           "type": "ShallowWater",
-          "chance": 5,
+          "chance": 10,
           "species": "YARDREAVUS",
           "minLevel": 14,
           "maxLevel": 16
@@ -271,7 +278,7 @@
         },
         {
           "type": "Water",
-          "chance": 30,
+          "chance": 35,
           "species": "SHARPEDO",
           "minLevel": 30,
           "maxLevel": 40
@@ -307,7 +314,7 @@
         {
           "type": "GoodRod",
           "chance": 20,
-          "species": "DRATINI",
+          "species": "QWILFISH_1",
           "minLevel": 20,
           "maxLevel": 25
         },
@@ -357,7 +364,7 @@
         },
         {
           "type": "ShallowWater",
-          "chance": 20,
+          "chance": 15,
           "species": "GRIMER",
           "minLevel": 14,
           "maxLevel": 16
@@ -385,7 +392,7 @@
         },
         {
           "type": "ShallowWater",
-          "chance": 5,
+          "chance": 10,
           "species": "YARDREAVUS",
           "minLevel": 14,
           "maxLevel": 16
@@ -1089,7 +1096,7 @@
         {
           "type": "Water",
           "chance": 35,
-          "species": "MASQUERAIN",
+          "species": "PALPITOAD",
           "minLevel": 20,
           "maxLevel": 30
         },
@@ -1103,7 +1110,7 @@
         {
           "type": "OldRod",
           "chance": 80,
-          "species": "SURSKIT",
+          "species": "TYMPOLE",
           "minLevel": 7,
           "maxLevel": 10
         },
@@ -1117,7 +1124,7 @@
         {
           "type": "GoodRod",
           "chance": 60,
-          "species": "MASQUERAIN",
+          "species": "PALPITOAD",
           "minLevel": 15,
           "maxLevel": 20
         },
@@ -1251,15 +1258,15 @@
         },
         {
           "type": "GoodRod",
-          "chance": 20,
-          "species": "POLIWHIRL",
+          "chance": 40,
+          "species": "SLOWPOKE",
           "minLevel": 15,
           "maxLevel": 20
         },
         {
           "type": "GoodRod",
           "chance": 20,
-          "species": "SLOWPOKE",
+          "species": "POLIWHIRL",
           "minLevel": 15,
           "maxLevel": 20
         },
@@ -1304,22 +1311,22 @@
           "type": "Grass",
           "chance": 35,
           "species": "YEMIN",
-          "minLevel": 3,
-          "maxLevel": 5
+          "minLevel": 5,
+          "maxLevel": 7
         },
         {
           "type": "Grass",
           "chance": 20,
           "species": "SPINARAK",
-          "minLevel": 3,
-          "maxLevel": 5
+          "minLevel": 5,
+          "maxLevel": 7
         },
         {
           "type": "Grass",
           "chance": 10,
           "species": "WHISMUR",
-          "minLevel": 3,
-          "maxLevel": 5
+          "minLevel": 5,
+          "maxLevel": 7
         }
       ],
       "_source": "encounters.dat"
@@ -1383,17 +1390,17 @@
       "slots": [
         {
           "type": "Grass",
-          "chance": 45,
-          "species": "DWEBBLE",
-          "minLevel": 4,
-          "maxLevel": 5
-        },
-        {
-          "type": "Grass",
-          "chance": 45,
+          "chance": 50,
           "species": "WINGULL",
           "minLevel": 5,
           "maxLevel": 7
+        },
+        {
+          "type": "Grass",
+          "chance": 40,
+          "species": "DWEBBLE",
+          "minLevel": 4,
+          "maxLevel": 5
         },
         {
           "type": "Grass",
@@ -1418,7 +1425,7 @@
         },
         {
           "type": "ShallowWater",
-          "chance": 10,
+          "chance": 15,
           "species": "FRILLISH",
           "minLevel": 5,
           "maxLevel": 7
@@ -1476,22 +1483,22 @@
           "type": "GoodRod",
           "chance": 50,
           "species": "MAGIKARP",
-          "minLevel": 15,
-          "maxLevel": 20
+          "minLevel": 25,
+          "maxLevel": 30
         },
         {
           "type": "GoodRod",
           "chance": 30,
           "species": "HORSEA",
-          "minLevel": 15,
-          "maxLevel": 20
+          "minLevel": 25,
+          "maxLevel": 30
         },
         {
           "type": "GoodRod",
           "chance": 20,
           "species": "MANTYKE",
-          "minLevel": 15,
-          "maxLevel": 20
+          "minLevel": 25,
+          "maxLevel": 30
         },
         {
           "type": "SuperRod",
@@ -1561,7 +1568,7 @@
         {
           "type": "OldRod",
           "chance": 30,
-          "species": "REMORAID",
+          "species": "PYUKUMUKU",
           "minLevel": 10,
           "maxLevel": 10
         },
@@ -1575,7 +1582,7 @@
         {
           "type": "GoodRod",
           "chance": 30,
-          "species": "REMORAID",
+          "species": "MANTYKE",
           "minLevel": 20,
           "maxLevel": 20
         },
@@ -1596,7 +1603,7 @@
         {
           "type": "SuperRod",
           "chance": 40,
-          "species": "OCTILLERY",
+          "species": "MANTINE",
           "minLevel": 30,
           "maxLevel": 40
         },
@@ -1790,50 +1797,50 @@
           "type": "GoodRod",
           "chance": 60,
           "species": "MAGIKARP",
-          "minLevel": 10,
-          "maxLevel": 15
+          "minLevel": 20,
+          "maxLevel": 25
         },
         {
           "type": "GoodRod",
           "chance": 35,
           "species": "KIDOON",
-          "minLevel": 10,
-          "maxLevel": 15
+          "minLevel": 20,
+          "maxLevel": 25
         },
         {
           "type": "GoodRod",
           "chance": 20,
           "species": "MANTYKE",
-          "minLevel": 10,
-          "maxLevel": 15
+          "minLevel": 20,
+          "maxLevel": 25
         },
         {
           "type": "SuperRod",
           "chance": 30,
           "species": "GYARADOS",
-          "minLevel": 30,
-          "maxLevel": 30
+          "minLevel": 40,
+          "maxLevel": 40
         },
         {
           "type": "SuperRod",
           "chance": 30,
           "species": "HONCHEN",
-          "minLevel": 30,
-          "maxLevel": 30
+          "minLevel": 40,
+          "maxLevel": 40
         },
         {
           "type": "SuperRod",
           "chance": 30,
           "species": "MANTINE",
-          "minLevel": 30,
-          "maxLevel": 30
+          "minLevel": 40,
+          "maxLevel": 40
         },
         {
           "type": "SuperRod",
           "chance": 10,
           "species": "FEEBAS",
-          "minLevel": 30,
-          "maxLevel": 30
+          "minLevel": 40,
+          "maxLevel": 40
         }
       ],
       "_source": "encounters.dat"
@@ -1883,43 +1890,43 @@
           "type": "GoodRod",
           "chance": 60,
           "species": "MAGIKARP",
-          "minLevel": 10,
-          "maxLevel": 15
-        },
-        {
-          "type": "GoodRod",
-          "chance": 20,
-          "species": "CLAUNCHER",
-          "minLevel": 10,
-          "maxLevel": 15
-        },
-        {
-          "type": "GoodRod",
-          "chance": 20,
-          "species": "SLOWPOKE",
           "minLevel": 20,
-          "maxLevel": 20
+          "maxLevel": 25
+        },
+        {
+          "type": "GoodRod",
+          "chance": 20,
+          "species": "CLAUNCHER",
+          "minLevel": 20,
+          "maxLevel": 25
+        },
+        {
+          "type": "GoodRod",
+          "chance": 20,
+          "species": "SLOWPOKE",
+          "minLevel": 30,
+          "maxLevel": 30
         },
         {
           "type": "SuperRod",
           "chance": 40,
           "species": "CLAUNCHER",
-          "minLevel": 30,
-          "maxLevel": 30
+          "minLevel": 40,
+          "maxLevel": 40
         },
         {
           "type": "SuperRod",
           "chance": 40,
           "species": "SLOWPOKE",
-          "minLevel": 30,
-          "maxLevel": 30
+          "minLevel": 40,
+          "maxLevel": 40
         },
         {
           "type": "SuperRod",
           "chance": 20,
           "species": "GYARADOS",
-          "minLevel": 30,
-          "maxLevel": 30
+          "minLevel": 40,
+          "maxLevel": 40
         }
       ],
       "_source": "encounters.dat"
@@ -1969,43 +1976,43 @@
           "type": "GoodRod",
           "chance": 60,
           "species": "MAGIKARP",
-          "minLevel": 10,
-          "maxLevel": 15
-        },
-        {
-          "type": "GoodRod",
-          "chance": 20,
-          "species": "CLAUNCHER",
-          "minLevel": 10,
-          "maxLevel": 15
-        },
-        {
-          "type": "GoodRod",
-          "chance": 20,
-          "species": "SLOWPOKE",
           "minLevel": 20,
-          "maxLevel": 20
+          "maxLevel": 25
+        },
+        {
+          "type": "GoodRod",
+          "chance": 20,
+          "species": "CLAUNCHER",
+          "minLevel": 20,
+          "maxLevel": 25
+        },
+        {
+          "type": "GoodRod",
+          "chance": 20,
+          "species": "SLOWPOKE",
+          "minLevel": 30,
+          "maxLevel": 30
         },
         {
           "type": "SuperRod",
           "chance": 40,
           "species": "CLAUNCHER",
-          "minLevel": 30,
-          "maxLevel": 30
+          "minLevel": 40,
+          "maxLevel": 40
         },
         {
           "type": "SuperRod",
           "chance": 40,
           "species": "SLOWPOKE",
-          "minLevel": 30,
-          "maxLevel": 30
+          "minLevel": 40,
+          "maxLevel": 40
         },
         {
           "type": "SuperRod",
           "chance": 20,
           "species": "GYARADOS",
-          "minLevel": 30,
-          "maxLevel": 30
+          "minLevel": 40,
+          "maxLevel": 40
         }
       ],
       "_source": "encounters.dat"
@@ -2104,43 +2111,43 @@
           "type": "GoodRod",
           "chance": 60,
           "species": "MAGIKARP",
-          "minLevel": 10,
-          "maxLevel": 15
-        },
-        {
-          "type": "GoodRod",
-          "chance": 20,
-          "species": "CLAUNCHER",
-          "minLevel": 10,
-          "maxLevel": 15
-        },
-        {
-          "type": "GoodRod",
-          "chance": 20,
-          "species": "SLOWPOKE",
           "minLevel": 20,
-          "maxLevel": 20
+          "maxLevel": 25
+        },
+        {
+          "type": "GoodRod",
+          "chance": 20,
+          "species": "CLAUNCHER",
+          "minLevel": 20,
+          "maxLevel": 25
+        },
+        {
+          "type": "GoodRod",
+          "chance": 20,
+          "species": "SLOWPOKE",
+          "minLevel": 30,
+          "maxLevel": 30
         },
         {
           "type": "SuperRod",
           "chance": 40,
           "species": "CLAUNCHER",
-          "minLevel": 30,
-          "maxLevel": 30
+          "minLevel": 40,
+          "maxLevel": 40
         },
         {
           "type": "SuperRod",
           "chance": 40,
           "species": "SLOWPOKE",
-          "minLevel": 30,
-          "maxLevel": 30
+          "minLevel": 40,
+          "maxLevel": 40
         },
         {
           "type": "SuperRod",
           "chance": 20,
           "species": "GYARADOS",
-          "minLevel": 30,
-          "maxLevel": 30
+          "minLevel": 40,
+          "maxLevel": 40
         }
       ],
       "_source": "encounters.dat"
@@ -2202,22 +2209,22 @@
         },
         {
           "type": "OldRod",
-          "chance": 70,
+          "chance": 50,
           "species": "MAGIKARP",
-          "minLevel": 10,
+          "minLevel": 7,
           "maxLevel": 10
         },
         {
           "type": "OldRod",
-          "chance": 30,
+          "chance": 20,
           "species": "SLOWPOKE",
-          "minLevel": 10,
+          "minLevel": 7,
           "maxLevel": 10
         },
         {
           "type": "GoodRod",
           "chance": 60,
-          "species": "GYARADOS",
+          "species": "MAGIKARP",
           "minLevel": 20,
           "maxLevel": 25
         },
@@ -2232,29 +2239,29 @@
           "type": "GoodRod",
           "chance": 20,
           "species": "SLOWPOKE",
-          "minLevel": 20,
-          "maxLevel": 20
+          "minLevel": 30,
+          "maxLevel": 30
         },
         {
           "type": "SuperRod",
           "chance": 40,
           "species": "CLAUNCHER",
-          "minLevel": 30,
-          "maxLevel": 30
+          "minLevel": 40,
+          "maxLevel": 40
         },
         {
           "type": "SuperRod",
           "chance": 40,
-          "species": "SLOWBRO",
-          "minLevel": 30,
-          "maxLevel": 30
+          "species": "SLOWPOKE",
+          "minLevel": 40,
+          "maxLevel": 40
         },
         {
           "type": "SuperRod",
           "chance": 20,
           "species": "GYARADOS",
-          "minLevel": 30,
-          "maxLevel": 30
+          "minLevel": 40,
+          "maxLevel": 40
         }
       ],
       "_source": "encounters.dat"
@@ -2595,15 +2602,22 @@
         },
         {
           "type": "SuperRod",
-          "chance": 55,
-          "species": "KIDOON",
+          "chance": 45,
+          "species": "GYARADOS",
           "minLevel": 30,
           "maxLevel": 30
         },
         {
           "type": "SuperRod",
           "chance": 40,
-          "species": "GYARADOS",
+          "species": "KIDOON",
+          "minLevel": 30,
+          "maxLevel": 30
+        },
+        {
+          "type": "SuperRod",
+          "chance": 15,
+          "species": "HONCHEN",
           "minLevel": 30,
           "maxLevel": 30
         },
@@ -2616,7 +2630,7 @@
         },
         {
           "type": "RockSmash",
-          "chance": 30,
+          "chance": 40,
           "species": "NOSEPASS",
           "minLevel": 26,
           "maxLevel": 26
@@ -2844,24 +2858,38 @@
         },
         {
           "type": "SuperRod",
-          "chance": 80,
+          "chance": 30,
           "species": "GYARADOS",
-          "minLevel": 20,
-          "maxLevel": 20
+          "minLevel": 30,
+          "maxLevel": 35
         },
         {
           "type": "SuperRod",
-          "chance": 15,
+          "chance": 30,
+          "species": "POLIWHIRL",
+          "minLevel": 30,
+          "maxLevel": 35
+        },
+        {
+          "type": "SuperRod",
+          "chance": 20,
+          "species": "BIRIGIRI",
+          "minLevel": 30,
+          "maxLevel": 35
+        },
+        {
+          "type": "SuperRod",
+          "chance": 10,
           "species": "DRATINI",
-          "minLevel": 15,
-          "maxLevel": 20
+          "minLevel": 30,
+          "maxLevel": 35
         },
         {
           "type": "SuperRod",
-          "chance": 5,
+          "chance": 10,
           "species": "FEEBAS",
-          "minLevel": 5,
-          "maxLevel": 15
+          "minLevel": 30,
+          "maxLevel": 35
         },
         {
           "type": "RockSmash",
@@ -3159,7 +3187,7 @@
         {
           "type": "OldRod",
           "chance": 70,
-          "species": "SURSKIT",
+          "species": "TYMPOLE",
           "minLevel": 10,
           "maxLevel": 10
         },
@@ -3187,14 +3215,14 @@
         {
           "type": "GoodRod",
           "chance": 20,
-          "species": "MASQUERAIN",
+          "species": "PALPITOAD",
           "minLevel": 20,
           "maxLevel": 20
         },
         {
           "type": "SuperRod",
           "chance": 40,
-          "species": "MASQUERAIN",
+          "species": "PALPITOAD",
           "minLevel": 30,
           "maxLevel": 30
         },
@@ -3223,7 +3251,7 @@
       "slots": [
         {
           "type": "Grass",
-          "chance": 40,
+          "chance": 25,
           "species": "ODDISH",
           "minLevel": 7,
           "maxLevel": 10
@@ -3238,14 +3266,14 @@
         {
           "type": "Grass",
           "chance": 20,
-          "species": "HOPPIP",
+          "species": "MORELULL",
           "minLevel": 7,
           "maxLevel": 10
         },
         {
           "type": "Grass",
-          "chance": 20,
-          "species": "MORELULL",
+          "chance": 15,
+          "species": "HOPPIP",
           "minLevel": 7,
           "maxLevel": 10
         },
@@ -4104,249 +4132,60 @@
       "version": 0,
       "slots": [
         {
-          "type": "Water",
-          "chance": 60,
-          "species": "BUIZEL",
-          "minLevel": 20,
-          "maxLevel": 40
+          "type": "Grass",
+          "chance": 35,
+          "species": "VROOMBUG",
+          "minLevel": 36,
+          "maxLevel": 38
         },
         {
-          "type": "Water",
-          "chance": 31,
-          "species": "BIBAREL",
-          "minLevel": 20,
-          "maxLevel": 40
-        },
-        {
-          "type": "Water",
-          "chance": 5,
-          "species": "BIRIGIRI",
-          "minLevel": 20,
-          "maxLevel": 40
-        },
-        {
-          "type": "Water",
-          "chance": 4,
-          "species": "FLOATZEL",
-          "minLevel": 20,
-          "maxLevel": 42
-        },
-        {
-          "type": "OldRod",
-          "chance": 70,
-          "species": "MAGIKARP",
-          "minLevel": 3,
-          "maxLevel": 10
-        },
-        {
-          "type": "OldRod",
+          "type": "Grass",
           "chance": 30,
-          "species": "KIDOON",
-          "minLevel": 3,
-          "maxLevel": 10
+          "species": "PECKABONE",
+          "minLevel": 36,
+          "maxLevel": 38
         },
         {
-          "type": "GoodRod",
-          "chance": 80,
-          "species": "MAGIKARP",
-          "minLevel": 10,
-          "maxLevel": 20
-        },
-        {
-          "type": "GoodRod",
+          "type": "Grass",
           "chance": 20,
-          "species": "KIDOON",
-          "minLevel": 10,
-          "maxLevel": 20
+          "species": "PONYTA",
+          "minLevel": 36,
+          "maxLevel": 38
         },
         {
-          "type": "SuperRod",
-          "chance": 56,
-          "species": "GYARADOS",
-          "minLevel": 20,
-          "maxLevel": 25
+          "type": "Grass",
+          "chance": 15,
+          "species": "BREMAND_3",
+          "minLevel": 36,
+          "maxLevel": 38
         },
         {
-          "type": "SuperRod",
+          "type": "DryGrass",
           "chance": 40,
-          "species": "KIDOON",
-          "minLevel": 20,
-          "maxLevel": 20
+          "species": "BRAMBLIN",
+          "minLevel": 36,
+          "maxLevel": 38
         },
         {
-          "type": "SuperRod",
-          "chance": 4,
-          "species": "HONCHEN",
-          "minLevel": 30,
-          "maxLevel": 30
-        },
-        {
-          "type": "LandDay",
-          "chance": 20,
-          "species": "CACNEA",
-          "minLevel": 23,
-          "maxLevel": 25
-        },
-        {
-          "type": "LandDay",
-          "chance": 20,
-          "species": "VROOMBUG",
-          "minLevel": 23,
-          "maxLevel": 24
-        },
-        {
-          "type": "LandDay",
-          "chance": 10,
-          "species": "CHIKABOO",
-          "minLevel": 23,
-          "maxLevel": 25
-        },
-        {
-          "type": "LandDay",
-          "chance": 10,
-          "species": "NATU",
-          "minLevel": 24,
-          "maxLevel": 24
-        },
-        {
-          "type": "LandDay",
-          "chance": 10,
-          "species": "RUFFLET",
-          "minLevel": 24,
-          "maxLevel": 25
-        },
-        {
-          "type": "LandDay",
-          "chance": 10,
-          "species": "SANDSHREW",
-          "minLevel": 23,
-          "maxLevel": 24
-        },
-        {
-          "type": "LandDay",
-          "chance": 5,
-          "species": "PECKABONE",
-          "minLevel": 29,
-          "maxLevel": 29
-        },
-        {
-          "type": "LandDay",
-          "chance": 5,
-          "species": "SKARMORY",
-          "minLevel": 25,
-          "maxLevel": 27
-        },
-        {
-          "type": "LandDay",
-          "chance": 4,
-          "species": "CUBONE",
-          "minLevel": 23,
-          "maxLevel": 24
-        },
-        {
-          "type": "LandDay",
-          "chance": 4,
+          "type": "DryGrass",
+          "chance": 30,
           "species": "TRAPINCH",
-          "minLevel": 25,
-          "maxLevel": 27
+          "minLevel": 36,
+          "maxLevel": 38
         },
         {
-          "type": "LandDay",
-          "chance": 1,
-          "species": "BREMAND",
-          "minLevel": 29,
-          "maxLevel": 29
+          "type": "DryGrass",
+          "chance": 15,
+          "species": "DREEPY_1",
+          "minLevel": 36,
+          "maxLevel": 38
         },
         {
-          "type": "LandDay",
-          "chance": 1,
-          "species": "BREMAND",
-          "minLevel": 27,
-          "maxLevel": 27
-        },
-        {
-          "type": "LandNight",
-          "chance": 20,
-          "species": "CACNEA",
-          "minLevel": 23,
-          "maxLevel": 25
-        },
-        {
-          "type": "LandNight",
-          "chance": 20,
-          "species": "VROOMBUG",
-          "minLevel": 23,
-          "maxLevel": 24
-        },
-        {
-          "type": "LandNight",
-          "chance": 10,
-          "species": "CHIKABOO",
-          "minLevel": 23,
-          "maxLevel": 25
-        },
-        {
-          "type": "LandNight",
-          "chance": 10,
-          "species": "NATU",
-          "minLevel": 24,
-          "maxLevel": 24
-        },
-        {
-          "type": "LandNight",
-          "chance": 10,
-          "species": "SANDSHREW",
-          "minLevel": 23,
-          "maxLevel": 24
-        },
-        {
-          "type": "LandNight",
-          "chance": 10,
-          "species": "VULLABY",
-          "minLevel": 24,
-          "maxLevel": 25
-        },
-        {
-          "type": "LandNight",
-          "chance": 5,
-          "species": "PECKABONE",
-          "minLevel": 29,
-          "maxLevel": 29
-        },
-        {
-          "type": "LandNight",
-          "chance": 5,
-          "species": "SKARMORY",
-          "minLevel": 25,
-          "maxLevel": 27
-        },
-        {
-          "type": "LandNight",
-          "chance": 4,
-          "species": "CUBONE",
-          "minLevel": 23,
-          "maxLevel": 24
-        },
-        {
-          "type": "LandNight",
-          "chance": 4,
-          "species": "TRAPINCH",
-          "minLevel": 25,
-          "maxLevel": 27
-        },
-        {
-          "type": "LandNight",
-          "chance": 1,
-          "species": "BREMAND",
-          "minLevel": 29,
-          "maxLevel": 29
-        },
-        {
-          "type": "LandNight",
-          "chance": 1,
-          "species": "BREMAND",
-          "minLevel": 27,
-          "maxLevel": 27
+          "type": "DryGrass",
+          "chance": 15,
+          "species": "TAUROS_1",
+          "minLevel": 36,
+          "maxLevel": 38
         }
       ],
       "_source": "encounters.dat"
@@ -4361,29 +4200,36 @@
           "type": "XenoformedLand",
           "chance": 30,
           "species": "ALTARIA",
-          "minLevel": 41,
-          "maxLevel": 45
-        },
-        {
-          "type": "XenoformedLand",
-          "chance": 30,
-          "species": "RUFFLET",
-          "minLevel": 41,
-          "maxLevel": 45
+          "minLevel": 40,
+          "maxLevel": 43
         },
         {
           "type": "XenoformedLand",
           "chance": 25,
-          "species": "SKARMORY",
-          "minLevel": 41,
-          "maxLevel": 45
+          "species": "RUFFLET",
+          "minLevel": 40,
+          "maxLevel": 43
+        },
+        {
+          "type": "XenoformedLand",
+          "chance": 20,
+          "species": "SWIRLIX",
+          "minLevel": 40,
+          "maxLevel": 43
         },
         {
           "type": "XenoformedLand",
           "chance": 15,
+          "species": "CHIMECHO_1",
+          "minLevel": 40,
+          "maxLevel": 43
+        },
+        {
+          "type": "XenoformedLand",
+          "chance": 10,
           "species": "PONYTAX",
-          "minLevel": 41,
-          "maxLevel": 45
+          "minLevel": 40,
+          "maxLevel": 43
         }
       ],
       "_source": "encounters.dat"
@@ -4391,148 +4237,36 @@
     {
       "id": "150_0",
       "mapId": 150,
-      "mapName": "Westar City",
+      "mapName": "Westar County",
       "version": 0,
       "slots": [
         {
-          "type": "LandDay",
-          "chance": 30,
-          "species": "MILTANK",
-          "minLevel": 28,
-          "maxLevel": 30
-        },
-        {
-          "type": "LandDay",
-          "chance": 20,
-          "species": "CHIKABOO",
-          "minLevel": 23,
-          "maxLevel": 26
-        },
-        {
-          "type": "LandDay",
-          "chance": 10,
-          "species": "CHIKABOO",
-          "minLevel": 23,
-          "maxLevel": 27
-        },
-        {
-          "type": "LandDay",
-          "chance": 10,
-          "species": "FLAAFFY",
-          "minLevel": 27,
-          "maxLevel": 30
-        },
-        {
-          "type": "LandDay",
-          "chance": 10,
-          "species": "FLAAFFY",
-          "minLevel": 27,
-          "maxLevel": 29
-        },
-        {
-          "type": "LandDay",
-          "chance": 5,
-          "species": "CHIKABOO",
-          "minLevel": 23,
-          "maxLevel": 30
-        },
-        {
-          "type": "LandDay",
-          "chance": 5,
-          "species": "MILTANK",
-          "minLevel": 30,
-          "maxLevel": 30
-        },
-        {
-          "type": "LandDay",
-          "chance": 4,
-          "species": "CUBONE",
-          "minLevel": 26,
-          "maxLevel": 28
-        },
-        {
-          "type": "LandDay",
-          "chance": 4,
-          "species": "PECKABONE",
-          "minLevel": 29,
-          "maxLevel": 30
-        },
-        {
-          "type": "LandDay",
-          "chance": 1,
-          "species": "CUBONE",
-          "minLevel": 30,
-          "maxLevel": 30
-        },
-        {
-          "type": "LandDay",
-          "chance": 1,
-          "species": "CUBONE",
-          "minLevel": 27,
-          "maxLevel": 29
-        },
-        {
-          "type": "LandNight",
+          "type": "DryGrass",
           "chance": 35,
-          "species": "GOLBAT",
-          "minLevel": 28,
-          "maxLevel": 30
+          "species": "ABSOL",
+          "minLevel": 41,
+          "maxLevel": 43
         },
         {
-          "type": "LandNight",
+          "type": "DryGrass",
+          "chance": 30,
+          "species": "MURKROW",
+          "minLevel": 41,
+          "maxLevel": 43
+        },
+        {
+          "type": "DryGrass",
           "chance": 20,
-          "species": "CHIKABOO",
-          "minLevel": 23,
-          "maxLevel": 26
+          "species": "MILTANK",
+          "minLevel": 41,
+          "maxLevel": 43
         },
         {
-          "type": "LandNight",
-          "chance": 10,
-          "species": "CHIKABOO",
-          "minLevel": 23,
-          "maxLevel": 27
-        },
-        {
-          "type": "LandNight",
-          "chance": 10,
-          "species": "MURKROW",
-          "minLevel": 27,
-          "maxLevel": 29
-        },
-        {
-          "type": "LandNight",
-          "chance": 10,
-          "species": "MURKROW",
-          "minLevel": 27,
-          "maxLevel": 30
-        },
-        {
-          "type": "LandNight",
-          "chance": 5,
-          "species": "HAUNTER",
-          "minLevel": 27,
-          "maxLevel": 30
-        },
-        {
-          "type": "LandNight",
-          "chance": 5,
-          "species": "PECKABONE",
-          "minLevel": 27,
-          "maxLevel": 30
-        },
-        {
-          "type": "LandNight",
-          "chance": 4,
-          "species": "MURKROW",
-          "minLevel": 28,
-          "maxLevel": 30
-        },
-        {
-          "type": "LandNight",
-          "chance": 1,
-          "species": "HAUNTER",
-          "minLevel": 31,
-          "maxLevel": 31
+          "type": "DryGrass",
+          "chance": 15,
+          "species": "KOINKOIN",
+          "minLevel": 41,
+          "maxLevel": 43
         }
       ],
       "_source": "encounters.dat"
@@ -4540,220 +4274,36 @@
     {
       "id": "151_0",
       "mapId": 151,
-      "mapName": "Westar City",
+      "mapName": "Westar County",
       "version": 0,
       "slots": [
         {
-          "type": "LandDay",
-          "chance": 30,
-          "species": "MILTANK",
-          "minLevel": 28,
-          "maxLevel": 30
-        },
-        {
-          "type": "LandDay",
-          "chance": 20,
-          "species": "CHIKABOO",
-          "minLevel": 23,
-          "maxLevel": 26
-        },
-        {
-          "type": "LandDay",
-          "chance": 10,
-          "species": "CHIKABOO",
-          "minLevel": 23,
-          "maxLevel": 27
-        },
-        {
-          "type": "LandDay",
-          "chance": 10,
-          "species": "FLAAFFY",
-          "minLevel": 27,
-          "maxLevel": 30
-        },
-        {
-          "type": "LandDay",
-          "chance": 10,
-          "species": "FLAAFFY",
-          "minLevel": 27,
-          "maxLevel": 29
-        },
-        {
-          "type": "LandDay",
-          "chance": 5,
-          "species": "CHIKABOO",
-          "minLevel": 23,
-          "maxLevel": 30
-        },
-        {
-          "type": "LandDay",
-          "chance": 5,
-          "species": "MILTANK",
-          "minLevel": 30,
-          "maxLevel": 30
-        },
-        {
-          "type": "LandDay",
-          "chance": 4,
-          "species": "CUBONE",
-          "minLevel": 26,
-          "maxLevel": 28
-        },
-        {
-          "type": "LandDay",
-          "chance": 4,
-          "species": "PECKABONE",
-          "minLevel": 29,
-          "maxLevel": 30
-        },
-        {
-          "type": "LandDay",
-          "chance": 1,
-          "species": "CUBONE",
-          "minLevel": 30,
-          "maxLevel": 30
-        },
-        {
-          "type": "LandDay",
-          "chance": 1,
-          "species": "CUBONE",
-          "minLevel": 27,
-          "maxLevel": 29
-        },
-        {
-          "type": "LandNight",
+          "type": "DryGrass",
           "chance": 35,
-          "species": "GOLBAT",
-          "minLevel": 28,
-          "maxLevel": 30
+          "species": "ABSOL",
+          "minLevel": 41,
+          "maxLevel": 43
         },
         {
-          "type": "LandNight",
+          "type": "DryGrass",
+          "chance": 30,
+          "species": "MURKROW",
+          "minLevel": 41,
+          "maxLevel": 43
+        },
+        {
+          "type": "DryGrass",
           "chance": 20,
-          "species": "CHIKABOO",
-          "minLevel": 23,
-          "maxLevel": 26
+          "species": "MILTANK",
+          "minLevel": 41,
+          "maxLevel": 43
         },
         {
-          "type": "LandNight",
-          "chance": 10,
-          "species": "CHIKABOO",
-          "minLevel": 23,
-          "maxLevel": 27
-        },
-        {
-          "type": "LandNight",
-          "chance": 10,
-          "species": "MURKROW",
-          "minLevel": 27,
-          "maxLevel": 29
-        },
-        {
-          "type": "LandNight",
-          "chance": 10,
-          "species": "MURKROW",
-          "minLevel": 27,
-          "maxLevel": 30
-        },
-        {
-          "type": "LandNight",
-          "chance": 5,
-          "species": "HAUNTER",
-          "minLevel": 27,
-          "maxLevel": 30
-        },
-        {
-          "type": "LandNight",
-          "chance": 5,
-          "species": "PECKABONE",
-          "minLevel": 27,
-          "maxLevel": 30
-        },
-        {
-          "type": "LandNight",
-          "chance": 4,
-          "species": "MURKROW",
-          "minLevel": 28,
-          "maxLevel": 30
-        },
-        {
-          "type": "LandNight",
-          "chance": 1,
-          "species": "HAUNTER",
-          "minLevel": 31,
-          "maxLevel": 31
-        }
-      ],
-      "_source": "encounters.dat"
-    },
-    {
-      "id": "165_0",
-      "mapId": 165,
-      "mapName": "Wild Bull Saloon",
-      "version": 0,
-      "slots": [
-        {
-          "type": "Cave",
-          "chance": 25,
-          "species": "LITWICK",
-          "minLevel": 26,
-          "maxLevel": 29
-        },
-        {
-          "type": "Cave",
-          "chance": 24,
-          "species": "HAUNTER",
-          "minLevel": 28,
-          "maxLevel": 32
-        },
-        {
-          "type": "Cave",
-          "chance": 20,
-          "species": "SCARACNO",
-          "minLevel": 29,
-          "maxLevel": 32
-        },
-        {
-          "type": "Cave",
-          "chance": 10,
-          "species": "GOLBAT",
-          "minLevel": 27,
-          "maxLevel": 30
-        },
-        {
-          "type": "Cave",
-          "chance": 10,
-          "species": "SCARACNO",
-          "minLevel": 27,
-          "maxLevel": 30
-        },
-        {
-          "type": "Cave",
-          "chance": 5,
-          "species": "GOLBAT",
-          "minLevel": 29,
-          "maxLevel": 32
-        },
-        {
-          "type": "Cave",
-          "chance": 4,
-          "species": "SCARACLUO",
-          "minLevel": 32,
-          "maxLevel": 32
-        },
-        {
-          "type": "Cave",
-          "chance": 1,
-          "species": "MASGOT",
-          "minLevel": 30,
-          "maxLevel": 30
-        },
-        {
-          "type": "Cave",
-          "chance": 1,
-          "species": "MIMIKYU",
-          "minLevel": 32,
-          "maxLevel": 32
+          "type": "DryGrass",
+          "chance": 15,
+          "species": "KOINKOIN",
+          "minLevel": 41,
+          "maxLevel": 43
         }
       ],
       "_source": "encounters.dat"
@@ -4765,81 +4315,25 @@
       "version": 0,
       "slots": [
         {
-          "type": "Cave",
-          "chance": 24,
-          "species": "HAUNTER",
-          "minLevel": 28,
-          "maxLevel": 32
+          "type": "CrackedStone",
+          "chance": 45,
+          "species": "TAROUNTULA",
+          "minLevel": 41,
+          "maxLevel": 43
         },
         {
-          "type": "Cave",
-          "chance": 20,
-          "species": "SCARACNO",
-          "minLevel": 29,
-          "maxLevel": 32
+          "type": "CrackedStone",
+          "chance": 30,
+          "species": "MISDREAVUS",
+          "minLevel": 41,
+          "maxLevel": 43
         },
         {
-          "type": "Cave",
-          "chance": 10,
-          "species": "GOLBAT",
-          "minLevel": 27,
-          "maxLevel": 30
-        },
-        {
-          "type": "Cave",
-          "chance": 10,
-          "species": "LITWICK",
-          "minLevel": 27,
-          "maxLevel": 30
-        },
-        {
-          "type": "Cave",
-          "chance": 10,
-          "species": "NUNVIL",
-          "minLevel": 26,
-          "maxLevel": 29
-        },
-        {
-          "type": "Cave",
-          "chance": 10,
-          "species": "PUPPILLON",
-          "minLevel": 26,
-          "maxLevel": 29
-        },
-        {
-          "type": "Cave",
-          "chance": 5,
-          "species": "GOLBAT",
-          "minLevel": 29,
-          "maxLevel": 32
-        },
-        {
-          "type": "Cave",
-          "chance": 5,
-          "species": "SCARACNO",
-          "minLevel": 26,
-          "maxLevel": 29
-        },
-        {
-          "type": "Cave",
-          "chance": 4,
-          "species": "SCARACLUO",
-          "minLevel": 32,
-          "maxLevel": 32
-        },
-        {
-          "type": "Cave",
-          "chance": 1,
-          "species": "MASGOT",
-          "minLevel": 30,
-          "maxLevel": 30
-        },
-        {
-          "type": "Cave",
-          "chance": 1,
-          "species": "MIMIKYU",
-          "minLevel": 32,
-          "maxLevel": 32
+          "type": "CrackedStone",
+          "chance": 25,
+          "species": "SABLEYE",
+          "minLevel": 41,
+          "maxLevel": 43
         }
       ],
       "_source": "encounters.dat"
@@ -4851,253 +4345,25 @@
       "version": 0,
       "slots": [
         {
-          "type": "Cave",
-          "chance": 24,
-          "species": "HAUNTER",
-          "minLevel": 28,
-          "maxLevel": 32
+          "type": "CrackedStone",
+          "chance": 45,
+          "species": "TAROUNTULA",
+          "minLevel": 41,
+          "maxLevel": 43
         },
         {
-          "type": "Cave",
-          "chance": 20,
-          "species": "SCARACNO",
-          "minLevel": 29,
-          "maxLevel": 32
+          "type": "CrackedStone",
+          "chance": 30,
+          "species": "MISDREAVUS",
+          "minLevel": 41,
+          "maxLevel": 43
         },
         {
-          "type": "Cave",
-          "chance": 10,
-          "species": "GOLBAT",
-          "minLevel": 27,
-          "maxLevel": 30
-        },
-        {
-          "type": "Cave",
-          "chance": 10,
-          "species": "LITWICK",
-          "minLevel": 27,
-          "maxLevel": 30
-        },
-        {
-          "type": "Cave",
-          "chance": 10,
-          "species": "NUNVIL",
-          "minLevel": 26,
-          "maxLevel": 29
-        },
-        {
-          "type": "Cave",
-          "chance": 10,
-          "species": "PUPPILLON",
-          "minLevel": 26,
-          "maxLevel": 29
-        },
-        {
-          "type": "Cave",
-          "chance": 5,
-          "species": "GOLBAT",
-          "minLevel": 29,
-          "maxLevel": 32
-        },
-        {
-          "type": "Cave",
-          "chance": 5,
-          "species": "SCARACNO",
-          "minLevel": 26,
-          "maxLevel": 29
-        },
-        {
-          "type": "Cave",
-          "chance": 4,
-          "species": "SCARACLUO",
-          "minLevel": 32,
-          "maxLevel": 32
-        },
-        {
-          "type": "Cave",
-          "chance": 1,
-          "species": "MASGOT",
-          "minLevel": 30,
-          "maxLevel": 30
-        },
-        {
-          "type": "Cave",
-          "chance": 1,
-          "species": "MIMIKYU",
-          "minLevel": 32,
-          "maxLevel": 32
-        }
-      ],
-      "_source": "encounters.dat"
-    },
-    {
-      "id": "169_0",
-      "mapId": 169,
-      "mapName": "Wild Bull Saloon",
-      "version": 0,
-      "slots": [
-        {
-          "type": "Cave",
-          "chance": 24,
-          "species": "HAUNTER",
-          "minLevel": 28,
-          "maxLevel": 32
-        },
-        {
-          "type": "Cave",
-          "chance": 20,
-          "species": "SCARACNO",
-          "minLevel": 29,
-          "maxLevel": 32
-        },
-        {
-          "type": "Cave",
-          "chance": 10,
-          "species": "GOLBAT",
-          "minLevel": 27,
-          "maxLevel": 30
-        },
-        {
-          "type": "Cave",
-          "chance": 10,
-          "species": "LITWICK",
-          "minLevel": 27,
-          "maxLevel": 30
-        },
-        {
-          "type": "Cave",
-          "chance": 10,
-          "species": "NUNVIL",
-          "minLevel": 26,
-          "maxLevel": 29
-        },
-        {
-          "type": "Cave",
-          "chance": 10,
-          "species": "PUPPILLON",
-          "minLevel": 26,
-          "maxLevel": 29
-        },
-        {
-          "type": "Cave",
-          "chance": 5,
-          "species": "GOLBAT",
-          "minLevel": 29,
-          "maxLevel": 32
-        },
-        {
-          "type": "Cave",
-          "chance": 5,
-          "species": "SCARACNO",
-          "minLevel": 26,
-          "maxLevel": 29
-        },
-        {
-          "type": "Cave",
-          "chance": 4,
-          "species": "SCARACLUO",
-          "minLevel": 32,
-          "maxLevel": 32
-        },
-        {
-          "type": "Cave",
-          "chance": 1,
-          "species": "MASGOT",
-          "minLevel": 30,
-          "maxLevel": 30
-        },
-        {
-          "type": "Cave",
-          "chance": 1,
-          "species": "MIMIKYU",
-          "minLevel": 32,
-          "maxLevel": 32
-        }
-      ],
-      "_source": "encounters.dat"
-    },
-    {
-      "id": "170_0",
-      "mapId": 170,
-      "mapName": "Wild Bull Saloon",
-      "version": 0,
-      "slots": [
-        {
-          "type": "Cave",
-          "chance": 24,
-          "species": "HAUNTER",
-          "minLevel": 28,
-          "maxLevel": 32
-        },
-        {
-          "type": "Cave",
-          "chance": 20,
-          "species": "SCARACNO",
-          "minLevel": 29,
-          "maxLevel": 32
-        },
-        {
-          "type": "Cave",
-          "chance": 10,
-          "species": "GOLBAT",
-          "minLevel": 27,
-          "maxLevel": 30
-        },
-        {
-          "type": "Cave",
-          "chance": 10,
-          "species": "LITWICK",
-          "minLevel": 27,
-          "maxLevel": 30
-        },
-        {
-          "type": "Cave",
-          "chance": 10,
-          "species": "NUNVIL",
-          "minLevel": 26,
-          "maxLevel": 29
-        },
-        {
-          "type": "Cave",
-          "chance": 10,
-          "species": "PUPPILLON",
-          "minLevel": 26,
-          "maxLevel": 29
-        },
-        {
-          "type": "Cave",
-          "chance": 5,
-          "species": "GOLBAT",
-          "minLevel": 29,
-          "maxLevel": 32
-        },
-        {
-          "type": "Cave",
-          "chance": 5,
-          "species": "SCARACNO",
-          "minLevel": 26,
-          "maxLevel": 29
-        },
-        {
-          "type": "Cave",
-          "chance": 4,
-          "species": "SCARACLUO",
-          "minLevel": 32,
-          "maxLevel": 32
-        },
-        {
-          "type": "Cave",
-          "chance": 1,
-          "species": "MASGOT",
-          "minLevel": 30,
-          "maxLevel": 30
-        },
-        {
-          "type": "Cave",
-          "chance": 1,
-          "species": "MIMIKYU",
-          "minLevel": 32,
-          "maxLevel": 32
+          "type": "CrackedStone",
+          "chance": 25,
+          "species": "SABLEYE",
+          "minLevel": 41,
+          "maxLevel": 43
         }
       ],
       "_source": "encounters.dat"
@@ -5109,174 +4375,62 @@
       "version": 0,
       "slots": [
         {
-          "type": "Grass",
-          "chance": 24,
+          "type": "DryGrass",
+          "chance": 50,
+          "species": "SCARACNO",
+          "minLevel": 41,
+          "maxLevel": 43
+        },
+        {
+          "type": "DryGrass",
+          "chance": 40,
           "species": "HAUNTER",
-          "minLevel": 28,
-          "maxLevel": 32
+          "minLevel": 41,
+          "maxLevel": 43
         },
         {
-          "type": "Grass",
-          "chance": 20,
-          "species": "SCARACNO",
-          "minLevel": 29,
-          "maxLevel": 32
-        },
-        {
-          "type": "Grass",
+          "type": "DryGrass",
           "chance": 10,
-          "species": "GOLBAT",
-          "minLevel": 27,
-          "maxLevel": 30
-        },
-        {
-          "type": "Grass",
-          "chance": 10,
-          "species": "LITWICK",
-          "minLevel": 27,
-          "maxLevel": 30
-        },
-        {
-          "type": "Grass",
-          "chance": 10,
-          "species": "NUNVIL",
-          "minLevel": 26,
-          "maxLevel": 29
-        },
-        {
-          "type": "Grass",
-          "chance": 10,
-          "species": "PUPPILLON",
-          "minLevel": 26,
-          "maxLevel": 29
-        },
-        {
-          "type": "Grass",
-          "chance": 5,
-          "species": "GOLBAT",
-          "minLevel": 29,
-          "maxLevel": 32
-        },
-        {
-          "type": "Grass",
-          "chance": 5,
-          "species": "SCARACNO",
-          "minLevel": 26,
-          "maxLevel": 29
-        },
-        {
-          "type": "Grass",
-          "chance": 4,
-          "species": "SCARACLUO",
-          "minLevel": 32,
-          "maxLevel": 32
-        },
-        {
-          "type": "Grass",
-          "chance": 1,
-          "species": "MASGOT",
-          "minLevel": 30,
-          "maxLevel": 30
-        },
-        {
-          "type": "Grass",
-          "chance": 1,
-          "species": "MIMIKYU",
-          "minLevel": 32,
-          "maxLevel": 32
+          "species": "MASGOT_3",
+          "minLevel": 41,
+          "maxLevel": 43
         }
       ],
       "_source": "encounters.dat"
     },
     {
-      "id": "174_0",
-      "mapId": 174,
+      "id": "712_0",
+      "mapId": 712,
       "mapName": "Westar Cemetary",
       "version": 0,
       "slots": [
         {
-          "type": "Cave",
+          "type": "Flowers",
+          "chance": 35,
+          "species": "BREMAND",
+          "minLevel": 42,
+          "maxLevel": 44
+        },
+        {
+          "type": "Flowers",
+          "chance": 35,
+          "species": "HONEDGE",
+          "minLevel": 42,
+          "maxLevel": 44
+        },
+        {
+          "type": "Flowers",
           "chance": 20,
-          "species": "GASTLY",
-          "minLevel": 25,
-          "maxLevel": 26
+          "species": "NACLSTACK",
+          "minLevel": 42,
+          "maxLevel": 44
         },
         {
-          "type": "Cave",
-          "chance": 20,
-          "species": "SCARACNO",
-          "minLevel": 25,
-          "maxLevel": 26
-        },
-        {
-          "type": "Cave",
+          "type": "Flowers",
           "chance": 10,
-          "species": "HAUNTER",
-          "minLevel": 26,
-          "maxLevel": 27
-        },
-        {
-          "type": "Cave",
-          "chance": 10,
-          "species": "NUNVIL",
-          "minLevel": 26,
-          "maxLevel": 27
-        },
-        {
-          "type": "Cave",
-          "chance": 10,
-          "species": "SCARACLUO",
-          "minLevel": 26,
-          "maxLevel": 27
-        },
-        {
-          "type": "Cave",
-          "chance": 10,
-          "species": "SCARACNO",
-          "minLevel": 26,
-          "maxLevel": 27
-        },
-        {
-          "type": "Cave",
-          "chance": 5,
-          "species": "HAUNTER",
-          "minLevel": 28,
-          "maxLevel": 30
-        },
-        {
-          "type": "Cave",
-          "chance": 5,
-          "species": "PUPPILLON",
-          "minLevel": 27,
-          "maxLevel": 28
-        },
-        {
-          "type": "Cave",
-          "chance": 4,
-          "species": "CUBONE",
-          "minLevel": 28,
-          "maxLevel": 30
-        },
-        {
-          "type": "Cave",
-          "chance": 4,
-          "species": "SCARACNO",
-          "minLevel": 28,
-          "maxLevel": 30
-        },
-        {
-          "type": "Cave",
-          "chance": 1,
-          "species": "CUBONE",
-          "minLevel": 29,
-          "maxLevel": 30
-        },
-        {
-          "type": "Cave",
-          "chance": 1,
-          "species": "SCARACLUO",
-          "minLevel": 29,
-          "maxLevel": 30
+          "species": "SABLEYE",
+          "minLevel": 42,
+          "maxLevel": 44
         }
       ],
       "_source": "encounters.dat"
@@ -5288,172 +4442,60 @@
       "version": 0,
       "slots": [
         {
-          "type": "LandDay",
-          "chance": 20,
-          "species": "JOLTIK",
-          "minLevel": 29,
-          "maxLevel": 30
+          "type": "Gravel",
+          "chance": 40,
+          "species": "KLANG",
+          "minLevel": 42,
+          "maxLevel": 44
         },
         {
-          "type": "LandDay",
-          "chance": 20,
-          "species": "KLINK",
-          "minLevel": 29,
-          "maxLevel": 32
+          "type": "Gravel",
+          "chance": 25,
+          "species": "DONPHAN",
+          "minLevel": 42,
+          "maxLevel": 44
         },
         {
-          "type": "LandDay",
+          "type": "Gravel",
+          "chance": 25,
+          "species": "TAUROS_2",
+          "minLevel": 42,
+          "maxLevel": 44
+        },
+        {
+          "type": "Gravel",
           "chance": 10,
+          "species": "MASGOT_4",
+          "minLevel": 45,
+          "maxLevel": 47
+        },
+        {
+          "type": "DryGrass",
+          "chance": 35,
+          "species": "GURDURR",
+          "minLevel": 42,
+          "maxLevel": 44
+        },
+        {
+          "type": "DryGrass",
+          "chance": 25,
           "species": "ELECTABUZZ",
-          "minLevel": 30,
-          "maxLevel": 34
+          "minLevel": 42,
+          "maxLevel": 44
         },
         {
-          "type": "LandDay",
-          "chance": 10,
-          "species": "MAGNEMITE",
-          "minLevel": 27,
-          "maxLevel": 29
-        },
-        {
-          "type": "LandDay",
-          "chance": 10,
-          "species": "PECKABONE",
-          "minLevel": 29,
-          "maxLevel": 32
-        },
-        {
-          "type": "LandDay",
-          "chance": 10,
-          "species": "TAUROS",
-          "minLevel": 28,
-          "maxLevel": 33
-        },
-        {
-          "type": "LandDay",
-          "chance": 5,
-          "species": "EELEKTRIK",
-          "minLevel": 30,
-          "maxLevel": 30
-        },
-        {
-          "type": "LandDay",
-          "chance": 5,
-          "species": "MAGNETON",
-          "minLevel": 34,
-          "maxLevel": 34
-        },
-        {
-          "type": "LandDay",
-          "chance": 4,
-          "species": "BOUFFALANT",
-          "minLevel": 30,
-          "maxLevel": 32
-        },
-        {
-          "type": "LandDay",
-          "chance": 4,
-          "species": "KOINKOIN",
-          "minLevel": 30,
-          "maxLevel": 33
-        },
-        {
-          "type": "LandDay",
-          "chance": 1,
-          "species": "DUSMEE",
-          "minLevel": 29,
-          "maxLevel": 30
-        },
-        {
-          "type": "LandDay",
-          "chance": 1,
-          "species": "MASGOT",
-          "minLevel": 33,
-          "maxLevel": 33
-        },
-        {
-          "type": "LandNight",
+          "type": "DryGrass",
           "chance": 20,
-          "species": "JOLTIK",
-          "minLevel": 29,
-          "maxLevel": 30
+          "species": "BRAMBLIN",
+          "minLevel": 42,
+          "maxLevel": 44
         },
         {
-          "type": "LandNight",
+          "type": "DryGrass",
           "chance": 20,
-          "species": "KLINK",
-          "minLevel": 29,
-          "maxLevel": 32
-        },
-        {
-          "type": "LandNight",
-          "chance": 10,
-          "species": "ELECTABUZZ",
-          "minLevel": 30,
-          "maxLevel": 34
-        },
-        {
-          "type": "LandNight",
-          "chance": 10,
-          "species": "MAGNEMITE",
-          "minLevel": 27,
-          "maxLevel": 29
-        },
-        {
-          "type": "LandNight",
-          "chance": 10,
-          "species": "PECKABONE",
-          "minLevel": 29,
-          "maxLevel": 32
-        },
-        {
-          "type": "LandNight",
-          "chance": 10,
-          "species": "TAUROS",
-          "minLevel": 28,
-          "maxLevel": 33
-        },
-        {
-          "type": "LandNight",
-          "chance": 5,
-          "species": "EELEKTRIK",
-          "minLevel": 30,
-          "maxLevel": 30
-        },
-        {
-          "type": "LandNight",
-          "chance": 5,
-          "species": "MAGNETON",
-          "minLevel": 34,
-          "maxLevel": 34
-        },
-        {
-          "type": "LandNight",
-          "chance": 4,
-          "species": "BOUFFALANT",
-          "minLevel": 30,
-          "maxLevel": 32
-        },
-        {
-          "type": "LandNight",
-          "chance": 4,
-          "species": "KOINKOIN",
-          "minLevel": 30,
-          "maxLevel": 33
-        },
-        {
-          "type": "LandNight",
-          "chance": 1,
-          "species": "MASGOT",
-          "minLevel": 33,
-          "maxLevel": 33
-        },
-        {
-          "type": "LandNight",
-          "chance": 1,
-          "species": "MURKROW",
-          "minLevel": 29,
-          "maxLevel": 33
+          "species": "BREMAND_2",
+          "minLevel": 42,
+          "maxLevel": 44
         }
       ],
       "_source": "encounters.dat"
@@ -5911,6 +4953,43 @@
       "_source": "encounters.dat"
     },
     {
+      "id": "223_0",
+      "mapId": 223,
+      "mapName": "Equinox Village",
+      "version": 0,
+      "slots": [
+        {
+          "type": "Grass",
+          "chance": 35,
+          "species": "RUFFLET",
+          "minLevel": 40,
+          "maxLevel": 41
+        },
+        {
+          "type": "Grass",
+          "chance": 30,
+          "species": "CUBONE",
+          "minLevel": 40,
+          "maxLevel": 41
+        },
+        {
+          "type": "Grass",
+          "chance": 15,
+          "species": "XATU",
+          "minLevel": 40,
+          "maxLevel": 41
+        },
+        {
+          "type": "Grass",
+          "chance": 10,
+          "species": "BOUFFALANT",
+          "minLevel": 42,
+          "maxLevel": 42
+        }
+      ],
+      "_source": "encounters.dat"
+    },
+    {
       "id": "662_0",
       "mapId": 662,
       "mapName": "Magellan Shrine",
@@ -6314,7 +5393,7 @@
         {
           "type": "OldRod",
           "chance": 40,
-          "species": "SURSKIT",
+          "species": "TYMPOLE",
           "minLevel": 10,
           "maxLevel": 15
         },
@@ -6328,7 +5407,7 @@
         {
           "type": "GoodRod",
           "chance": 30,
-          "species": "MASQUERAIN",
+          "species": "PALPITOAD",
           "minLevel": 20,
           "maxLevel": 20
         },
@@ -6349,7 +5428,7 @@
         {
           "type": "SuperRod",
           "chance": 30,
-          "species": "MASQUERAIN",
+          "species": "PALPITOAD",
           "minLevel": 30,
           "maxLevel": 40
         },
@@ -6584,7 +5663,7 @@
         {
           "type": "OldRod",
           "chance": 40,
-          "species": "SURSKIT",
+          "species": "TYMPOLE",
           "minLevel": 10,
           "maxLevel": 15
         },
@@ -6598,7 +5677,7 @@
         {
           "type": "GoodRod",
           "chance": 30,
-          "species": "MASQUERAIN",
+          "species": "PALPITOAD",
           "minLevel": 20,
           "maxLevel": 20
         },
@@ -6619,7 +5698,7 @@
         {
           "type": "SuperRod",
           "chance": 30,
-          "species": "MASQUERAIN",
+          "species": "PALPITOAD",
           "minLevel": 30,
           "maxLevel": 40
         },
@@ -6668,6 +5747,27 @@
           "maxLevel": 12
         },
         {
+          "type": "TallGrass",
+          "chance": 45,
+          "species": "SHINX",
+          "minLevel": 10,
+          "maxLevel": 12
+        },
+        {
+          "type": "TallGrass",
+          "chance": 30,
+          "species": "EKANS",
+          "minLevel": 10,
+          "maxLevel": 12
+        },
+        {
+          "type": "TallGrass",
+          "chance": 25,
+          "species": "BRONZOR",
+          "minLevel": 10,
+          "maxLevel": 12
+        },
+        {
           "type": "Water",
           "chance": 60,
           "species": "REMORAID",
@@ -6698,7 +5798,7 @@
         {
           "type": "OldRod",
           "chance": 40,
-          "species": "SURSKIT",
+          "species": "TYMPOLE",
           "minLevel": 10,
           "maxLevel": 15
         },
@@ -6712,7 +5812,7 @@
         {
           "type": "GoodRod",
           "chance": 30,
-          "species": "MASQUERAIN",
+          "species": "PALPITOAD",
           "minLevel": 20,
           "maxLevel": 20
         },
@@ -6733,7 +5833,7 @@
         {
           "type": "SuperRod",
           "chance": 30,
-          "species": "MASQUERAIN",
+          "species": "PALPITOAD",
           "minLevel": 30,
           "maxLevel": 40
         },
@@ -6782,6 +5882,27 @@
           "maxLevel": 12
         },
         {
+          "type": "TallGrass",
+          "chance": 45,
+          "species": "SHINX",
+          "minLevel": 10,
+          "maxLevel": 12
+        },
+        {
+          "type": "TallGrass",
+          "chance": 30,
+          "species": "EKANS",
+          "minLevel": 10,
+          "maxLevel": 12
+        },
+        {
+          "type": "TallGrass",
+          "chance": 25,
+          "species": "BRONZOR",
+          "minLevel": 10,
+          "maxLevel": 12
+        },
+        {
           "type": "Water",
           "chance": 60,
           "species": "REMORAID",
@@ -6812,7 +5933,7 @@
         {
           "type": "OldRod",
           "chance": 40,
-          "species": "SURSKIT",
+          "species": "TYMPOLE",
           "minLevel": 10,
           "maxLevel": 15
         },
@@ -6826,7 +5947,7 @@
         {
           "type": "GoodRod",
           "chance": 30,
-          "species": "MASQUERAIN",
+          "species": "PALPITOAD",
           "minLevel": 20,
           "maxLevel": 20
         },
@@ -6847,7 +5968,7 @@
         {
           "type": "SuperRod",
           "chance": 30,
-          "species": "MASQUERAIN",
+          "species": "PALPITOAD",
           "minLevel": 30,
           "maxLevel": 40
         },
@@ -6875,256 +5996,60 @@
       "version": 0,
       "slots": [
         {
-          "type": "Water",
-          "chance": 60,
-          "species": "BUIZEL",
-          "minLevel": 20,
-          "maxLevel": 40
+          "type": "Grass",
+          "chance": 35,
+          "species": "VROOMBUG",
+          "minLevel": 36,
+          "maxLevel": 38
         },
         {
-          "type": "Water",
-          "chance": 31,
-          "species": "BIBAREL",
-          "minLevel": 20,
-          "maxLevel": 40
-        },
-        {
-          "type": "Water",
-          "chance": 5,
-          "species": "BIRIGIRI",
-          "minLevel": 20,
-          "maxLevel": 40
-        },
-        {
-          "type": "Water",
-          "chance": 4,
-          "species": "FLOATZEL",
-          "minLevel": 20,
-          "maxLevel": 42
-        },
-        {
-          "type": "OldRod",
-          "chance": 70,
-          "species": "MAGIKARP",
-          "minLevel": 3,
-          "maxLevel": 10
-        },
-        {
-          "type": "OldRod",
+          "type": "Grass",
           "chance": 30,
-          "species": "KIDOON",
-          "minLevel": 3,
-          "maxLevel": 10
+          "species": "PECKABONE",
+          "minLevel": 36,
+          "maxLevel": 38
         },
         {
-          "type": "GoodRod",
-          "chance": 60,
-          "species": "MAGIKARP",
-          "minLevel": 10,
-          "maxLevel": 20
-        },
-        {
-          "type": "GoodRod",
+          "type": "Grass",
           "chance": 20,
-          "species": "BIRIGIRI",
-          "minLevel": 10,
-          "maxLevel": 20
+          "species": "PONYTA",
+          "minLevel": 36,
+          "maxLevel": 38
         },
         {
-          "type": "GoodRod",
-          "chance": 20,
-          "species": "KIDOON",
-          "minLevel": 10,
-          "maxLevel": 20
-        },
-        {
-          "type": "SuperRod",
-          "chance": 40,
-          "species": "GYARADOS",
-          "minLevel": 20,
-          "maxLevel": 27
-        },
-        {
-          "type": "SuperRod",
-          "chance": 40,
-          "species": "KIDOON",
-          "minLevel": 20,
-          "maxLevel": 25
-        },
-        {
-          "type": "SuperRod",
+          "type": "Grass",
           "chance": 15,
-          "species": "BIRIGIRI",
-          "minLevel": 20,
-          "maxLevel": 27
+          "species": "BREMAND_3",
+          "minLevel": 36,
+          "maxLevel": 38
         },
         {
-          "type": "SuperRod",
-          "chance": 4,
-          "species": "HONCHEN",
-          "minLevel": 30,
-          "maxLevel": 30
+          "type": "DryGrass",
+          "chance": 40,
+          "species": "BRAMBLIN",
+          "minLevel": 36,
+          "maxLevel": 38
         },
         {
-          "type": "SuperRod",
-          "chance": 1,
-          "species": "GYARADOS",
-          "minLevel": 20,
-          "maxLevel": 30
-        },
-        {
-          "type": "LandDay",
-          "chance": 20,
-          "species": "PONYTA",
-          "minLevel": 23,
-          "maxLevel": 25
-        },
-        {
-          "type": "LandDay",
-          "chance": 20,
-          "species": "VROOMBUG",
-          "minLevel": 24,
-          "maxLevel": 25
-        },
-        {
-          "type": "LandDay",
-          "chance": 10,
-          "species": "CHIKABOO",
-          "minLevel": 23,
-          "maxLevel": 24
-        },
-        {
-          "type": "LandDay",
-          "chance": 10,
-          "species": "NATU",
-          "minLevel": 24,
-          "maxLevel": 24
-        },
-        {
-          "type": "LandDay",
-          "chance": 10,
-          "species": "RUFFLET",
-          "minLevel": 24,
-          "maxLevel": 25
-        },
-        {
-          "type": "LandDay",
-          "chance": 10,
+          "type": "DryGrass",
+          "chance": 30,
           "species": "TRAPINCH",
-          "minLevel": 25,
-          "maxLevel": 26
+          "minLevel": 36,
+          "maxLevel": 38
         },
         {
-          "type": "LandDay",
-          "chance": 9,
-          "species": "PECKABONE",
-          "minLevel": 29,
-          "maxLevel": 29
+          "type": "DryGrass",
+          "chance": 15,
+          "species": "DREEPY_1",
+          "minLevel": 36,
+          "maxLevel": 38
         },
         {
-          "type": "LandDay",
-          "chance": 5,
-          "species": "SKARMORY",
-          "minLevel": 25,
-          "maxLevel": 27
-        },
-        {
-          "type": "LandDay",
-          "chance": 4,
-          "species": "NATU",
-          "minLevel": 24,
-          "maxLevel": 27
-        },
-        {
-          "type": "LandDay",
-          "chance": 1,
-          "species": "BREMAND",
-          "minLevel": 29,
-          "maxLevel": 29
-        },
-        {
-          "type": "LandDay",
-          "chance": 1,
-          "species": "BREMAND",
-          "minLevel": 27,
-          "maxLevel": 27
-        },
-        {
-          "type": "LandNight",
-          "chance": 20,
-          "species": "PONYTA",
-          "minLevel": 23,
-          "maxLevel": 25
-        },
-        {
-          "type": "LandNight",
-          "chance": 20,
-          "species": "VROOMBUG",
-          "minLevel": 24,
-          "maxLevel": 25
-        },
-        {
-          "type": "LandNight",
-          "chance": 10,
-          "species": "CHIKABOO",
-          "minLevel": 23,
-          "maxLevel": 24
-        },
-        {
-          "type": "LandNight",
-          "chance": 10,
-          "species": "NATU",
-          "minLevel": 24,
-          "maxLevel": 24
-        },
-        {
-          "type": "LandNight",
-          "chance": 10,
-          "species": "TRAPINCH",
-          "minLevel": 25,
-          "maxLevel": 26
-        },
-        {
-          "type": "LandNight",
-          "chance": 10,
-          "species": "VULLABY",
-          "minLevel": 24,
-          "maxLevel": 25
-        },
-        {
-          "type": "LandNight",
-          "chance": 9,
-          "species": "PECKABONE",
-          "minLevel": 29,
-          "maxLevel": 29
-        },
-        {
-          "type": "LandNight",
-          "chance": 5,
-          "species": "SKARMORY",
-          "minLevel": 25,
-          "maxLevel": 27
-        },
-        {
-          "type": "LandNight",
-          "chance": 4,
-          "species": "NATU",
-          "minLevel": 24,
-          "maxLevel": 27
-        },
-        {
-          "type": "LandNight",
-          "chance": 1,
-          "species": "BREMAND",
-          "minLevel": 29,
-          "maxLevel": 29
-        },
-        {
-          "type": "LandNight",
-          "chance": 1,
-          "species": "BREMAND",
-          "minLevel": 27,
-          "maxLevel": 27
+          "type": "DryGrass",
+          "chance": 15,
+          "species": "TAUROS_1",
+          "minLevel": 36,
+          "maxLevel": 38
         }
       ],
       "_source": "encounters.dat"
@@ -7662,270 +6587,60 @@
       "version": 0,
       "slots": [
         {
-          "type": "Water",
-          "chance": 60,
-          "species": "BUIZEL",
-          "minLevel": 20,
-          "maxLevel": 40
+          "type": "Grass",
+          "chance": 35,
+          "species": "VROOMBUG",
+          "minLevel": 36,
+          "maxLevel": 38
         },
         {
-          "type": "Water",
-          "chance": 31,
-          "species": "BIBAREL",
-          "minLevel": 20,
-          "maxLevel": 40
-        },
-        {
-          "type": "Water",
-          "chance": 5,
-          "species": "BIRIGIRI",
-          "minLevel": 20,
-          "maxLevel": 40
-        },
-        {
-          "type": "Water",
-          "chance": 4,
-          "species": "FLOATZEL",
-          "minLevel": 20,
-          "maxLevel": 42
-        },
-        {
-          "type": "OldRod",
-          "chance": 70,
-          "species": "MAGIKARP",
-          "minLevel": 3,
-          "maxLevel": 10
-        },
-        {
-          "type": "OldRod",
+          "type": "Grass",
           "chance": 30,
-          "species": "KIDOON",
-          "minLevel": 3,
-          "maxLevel": 10
+          "species": "PECKABONE",
+          "minLevel": 36,
+          "maxLevel": 38
         },
         {
-          "type": "GoodRod",
-          "chance": 60,
-          "species": "MAGIKARP",
-          "minLevel": 10,
-          "maxLevel": 20
-        },
-        {
-          "type": "GoodRod",
+          "type": "Grass",
           "chance": 20,
-          "species": "BIRIGIRI",
-          "minLevel": 10,
-          "maxLevel": 20
+          "species": "PONYTA",
+          "minLevel": 36,
+          "maxLevel": 38
         },
         {
-          "type": "GoodRod",
-          "chance": 20,
-          "species": "KIDOON",
-          "minLevel": 10,
-          "maxLevel": 20
-        },
-        {
-          "type": "SuperRod",
-          "chance": 40,
-          "species": "GYARADOS",
-          "minLevel": 20,
-          "maxLevel": 25
-        },
-        {
-          "type": "SuperRod",
-          "chance": 40,
-          "species": "KIDOON",
-          "minLevel": 20,
-          "maxLevel": 25
-        },
-        {
-          "type": "SuperRod",
+          "type": "Grass",
           "chance": 15,
-          "species": "BIRIGIRI",
-          "minLevel": 20,
-          "maxLevel": 25
+          "species": "BREMAND_3",
+          "minLevel": 36,
+          "maxLevel": 38
         },
         {
-          "type": "SuperRod",
-          "chance": 4,
-          "species": "HONCHEN",
-          "minLevel": 30,
-          "maxLevel": 30
+          "type": "DryGrass",
+          "chance": 40,
+          "species": "BRAMBLIN",
+          "minLevel": 36,
+          "maxLevel": 38
         },
         {
-          "type": "SuperRod",
-          "chance": 1,
-          "species": "GYARADOS",
-          "minLevel": 27,
-          "maxLevel": 30
+          "type": "DryGrass",
+          "chance": 30,
+          "species": "TRAPINCH",
+          "minLevel": 36,
+          "maxLevel": 38
         },
         {
-          "type": "LandDay",
-          "chance": 20,
-          "species": "CACNEA",
-          "minLevel": 23,
-          "maxLevel": 25
+          "type": "DryGrass",
+          "chance": 15,
+          "species": "DREEPY_1",
+          "minLevel": 36,
+          "maxLevel": 38
         },
         {
-          "type": "LandDay",
-          "chance": 20,
-          "species": "VROOMBUG",
-          "minLevel": 23,
-          "maxLevel": 25
-        },
-        {
-          "type": "LandDay",
-          "chance": 10,
-          "species": "CHIKABOO",
-          "minLevel": 23,
-          "maxLevel": 25
-        },
-        {
-          "type": "LandDay",
-          "chance": 10,
-          "species": "CUBONE",
-          "minLevel": 24,
-          "maxLevel": 25
-        },
-        {
-          "type": "LandDay",
-          "chance": 10,
-          "species": "NATU",
-          "minLevel": 24,
-          "maxLevel": 24
-        },
-        {
-          "type": "LandDay",
-          "chance": 10,
-          "species": "RUFFLET",
-          "minLevel": 24,
-          "maxLevel": 26
-        },
-        {
-          "type": "LandDay",
-          "chance": 5,
-          "species": "PONYTA",
-          "minLevel": 25,
-          "maxLevel": 26
-        },
-        {
-          "type": "LandDay",
-          "chance": 5,
-          "species": "SANDSHREW",
-          "minLevel": 23,
-          "maxLevel": 25
-        },
-        {
-          "type": "LandDay",
-          "chance": 4,
-          "species": "PECKABONE",
-          "minLevel": 29,
-          "maxLevel": 29
-        },
-        {
-          "type": "LandDay",
-          "chance": 4,
-          "species": "SKARMORY",
-          "minLevel": 25,
-          "maxLevel": 27
-        },
-        {
-          "type": "LandDay",
-          "chance": 1,
-          "species": "BREMAND",
-          "minLevel": 29,
-          "maxLevel": 29
-        },
-        {
-          "type": "LandDay",
-          "chance": 1,
-          "species": "BREMAND",
-          "minLevel": 27,
-          "maxLevel": 27
-        },
-        {
-          "type": "LandNight",
-          "chance": 20,
-          "species": "CACNEA",
-          "minLevel": 23,
-          "maxLevel": 25
-        },
-        {
-          "type": "LandNight",
-          "chance": 20,
-          "species": "VROOMBUG",
-          "minLevel": 23,
-          "maxLevel": 25
-        },
-        {
-          "type": "LandNight",
-          "chance": 10,
-          "species": "ABSOL",
-          "minLevel": 24,
-          "maxLevel": 25
-        },
-        {
-          "type": "LandNight",
-          "chance": 10,
-          "species": "CHIKABOO",
-          "minLevel": 23,
-          "maxLevel": 25
-        },
-        {
-          "type": "LandNight",
-          "chance": 10,
-          "species": "NATU",
-          "minLevel": 24,
-          "maxLevel": 24
-        },
-        {
-          "type": "LandNight",
-          "chance": 10,
-          "species": "VULLABY",
-          "minLevel": 24,
-          "maxLevel": 25
-        },
-        {
-          "type": "LandNight",
-          "chance": 5,
-          "species": "ABSOL",
-          "minLevel": 25,
-          "maxLevel": 27
-        },
-        {
-          "type": "LandNight",
-          "chance": 5,
-          "species": "PONYTA",
-          "minLevel": 24,
-          "maxLevel": 26
-        },
-        {
-          "type": "LandNight",
-          "chance": 4,
-          "species": "PECKABONE",
-          "minLevel": 29,
-          "maxLevel": 29
-        },
-        {
-          "type": "LandNight",
-          "chance": 4,
-          "species": "SKARMORY",
-          "minLevel": 26,
-          "maxLevel": 27
-        },
-        {
-          "type": "LandNight",
-          "chance": 1,
-          "species": "BREMAND",
-          "minLevel": 29,
-          "maxLevel": 29
-        },
-        {
-          "type": "LandNight",
-          "chance": 1,
-          "species": "BREMAND",
-          "minLevel": 27,
-          "maxLevel": 27
+          "type": "DryGrass",
+          "chance": 15,
+          "species": "TAUROS_1",
+          "minLevel": 36,
+          "maxLevel": 38
         }
       ],
       "_source": "encounters.dat"
@@ -8058,270 +6773,60 @@
       "version": 0,
       "slots": [
         {
-          "type": "Water",
-          "chance": 60,
-          "species": "BUIZEL",
-          "minLevel": 20,
-          "maxLevel": 40
+          "type": "Grass",
+          "chance": 35,
+          "species": "VROOMBUG",
+          "minLevel": 36,
+          "maxLevel": 38
         },
         {
-          "type": "Water",
-          "chance": 31,
-          "species": "BIBAREL",
-          "minLevel": 20,
-          "maxLevel": 40
-        },
-        {
-          "type": "Water",
-          "chance": 5,
-          "species": "BIRIGIRI",
-          "minLevel": 20,
-          "maxLevel": 40
-        },
-        {
-          "type": "Water",
-          "chance": 4,
-          "species": "FLOATZEL",
-          "minLevel": 20,
-          "maxLevel": 42
-        },
-        {
-          "type": "OldRod",
-          "chance": 70,
-          "species": "MAGIKARP",
-          "minLevel": 3,
-          "maxLevel": 10
-        },
-        {
-          "type": "OldRod",
+          "type": "Grass",
           "chance": 30,
-          "species": "KIDOON",
-          "minLevel": 3,
-          "maxLevel": 10
+          "species": "PECKABONE",
+          "minLevel": 36,
+          "maxLevel": 38
         },
         {
-          "type": "GoodRod",
-          "chance": 60,
-          "species": "MAGIKARP",
-          "minLevel": 10,
-          "maxLevel": 20
-        },
-        {
-          "type": "GoodRod",
+          "type": "Grass",
           "chance": 20,
-          "species": "BIRIGIRI",
-          "minLevel": 10,
-          "maxLevel": 20
+          "species": "PONYTA",
+          "minLevel": 36,
+          "maxLevel": 38
         },
         {
-          "type": "GoodRod",
-          "chance": 20,
-          "species": "KIDOON",
-          "minLevel": 10,
-          "maxLevel": 20
-        },
-        {
-          "type": "SuperRod",
-          "chance": 40,
-          "species": "GYARADOS",
-          "minLevel": 20,
-          "maxLevel": 25
-        },
-        {
-          "type": "SuperRod",
-          "chance": 40,
-          "species": "KIDOON",
-          "minLevel": 20,
-          "maxLevel": 25
-        },
-        {
-          "type": "SuperRod",
+          "type": "Grass",
           "chance": 15,
-          "species": "BIRIGIRI",
-          "minLevel": 20,
-          "maxLevel": 25
+          "species": "BREMAND_3",
+          "minLevel": 36,
+          "maxLevel": 38
         },
         {
-          "type": "SuperRod",
-          "chance": 4,
-          "species": "HONCHEN",
-          "minLevel": 30,
-          "maxLevel": 30
+          "type": "DryGrass",
+          "chance": 40,
+          "species": "BRAMBLIN",
+          "minLevel": 36,
+          "maxLevel": 38
         },
         {
-          "type": "SuperRod",
-          "chance": 1,
-          "species": "GYARADOS",
-          "minLevel": 25,
-          "maxLevel": 30
+          "type": "DryGrass",
+          "chance": 30,
+          "species": "TRAPINCH",
+          "minLevel": 36,
+          "maxLevel": 38
         },
         {
-          "type": "LandDay",
-          "chance": 20,
-          "species": "CHIKABOO",
-          "minLevel": 24,
-          "maxLevel": 25
+          "type": "DryGrass",
+          "chance": 15,
+          "species": "DREEPY_1",
+          "minLevel": 36,
+          "maxLevel": 38
         },
         {
-          "type": "LandDay",
-          "chance": 20,
-          "species": "PONYTA",
-          "minLevel": 24,
-          "maxLevel": 25
-        },
-        {
-          "type": "LandDay",
-          "chance": 10,
-          "species": "NATU",
-          "minLevel": 24,
-          "maxLevel": 24
-        },
-        {
-          "type": "LandDay",
-          "chance": 10,
-          "species": "RUFFLET",
-          "minLevel": 24,
-          "maxLevel": 26
-        },
-        {
-          "type": "LandDay",
-          "chance": 10,
-          "species": "SANDSHREW",
-          "minLevel": 23,
-          "maxLevel": 25
-        },
-        {
-          "type": "LandDay",
-          "chance": 10,
-          "species": "VROOMBUG",
-          "minLevel": 24,
-          "maxLevel": 26
-        },
-        {
-          "type": "LandDay",
-          "chance": 5,
-          "species": "PECKABONE",
-          "minLevel": 29,
-          "maxLevel": 29
-        },
-        {
-          "type": "LandDay",
-          "chance": 5,
-          "species": "SKARMORY",
-          "minLevel": 26,
-          "maxLevel": 27
-        },
-        {
-          "type": "LandDay",
-          "chance": 4,
-          "species": "BREMAND",
-          "minLevel": 27,
-          "maxLevel": 27
-        },
-        {
-          "type": "LandDay",
-          "chance": 4,
-          "species": "PONYTAX",
-          "minLevel": 24,
-          "maxLevel": 25
-        },
-        {
-          "type": "LandDay",
-          "chance": 1,
-          "species": "CACNEA",
-          "minLevel": 25,
-          "maxLevel": 26
-        },
-        {
-          "type": "LandDay",
-          "chance": 1,
-          "species": "PONYTAX",
-          "minLevel": 24,
-          "maxLevel": 26
-        },
-        {
-          "type": "LandNight",
-          "chance": 20,
-          "species": "CHIKABOO",
-          "minLevel": 24,
-          "maxLevel": 25
-        },
-        {
-          "type": "LandNight",
-          "chance": 20,
-          "species": "PONYTA",
-          "minLevel": 24,
-          "maxLevel": 25
-        },
-        {
-          "type": "LandNight",
-          "chance": 10,
-          "species": "NATU",
-          "minLevel": 24,
-          "maxLevel": 25
-        },
-        {
-          "type": "LandNight",
-          "chance": 10,
-          "species": "SANDSHREW",
-          "minLevel": 23,
-          "maxLevel": 25
-        },
-        {
-          "type": "LandNight",
-          "chance": 10,
-          "species": "VROOMBUG",
-          "minLevel": 24,
-          "maxLevel": 26
-        },
-        {
-          "type": "LandNight",
-          "chance": 10,
-          "species": "VULLABY",
-          "minLevel": 24,
-          "maxLevel": 25
-        },
-        {
-          "type": "LandNight",
-          "chance": 5,
-          "species": "PECKABONE",
-          "minLevel": 29,
-          "maxLevel": 29
-        },
-        {
-          "type": "LandNight",
-          "chance": 5,
-          "species": "SKARMORY",
-          "minLevel": 26,
-          "maxLevel": 27
-        },
-        {
-          "type": "LandNight",
-          "chance": 4,
-          "species": "BREMAND",
-          "minLevel": 26,
-          "maxLevel": 27
-        },
-        {
-          "type": "LandNight",
-          "chance": 4,
-          "species": "PONYTAX",
-          "minLevel": 26,
-          "maxLevel": 26
-        },
-        {
-          "type": "LandNight",
-          "chance": 1,
-          "species": "CUBONE",
-          "minLevel": 24,
-          "maxLevel": 26
-        },
-        {
-          "type": "LandNight",
-          "chance": 1,
-          "species": "PONYTAX",
-          "minLevel": 24,
-          "maxLevel": 26
+          "type": "DryGrass",
+          "chance": 15,
+          "species": "TAUROS_1",
+          "minLevel": 36,
+          "maxLevel": 38
         }
       ],
       "_source": "encounters.dat"
@@ -8975,270 +7480,60 @@
       "version": 0,
       "slots": [
         {
-          "type": "Water",
-          "chance": 60,
-          "species": "BUIZEL",
-          "minLevel": 20,
-          "maxLevel": 40
+          "type": "Grass",
+          "chance": 35,
+          "species": "VROOMBUG",
+          "minLevel": 36,
+          "maxLevel": 38
         },
         {
-          "type": "Water",
-          "chance": 31,
-          "species": "BIBAREL",
-          "minLevel": 20,
-          "maxLevel": 40
-        },
-        {
-          "type": "Water",
-          "chance": 5,
-          "species": "BIRIGIRI",
-          "minLevel": 20,
-          "maxLevel": 40
-        },
-        {
-          "type": "Water",
-          "chance": 4,
-          "species": "FLOATZEL",
-          "minLevel": 20,
-          "maxLevel": 42
-        },
-        {
-          "type": "OldRod",
-          "chance": 70,
-          "species": "MAGIKARP",
-          "minLevel": 3,
-          "maxLevel": 10
-        },
-        {
-          "type": "OldRod",
+          "type": "Grass",
           "chance": 30,
-          "species": "KIDOON",
-          "minLevel": 3,
-          "maxLevel": 10
+          "species": "PECKABONE",
+          "minLevel": 36,
+          "maxLevel": 38
         },
         {
-          "type": "GoodRod",
-          "chance": 60,
-          "species": "MAGIKARP",
-          "minLevel": 10,
-          "maxLevel": 20
-        },
-        {
-          "type": "GoodRod",
-          "chance": 20,
-          "species": "BIRIGIRI",
-          "minLevel": 10,
-          "maxLevel": 20
-        },
-        {
-          "type": "GoodRod",
-          "chance": 20,
-          "species": "KIDOON",
-          "minLevel": 10,
-          "maxLevel": 20
-        },
-        {
-          "type": "SuperRod",
-          "chance": 40,
-          "species": "GYARADOS",
-          "minLevel": 20,
-          "maxLevel": 25
-        },
-        {
-          "type": "SuperRod",
-          "chance": 40,
-          "species": "KIDOON",
-          "minLevel": 20,
-          "maxLevel": 25
-        },
-        {
-          "type": "SuperRod",
-          "chance": 15,
-          "species": "BIRIGIRI",
-          "minLevel": 20,
-          "maxLevel": 25
-        },
-        {
-          "type": "SuperRod",
-          "chance": 4,
-          "species": "HONCHEN",
-          "minLevel": 30,
-          "maxLevel": 30
-        },
-        {
-          "type": "SuperRod",
-          "chance": 1,
-          "species": "GYARADOS",
-          "minLevel": 25,
-          "maxLevel": 30
-        },
-        {
-          "type": "LandDay",
+          "type": "Grass",
           "chance": 20,
           "species": "PONYTA",
-          "minLevel": 23,
-          "maxLevel": 24
+          "minLevel": 36,
+          "maxLevel": 38
         },
         {
-          "type": "LandDay",
-          "chance": 20,
-          "species": "VROOMBUG",
-          "minLevel": 23,
-          "maxLevel": 25
+          "type": "Grass",
+          "chance": 15,
+          "species": "BREMAND_3",
+          "minLevel": 36,
+          "maxLevel": 38
         },
         {
-          "type": "LandDay",
-          "chance": 10,
-          "species": "CHIKABOO",
-          "minLevel": 20,
-          "maxLevel": 24
+          "type": "DryGrass",
+          "chance": 40,
+          "species": "BRAMBLIN",
+          "minLevel": 36,
+          "maxLevel": 38
         },
         {
-          "type": "LandDay",
-          "chance": 10,
-          "species": "NATU",
-          "minLevel": 24,
-          "maxLevel": 25
-        },
-        {
-          "type": "LandDay",
-          "chance": 10,
-          "species": "RUFFLET",
-          "minLevel": 24,
-          "maxLevel": 26
-        },
-        {
-          "type": "LandDay",
-          "chance": 10,
-          "species": "SANDSHREW",
-          "minLevel": 25,
-          "maxLevel": 26
-        },
-        {
-          "type": "LandDay",
-          "chance": 5,
-          "species": "PECKABONE",
-          "minLevel": 29,
-          "maxLevel": 29
-        },
-        {
-          "type": "LandDay",
-          "chance": 5,
-          "species": "SKARMORY",
-          "minLevel": 26,
-          "maxLevel": 27
-        },
-        {
-          "type": "LandDay",
-          "chance": 4,
-          "species": "CUBONE",
-          "minLevel": 24,
-          "maxLevel": 25
-        },
-        {
-          "type": "LandDay",
-          "chance": 4,
+          "type": "DryGrass",
+          "chance": 30,
           "species": "TRAPINCH",
-          "minLevel": 25,
-          "maxLevel": 26
+          "minLevel": 36,
+          "maxLevel": 38
         },
         {
-          "type": "LandDay",
-          "chance": 1,
-          "species": "BREMAND",
-          "minLevel": 29,
-          "maxLevel": 29
+          "type": "DryGrass",
+          "chance": 15,
+          "species": "DREEPY_1",
+          "minLevel": 36,
+          "maxLevel": 38
         },
         {
-          "type": "LandDay",
-          "chance": 1,
-          "species": "BREMAND",
-          "minLevel": 26,
-          "maxLevel": 27
-        },
-        {
-          "type": "LandNight",
-          "chance": 20,
-          "species": "CACNEA",
-          "minLevel": 23,
-          "maxLevel": 24
-        },
-        {
-          "type": "LandNight",
-          "chance": 20,
-          "species": "VROOMBUG",
-          "minLevel": 23,
-          "maxLevel": 25
-        },
-        {
-          "type": "LandNight",
-          "chance": 10,
-          "species": "CHIKABOO",
-          "minLevel": 25,
-          "maxLevel": 26
-        },
-        {
-          "type": "LandNight",
-          "chance": 10,
-          "species": "NATU",
-          "minLevel": 24,
-          "maxLevel": 25
-        },
-        {
-          "type": "LandNight",
-          "chance": 10,
-          "species": "SANDSHREW",
-          "minLevel": 20,
-          "maxLevel": 24
-        },
-        {
-          "type": "LandNight",
-          "chance": 10,
-          "species": "VULLABY",
-          "minLevel": 24,
-          "maxLevel": 26
-        },
-        {
-          "type": "LandNight",
-          "chance": 5,
-          "species": "ABSOL",
-          "minLevel": 26,
-          "maxLevel": 27
-        },
-        {
-          "type": "LandNight",
-          "chance": 5,
-          "species": "PECKABONE",
-          "minLevel": 29,
-          "maxLevel": 29
-        },
-        {
-          "type": "LandNight",
-          "chance": 4,
-          "species": "CUBONE",
-          "minLevel": 26,
-          "maxLevel": 26
-        },
-        {
-          "type": "LandNight",
-          "chance": 4,
-          "species": "CUBONE",
-          "minLevel": 24,
-          "maxLevel": 25
-        },
-        {
-          "type": "LandNight",
-          "chance": 1,
-          "species": "BREMAND",
-          "minLevel": 29,
-          "maxLevel": 29
-        },
-        {
-          "type": "LandNight",
-          "chance": 1,
-          "species": "BREMAND",
-          "minLevel": 27,
-          "maxLevel": 27
+          "type": "DryGrass",
+          "chance": 15,
+          "species": "TAUROS_1",
+          "minLevel": 36,
+          "maxLevel": 38
         }
       ],
       "_source": "encounters.dat"
@@ -9251,87 +7546,45 @@
       "slots": [
         {
           "type": "Grass",
-          "chance": 20,
-          "species": "DUGTRIO",
-          "minLevel": 27,
-          "maxLevel": 27
+          "chance": 25,
+          "species": "MINIOR",
+          "minLevel": 40,
+          "maxLevel": 42
         },
         {
           "type": "Grass",
           "chance": 20,
-          "species": "VROOMBUG",
-          "minLevel": 26,
-          "maxLevel": 27
+          "species": "CHARJABUG",
+          "minLevel": 40,
+          "maxLevel": 42
         },
         {
           "type": "Grass",
-          "chance": 10,
-          "species": "ONIX",
-          "minLevel": 26,
-          "maxLevel": 27
+          "chance": 20,
+          "species": "MAWILE",
+          "minLevel": 40,
+          "maxLevel": 42
         },
         {
           "type": "Grass",
-          "chance": 10,
-          "species": "RHYHORN",
-          "minLevel": 27,
-          "maxLevel": 28
+          "chance": 15,
+          "species": "FERROGONAL",
+          "minLevel": 40,
+          "maxLevel": 42
         },
         {
           "type": "Grass",
-          "chance": 10,
-          "species": "SANDSLASH",
-          "minLevel": 26,
-          "maxLevel": 28
-        },
-        {
-          "type": "Grass",
-          "chance": 10,
-          "species": "SKARMORY",
-          "minLevel": 26,
-          "maxLevel": 27
-        },
-        {
-          "type": "Grass",
-          "chance": 5,
-          "species": "KECLEON",
-          "minLevel": 26,
-          "maxLevel": 27
-        },
-        {
-          "type": "Grass",
-          "chance": 5,
-          "species": "PECKABONE",
-          "minLevel": 29,
-          "maxLevel": 29
-        },
-        {
-          "type": "Grass",
-          "chance": 4,
-          "species": "BELDUM",
-          "minLevel": 26,
-          "maxLevel": 27
-        },
-        {
-          "type": "Grass",
-          "chance": 4,
+          "chance": 15,
           "species": "STEELIX",
-          "minLevel": 30,
-          "maxLevel": 30
+          "minLevel": 40,
+          "maxLevel": 42
         },
         {
           "type": "Grass",
-          "chance": 1,
-          "species": "KOINKOIN",
-          "minLevel": 26,
-          "maxLevel": 28
-        },
-        {
-          "type": "Grass",
-          "chance": 1,
-          "species": "MASGOT",
-          "minLevel": 30,
-          "maxLevel": 30
+          "chance": 5,
+          "species": "MASGOT_12",
+          "minLevel": 40,
+          "maxLevel": 42
         }
       ],
       "_source": "encounters.dat"
@@ -9344,52 +7597,31 @@
       "slots": [
         {
           "type": "Grass",
-          "chance": 70,
-          "species": "ELGYEM",
-          "minLevel": 25,
-          "maxLevel": 27
+          "chance": 40,
+          "species": "CASTFORM",
+          "minLevel": 36,
+          "maxLevel": 38
         },
         {
           "type": "Grass",
-          "chance": 15,
-          "species": "ELGYEM",
-          "minLevel": 26,
-          "maxLevel": 27
+          "chance": 25,
+          "species": "BEHEEYEM",
+          "minLevel": 36,
+          "maxLevel": 38
         },
         {
           "type": "Grass",
-          "chance": 5,
-          "species": "ELGYEM",
-          "minLevel": 27,
-          "maxLevel": 27
+          "chance": 25,
+          "species": "ORBEETLE",
+          "minLevel": 36,
+          "maxLevel": 38
         },
         {
           "type": "Grass",
-          "chance": 4,
+          "chance": 10,
           "species": "BELDUM",
-          "minLevel": 27,
-          "maxLevel": 27
-        },
-        {
-          "type": "Grass",
-          "chance": 4,
-          "species": "BELDUM",
-          "minLevel": 26,
-          "maxLevel": 27
-        },
-        {
-          "type": "Grass",
-          "chance": 1,
-          "species": "METANG",
-          "minLevel": 30,
-          "maxLevel": 30
-        },
-        {
-          "type": "Grass",
-          "chance": 1,
-          "species": "METANG",
-          "minLevel": 27,
-          "maxLevel": 28
+          "minLevel": 36,
+          "maxLevel": 38
         }
       ],
       "_source": "encounters.dat"
@@ -9402,59 +7634,31 @@
       "slots": [
         {
           "type": "Grass",
-          "chance": 60,
-          "species": "ELGYEM",
-          "minLevel": 25,
-          "maxLevel": 27
+          "chance": 40,
+          "species": "CASTFORM",
+          "minLevel": 36,
+          "maxLevel": 38
         },
         {
           "type": "Grass",
-          "chance": 20,
-          "species": "DUGTRIO",
-          "minLevel": 25,
-          "maxLevel": 27
+          "chance": 25,
+          "species": "BEHEEYEM",
+          "minLevel": 36,
+          "maxLevel": 38
         },
         {
           "type": "Grass",
-          "chance": 5,
-          "species": "ELGYEM",
-          "minLevel": 27,
-          "maxLevel": 27
+          "chance": 25,
+          "species": "ORBEETLE",
+          "minLevel": 36,
+          "maxLevel": 38
         },
         {
           "type": "Grass",
-          "chance": 5,
-          "species": "ELGYEM",
-          "minLevel": 26,
-          "maxLevel": 27
-        },
-        {
-          "type": "Grass",
-          "chance": 4,
+          "chance": 10,
           "species": "BELDUM",
-          "minLevel": 27,
-          "maxLevel": 27
-        },
-        {
-          "type": "Grass",
-          "chance": 4,
-          "species": "BELDUM",
-          "minLevel": 26,
-          "maxLevel": 27
-        },
-        {
-          "type": "Grass",
-          "chance": 1,
-          "species": "METANG",
-          "minLevel": 30,
-          "maxLevel": 30
-        },
-        {
-          "type": "Grass",
-          "chance": 1,
-          "species": "METANG",
-          "minLevel": 27,
-          "maxLevel": 28
+          "minLevel": 36,
+          "maxLevel": 38
         }
       ],
       "_source": "encounters.dat"
@@ -15818,8 +14022,8 @@
           "type": "XenoformedLand",
           "chance": 5,
           "species": "SMEARGLEX",
-          "minLevel": 26,
-          "maxLevel": 28
+          "minLevel": 29,
+          "maxLevel": 29
         }
       ],
       "_source": "encounters.dat"
@@ -15856,7 +14060,7 @@
           "chance": 5,
           "species": "JOLTIKX",
           "minLevel": 21,
-          "maxLevel": 23
+          "maxLevel": 24
         }
       ],
       "_source": "encounters.dat"
@@ -16050,29 +14254,29 @@
           "type": "XenoformedLand",
           "chance": 50,
           "species": "GROWLITHE_1",
-          "minLevel": 28,
-          "maxLevel": 33
+          "minLevel": 31,
+          "maxLevel": 32
         },
         {
           "type": "XenoformedLand",
           "chance": 30,
           "species": "DRAMPA",
           "minLevel": 31,
-          "maxLevel": 33
+          "maxLevel": 32
         },
         {
           "type": "XenoformedLand",
           "chance": 15,
           "species": "DUSMEE",
           "minLevel": 31,
-          "maxLevel": 33
+          "maxLevel": 32
         },
         {
           "type": "XenoformedLand",
           "chance": 5,
           "species": "GASTLYX",
-          "minLevel": 31,
-          "maxLevel": 33
+          "minLevel": 34,
+          "maxLevel": 34
         }
       ],
       "_source": "encounters.dat"
@@ -18396,172 +16600,60 @@
       "version": 0,
       "slots": [
         {
-          "type": "LandDay",
-          "chance": 20,
-          "species": "JOLTIK",
-          "minLevel": 29,
-          "maxLevel": 30
+          "type": "Gravel",
+          "chance": 40,
+          "species": "KLANG",
+          "minLevel": 42,
+          "maxLevel": 44
         },
         {
-          "type": "LandDay",
-          "chance": 20,
-          "species": "KLINK",
-          "minLevel": 29,
-          "maxLevel": 32
+          "type": "Gravel",
+          "chance": 25,
+          "species": "DONPHAN",
+          "minLevel": 42,
+          "maxLevel": 44
         },
         {
-          "type": "LandDay",
+          "type": "Gravel",
+          "chance": 25,
+          "species": "TAUROS_2",
+          "minLevel": 42,
+          "maxLevel": 44
+        },
+        {
+          "type": "Gravel",
           "chance": 10,
+          "species": "MASGOT_4",
+          "minLevel": 45,
+          "maxLevel": 47
+        },
+        {
+          "type": "DryGrass",
+          "chance": 35,
+          "species": "GURDURR",
+          "minLevel": 42,
+          "maxLevel": 44
+        },
+        {
+          "type": "DryGrass",
+          "chance": 25,
           "species": "ELECTABUZZ",
-          "minLevel": 30,
-          "maxLevel": 34
+          "minLevel": 42,
+          "maxLevel": 44
         },
         {
-          "type": "LandDay",
-          "chance": 10,
-          "species": "MAGNEMITE",
-          "minLevel": 27,
-          "maxLevel": 29
-        },
-        {
-          "type": "LandDay",
-          "chance": 10,
-          "species": "PECKABONE",
-          "minLevel": 29,
-          "maxLevel": 32
-        },
-        {
-          "type": "LandDay",
-          "chance": 10,
-          "species": "TAUROS",
-          "minLevel": 28,
-          "maxLevel": 33
-        },
-        {
-          "type": "LandDay",
-          "chance": 5,
-          "species": "EELEKTRIK",
-          "minLevel": 30,
-          "maxLevel": 30
-        },
-        {
-          "type": "LandDay",
-          "chance": 5,
-          "species": "MAGNETON",
-          "minLevel": 34,
-          "maxLevel": 34
-        },
-        {
-          "type": "LandDay",
-          "chance": 4,
-          "species": "BOUFFALANT",
-          "minLevel": 30,
-          "maxLevel": 32
-        },
-        {
-          "type": "LandDay",
-          "chance": 4,
-          "species": "KOINKOIN",
-          "minLevel": 30,
-          "maxLevel": 33
-        },
-        {
-          "type": "LandDay",
-          "chance": 1,
-          "species": "DUSMEE",
-          "minLevel": 29,
-          "maxLevel": 30
-        },
-        {
-          "type": "LandDay",
-          "chance": 1,
-          "species": "MASGOT",
-          "minLevel": 33,
-          "maxLevel": 33
-        },
-        {
-          "type": "LandNight",
+          "type": "DryGrass",
           "chance": 20,
-          "species": "JOLTIK",
-          "minLevel": 29,
-          "maxLevel": 30
+          "species": "BRAMBLIN",
+          "minLevel": 42,
+          "maxLevel": 44
         },
         {
-          "type": "LandNight",
+          "type": "DryGrass",
           "chance": 20,
-          "species": "KLINK",
-          "minLevel": 29,
-          "maxLevel": 32
-        },
-        {
-          "type": "LandNight",
-          "chance": 10,
-          "species": "ELECTABUZZ",
-          "minLevel": 30,
-          "maxLevel": 34
-        },
-        {
-          "type": "LandNight",
-          "chance": 10,
-          "species": "MAGNEMITE",
-          "minLevel": 27,
-          "maxLevel": 29
-        },
-        {
-          "type": "LandNight",
-          "chance": 10,
-          "species": "PECKABONE",
-          "minLevel": 29,
-          "maxLevel": 32
-        },
-        {
-          "type": "LandNight",
-          "chance": 10,
-          "species": "TAUROS",
-          "minLevel": 28,
-          "maxLevel": 33
-        },
-        {
-          "type": "LandNight",
-          "chance": 5,
-          "species": "EELEKTRIK",
-          "minLevel": 30,
-          "maxLevel": 30
-        },
-        {
-          "type": "LandNight",
-          "chance": 5,
-          "species": "MAGNETON",
-          "minLevel": 34,
-          "maxLevel": 34
-        },
-        {
-          "type": "LandNight",
-          "chance": 4,
-          "species": "BOUFFALANT",
-          "minLevel": 30,
-          "maxLevel": 32
-        },
-        {
-          "type": "LandNight",
-          "chance": 4,
-          "species": "KOINKOIN",
-          "minLevel": 30,
-          "maxLevel": 33
-        },
-        {
-          "type": "LandNight",
-          "chance": 1,
-          "species": "MASGOT",
-          "minLevel": 33,
-          "maxLevel": 33
-        },
-        {
-          "type": "LandNight",
-          "chance": 1,
-          "species": "MURKROW",
-          "minLevel": 29,
-          "maxLevel": 33
+          "species": "BREMAND_2",
+          "minLevel": 42,
+          "maxLevel": 44
         }
       ],
       "_source": "encounters.dat"
@@ -18575,7 +16667,7 @@
         {
           "type": "Water",
           "chance": 60,
-          "species": "SURSKIT",
+          "species": "TYMPOLE",
           "minLevel": 55,
           "maxLevel": 63
         },
@@ -20716,464 +18808,6 @@
       "_source": "encounters.dat"
     },
     {
-      "id": "628_0",
-      "mapId": 628,
-      "mapName": "Alter Mt. Zodiac",
-      "version": 0,
-      "slots": [
-        {
-          "type": "Grass",
-          "chance": 20,
-          "species": "AMOONGUSS",
-          "minLevel": 70,
-          "maxLevel": 74
-        },
-        {
-          "type": "Grass",
-          "chance": 20,
-          "species": "BREMAND",
-          "minLevel": 70,
-          "maxLevel": 72
-        },
-        {
-          "type": "Grass",
-          "chance": 10,
-          "species": "AMOONGUSS",
-          "minLevel": 78,
-          "maxLevel": 79
-        },
-        {
-          "type": "Grass",
-          "chance": 10,
-          "species": "BRELOOM",
-          "minLevel": 78,
-          "maxLevel": 80
-        },
-        {
-          "type": "Grass",
-          "chance": 10,
-          "species": "MASGOT",
-          "minLevel": 78,
-          "maxLevel": 78
-        },
-        {
-          "type": "Grass",
-          "chance": 10,
-          "species": "SLOWBRO",
-          "minLevel": 72,
-          "maxLevel": 75
-        },
-        {
-          "type": "Grass",
-          "chance": 5,
-          "species": "CASTFORM",
-          "minLevel": 83,
-          "maxLevel": 83
-        },
-        {
-          "type": "Grass",
-          "chance": 5,
-          "species": "SLOWBRO",
-          "minLevel": 77,
-          "maxLevel": 80
-        },
-        {
-          "type": "Grass",
-          "chance": 4,
-          "species": "ROCKAPYE",
-          "minLevel": 72,
-          "maxLevel": 77
-        },
-        {
-          "type": "Grass",
-          "chance": 4,
-          "species": "SPUTNINK",
-          "minLevel": 72,
-          "maxLevel": 77
-        },
-        {
-          "type": "Grass",
-          "chance": 1,
-          "species": "FROAKIE",
-          "minLevel": 68,
-          "maxLevel": 70
-        }
-      ],
-      "_source": "encounters.dat"
-    },
-    {
-      "id": "629_0",
-      "mapId": 629,
-      "mapName": "Alter Mt. Zodiac",
-      "version": 0,
-      "slots": [
-        {
-          "type": "Grass",
-          "chance": 20,
-          "species": "AZUMARILL",
-          "minLevel": 70,
-          "maxLevel": 74
-        },
-        {
-          "type": "Grass",
-          "chance": 20,
-          "species": "BREMAND",
-          "minLevel": 70,
-          "maxLevel": 72
-        },
-        {
-          "type": "Grass",
-          "chance": 10,
-          "species": "AZUMARILL",
-          "minLevel": 78,
-          "maxLevel": 79
-        },
-        {
-          "type": "Grass",
-          "chance": 10,
-          "species": "KIRLIA",
-          "minLevel": 72,
-          "maxLevel": 75
-        },
-        {
-          "type": "Grass",
-          "chance": 10,
-          "species": "MASGOT",
-          "minLevel": 78,
-          "maxLevel": 78
-        },
-        {
-          "type": "Grass",
-          "chance": 10,
-          "species": "SNORLAX",
-          "minLevel": 78,
-          "maxLevel": 80
-        },
-        {
-          "type": "Grass",
-          "chance": 5,
-          "species": "KIRLIA",
-          "minLevel": 77,
-          "maxLevel": 80
-        },
-        {
-          "type": "Grass",
-          "chance": 5,
-          "species": "SNORLAX",
-          "minLevel": 90,
-          "maxLevel": 90
-        },
-        {
-          "type": "Grass",
-          "chance": 4,
-          "species": "ARCTOZOLT",
-          "minLevel": 80,
-          "maxLevel": 85
-        },
-        {
-          "type": "Grass",
-          "chance": 4,
-          "species": "GASTRODON",
-          "minLevel": 72,
-          "maxLevel": 77
-        },
-        {
-          "type": "Grass",
-          "chance": 1,
-          "species": "GHIFT",
-          "minLevel": 68,
-          "maxLevel": 74
-        },
-        {
-          "type": "Grass",
-          "chance": 1,
-          "species": "ZORUA_1",
-          "minLevel": 68,
-          "maxLevel": 70
-        }
-      ],
-      "_source": "encounters.dat"
-    },
-    {
-      "id": "630_0",
-      "mapId": 630,
-      "mapName": "Alter Mt. Zodiac",
-      "version": 0,
-      "slots": [
-        {
-          "type": "Grass",
-          "chance": 20,
-          "species": "AZUMARILL",
-          "minLevel": 70,
-          "maxLevel": 74
-        },
-        {
-          "type": "Grass",
-          "chance": 20,
-          "species": "BREMAND",
-          "minLevel": 70,
-          "maxLevel": 72
-        },
-        {
-          "type": "Grass",
-          "chance": 10,
-          "species": "AZUMARILL",
-          "minLevel": 78,
-          "maxLevel": 79
-        },
-        {
-          "type": "Grass",
-          "chance": 10,
-          "species": "KIRLIA",
-          "minLevel": 72,
-          "maxLevel": 75
-        },
-        {
-          "type": "Grass",
-          "chance": 10,
-          "species": "MASGOT",
-          "minLevel": 78,
-          "maxLevel": 78
-        },
-        {
-          "type": "Grass",
-          "chance": 10,
-          "species": "SNORLAX",
-          "minLevel": 78,
-          "maxLevel": 80
-        },
-        {
-          "type": "Grass",
-          "chance": 5,
-          "species": "GASTRODON",
-          "minLevel": 77,
-          "maxLevel": 80
-        },
-        {
-          "type": "Grass",
-          "chance": 5,
-          "species": "SNORLAX",
-          "minLevel": 90,
-          "maxLevel": 90
-        },
-        {
-          "type": "Grass",
-          "chance": 4,
-          "species": "ARCTOZOLT",
-          "minLevel": 80,
-          "maxLevel": 85
-        },
-        {
-          "type": "Grass",
-          "chance": 4,
-          "species": "CASTFORM",
-          "minLevel": 72,
-          "maxLevel": 77
-        },
-        {
-          "type": "Grass",
-          "chance": 1,
-          "species": "GHIFT",
-          "minLevel": 68,
-          "maxLevel": 74
-        },
-        {
-          "type": "Grass",
-          "chance": 1,
-          "species": "ZORUA_1",
-          "minLevel": 68,
-          "maxLevel": 70
-        }
-      ],
-      "_source": "encounters.dat"
-    },
-    {
-      "id": "631_0",
-      "mapId": 631,
-      "mapName": "Alter Mt. Zodiac",
-      "version": 0,
-      "slots": [
-        {
-          "type": "Grass",
-          "chance": 20,
-          "species": "BREMAND",
-          "minLevel": 70,
-          "maxLevel": 72
-        },
-        {
-          "type": "Grass",
-          "chance": 20,
-          "species": "GASTRODON",
-          "minLevel": 73,
-          "maxLevel": 75
-        },
-        {
-          "type": "Grass",
-          "chance": 10,
-          "species": "BRONZONG",
-          "minLevel": 78,
-          "maxLevel": 80
-        },
-        {
-          "type": "Grass",
-          "chance": 10,
-          "species": "EMOLGA",
-          "minLevel": 74,
-          "maxLevel": 76
-        },
-        {
-          "type": "Grass",
-          "chance": 10,
-          "species": "GASTRODON",
-          "minLevel": 78,
-          "maxLevel": 79
-        },
-        {
-          "type": "Grass",
-          "chance": 10,
-          "species": "MASGOT",
-          "minLevel": 78,
-          "maxLevel": 78
-        },
-        {
-          "type": "Grass",
-          "chance": 5,
-          "species": "BRONZONG",
-          "minLevel": 90,
-          "maxLevel": 90
-        },
-        {
-          "type": "Grass",
-          "chance": 5,
-          "species": "EMOLGA",
-          "minLevel": 77,
-          "maxLevel": 80
-        },
-        {
-          "type": "Grass",
-          "chance": 4,
-          "species": "ARCHEN",
-          "minLevel": 78,
-          "maxLevel": 80
-        },
-        {
-          "type": "Grass",
-          "chance": 4,
-          "species": "ARCHEN",
-          "minLevel": 72,
-          "maxLevel": 77
-        },
-        {
-          "type": "Grass",
-          "chance": 1,
-          "species": "CHESPIN",
-          "minLevel": 68,
-          "maxLevel": 70
-        },
-        {
-          "type": "Grass",
-          "chance": 1,
-          "species": "SUNNEE",
-          "minLevel": 68,
-          "maxLevel": 74
-        }
-      ],
-      "_source": "encounters.dat"
-    },
-    {
-      "id": "632_0",
-      "mapId": 632,
-      "mapName": "Alter Mt. Zodiac",
-      "version": 0,
-      "slots": [
-        {
-          "type": "Grass",
-          "chance": 20,
-          "species": "BREMAND",
-          "minLevel": 70,
-          "maxLevel": 72
-        },
-        {
-          "type": "Grass",
-          "chance": 20,
-          "species": "GASTRODON",
-          "minLevel": 73,
-          "maxLevel": 75
-        },
-        {
-          "type": "Grass",
-          "chance": 10,
-          "species": "BRONZONG",
-          "minLevel": 78,
-          "maxLevel": 80
-        },
-        {
-          "type": "Grass",
-          "chance": 10,
-          "species": "EMOLGA",
-          "minLevel": 74,
-          "maxLevel": 76
-        },
-        {
-          "type": "Grass",
-          "chance": 10,
-          "species": "GASTRODON",
-          "minLevel": 78,
-          "maxLevel": 79
-        },
-        {
-          "type": "Grass",
-          "chance": 10,
-          "species": "MASGOT",
-          "minLevel": 78,
-          "maxLevel": 78
-        },
-        {
-          "type": "Grass",
-          "chance": 5,
-          "species": "BRONZONG",
-          "minLevel": 90,
-          "maxLevel": 90
-        },
-        {
-          "type": "Grass",
-          "chance": 5,
-          "species": "EMOLGA",
-          "minLevel": 77,
-          "maxLevel": 80
-        },
-        {
-          "type": "Grass",
-          "chance": 4,
-          "species": "ARCHEN",
-          "minLevel": 78,
-          "maxLevel": 80
-        },
-        {
-          "type": "Grass",
-          "chance": 4,
-          "species": "CASTFORM",
-          "minLevel": 72,
-          "maxLevel": 77
-        },
-        {
-          "type": "Grass",
-          "chance": 1,
-          "species": "CHESPIN",
-          "minLevel": 68,
-          "maxLevel": 70
-        },
-        {
-          "type": "Grass",
-          "chance": 1,
-          "species": "SUNNEE",
-          "minLevel": 68,
-          "maxLevel": 74
-        }
-      ],
-      "_source": "encounters.dat"
-    },
-    {
       "id": "633_0",
       "mapId": 633,
       "mapName": "Alter Mt. Zodiac",
@@ -21355,99 +18989,6 @@
           "species": "DONANAS",
           "minLevel": 80,
           "maxLevel": 90
-        }
-      ],
-      "_source": "encounters.dat"
-    },
-    {
-      "id": "637_0",
-      "mapId": 637,
-      "mapName": "Alter Mt. Zodiac",
-      "version": 0,
-      "slots": [
-        {
-          "type": "Grass",
-          "chance": 20,
-          "species": "BREMAND",
-          "minLevel": 75,
-          "maxLevel": 78
-        },
-        {
-          "type": "Grass",
-          "chance": 20,
-          "species": "GABITE",
-          "minLevel": 80,
-          "maxLevel": 82
-        },
-        {
-          "type": "Grass",
-          "chance": 10,
-          "species": "BREMAND",
-          "minLevel": 78,
-          "maxLevel": 80
-        },
-        {
-          "type": "Grass",
-          "chance": 10,
-          "species": "CASTFORM",
-          "minLevel": 78,
-          "maxLevel": 79
-        },
-        {
-          "type": "Grass",
-          "chance": 10,
-          "species": "LUXIO",
-          "minLevel": 74,
-          "maxLevel": 76
-        },
-        {
-          "type": "Grass",
-          "chance": 10,
-          "species": "MASGOT",
-          "minLevel": 78,
-          "maxLevel": 78
-        },
-        {
-          "type": "Grass",
-          "chance": 5,
-          "species": "GARCHOMP",
-          "minLevel": 90,
-          "maxLevel": 90
-        },
-        {
-          "type": "Grass",
-          "chance": 5,
-          "species": "PIKACHUX",
-          "minLevel": 75,
-          "maxLevel": 80
-        },
-        {
-          "type": "Grass",
-          "chance": 4,
-          "species": "AERODACTYL",
-          "minLevel": 80,
-          "maxLevel": 85
-        },
-        {
-          "type": "Grass",
-          "chance": 4,
-          "species": "GROWLITHE",
-          "minLevel": 75,
-          "maxLevel": 77
-        },
-        {
-          "type": "Grass",
-          "chance": 1,
-          "species": "FENNEKIN",
-          "minLevel": 68,
-          "maxLevel": 70
-        },
-        {
-          "type": "Grass",
-          "chance": 1,
-          "species": "PUDDI",
-          "minLevel": 68,
-          "maxLevel": 74
         }
       ],
       "_source": "encounters.dat"
@@ -21732,14 +19273,14 @@
       "slots": [
         {
           "type": "ColdMagma",
-          "chance": 45,
+          "chance": 40,
           "species": "GOLETT_1",
           "minLevel": 34,
           "maxLevel": 36
         },
         {
           "type": "ColdMagma",
-          "chance": 35,
+          "chance": 30,
           "species": "VULPIX",
           "minLevel": 34,
           "maxLevel": 36
@@ -21755,6 +19296,13 @@
           "type": "ColdMagma",
           "chance": 10,
           "species": "UNOWN_28",
+          "minLevel": 34,
+          "maxLevel": 36
+        },
+        {
+          "type": "ColdMagma",
+          "chance": 10,
+          "species": "UNOWN_29",
           "minLevel": 34,
           "maxLevel": 36
         }
@@ -21769,14 +19317,14 @@
       "slots": [
         {
           "type": "ColdMagma",
-          "chance": 45,
+          "chance": 40,
           "species": "GOLETT_1",
           "minLevel": 34,
           "maxLevel": 36
         },
         {
           "type": "ColdMagma",
-          "chance": 35,
+          "chance": 30,
           "species": "VULPIX",
           "minLevel": 34,
           "maxLevel": 36
@@ -21794,6 +19342,233 @@
           "species": "UNOWN_28",
           "minLevel": 34,
           "maxLevel": 36
+        },
+        {
+          "type": "ColdMagma",
+          "chance": 10,
+          "species": "UNOWN_29",
+          "minLevel": 34,
+          "maxLevel": 36
+        }
+      ],
+      "_source": "encounters.dat"
+    },
+    {
+      "id": "618_0",
+      "mapId": 618,
+      "mapName": "A.R.V. Tachyon - Training Reserve",
+      "version": 0,
+      "slots": [
+        {
+          "type": "Grass",
+          "chance": 35,
+          "species": "MAGNETON",
+          "minLevel": 40,
+          "maxLevel": 42
+        },
+        {
+          "type": "Grass",
+          "chance": 25,
+          "species": "PAWNIARD",
+          "minLevel": 40,
+          "maxLevel": 42
+        },
+        {
+          "type": "Grass",
+          "chance": 20,
+          "species": "SCYTHER",
+          "minLevel": 40,
+          "maxLevel": 42
+        },
+        {
+          "type": "Grass",
+          "chance": 10,
+          "species": "ARCTOVISH",
+          "minLevel": 40,
+          "maxLevel": 42
+        },
+        {
+          "type": "Grass",
+          "chance": 10,
+          "species": "DRACOZOLT",
+          "minLevel": 40,
+          "maxLevel": 42
+        }
+      ],
+      "_source": "encounters.dat"
+    },
+    {
+      "id": "721_0",
+      "mapId": 721,
+      "mapName": "Tachyon Wreck",
+      "version": 0,
+      "slots": [
+        {
+          "type": "Gravel",
+          "chance": 35,
+          "species": "MAGNETON",
+          "minLevel": 43,
+          "maxLevel": 45
+        },
+        {
+          "type": "Gravel",
+          "chance": 25,
+          "species": "PAWNIARD",
+          "minLevel": 43,
+          "maxLevel": 45
+        },
+        {
+          "type": "Gravel",
+          "chance": 20,
+          "species": "SCYTHER",
+          "minLevel": 42,
+          "maxLevel": 45
+        },
+        {
+          "type": "Gravel",
+          "chance": 10,
+          "species": "ARCTOVISH",
+          "minLevel": 42,
+          "maxLevel": 45
+        },
+        {
+          "type": "Gravel",
+          "chance": 10,
+          "species": "DRACOZOLT",
+          "minLevel": 42,
+          "maxLevel": 45
+        }
+      ],
+      "_source": "encounters.dat"
+    },
+    {
+      "id": "722_0",
+      "mapId": 722,
+      "mapName": "Tachyon Wreck",
+      "version": 0,
+      "slots": [
+        {
+          "type": "Gravel",
+          "chance": 35,
+          "species": "MAGNETON",
+          "minLevel": 43,
+          "maxLevel": 45
+        },
+        {
+          "type": "Gravel",
+          "chance": 25,
+          "species": "PAWNIARD",
+          "minLevel": 43,
+          "maxLevel": 45
+        },
+        {
+          "type": "Gravel",
+          "chance": 20,
+          "species": "SCYTHER",
+          "minLevel": 42,
+          "maxLevel": 45
+        },
+        {
+          "type": "Gravel",
+          "chance": 10,
+          "species": "ARCTOVISH",
+          "minLevel": 42,
+          "maxLevel": 45
+        },
+        {
+          "type": "Gravel",
+          "chance": 10,
+          "species": "DRACOZOLT",
+          "minLevel": 42,
+          "maxLevel": 45
+        }
+      ],
+      "_source": "encounters.dat"
+    },
+    {
+      "id": "723_0",
+      "mapId": 723,
+      "mapName": "Tachyon Wreck",
+      "version": 0,
+      "slots": [
+        {
+          "type": "Gravel",
+          "chance": 35,
+          "species": "MAGNETON",
+          "minLevel": 43,
+          "maxLevel": 45
+        },
+        {
+          "type": "Gravel",
+          "chance": 25,
+          "species": "PAWNIARD",
+          "minLevel": 43,
+          "maxLevel": 45
+        },
+        {
+          "type": "Gravel",
+          "chance": 20,
+          "species": "SCYTHER",
+          "minLevel": 42,
+          "maxLevel": 45
+        },
+        {
+          "type": "Gravel",
+          "chance": 10,
+          "species": "ARCTOVISH",
+          "minLevel": 42,
+          "maxLevel": 45
+        },
+        {
+          "type": "Gravel",
+          "chance": 10,
+          "species": "DRACOZOLT",
+          "minLevel": 42,
+          "maxLevel": 45
+        }
+      ],
+      "_source": "encounters.dat"
+    },
+    {
+      "id": "724_0",
+      "mapId": 724,
+      "mapName": "Tachyon Wreck",
+      "version": 0,
+      "slots": [
+        {
+          "type": "Gravel",
+          "chance": 35,
+          "species": "MAGNETON",
+          "minLevel": 43,
+          "maxLevel": 45
+        },
+        {
+          "type": "Gravel",
+          "chance": 25,
+          "species": "PAWNIARD",
+          "minLevel": 43,
+          "maxLevel": 45
+        },
+        {
+          "type": "Gravel",
+          "chance": 20,
+          "species": "SCYTHER",
+          "minLevel": 42,
+          "maxLevel": 45
+        },
+        {
+          "type": "Gravel",
+          "chance": 10,
+          "species": "ARCTOVISH",
+          "minLevel": 42,
+          "maxLevel": 45
+        },
+        {
+          "type": "Gravel",
+          "chance": 10,
+          "species": "DRACOZOLT",
+          "minLevel": 42,
+          "maxLevel": 45
         }
       ],
       "_source": "encounters.dat"

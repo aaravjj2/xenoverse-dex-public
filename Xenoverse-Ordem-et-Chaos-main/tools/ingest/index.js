@@ -396,24 +396,17 @@ function loadMoves(db) {
  * Check if a species entry is a dev/placeholder entry
  */
 function isDevEntry(s) {
-  // Check for placeholder names
+  // The game ships real species (X-forms, customs like CHIMAOOZE/DRAGALISK) whose
+  // compiled species.dat has placeholder real_name="WIP" and all-1 stats, yet they
+  // have full sprite/cry/encounter content in-game. The export pipeline now resolves
+  // their display names from the species key, so only flag entries whose *resolved*
+  // name still looks like a placeholder.
   const placeholderPatterns = ['WIP', 'TEST', 'PLACEHOLDER', 'TODO', 'TEMP', '???'];
   const name = (s.name || '').toUpperCase();
   for (const pattern of placeholderPatterns) {
     if (name === pattern || name.includes(pattern)) {
       return true;
     }
-  }
-
-  // Check for abnormally low BST (placeholder stats)
-  const bst = s.bst || 0;
-  if (bst > 0 && bst < 50) {
-    return true;
-  }
-
-  // Check for all stats = 1 (BST = 6)
-  if (bst === 6) {
-    return true;
   }
 
   // Check for missing required display name

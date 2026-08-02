@@ -1,8 +1,8 @@
 {
   "meta": {
-    "exportTime": "2026-02-04T22:07:45.497Z",
-    "commitHash": "4de5636ea01014226c44edfa1b8f0a5288721127",
-    "count": 932,
+    "exportTime": "2026-08-02T17:53:05.518Z",
+    "commitHash": "787cd73e2f99fa794320ee7928faa187b9ddbe9e",
+    "count": 934,
     "decodingStrategy": "ruby-marshal",
     "warnings": []
   },
@@ -79,7 +79,7 @@
       "name": "First Impression",
       "type": "BUG",
       "category": "Physical",
-      "power": 90,
+      "power": 100,
       "isVariablePower": false,
       "accuracy": 100,
       "pp": 10,
@@ -495,7 +495,7 @@
       "isVariablePower": false,
       "accuracy": 100,
       "pp": 20,
-      "priority": 0,
+      "priority": 1,
       "target": "NearOther",
       "functionCode": "TargetNextFireMoveDamagesTarget",
       "flags": [
@@ -504,7 +504,7 @@
         "Powder"
       ],
       "effectChance": 0,
-      "description": "The user covers the target in a combustible powder. If the target uses a Fire-type move, the powder explodes and damages the target.",
+      "description": "The user covers the target in a combustible powder, and will move last this turn. If the target uses a Fire-type move, the powder explodes and damages the target.",
       "_source": "moves.dat"
     },
     {
@@ -717,7 +717,7 @@
       "name": "Night Daze",
       "type": "DARK",
       "category": "Special",
-      "power": 85,
+      "power": 95,
       "isVariablePower": false,
       "accuracy": 95,
       "pp": 10,
@@ -728,7 +728,7 @@
         "CanProtect",
         "CanMirrorMove"
       ],
-      "effectChance": 40,
+      "effectChance": 20,
       "description": "The user lets loose a pitch-black shock wave at its target. It may also lower the target's accuracy.",
       "_source": "moves.dat"
     },
@@ -1373,7 +1373,7 @@
       "isVariablePower": false,
       "accuracy": 0,
       "pp": 10,
-      "priority": 4,
+      "priority": 5,
       "target": "User",
       "functionCode": "ProtectUserFromDamagingMovesObstruct",
       "flags": [],
@@ -1434,7 +1434,7 @@
       "isVariablePower": false,
       "accuracy": 0,
       "pp": 10,
-      "priority": 4,
+      "priority": 5,
       "target": "User",
       "functionCode": "StealAndUseBeneficialStatusMove",
       "flags": [],
@@ -1935,7 +1935,8 @@
       "functionCode": "FlinchTargetDoublePowerIfTargetInSky",
       "flags": [
         "CanProtect",
-        "CanMirrorMove"
+        "CanMirrorMove",
+        "Wind"
       ],
       "effectChance": 20,
       "description": "The user whips up a vicious tornado to tear at the opposing team. It may also make targets flinch.",
@@ -2228,7 +2229,7 @@
       "name": "Bolt Beak",
       "type": "ELECTRIC",
       "category": "Physical",
-      "power": 85,
+      "power": 65,
       "isVariablePower": false,
       "accuracy": 100,
       "pp": 10,
@@ -2259,7 +2260,8 @@
       "functionCode": "ParalyzeTarget",
       "flags": [
         "CanProtect",
-        "CanMirrorMove"
+        "CanMirrorMove",
+        "Light"
       ],
       "effectChance": 30,
       "description": "A flare of electricity is loosed to strike the area around the user. It may also cause paralysis.",
@@ -2459,7 +2461,7 @@
         "CanMirrorMove",
         "Biting"
       ],
-      "effectChance": 101,
+      "effectChance": 20,
       "description": "The user bites with electrified fangs. It may also make the target flinch or leave it with paralysis.",
       "_source": "moves.dat"
     },
@@ -2827,7 +2829,7 @@
         "CanMirrorMove",
         "Bomb"
       ],
-      "effectChance": 30,
+      "effectChance": 20,
       "description": "The user attacks by borrowing the power of the moon. This may also lower the target's Sp. Atk stat.",
       "_source": "moves.dat"
     },
@@ -2948,7 +2950,7 @@
       "name": "Disarming Voice",
       "type": "FAIRY",
       "category": "Special",
-      "power": 40,
+      "power": 50,
       "isVariablePower": false,
       "accuracy": 0,
       "pp": 15,
@@ -3020,10 +3022,10 @@
       "pp": 20,
       "priority": 0,
       "target": "NearAlly",
-      "functionCode": "RaiseTargetSpDef1",
+      "functionCode": "RaiseTargetSpDef1HealStatusInMistyTerrain",
       "flags": [],
       "effectChance": 0,
-      "description": "The user raises the Sp. Def stat of an ally Pokémon by using a mysterious aroma.",
+      "description": "The user raises the Sp. Def stat of an ally Pokémon by using a mysterious aroma. If used in Misty Terrain, it also heals a status condition they're afflicted with.",
       "_source": "moves.dat"
     },
     {
@@ -3097,11 +3099,9 @@
       "accuracy": 0,
       "pp": 15,
       "priority": 0,
-      "target": "NearOther",
+      "target": "UserOrNearAlly",
       "functionCode": "RaiseTargetAtkSpAtk2",
-      "flags": [
-        "CannotMetronome"
-      ],
+      "flags": [],
       "effectChance": 0,
       "description": "The user sharply raises the target's Attack and Sp. Atk stats by decorating the target.",
       "_source": "moves.dat"
@@ -3503,7 +3503,8 @@
       "flags": [
         "Contact",
         "CanProtect",
-        "CanMirrorMove"
+        "CanMirrorMove",
+        "Slicing"
       ],
       "effectChance": 0,
       "description": "The user attacks by slicing with its long horns. The target's stat changes don't affect the damage.",
@@ -3549,7 +3550,8 @@
       "flags": [
         "CanProtect",
         "CanMirrorMove",
-        "CannotMetronome"
+        "CannotMetronome",
+        "Slicing"
       ],
       "effectChance": 0,
       "description": "The user cuts with its long horn. The odd power contained in it does physical damage to the foe.",
@@ -4010,7 +4012,7 @@
       "name": "Arm Thrust",
       "type": "FIGHTING",
       "category": "Physical",
-      "power": 15,
+      "power": 20,
       "isVariablePower": false,
       "accuracy": 100,
       "pp": 20,
@@ -4205,7 +4207,7 @@
       "isVariablePower": false,
       "accuracy": 0,
       "pp": 5,
-      "priority": 4,
+      "priority": 5,
       "target": "User",
       "functionCode": "ProtectUserFromDamagingMovesAccuracyUp",
       "flags": [],
@@ -4519,7 +4521,7 @@
         "CanProtect",
         "CanMirrorMove"
       ],
-      "effectChance": 10,
+      "effectChance": 15,
       "description": "The foe is attacked with an intense blast of all-consuming fire. It may also leave the target with a burn.",
       "_source": "moves.dat"
     },
@@ -4724,7 +4726,7 @@
       "name": "Fire Lash",
       "type": "FIRE",
       "category": "Physical",
-      "power": 80,
+      "power": 90,
       "isVariablePower": false,
       "accuracy": 100,
       "pp": 15,
@@ -4888,7 +4890,7 @@
         "CanMirrorMove",
         "Biting"
       ],
-      "effectChance": 101,
+      "effectChance": 20,
       "description": "The user bites with flame-cloaked fangs. It may also make the target flinch or leave it burned.",
       "_source": "moves.dat"
     },
@@ -4926,7 +4928,7 @@
       "pp": 15,
       "priority": 0,
       "target": "AllNearFoes",
-      "functionCode": "DestroyTargetBerryOrGem",
+      "functionCode": "DestroyTargetBerryOrGemRemoveHawthorns",
       "flags": [
         "CanProtect",
         "CanMirrorMove"
@@ -5178,7 +5180,7 @@
       "name": "Beak Blast",
       "type": "FLYING",
       "category": "Physical",
-      "power": 100,
+      "power": 120,
       "isVariablePower": false,
       "accuracy": 100,
       "pp": 15,
@@ -5257,7 +5259,7 @@
         "HighCriticalHitRate"
       ],
       "effectChance": 0,
-      "description": "A corkscrewing attack with the sharp beak acting as a drill.",
+      "description": "A corkscrewing attack with the sharp beak acting as a drill. Has a high critical hit rate.",
       "_source": "moves.dat"
     },
     {
@@ -5340,7 +5342,8 @@
       "flags": [
         "Contact",
         "CanProtect",
-        "CanMirrorMove"
+        "CanMirrorMove",
+        "Slicing"
       ],
       "effectChance": 0,
       "description": "The user confounds the foe with speed, then slashes. The attack lands without fail.",
@@ -5882,7 +5885,7 @@
         "CanMirrorMove",
         "Wind"
       ],
-      "effectChance": 10,
+      "effectChance": 15,
       "description": "The user blasts the target with a gust of repulsive wind. It may also raise all the user's stats at once.",
       "_source": "moves.dat"
     },
@@ -6173,7 +6176,7 @@
         "CanMirrorMove"
       ],
       "effectChance": 0,
-      "description": "A storm of sharp is whipped up. The attack's recoil harshly reduces the user's Sp. Atk stat.",
+      "description": "A storm of sharp leaves is whipped up. The attack's recoil harshly reduces the user's Sp. Atk stat.",
       "_source": "moves.dat"
     },
     {
@@ -6349,7 +6352,8 @@
         "Contact",
         "CanProtect",
         "CanMirrorMove",
-        "HighCriticalHitRate"
+        "HighCriticalHitRate",
+        "Slicing"
       ],
       "effectChance": 0,
       "description": "The user handles a sharp leaf like a sword and attacks by slashing. It has a high critical-hit ratio.",
@@ -6382,7 +6386,7 @@
       "name": "Apple Acid",
       "type": "GRASS",
       "category": "Special",
-      "power": 80,
+      "power": 90,
       "isVariablePower": false,
       "accuracy": 100,
       "pp": 10,
@@ -6447,7 +6451,7 @@
       "name": "Grav Apple",
       "type": "GRASS",
       "category": "Physical",
-      "power": 80,
+      "power": 90,
       "isVariablePower": false,
       "accuracy": 100,
       "pp": 10,
@@ -6556,7 +6560,7 @@
       "name": "Trop Kick",
       "type": "GRASS",
       "category": "Physical",
-      "power": 70,
+      "power": 85,
       "isVariablePower": false,
       "accuracy": 100,
       "pp": 15,
@@ -6653,7 +6657,8 @@
       "flags": [
         "CanProtect",
         "CanMirrorMove",
-        "HighCriticalHitRate"
+        "HighCriticalHitRate",
+        "Slicing"
       ],
       "effectChance": 0,
       "description": "Sharp-edged leaves are launched to slash at the opposing team. Critical hits land more easily.",
@@ -7044,7 +7049,7 @@
       "isVariablePower": false,
       "accuracy": 0,
       "pp": 10,
-      "priority": 4,
+      "priority": 5,
       "target": "User",
       "functionCode": "ProtectUserFromTargetingMovesSpikyShield",
       "flags": [],
@@ -7530,7 +7535,7 @@
       "name": "Bone Rush",
       "type": "GROUND",
       "category": "Physical",
-      "power": 25,
+      "power": 30,
       "isVariablePower": false,
       "accuracy": 90,
       "pp": 10,
@@ -7960,7 +7965,7 @@
         "CanMirrorMove",
         "Biting"
       ],
-      "effectChance": 101,
+      "effectChance": 20,
       "description": "The user bites with cold-infused fangs. It may also make the target flinch or leave it frozen.",
       "_source": "moves.dat"
     },
@@ -10540,7 +10545,7 @@
       "isVariablePower": false,
       "accuracy": 0,
       "pp": 10,
-      "priority": 4,
+      "priority": 5,
       "target": "User",
       "functionCode": "UserEnduresFaintingThisTurn",
       "flags": [],
@@ -10695,7 +10700,7 @@
       "id": "GROWTH",
       "internalName": "GROWTH",
       "name": "Growth",
-      "type": "NORMAL",
+      "type": "GRASS",
       "category": "Status",
       "power": 0,
       "isVariablePower": false,
@@ -10889,7 +10894,7 @@
       "category": "Status",
       "power": 0,
       "isVariablePower": false,
-      "accuracy": 75,
+      "accuracy": 65,
       "pp": 10,
       "priority": 0,
       "target": "NearOther",
@@ -11205,7 +11210,7 @@
       "isVariablePower": false,
       "accuracy": 0,
       "pp": 10,
-      "priority": 4,
+      "priority": 5,
       "target": "User",
       "functionCode": "ProtectUser",
       "flags": [],
@@ -12184,7 +12189,7 @@
         "CanMirrorMove",
         "Biting"
       ],
-      "effectChance": 50,
+      "effectChance": 20,
       "description": "The user bites the target with toxic fangs. It may also leave the target badly poisoned.",
       "_source": "moves.dat"
     },
@@ -12194,7 +12199,7 @@
       "name": "Poison Tail",
       "type": "POISON",
       "category": "Physical",
-      "power": 85,
+      "power": 75,
       "isVariablePower": false,
       "accuracy": 90,
       "pp": 25,
@@ -12217,7 +12222,7 @@
       "name": "Acid",
       "type": "POISON",
       "category": "Special",
-      "power": 40,
+      "power": 50,
       "isVariablePower": false,
       "accuracy": 100,
       "pp": 30,
@@ -12228,7 +12233,7 @@
         "CanProtect",
         "CanMirrorMove"
       ],
-      "effectChance": 10,
+      "effectChance": 25,
       "description": "The foe is attacked with a spray of harsh acid. It may also lower the target's Sp. Def stat.",
       "_source": "moves.dat"
     },
@@ -12324,7 +12329,7 @@
       "isVariablePower": false,
       "accuracy": 0,
       "pp": 10,
-      "priority": 4,
+      "priority": 5,
       "target": "User",
       "functionCode": "ProtectUserBanefulBunker",
       "flags": [],
@@ -12359,16 +12364,16 @@
       "power": 65,
       "isVariablePower": false,
       "accuracy": 100,
-      "pp": 40,
+      "pp": 20,
       "priority": 0,
-      "target": "AllNearOthers",
-      "functionCode": "CorrodeTargetItem",
+      "target": "NearOther",
+      "functionCode": "RemoveTargetItem",
       "flags": [
         "CanProtect",
         "CanMirrorMove"
       ],
       "effectChance": 0,
-      "description": "The user surrounds everything around it with highly acidic gas and melts away items they hold.",
+      "description": "The user surrounds a foe with an acidic gas, melting away the item it holds and making them drop it for the rest of the battle.",
       "_source": "moves.dat"
     },
     {
@@ -12732,9 +12737,9 @@
       "name": "Psychic Fangs",
       "type": "PSYCHIC",
       "category": "Physical",
-      "power": 85,
+      "power": 80,
       "isVariablePower": false,
-      "accuracy": 100,
+      "accuracy": 95,
       "pp": 10,
       "priority": 0,
       "target": "NearOther",
@@ -12937,7 +12942,8 @@
       "flags": [
         "CanProtect",
         "CanMirrorMove",
-        "HighCriticalHitRate"
+        "HighCriticalHitRate",
+        "Slicing"
       ],
       "effectChance": 0,
       "description": "The user tears at the target with blades formed by psychic power. Critical hits land more easily.",
@@ -13446,7 +13452,7 @@
       "isVariablePower": false,
       "accuracy": 0,
       "pp": 15,
-      "priority": 4,
+      "priority": 5,
       "target": "User",
       "functionCode": "BounceBackProblemCausingStatusMoves",
       "flags": [],
@@ -13493,7 +13499,7 @@
         "CanMirrorMove"
       ],
       "effectChance": 0,
-      "description": "The user creates a bizarre area in which Pokémon's held items lose their effects for five turns.",
+      "description": "The user creates a bizarre area in which Pokémon's held items and abilities lose their effects for five turns.",
       "_source": "moves.dat"
     },
     {
@@ -13999,7 +14005,7 @@
         "CanProtect",
         "CanMirrorMove"
       ],
-      "effectChance": 10,
+      "effectChance": 15,
       "description": "The user attacks with a prehistoric power. It may also raise all the user's stats at once.",
       "_source": "moves.dat"
     },
@@ -14466,7 +14472,7 @@
         "CanProtect",
         "CanMirrorMove"
       ],
-      "effectChance": 30,
+      "effectChance": 20,
       "description": "The foe slams the target with its steel-hard head. It may also make the target flinch.",
       "_source": "moves.dat"
     },
@@ -14545,7 +14551,7 @@
       "category": "Special",
       "power": 65,
       "isVariablePower": false,
-      "accuracy": 85,
+      "accuracy": 100,
       "pp": 10,
       "priority": 0,
       "target": "NearOther",
@@ -14564,21 +14570,21 @@
       "internalName": "MAGNETBOMB",
       "name": "Magnet Bomb",
       "type": "STEEL",
-      "category": "Physical",
-      "power": 60,
+      "category": "Special",
+      "power": 80,
       "isVariablePower": false,
       "accuracy": 0,
-      "pp": 20,
+      "pp": 15,
       "priority": 0,
       "target": "NearOther",
-      "functionCode": "None",
+      "functionCode": "HitsAllFoesAndPowersUpInElectricTerrain",
       "flags": [
         "CanProtect",
         "CanMirrorMove",
         "Bomb"
       ],
       "effectChance": 0,
-      "description": "The user launches steel bombs that stick to the target. This attack will not miss.",
+      "description": "The user launches steel bombs that cannot miss. If used on Electric Terrain or by magnet-risen Pokémon, it becomes a spread move with increased power.",
       "_source": "moves.dat"
     },
     {
@@ -14780,7 +14786,7 @@
       "isVariablePower": false,
       "accuracy": 0,
       "pp": 10,
-      "priority": 4,
+      "priority": 5,
       "target": "User",
       "functionCode": "ProtectUserFromDamagingMovesKingsShield",
       "flags": [],
@@ -14944,7 +14950,7 @@
       "category": "Physical",
       "power": 90,
       "isVariablePower": false,
-      "accuracy": 90,
+      "accuracy": 95,
       "pp": 10,
       "priority": 0,
       "target": "NearOther",
@@ -15052,7 +15058,7 @@
       "name": "Fishious Rend",
       "type": "WATER",
       "category": "Physical",
-      "power": 85,
+      "power": 65,
       "isVariablePower": false,
       "accuracy": 100,
       "pp": 10,
@@ -15215,7 +15221,8 @@
       "flags": [
         "Contact",
         "CanProtect",
-        "CanMirrorMove"
+        "CanMirrorMove",
+        "Slicing"
       ],
       "effectChance": 50,
       "description": "The user cuts the foe with sharp shells. It may also lower the target's Defense stat.",
@@ -15609,9 +15616,10 @@
       "flags": [
         "Contact",
         "CanProtect",
-        "CanMirrorMove"
+        "CanMirrorMove",
+        "Slicing"
       ],
-      "effectChance": 50,
+      "effectChance": 30,
       "description": "The user may critically hit with its ruinous claws. May also leave the target poisoned, paralyzed, or frostbitten.",
       "_source": "moves.dat"
     },
@@ -17623,19 +17631,20 @@
       "name": "Tidal Dragoon",
       "type": "DRAGON",
       "category": "Physical",
-      "power": 25,
+      "power": 30,
       "isVariablePower": false,
-      "accuracy": 100,
+      "accuracy": 95,
       "pp": 20,
       "priority": 0,
       "target": "NearOther",
-      "functionCode": "HitThreeTimesPowersUpWithEachHit",
+      "functionCode": "HitThreeTimes",
       "flags": [
         "CanProtect",
-        "CanMirrorMove"
+        "CanMirrorMove",
+        "Contact"
       ],
       "effectChance": 0,
-      "description": "The user dashes into the opponent up to three times, pushed by a stream of draconic power. Each hit is stronger than the last.",
+      "description": "The user dashes into the opponent up to three times, pushed by a stream of draconic power.",
       "_source": "moves.dat"
     },
     {
@@ -17644,7 +17653,7 @@
       "name": "Nectar Burst",
       "type": "GRASS",
       "category": "Special",
-      "power": 90,
+      "power": 100,
       "isVariablePower": false,
       "accuracy": 100,
       "pp": 10,
@@ -17677,7 +17686,7 @@
         "CanMirrorMove"
       ],
       "effectChance": 0,
-      "description": "The user begins cheering for their ally, allowing their ally's move to have high priority.",
+      "description": "The user begins cheering for their ally, allowing their ally's move to have high priority. Fails if used consecutively.",
       "_source": "moves.dat"
     },
     {
@@ -17692,7 +17701,7 @@
       "pp": 40,
       "priority": 0,
       "target": "NearOther",
-      "functionCode": "LowerTargetDefenseSpeed1",
+      "functionCode": "LowerTargetDefenseSpecialDefense1",
       "flags": [
         "CanProtect",
         "CanMirrorMove",
@@ -17720,7 +17729,7 @@
         "CanMirrorMove"
       ],
       "effectChance": 20,
-      "description": "Inflicts physical or special damage, whichever will be more effective, and heals the user",
+      "description": "The user syphons their opponent's soul to heal themself. Inflicts physical or special damage, whichever will be more effective.",
       "_source": "moves.dat"
     },
     {
@@ -17884,18 +17893,18 @@
       "category": "Physical",
       "power": 60,
       "isVariablePower": false,
-      "accuracy": 100,
+      "accuracy": 90,
       "pp": 15,
       "priority": 0,
       "target": "AllNearFoes",
-      "functionCode": "AlwaysCritOnAlternateUsage",
+      "functionCode": "AlwaysCriticalHit",
       "flags": [
         "CanProtect",
         "CanMirrorMove",
         "Sound"
       ],
       "effectChance": 0,
-      "description": "Low pitched noises reverberate into the foes. If the same targets are hit twice in a row, the second hit will be a critical hit.",
+      "description": "Low pitched noises reverberate into all opponents, always dealing critical damage.",
       "_source": "moves.dat"
     },
     {
@@ -17977,7 +17986,7 @@
       "functionCode": "StartAcidRainWeather",
       "flags": [],
       "effectChance": 0,
-      "description": "The user generates an acid rain that damages all the Pokémon, except Poison-Type Pokémon.",
+      "description": "The user generates an acid rain for five turns that damages all Pokémon, except Poison-Type Pokémon. Under this rain, Terrains decay faster.",
       "_source": "moves.dat"
     },
     {
@@ -18212,8 +18221,7 @@
       "flags": [
         "CanProtect",
         "CanMirrorMove",
-        "Light",
-        "Bomb"
+        "Light"
       ],
       "effectChance": 0,
       "description": "The user shoots a powerful beam made of pure elemental energy, dealing damage.",
@@ -18224,7 +18232,7 @@
       "internalName": "ANGERWAVE",
       "name": "Anger Wave",
       "type": "NORMAL",
-      "category": "Physical",
+      "category": "Special",
       "power": null,
       "isVariablePower": true,
       "accuracy": 100,
@@ -18314,14 +18322,14 @@
       "pp": 15,
       "priority": 0,
       "target": "NearOther",
-      "functionCode": "LowerUserDefSpDef1",
+      "functionCode": "RecoilThirdOfDamageDealt",
       "flags": [
         "Contact",
         "CanProtect",
         "CanMirrorMove"
       ],
       "effectChance": 0,
-      "description": "The user charges energetically at the target after having eaten too many sweets. After that, it tires out and defenses lower.",
+      "description": "The user charges energetically at the target after having eaten too much sugar. This deals recoil to the user.",
       "_source": "moves.dat"
     },
     {
@@ -18336,14 +18344,15 @@
       "pp": 20,
       "priority": 0,
       "target": "NearOther",
-      "functionCode": "PowerHigherWithTargetWeight",
+      "functionCode": "PowerHigherWithUserHeavierThanTarget",
       "flags": [
         "Contact",
         "CanProtect",
-        "CanMirrorMove"
+        "CanMirrorMove",
+        "TramplesMinimize"
       ],
       "effectChance": 0,
-      "description": "The user offers a treat to the opponent, only to trip them over as they reach it. Heavier enemies take more damage.",
+      "description": "The user gorges on sweets and then slams onto the opponent. The heavier the user is, the greater the damage.",
       "_source": "moves.dat"
     },
     {
@@ -18365,7 +18374,7 @@
         "CanMirrorMove"
       ],
       "effectChance": 0,
-      "description": "The user strikes the enemy with a slap of condensed cream that reduces speed",
+      "description": "The user strikes the enemy with a slap of condensed cream that reduces speed.",
       "_source": "moves.dat"
     },
     {
@@ -18440,20 +18449,21 @@
       "name": "Fright Wail",
       "type": "GHOST",
       "category": "Special",
-      "power": 60,
+      "power": 105,
       "isVariablePower": false,
-      "accuracy": 90,
+      "accuracy": 85,
       "pp": 10,
-      "priority": -6,
-      "target": "NearOther",
-      "functionCode": "SwitchOutTargetDamagingMove",
+      "priority": 0,
+      "target": "AllNearFoes",
+      "functionCode": "None",
       "flags": [
         "CanProtect",
         "CanMirrorMove",
-        "Sound"
+        "Sound",
+        "HighCriticalHitRate"
       ],
       "effectChance": 0,
-      "description": "The user scares away the target and drags out another Pokémon in its party. In the wild, the battle ends.",
+      "description": "The user unleashes a powerful, haunting scream, akin to those of tortured souls. It may strike at the heart of their enemies, dealing critical damage.",
       "_source": "moves.dat"
     },
     {
@@ -18515,7 +18525,7 @@
       "functionCode": "IncreasesAttacksAllyHealsConfuses",
       "flags": [],
       "effectChance": 0,
-      "description": "The user heals an ally and increases its Attack and Special Attack. Confuses them if not under sunlight.",
+      "description": "Heals quarter of ally’s max HP and raises their offensive stats, but will also confuse it if the weather is neither pouring or sunny.",
       "_source": "moves.dat"
     },
     {
@@ -18837,9 +18847,9 @@
       "_source": "moves.dat"
     },
     {
-      "id": "LIQUIDSAW",
-      "internalName": "LIQUIDSAW",
-      "name": "Liquid Saw",
+      "id": "MAGNASAW",
+      "internalName": "MAGNASAW",
+      "name": "Magna Saw",
       "type": "STEEL",
       "category": "Special",
       "power": 85,
@@ -18848,7 +18858,7 @@
       "pp": 10,
       "priority": 0,
       "target": "NearOther",
-      "functionCode": "None",
+      "functionCode": "AlwaysCritialHitsInElectricTerrain",
       "flags": [
         "CanProtect",
         "CanMirrorMove",
@@ -18857,7 +18867,7 @@
         "Contact"
       ],
       "effectChance": 0,
-      "description": "The user spins its liquid metal body into a saw and slices the opponent. If Electric Terrain is up, it will always deal critical hits.",
+      "description": "The user spins its liquid metal body into a saw and slices the opponent. If Electric Terrain is up, or the user is magnet-risen, it will always deal critical hits.",
       "_source": "moves.dat"
     },
     {
@@ -18866,9 +18876,9 @@
       "name": "Paleo Fangs",
       "type": "ROCK",
       "category": "Physical",
-      "power": 85,
+      "power": 80,
       "isVariablePower": false,
-      "accuracy": 100,
+      "accuracy": 95,
       "pp": 10,
       "priority": 0,
       "target": "NearOther",
@@ -19080,17 +19090,17 @@
       "power": 25,
       "isVariablePower": false,
       "accuracy": 100,
-      "pp": 20,
+      "pp": 1,
       "priority": 0,
       "target": "AllNearFoes",
-      "functionCode": "HitTwoToFiveTimes",
+      "functionCode": "TwoTurnMultiHitSeven",
       "flags": [
         "CanProtect",
         "CanMirrorMove",
         "Bomb"
       ],
       "effectChance": 0,
-      "description": "The user unleashes a rain of metal bullets against all opponents. This move hits two to five times in a row.",
+      "description": "The user unleashes a rain of metal bullets against all opponents. This move hits two to eight times in a row.",
       "_source": "moves.dat"
     },
     {
@@ -19177,7 +19187,7 @@
         "CanMirrorMove"
       ],
       "effectChance": 0,
-      "description": "The user uproots the user from the field and sends out another Pokémon in its party. Deals extra damage if the target is seeded or rooted.",
+      "description": "The user uproots the user from the field and sends out another Pokémon in its party.",
       "_source": "moves.dat"
     },
     {
@@ -19207,7 +19217,7 @@
       "name": "Floral Echo",
       "type": "SOUND",
       "category": "Special",
-      "power": 20,
+      "power": 30,
       "isVariablePower": false,
       "accuracy": 90,
       "pp": 10,
@@ -19491,7 +19501,7 @@
         "CanMirrorMove"
       ],
       "effectChance": 0,
-      "description": "The user burns themselves, while burning everybody else.",
+      "description": "The user burns themselves, while poisoning everybody else on the field.",
       "_source": "moves.dat"
     },
     {
@@ -19523,7 +19533,7 @@
       "name": "Wellspring Syphon",
       "type": "WATER",
       "category": "Special",
-      "power": 85,
+      "power": 80,
       "isVariablePower": false,
       "accuracy": 100,
       "pp": 10,
@@ -19634,18 +19644,18 @@
       "category": "Status",
       "power": 0,
       "isVariablePower": false,
-      "accuracy": 85,
+      "accuracy": 0,
       "pp": 15,
       "priority": 0,
       "target": "AllNearFoes",
-      "functionCode": "FreezeTarget",
+      "functionCode": "BurnOrFreezeTarget",
       "flags": [
         "CanProtect",
         "CanMirrorMove",
         "Sound"
       ],
-      "effectChance": 0,
-      "description": "The user sings a song that compels both opponents to dance until they feel the heat, leaving them burned.",
+      "effectChance": 100,
+      "description": "The user sings a song that compels both opponents to dance, giving them a fever that either burns or freezes them.",
       "_source": "moves.dat"
     },
     {
@@ -19703,7 +19713,7 @@
       "power": 0,
       "isVariablePower": false,
       "accuracy": 100,
-      "pp": 30,
+      "pp": 20,
       "priority": 1,
       "target": "NearOther",
       "functionCode": "ParalyzeTarget",
@@ -19713,6 +19723,46 @@
       ],
       "effectChance": 0,
       "description": "The user intimidates the target with a fearsome gaze, paralyzing the opponent.",
+      "_source": "moves.dat"
+    },
+    {
+      "id": "AURADANCE",
+      "internalName": "AURADANCE",
+      "name": "Aura Dance",
+      "type": "SOUND",
+      "category": "Special",
+      "power": 65,
+      "isVariablePower": false,
+      "accuracy": 0,
+      "pp": 15,
+      "priority": 0,
+      "target": "Other",
+      "functionCode": "CategoryDependsOnHigherDamageBoostOpposite",
+      "flags": [
+        "CanProtect",
+        "CanMirrorMove",
+        "Dance"
+      ],
+      "effectChance": 100,
+      "description": "The user performs an enchanted dance. Inflicts physical or special damage, whichever will be more effective, and increases the other attacking stat.",
+      "_source": "moves.dat"
+    },
+    {
+      "id": "TRANSFORMX",
+      "internalName": "TRANSFORMX",
+      "name": "Transform X",
+      "type": "NORMAL",
+      "category": "Status",
+      "power": 0,
+      "isVariablePower": false,
+      "accuracy": 0,
+      "pp": 10,
+      "priority": 0,
+      "target": "User",
+      "functionCode": "TransformUserIntoX",
+      "flags": [],
+      "effectChance": 0,
+      "description": "The user transforms into a copy of a random X Pokemon. Replaces ability, moves, and typing.",
       "_source": "moves.dat"
     }
   ]

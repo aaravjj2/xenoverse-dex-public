@@ -1,8 +1,8 @@
 {
   "meta": {
-    "exportTime": "2026-02-04T22:07:45.520Z",
-    "commitHash": "4de5636ea01014226c44edfa1b8f0a5288721127",
-    "count": 159,
+    "exportTime": "2026-08-02T17:53:05.531Z",
+    "commitHash": "787cd73e2f99fa794320ee7928faa187b9ddbe9e",
+    "count": 199,
     "decodingStrategy": "ruby-marshal",
     "warnings": []
   },
@@ -17,14 +17,14 @@
       "party": [
         {
           "slot": 0,
-          "species": "CLAYDOL",
-          "level": 60,
+          "species": "TURTONATOR",
+          "level": 35,
           "moves": [
-            "FLAREBLITZ"
+            "SHELLTRAP"
           ],
-          "abilityIndex": 0,
-          "item": null,
-          "nature": null,
+          "abilityIndex": 2,
+          "item": "GREENSHARD",
+          "nature": "HARDY",
           "gender": null,
           "form": 0,
           "ivs": null,
@@ -32,14 +32,14 @@
         },
         {
           "slot": 1,
-          "species": "CLAYDOL",
-          "level": 60,
+          "species": "MAGIKARP",
+          "level": 35,
           "moves": [
-            "TRICKROOM"
+            "SPLASH"
           ],
           "abilityIndex": 0,
-          "item": null,
-          "nature": null,
+          "item": "GREENSHARD",
+          "nature": "HARDY",
           "gender": null,
           "form": 0,
           "ivs": null,
@@ -317,7 +317,7 @@
         },
         {
           "slot": 1,
-          "species": "TAILLOW",
+          "species": "CHIGAMI",
           "level": 6,
           "moves": [],
           "abilityIndex": 0,
@@ -330,7 +330,7 @@
         },
         {
           "slot": 2,
-          "species": "SWABLU",
+          "species": "SLOWPOKE",
           "level": 6,
           "moves": [],
           "abilityIndex": 0,
@@ -431,7 +431,7 @@
       "party": [
         {
           "slot": 0,
-          "species": "SMOLIV",
+          "species": "ODDISH",
           "level": 10,
           "moves": [],
           "abilityIndex": 0,
@@ -444,7 +444,7 @@
         },
         {
           "slot": 1,
-          "species": "MORELULL",
+          "species": "SEWADDLE",
           "level": 10,
           "moves": [],
           "abilityIndex": 0,
@@ -591,7 +591,7 @@
             "HIDDENPOWER"
           ],
           "abilityIndex": 0,
-          "item": "SITRUSBERRY",
+          "item": "ORANBERRY",
           "nature": null,
           "gender": null,
           "form": 0,
@@ -713,7 +713,7 @@
         },
         {
           "slot": 1,
-          "species": "MAGIKARP",
+          "species": "KIDOON",
           "level": 12,
           "moves": [],
           "abilityIndex": 0,
@@ -1018,7 +1018,7 @@
       "party": [
         {
           "slot": 0,
-          "species": "SPARKOWL",
+          "species": "HOPPIP",
           "level": 13,
           "moves": [],
           "abilityIndex": 0,
@@ -1031,7 +1031,7 @@
         },
         {
           "slot": 1,
-          "species": "EEVEE",
+          "species": "SENTRET",
           "level": 15,
           "moves": [],
           "abilityIndex": 0,
@@ -1069,14 +1069,14 @@
         },
         {
           "slot": 1,
-          "species": "MAGNEMITE",
+          "species": "MASGOT",
           "level": 13,
           "moves": [],
           "abilityIndex": 0,
           "item": null,
           "nature": null,
           "gender": null,
-          "form": 0,
+          "form": 12,
           "ivs": null,
           "evs": null
         }
@@ -1157,14 +1157,14 @@
         },
         {
           "slot": 1,
-          "species": "BERGMITE",
+          "species": "CHINGLING",
           "level": 16,
           "moves": [],
           "abilityIndex": 0,
           "item": null,
           "nature": null,
           "gender": null,
-          "form": 0,
+          "form": 1,
           "ivs": null,
           "evs": null
         }
@@ -1284,13 +1284,13 @@
       "party": [
         {
           "slot": 0,
-          "species": "DROWZEE",
+          "species": "SCARACNO",
           "level": 16,
           "moves": [
             "HYPNOSIS",
             "DISABLE",
             "CONFUSION",
-            "HEADBUTT"
+            "TRICKORTREAT"
           ],
           "abilityIndex": 0,
           "item": null,
@@ -1384,7 +1384,7 @@
         },
         {
           "slot": 2,
-          "species": "PANCHAM",
+          "species": "TIMBURR",
           "level": 15,
           "moves": [],
           "abilityIndex": 0,
@@ -1447,7 +1447,7 @@
       "party": [
         {
           "slot": 0,
-          "species": "BERGMITE",
+          "species": "SPHEAL",
           "level": 16,
           "moves": [],
           "abilityIndex": 0,
@@ -1610,9 +1610,22 @@
           "form": 0,
           "ivs": null,
           "evs": null
+        },
+        {
+          "slot": 2,
+          "species": "YEMIN",
+          "level": 16,
+          "moves": [],
+          "abilityIndex": 0,
+          "item": null,
+          "nature": null,
+          "gender": null,
+          "form": 0,
+          "ivs": null,
+          "evs": null
         }
       ],
-      "partyCount": 2,
+      "partyCount": 3,
       "_source": "trainers.dat"
     },
     {
@@ -1676,10 +1689,10 @@
         },
         {
           "slot": 1,
-          "species": "TEDDIURSA",
+          "species": "AZURILL",
           "level": 16,
           "moves": [],
-          "abilityIndex": 0,
+          "abilityIndex": 1,
           "item": null,
           "nature": null,
           "gender": null,
@@ -1806,73 +1819,9 @@
       "_source": "trainers.dat"
     },
     {
-      "id": "DOUBLETEAMDIMENSION,P0-1S & N0-5T,0",
+      "id": "DOUBLETEAMDIMENSION,6R-4V & D1-6R,0",
       "trainerType": "DOUBLETEAMDIMENSION",
-      "name": "P0-1S & N0-5T",
-      "version": 0,
-      "items": [],
-      "loseText": "E-e-error...",
-      "party": [
-        {
-          "slot": 0,
-          "species": "ZUBAT",
-          "level": 18,
-          "moves": [],
-          "abilityIndex": 0,
-          "item": null,
-          "nature": null,
-          "gender": null,
-          "form": 0,
-          "ivs": null,
-          "evs": null
-        },
-        {
-          "slot": 1,
-          "species": "BLINGRIMM",
-          "level": 18,
-          "moves": [],
-          "abilityIndex": 0,
-          "item": null,
-          "nature": null,
-          "gender": null,
-          "form": 0,
-          "ivs": null,
-          "evs": null
-        },
-        {
-          "slot": 2,
-          "species": "MAGNEMITE",
-          "level": 18,
-          "moves": [],
-          "abilityIndex": 0,
-          "item": null,
-          "nature": null,
-          "gender": null,
-          "form": 0,
-          "ivs": null,
-          "evs": null
-        },
-        {
-          "slot": 3,
-          "species": "GRIMER",
-          "level": 18,
-          "moves": [],
-          "abilityIndex": 0,
-          "item": null,
-          "nature": null,
-          "gender": null,
-          "form": 0,
-          "ivs": null,
-          "evs": null
-        }
-      ],
-      "partyCount": 4,
-      "_source": "trainers.dat"
-    },
-    {
-      "id": "TEAMDIMENSION,P1-0C,0",
-      "trainerType": "TEAMDIMENSION",
-      "name": "P1-0C",
+      "name": "6R-4V & D1-6R",
       "version": 0,
       "items": [],
       "loseText": "E-e-error...",
@@ -1893,6 +1842,70 @@
         {
           "slot": 1,
           "species": "NUNVIL",
+          "level": 18,
+          "moves": [],
+          "abilityIndex": 0,
+          "item": null,
+          "nature": null,
+          "gender": null,
+          "form": 0,
+          "ivs": null,
+          "evs": null
+        },
+        {
+          "slot": 2,
+          "species": "BELDUM",
+          "level": 18,
+          "moves": [],
+          "abilityIndex": 0,
+          "item": null,
+          "nature": null,
+          "gender": null,
+          "form": 0,
+          "ivs": null,
+          "evs": null
+        },
+        {
+          "slot": 3,
+          "species": "ARON",
+          "level": 18,
+          "moves": [],
+          "abilityIndex": 0,
+          "item": null,
+          "nature": null,
+          "gender": null,
+          "form": 0,
+          "ivs": null,
+          "evs": null
+        }
+      ],
+      "partyCount": 4,
+      "_source": "trainers.dat"
+    },
+    {
+      "id": "TEAMDIMENSION,L4-UD,0",
+      "trainerType": "TEAMDIMENSION",
+      "name": "L4-UD",
+      "version": 0,
+      "items": [],
+      "loseText": "E-e-error...",
+      "party": [
+        {
+          "slot": 0,
+          "species": "HYSTEARIC",
+          "level": 18,
+          "moves": [],
+          "abilityIndex": 0,
+          "item": null,
+          "nature": null,
+          "gender": null,
+          "form": 0,
+          "ivs": null,
+          "evs": null
+        },
+        {
+          "slot": 1,
+          "species": "TYMPOLE",
           "level": 18,
           "moves": [],
           "abilityIndex": 0,
@@ -1976,7 +1989,7 @@
         {
           "slot": 0,
           "species": "PAWNIARD",
-          "level": 23,
+          "level": 19,
           "moves": [
             "ASSURANCE",
             "METALCLAW",
@@ -2000,7 +2013,7 @@
         {
           "slot": 1,
           "species": "PAWNIARD",
-          "level": 23,
+          "level": 19,
           "moves": [
             "ASSURANCE",
             "METALCLAW",
@@ -2024,7 +2037,7 @@
         {
           "slot": 2,
           "species": "BULLVERIN",
-          "level": 23,
+          "level": 20,
           "moves": [
             "FLAMECHARGE",
             "TAKEDOWN",
@@ -2042,7 +2055,7 @@
         {
           "slot": 3,
           "species": "FLOATUSK",
-          "level": 23,
+          "level": 20,
           "moves": [
             "ROCKSMASH",
             "BULKUP",
@@ -2519,7 +2532,7 @@
       "party": [
         {
           "slot": 0,
-          "species": "CRABRAWLER",
+          "species": "MANKEY",
           "level": 20,
           "moves": [],
           "abilityIndex": 0,
@@ -2583,14 +2596,14 @@
         },
         {
           "slot": 1,
-          "species": "BREMAND",
+          "species": "LOUDRED",
           "level": 20,
           "moves": [],
           "abilityIndex": 0,
           "item": null,
           "nature": null,
           "gender": null,
-          "form": 2,
+          "form": 0,
           "ivs": null,
           "evs": null
         }
@@ -2658,11 +2671,11 @@
         },
         {
           "slot": 2,
-          "species": "BRELOOM",
+          "species": "PUNCHBUG",
           "level": 23,
           "moves": [
-            "BULLETSEED",
-            "POWERUPPUNCH",
+            "BODYPRESS",
+            "BUGBITE",
             "ROCKTOMB"
           ],
           "abilityIndex": 0,
@@ -2690,18 +2703,18 @@
       "name": "Tina & Clara",
       "version": 0,
       "items": [],
-      "loseText": "OH OH OH, you really hit the score!",
+      "loseText": "OH OH OH! You really hit the goal!",
       "party": [
         {
           "slot": 0,
-          "species": "ORICORIO",
+          "species": "PIKACHU",
           "level": 21,
           "moves": [],
           "abilityIndex": 0,
           "item": null,
           "nature": null,
           "gender": null,
-          "form": 1,
+          "form": 0,
           "ivs": null,
           "evs": null
         },
@@ -2945,12 +2958,12 @@
         },
         {
           "slot": 2,
-          "species": "BRELOOM",
+          "species": "PUNCHBUG",
           "level": 23,
           "moves": [
-            "SPORE",
-            "BULLETSEED",
-            "POWERUPPUNCH",
+            "BUGBITE",
+            "ARMTHRUST",
+            "HELPINGHAND",
             "ROCKTOMB"
           ],
           "abilityIndex": 2,
@@ -2964,7 +2977,7 @@
             "DEFENSE": 31,
             "SPECIAL_ATTACK": 31,
             "SPECIAL_DEFENSE": 31,
-            "SPEED": 0
+            "SPEED": 31
           },
           "evs": null
         },
@@ -3096,7 +3109,7 @@
         {
           "slot": 0,
           "species": "KUNGFUR",
-          "level": 21,
+          "level": 22,
           "moves": [],
           "abilityIndex": 0,
           "item": null,
@@ -3120,8 +3133,8 @@
       "party": [
         {
           "slot": 0,
-          "species": "PUNCHBUG",
-          "level": 21,
+          "species": "BRELOOM",
+          "level": 23,
           "moves": [],
           "abilityIndex": 0,
           "item": null,
@@ -3234,7 +3247,7 @@
         },
         {
           "slot": 1,
-          "species": "REMORAID",
+          "species": "HORSEA",
           "level": 22,
           "moves": [],
           "abilityIndex": 0,
@@ -3272,7 +3285,7 @@
         },
         {
           "slot": 1,
-          "species": "PANCHAM",
+          "species": "POLIWHIRL",
           "level": 22,
           "moves": [],
           "abilityIndex": 0,
@@ -3411,7 +3424,7 @@
       "party": [
         {
           "slot": 0,
-          "species": "YANMA",
+          "species": "SNEASEL",
           "level": 22,
           "moves": [],
           "abilityIndex": 0,
@@ -3424,7 +3437,7 @@
         },
         {
           "slot": 1,
-          "species": "BLITZLE",
+          "species": "PONYTA",
           "level": 22,
           "moves": [],
           "abilityIndex": 0,
@@ -3526,7 +3539,7 @@
       "party": [
         {
           "slot": 0,
-          "species": "DOTTLER",
+          "species": "ARIADOS",
           "level": 27,
           "moves": [],
           "abilityIndex": 0,
@@ -3590,7 +3603,7 @@
         },
         {
           "slot": 1,
-          "species": "POLIWHIRL",
+          "species": "SANDSHREW",
           "level": 27,
           "moves": [],
           "abilityIndex": 0,
@@ -3666,7 +3679,7 @@
         },
         {
           "slot": 2,
-          "species": "VENIPEDE",
+          "species": "BEEFLE",
           "level": 30,
           "moves": [],
           "abilityIndex": 0,
@@ -3729,7 +3742,7 @@
       "party": [
         {
           "slot": 0,
-          "species": "GACHIGACHOO",
+          "species": "WOLFMAN",
           "level": 27,
           "moves": [],
           "abilityIndex": 0,
@@ -3742,7 +3755,7 @@
         },
         {
           "slot": 1,
-          "species": "MIENFOO",
+          "species": "PHANPY",
           "level": 26,
           "moves": [],
           "abilityIndex": 0,
@@ -3763,11 +3776,11 @@
       "name": "Jacob",
       "version": 0,
       "items": [],
-      "loseText": "Such old style...",
+      "loseText": "So retro...",
       "party": [
         {
           "slot": 0,
-          "species": "PORYGON",
+          "species": "MANKEY",
           "level": 27,
           "moves": [],
           "abilityIndex": 0,
@@ -3780,10 +3793,10 @@
         },
         {
           "slot": 1,
-          "species": "DITTO",
+          "species": "DODUO",
           "level": 26,
           "moves": [],
-          "abilityIndex": 2,
+          "abilityIndex": 0,
           "item": null,
           "nature": null,
           "gender": null,
@@ -3856,7 +3869,7 @@
         },
         {
           "slot": 1,
-          "species": "SHAWKBIRD",
+          "species": "SWELLOW",
           "level": 27,
           "moves": [],
           "abilityIndex": 0,
@@ -3869,7 +3882,7 @@
         },
         {
           "slot": 2,
-          "species": "LOKIX",
+          "species": "SCRAGGY",
           "level": 27,
           "moves": [],
           "abilityIndex": 0,
@@ -3907,7 +3920,7 @@
         },
         {
           "slot": 1,
-          "species": "COTTONEE",
+          "species": "ELDEGOSS",
           "level": 27,
           "moves": [],
           "abilityIndex": 0,
@@ -4092,16 +4105,16 @@
       "party": [
         {
           "slot": 0,
-          "species": "GRUDAKO",
+          "species": "REINDEAR",
           "level": 28,
           "moves": [
-            "HONECLAWS",
-            "METALCLAW",
-            "RAZORLEAF",
-            "SAFEGUARD"
+            "FOLLOWME",
+            "PRESENT",
+            "SUGARRUSH",
+            "ICEPUNCH"
           ],
           "abilityIndex": 2,
-          "item": null,
+          "item": "EVIOLITE",
           "nature": null,
           "gender": null,
           "form": 0,
@@ -4367,7 +4380,7 @@
             "SHADOWCLAW"
           ],
           "abilityIndex": 0,
-          "item": "GHOSTGEM",
+          "item": "STARFBERRY",
           "nature": null,
           "gender": null,
           "form": 0,
@@ -4461,7 +4474,7 @@
             "MIRRORSHOT"
           ],
           "abilityIndex": 1,
-          "item": "STARFBERRY",
+          "item": "CUSTAPBERRY",
           "nature": null,
           "gender": null,
           "form": 1,
@@ -5343,16 +5356,15 @@
       "party": [
         {
           "slot": 0,
-          "species": "HONCHEN",
-          "level": 30,
+          "species": "KIDOON",
+          "level": 33,
           "moves": [
-            "WHIRLWIND",
-            "DRAGONBREATH",
-            "SCALESHOT",
-            "VELVETSCALES"
+            "SPLASH",
+            "HURRICANE",
+            "WHIRLWIND"
           ],
           "abilityIndex": 2,
-          "item": null,
+          "item": "ZOOMLENS",
           "nature": null,
           "gender": null,
           "form": 0,
@@ -5361,6 +5373,24 @@
         },
         {
           "slot": 1,
+          "species": "JELLICENT",
+          "level": 32,
+          "moves": [
+            "BRINE",
+            "RECOVER",
+            "HEX",
+            "SPINECHILL"
+          ],
+          "abilityIndex": 1,
+          "item": "WACANBERRY",
+          "nature": null,
+          "gender": null,
+          "form": 0,
+          "ivs": null,
+          "evs": null
+        },
+        {
+          "slot": 2,
           "species": "BIRIGIRI",
           "level": 30,
           "moves": [
@@ -5378,7 +5408,7 @@
           "evs": null
         }
       ],
-      "partyCount": 2,
+      "partyCount": 3,
       "_source": "trainers.dat"
     },
     {
@@ -5470,27 +5500,9 @@
           "form": 0,
           "ivs": null,
           "evs": null
-        },
-        {
-          "slot": 5,
-          "species": "GYARADOS",
-          "level": 30,
-          "moves": [
-            "HYDROFANG",
-            "SPLASH",
-            "ICEFANG",
-            "THRASH"
-          ],
-          "abilityIndex": 2,
-          "item": "PERSIMBERRY",
-          "nature": null,
-          "gender": null,
-          "form": 0,
-          "ivs": null,
-          "evs": null
         }
       ],
-      "partyCount": 6,
+      "partyCount": 5,
       "_source": "trainers.dat"
     },
     {
@@ -5683,15 +5695,15 @@
         },
         {
           "slot": 1,
-          "species": "MACHOKE",
+          "species": "MEDICHAM",
           "level": 33,
           "moves": [
-            "ROCKSLIDE",
+            "FIREPUNCH",
             "DRAINPUNCH",
-            "STRENGTH",
-            "BULKUP"
+            "PSYBEAM",
+            "AURADANCE"
           ],
-          "abilityIndex": 1,
+          "abilityIndex": 0,
           "item": null,
           "nature": null,
           "gender": null,
@@ -5713,16 +5725,16 @@
       "party": [
         {
           "slot": 0,
-          "species": "KOINKOIN",
-          "level": 33,
+          "species": "EXCADRILL",
+          "level": 35,
           "moves": [
-            "PAYDAY",
-            "ROLLOUT",
-            "DEFENSECURL",
-            "BULLDOZE"
+            "BULLDOZE",
+            "METALCLAW",
+            "CRUSHCLAW",
+            "ROCKSLIDE"
           ],
           "abilityIndex": 1,
-          "item": "ROCKGEM",
+          "item": "NORMALGEM",
           "nature": null,
           "gender": null,
           "form": 0,
@@ -5778,13 +5790,13 @@
         },
         {
           "slot": 1,
-          "species": "GURDURR",
-          "level": 29,
+          "species": "BREMAND",
+          "level": 33,
           "moves": [
-            "ROAR",
-            "ROCKSLIDE",
-            "SHARPEN",
-            "STEALTHROCK"
+            "UPROAR",
+            "VOICETUNE",
+            "OMINOUSWIND",
+            "WILLOWISP"
           ],
           "abilityIndex": 0,
           "item": "FOCUSBAND",
@@ -6017,7 +6029,7 @@
         },
         {
           "slot": 2,
-          "species": "HOUNDOOM",
+          "species": "HOUNDOUR",
           "level": 32,
           "moves": [
             "FIREFANG",
@@ -6266,84 +6278,10 @@
       "_source": "trainers.dat"
     },
     {
-      "id": "TEAMDIMENSIONELITE,XTR-CT,0",
-      "trainerType": "TEAMDIMENSIONELITE",
-      "name": "XTR-CT",
-      "version": 0,
-      "items": [],
-      "loseText": "E-e-error...",
-      "party": [
-        {
-          "slot": 0,
-          "species": "ELECTABUZZX",
-          "level": 30,
-          "moves": [
-            "INCINERATE",
-            "FIREPUNCH",
-            "SCORCHINGSANDS",
-            "BRICKBREAK"
-          ],
-          "abilityIndex": 2,
-          "item": "CHARCOAL",
-          "nature": null,
-          "gender": null,
-          "form": 0,
-          "ivs": {
-            "HP": 31,
-            "ATTACK": 31,
-            "DEFENSE": 31,
-            "SPECIAL_ATTACK": 31,
-            "SPECIAL_DEFENSE": 31,
-            "SPEED": 31
-          },
-          "evs": null
-        }
-      ],
-      "partyCount": 1,
-      "_source": "trainers.dat"
-    },
-    {
-      "id": "TEAMDIMENSIONELITE,XP3-R1,0",
-      "trainerType": "TEAMDIMENSIONELITE",
-      "name": "XP3-R1",
-      "version": 0,
-      "items": [],
-      "loseText": "E-e-error...",
-      "party": [
-        {
-          "slot": 0,
-          "species": "ELECTABUZZX",
-          "level": 30,
-          "moves": [
-            "INCINERATE",
-            "FIREPUNCH",
-            "SCORCHINGSANDS",
-            "BRICKBREAK"
-          ],
-          "abilityIndex": 2,
-          "item": "CHARCOAL",
-          "nature": null,
-          "gender": null,
-          "form": 0,
-          "ivs": {
-            "HP": 31,
-            "ATTACK": 31,
-            "DEFENSE": 31,
-            "SPECIAL_ATTACK": 31,
-            "SPECIAL_DEFENSE": 31,
-            "SPEED": 31
-          },
-          "evs": null
-        }
-      ],
-      "partyCount": 1,
-      "_source": "trainers.dat"
-    },
-    {
-      "id": "DOUBLETEAMDIMENSION,6R-4V & D1-6R,0",
+      "id": "DOUBLETEAMDIMENSION,6R-4V & D1-6R,1",
       "trainerType": "DOUBLETEAMDIMENSION",
       "name": "6R-4V & D1-6R",
-      "version": 0,
+      "version": 1,
       "items": [],
       "loseText": "E-e-error...",
       "party": [
@@ -6357,7 +6295,7 @@
             "PERISHSONG",
             "OMINOUSWIND"
           ],
-          "abilityIndex": 2,
+          "abilityIndex": 0,
           "item": "DREADPENDANT",
           "nature": null,
           "gender": null,
@@ -6375,7 +6313,7 @@
             "LEECHLIFE",
             "DREAMEATER"
           ],
-          "abilityIndex": 2,
+          "abilityIndex": 0,
           "item": "DREADPENDANT",
           "nature": null,
           "gender": null,
@@ -6732,7 +6670,7 @@
             "DIG",
             "FAKEOUT"
           ],
-          "abilityIndex": 2,
+          "abilityIndex": 0,
           "item": "DARKGEM",
           "nature": null,
           "gender": null,
@@ -6781,7 +6719,7 @@
           "species": "MEOWTH",
           "level": 40,
           "moves": [
-            "AGILITY",
+            "TRICKROOM",
             "STOREDPOWER",
             "POWERGEM",
             "AMNESIA"
@@ -6940,12 +6878,12 @@
       "party": [
         {
           "slot": 0,
-          "species": "LOKIX",
+          "species": "SCOLIPEDE",
           "level": 35,
           "moves": [
             "FIRSTIMPRESSION",
             "SWIFTSTINGER",
-            "SUCKERPUNCH",
+            "POISONTAIL",
             "UTURN"
           ],
           "abilityIndex": 2,
@@ -7007,7 +6945,7 @@
         {
           "slot": 0,
           "species": "LOKIX",
-          "level": 34,
+          "level": 35,
           "moves": [
             "HAYWIREKICK",
             "DOUBLEKICK",
@@ -7025,7 +6963,7 @@
         {
           "slot": 1,
           "species": "LEDIAN",
-          "level": 34,
+          "level": 35,
           "moves": [
             "COMETPUNCH",
             "POWERUPPUNCH",
@@ -7054,26 +6992,26 @@
       "party": [
         {
           "slot": 0,
-          "species": "GOOMBEAR",
-          "level": 34,
+          "species": "PYROAR",
+          "level": 35,
           "moves": [
-            "PLAYROUGH",
+            "THUNDERFANG",
             "FIRELASH",
             "SCORCHEDASHES",
-            "BRANCHPOKE"
+            "SLASH"
           ],
-          "abilityIndex": 0,
+          "abilityIndex": 1,
           "item": null,
           "nature": null,
           "gender": null,
-          "form": 0,
+          "form": 1,
           "ivs": null,
           "evs": null
         },
         {
           "slot": 1,
           "species": "BELLOSSOM",
-          "level": 34,
+          "level": 35,
           "moves": [
             "PETALDANCE",
             "SUNNYDAY",
@@ -7121,14 +7059,14 @@
         {
           "slot": 1,
           "species": "HONCHEN",
-          "level": 34,
+          "level": 35,
           "moves": [
             "VELVETSCALES",
             "AQUAJET",
             "TAILWIND",
             "DRAGONTAIL"
           ],
-          "abilityIndex": 2,
+          "abilityIndex": 1,
           "item": "DRAGONFANG",
           "nature": null,
           "gender": null,
@@ -7214,7 +7152,7 @@
         {
           "slot": 1,
           "species": "MYLOMUTE",
-          "level": 34,
+          "level": 35,
           "moves": [
             "ENERSTORM",
             "ICICLECRASH",
@@ -7234,10 +7172,10 @@
       "_source": "trainers.dat"
     },
     {
-      "id": "RUTA,Ruta,1",
+      "id": "RUTA,Ruta,0",
       "trainerType": "RUTA",
       "name": "Ruta",
-      "version": 1,
+      "version": 0,
       "items": [],
       "loseText": "W-what!?",
       "party": [
@@ -7371,10 +7309,10 @@
       "_source": "trainers.dat"
     },
     {
-      "id": "RUTA,Ruta,0",
+      "id": "RUTA,Ruta,1",
       "trainerType": "RUTA",
       "name": "Ruta",
-      "version": 0,
+      "version": 1,
       "items": [],
       "loseText": "W-what!?",
       "party": [
@@ -7495,7 +7433,7 @@
           "species": "MADIEVAL",
           "level": 36,
           "moves": [
-            "IRONDEFENSE",
+            "FLASH",
             "DAZZLINGGLEAM",
             "BULLDOZE",
             "ROCKSLIDE"
@@ -7510,16 +7448,16 @@
         },
         {
           "slot": 1,
-          "species": "PROBOPASS",
-          "level": 36,
+          "species": "GLIGAR",
+          "level": 40,
           "moves": [
-            "ZAPCANNON",
-            "ENERSTORM",
-            "FLASHCANNON",
-            "POWERGEM"
+            "AERIALACE",
+            "DRILLRUN",
+            "SWIFTSTINGER",
+            "POISONTAIL"
           ],
           "abilityIndex": 0,
-          "item": "ZOOMLENS",
+          "item": "EVIOLITE",
           "nature": null,
           "gender": null,
           "form": 0,
@@ -7541,7 +7479,7 @@
         {
           "slot": 0,
           "species": "CHARIZARD",
-          "level": 36,
+          "level": 37,
           "moves": [
             "WEATHERBALL",
             "HEATWAVE",
@@ -7558,15 +7496,15 @@
         },
         {
           "slot": 1,
-          "species": "HARROWK",
-          "level": 36,
+          "species": "PELIPPER",
+          "level": 37,
           "moves": [
-            "WILDCHARGE",
+            "TAILWIND",
             "WEATHERBALL",
             "ROOST",
             "AIRSLASH"
           ],
-          "abilityIndex": 2,
+          "abilityIndex": 1,
           "item": null,
           "nature": null,
           "gender": null,
@@ -8028,7 +7966,7 @@
         },
         {
           "slot": 1,
-          "species": "MACHAMP",
+          "species": "PRIMEAPE",
           "level": 37,
           "moves": [
             "CROSSCHOP",
@@ -8133,31 +8071,6 @@
         },
         {
           "slot": 3,
-          "species": "WYSTEARIA",
-          "level": 40,
-          "moves": [
-            "SYMPHONICMASS",
-            "ENERGYBALL",
-            "DAZZLINGGLEAM",
-            "SOUNDBARRIER"
-          ],
-          "abilityIndex": 2,
-          "item": "WISEGLASSES",
-          "nature": null,
-          "gender": null,
-          "form": 0,
-          "ivs": {
-            "HP": 31,
-            "ATTACK": 31,
-            "DEFENSE": 31,
-            "SPECIAL_ATTACK": 31,
-            "SPECIAL_DEFENSE": 31,
-            "SPEED": 31
-          },
-          "evs": null
-        },
-        {
-          "slot": 4,
           "species": "FROSLASS",
           "level": 40,
           "moves": [
@@ -8182,7 +8095,7 @@
           "evs": null
         },
         {
-          "slot": 5,
+          "slot": 4,
           "species": "LUCARIO",
           "level": 40,
           "moves": [
@@ -8207,7 +8120,7 @@
           "evs": null
         }
       ],
-      "partyCount": 6,
+      "partyCount": 5,
       "_source": "trainers.dat"
     },
     {
@@ -8295,31 +8208,6 @@
         },
         {
           "slot": 3,
-          "species": "SCOVILE",
-          "level": 40,
-          "moves": [
-            "HOTCHILIPEPPER",
-            "FLAMEBURST",
-            "HISS",
-            "LEECHSEED"
-          ],
-          "abilityIndex": 2,
-          "item": "HEATROCK",
-          "nature": null,
-          "gender": null,
-          "form": 0,
-          "ivs": {
-            "HP": 31,
-            "ATTACK": 31,
-            "DEFENSE": 31,
-            "SPECIAL_ATTACK": 31,
-            "SPECIAL_DEFENSE": 31,
-            "SPEED": 31
-          },
-          "evs": null
-        },
-        {
-          "slot": 4,
           "species": "GLALIE",
           "level": 40,
           "moves": [
@@ -8344,7 +8232,7 @@
           "evs": null
         },
         {
-          "slot": 5,
+          "slot": 4,
           "species": "LUCARIO",
           "level": 40,
           "moves": [
@@ -8369,7 +8257,7 @@
           "evs": null
         }
       ],
-      "partyCount": 6,
+      "partyCount": 5,
       "_source": "trainers.dat"
     },
     {
@@ -8383,7 +8271,7 @@
         {
           "slot": 0,
           "species": "HARROWK",
-          "level": 40,
+          "level": 38,
           "moves": [
             "AIRSLASH",
             "FLASH",
@@ -8416,24 +8304,24 @@
             "BENEVOLENCE"
           ],
           "abilityIndex": 0,
-          "item": "MORPHBALL",
+          "item": "FOCUSSASH",
           "nature": null,
           "gender": null,
           "form": 1,
           "ivs": {
-            "HP": 31,
-            "ATTACK": 31,
-            "DEFENSE": 31,
-            "SPECIAL_ATTACK": 31,
-            "SPECIAL_DEFENSE": 31,
-            "SPEED": 31
+            "HP": 21,
+            "ATTACK": 21,
+            "DEFENSE": 21,
+            "SPECIAL_ATTACK": 21,
+            "SPECIAL_DEFENSE": 21,
+            "SPEED": 21
           },
           "evs": null
         },
         {
           "slot": 2,
           "species": "ESPEON",
-          "level": 40,
+          "level": 39,
           "moves": [
             "PSYCHIC",
             "POWERGEM",
@@ -8457,38 +8345,13 @@
         },
         {
           "slot": 3,
-          "species": "WYSTEARIA",
-          "level": 40,
-          "moves": [
-            "SYMPHONICMASS",
-            "GIGADRAIN",
-            "DAZZLINGGLEAM",
-            "SOUNDBARRIER"
-          ],
-          "abilityIndex": 0,
-          "item": "BIGROOT",
-          "nature": null,
-          "gender": null,
-          "form": 0,
-          "ivs": {
-            "HP": 16,
-            "ATTACK": 16,
-            "DEFENSE": 16,
-            "SPECIAL_ATTACK": 16,
-            "SPECIAL_DEFENSE": 16,
-            "SPEED": 16
-          },
-          "evs": null
-        },
-        {
-          "slot": 4,
           "species": "FROSLASS",
-          "level": 40,
+          "level": 39,
           "moves": [
             "SCORCHEDASHES",
             "SHADOWBALL",
             "VENOSHOCK",
-            "WILLOWISP"
+            "SEANCEPYRE"
           ],
           "abilityIndex": 0,
           "item": null,
@@ -8506,12 +8369,12 @@
           "evs": null
         },
         {
-          "slot": 5,
+          "slot": 4,
           "species": "LUCARIO",
-          "level": 40,
+          "level": 39,
           "moves": [
-            "AURASPHERE",
-            "BONERUSH",
+            "FORCEPALM",
+            "LEER",
             "HEALPULSE",
             "SMARTSTRIKE"
           ],
@@ -8531,7 +8394,7 @@
           "evs": null
         }
       ],
-      "partyCount": 6,
+      "partyCount": 5,
       "_source": "trainers.dat"
     },
     {
@@ -8545,10 +8408,10 @@
         {
           "slot": 0,
           "species": "HARROWK",
-          "level": 40,
+          "level": 38,
           "moves": [
             "RAZORWIND",
-            "THUNDERBOLT",
+            "FLASH",
             "AIRSLASH",
             "TAILWIND"
           ],
@@ -8573,29 +8436,29 @@
           "level": 40,
           "moves": [
             "FAKEOUT",
-            "HYPERVOICE",
+            "ROUND",
             "PROTECT",
             "SOUNDBARRIER"
           ],
           "abilityIndex": 0,
-          "item": "MORPHBALL",
+          "item": "FOCUSSASH",
           "nature": null,
           "gender": null,
           "form": 0,
           "ivs": {
-            "HP": 31,
-            "ATTACK": 31,
-            "DEFENSE": 31,
-            "SPECIAL_ATTACK": 31,
-            "SPECIAL_DEFENSE": 31,
-            "SPEED": 31
+            "HP": 21,
+            "ATTACK": 21,
+            "DEFENSE": 21,
+            "SPECIAL_ATTACK": 21,
+            "SPECIAL_DEFENSE": 21,
+            "SPEED": 21
           },
           "evs": null
         },
         {
           "slot": 2,
           "species": "UMBREON",
-          "level": 40,
+          "level": 39,
           "moves": [
             "SNARL",
             "NIGHTSLASH",
@@ -8619,33 +8482,8 @@
         },
         {
           "slot": 3,
-          "species": "SCOVILE",
-          "level": 40,
-          "moves": [
-            "HOTCHILIPEPPER",
-            "FLAMEBURST",
-            "HISS",
-            "LEECHSEED"
-          ],
-          "abilityIndex": 0,
-          "item": null,
-          "nature": null,
-          "gender": null,
-          "form": 0,
-          "ivs": {
-            "HP": 16,
-            "ATTACK": 16,
-            "DEFENSE": 16,
-            "SPECIAL_ATTACK": 16,
-            "SPECIAL_DEFENSE": 16,
-            "SPEED": 16
-          },
-          "evs": null
-        },
-        {
-          "slot": 4,
           "species": "GLALIE",
-          "level": 40,
+          "level": 39,
           "moves": [
             "HEATCRASH",
             "SHADOWSNEAK",
@@ -8668,12 +8506,12 @@
           "evs": null
         },
         {
-          "slot": 5,
+          "slot": 4,
           "species": "LUCARIO",
-          "level": 40,
+          "level": 39,
           "moves": [
-            "AURASPHERE",
-            "BONERUSH",
+            "FORCEPALM",
+            "LEER",
             "HEALPULSE",
             "SMARTSTRIKE"
           ],
@@ -8693,7 +8531,7 @@
           "evs": null
         }
       ],
-      "partyCount": 6,
+      "partyCount": 5,
       "_source": "trainers.dat"
     },
     {
@@ -8955,7 +8793,7 @@
             "BITTERMALICE"
           ],
           "abilityIndex": 0,
-          "item": null,
+          "item": "FOCUSSASH",
           "nature": null,
           "gender": null,
           "form": 1,
@@ -8996,15 +8834,15 @@
         },
         {
           "slot": 2,
-          "species": "REXQUIEM",
+          "species": "SLOWKING",
           "level": 41,
           "moves": [
-            "DRILLRUN",
-            "NIGHTSLASH",
-            "DUALCHOP",
-            "BONECLUB"
+            "PSYCHIC",
+            "ICYWIND",
+            "SCALD",
+            "CALMMIND"
           ],
-          "abilityIndex": 2,
+          "abilityIndex": 0,
           "item": null,
           "nature": null,
           "gender": null,
@@ -9021,16 +8859,16 @@
         },
         {
           "slot": 3,
-          "species": "MILOTIC",
-          "level": 42,
+          "species": "REXQUIEM",
+          "level": 41,
           "moves": [
-            "ICEBEAM",
-            "ALLURINGVOICE",
-            "CHILLINGWATER",
-            "RAINDANCE"
+            "DRILLRUN",
+            "NIGHTSLASH",
+            "DUALCHOP",
+            "BONECLUB"
           ],
-          "abilityIndex": 1,
-          "item": "THROATSPRAY",
+          "abilityIndex": 2,
+          "item": null,
           "nature": null,
           "gender": null,
           "form": 0,
@@ -9066,8 +8904,8 @@
             "IRONHEAD",
             "VELVETSCALES"
           ],
-          "abilityIndex": 0,
-          "item": "ROSELIBERRY",
+          "abilityIndex": 2,
+          "item": "DAMPROCK",
           "nature": null,
           "gender": null,
           "form": 0,
@@ -9090,16 +8928,16 @@
         },
         {
           "slot": 1,
-          "species": "POLITOED",
+          "species": "MILOTIC",
           "level": 43,
           "moves": [
-            "SYMPHONICMASS",
+            "ICEBEAM",
+            "ALLURINGVOICE",
             "CHILLINGWATER",
-            "ICYWIND",
-            "FLIPTURN"
+            "SYMPHONICMASS"
           ],
-          "abilityIndex": 2,
-          "item": "DAMPROCK",
+          "abilityIndex": 1,
+          "item": "THROATSPRAY",
           "nature": null,
           "gender": null,
           "form": 0,
@@ -9224,7 +9062,7 @@
             "SHELLSMASH",
             "ANCIENTPOWER",
             "CHILLINGWATER",
-            "MOONSSAKE"
+            "RAINDANCE"
           ],
           "abilityIndex": 0,
           "item": "WHITEHERB",
@@ -9270,7 +9108,7 @@
             "IRONHEAD",
             "VELVETSCALES"
           ],
-          "abilityIndex": 0,
+          "abilityIndex": 2,
           "item": null,
           "nature": null,
           "gender": null,
@@ -9287,12 +9125,13 @@
         },
         {
           "slot": 1,
-          "species": "POLITOED",
+          "species": "MILOTIC",
           "level": 43,
           "moves": [
-            "HIDDENPOWER",
+            "ICEBEAM",
+            "ALLURINGVOICE",
             "CHILLINGWATER",
-            "SYMPHONICMASS"
+            "AQUARING"
           ],
           "abilityIndex": 2,
           "item": null,
@@ -9385,7 +9224,7 @@
             "ICEBEAM",
             "ANCIENTPOWER",
             "CHILLINGWATER",
-            "MOONSSAKE"
+            "RAINDANCE"
           ],
           "abilityIndex": 0,
           "item": "RINDOBERRY",
@@ -9407,24 +9246,109 @@
       "_source": "trainers.dat"
     },
     {
-      "id": "TEAMDIMENSION_AANDB,A&B,2",
-      "trainerType": "TEAMDIMENSION_AANDB",
-      "name": "A&B",
-      "version": 2,
+      "id": "POKEMONRANGER_F,Noemi,0",
+      "trainerType": "POKEMONRANGER_F",
+      "name": "Noemi",
+      "version": 0,
+      "items": [],
+      "loseText": "Luckily, I have some healing supplies for my team, too...",
+      "party": [
+        {
+          "slot": 0,
+          "species": "AUDINO",
+          "level": 42,
+          "moves": [
+            "LIFEDEW",
+            "BODYSLAM",
+            "HYPERVOICE",
+            "ALLYSWITCH"
+          ],
+          "abilityIndex": 0,
+          "item": null,
+          "nature": null,
+          "gender": null,
+          "form": 0,
+          "ivs": null,
+          "evs": null
+        },
+        {
+          "slot": 1,
+          "species": "SOSQWATCH",
+          "level": 42,
+          "moves": [
+            "SURF",
+            "SLACKOFF",
+            "HEATWAVE",
+            "AVALANCHE"
+          ],
+          "abilityIndex": 1,
+          "item": null,
+          "nature": null,
+          "gender": null,
+          "form": 0,
+          "ivs": null,
+          "evs": null
+        },
+        {
+          "slot": 2,
+          "species": "TOGEKISS",
+          "level": 40,
+          "moves": [
+            "DRAININGKISS",
+            "AIRSLASH",
+            "WISH",
+            "TRIATTACK"
+          ],
+          "abilityIndex": 2,
+          "item": null,
+          "nature": null,
+          "gender": null,
+          "form": 0,
+          "ivs": null,
+          "evs": null
+        },
+        {
+          "slot": 3,
+          "species": "ELECTIVIRE",
+          "level": 40,
+          "moves": [
+            "THUNDERSTRIKES",
+            "LIGHTSCREEN",
+            "FIREPUNCH",
+            "FLING"
+          ],
+          "abilityIndex": 0,
+          "item": "LIGHTBALL",
+          "nature": null,
+          "gender": null,
+          "form": 0,
+          "ivs": null,
+          "evs": null
+        }
+      ],
+      "partyCount": 4,
+      "_source": "trainers.dat"
+    },
+    {
+      "id": "TEAMDIMENSIONELITE,XTR-CT,0",
+      "trainerType": "TEAMDIMENSIONELITE",
+      "name": "XTR-CT",
+      "version": 0,
       "items": [],
       "loseText": "E-e-error...",
       "party": [
         {
           "slot": 0,
-          "species": "PAWNIARD",
-          "level": 23,
+          "species": "CARVANHAX",
+          "level": 45,
           "moves": [
-            "ASSURANCE",
-            "METALCLAW",
-            "LEER"
+            "WAVECRASH",
+            "FLIPTURN",
+            "HEADSMASH",
+            "SUPERPOWER"
           ],
-          "abilityIndex": 0,
-          "item": null,
+          "abilityIndex": 2,
+          "item": "FOCUSSASH",
           "nature": null,
           "gender": null,
           "form": 0,
@@ -9440,15 +9364,1881 @@
         },
         {
           "slot": 1,
-          "species": "PAWNIARD",
-          "level": 23,
+          "species": "ELECTABUZZX",
+          "level": 45,
           "moves": [
-            "ASSURANCE",
-            "METALCLAW",
-            "LEER"
+            "FLAMETHROWER",
+            "MAGMAHURL",
+            "SCORCHINGSANDS",
+            "BRICKBREAK"
+          ],
+          "abilityIndex": 2,
+          "item": "CHARCOAL",
+          "nature": null,
+          "gender": null,
+          "form": 0,
+          "ivs": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "evs": null
+        }
+      ],
+      "partyCount": 2,
+      "_source": "trainers.dat"
+    },
+    {
+      "id": "TEAMDIMENSIONELITE,XP3-R1,0",
+      "trainerType": "TEAMDIMENSIONELITE",
+      "name": "XP3-R1",
+      "version": 0,
+      "items": [],
+      "loseText": "E-e-error...",
+      "party": [
+        {
+          "slot": 0,
+          "species": "HAUNTERX",
+          "level": 45,
+          "moves": [
+            "LUMINACRASH",
+            "DRAGONPULSE",
+            "EARTHPOWER",
+            "FLASHCANNON"
+          ],
+          "abilityIndex": 1,
+          "item": "DRAGONFANG",
+          "nature": null,
+          "gender": null,
+          "form": 0,
+          "ivs": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "evs": null
+        },
+        {
+          "slot": 1,
+          "species": "BUDEWX",
+          "level": 45,
+          "moves": [
+            "BARBBARRAGE",
+            "SUBWOOFER",
+            "TWINEEDLE",
+            "SMARTSTRIKE"
+          ],
+          "abilityIndex": 1,
+          "item": "FOCUSSASH",
+          "nature": null,
+          "gender": null,
+          "form": 0,
+          "ivs": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "evs": null
+        }
+      ],
+      "partyCount": 2,
+      "_source": "trainers.dat"
+    },
+    {
+      "id": "MERCHANT,Hudson,0",
+      "trainerType": "MERCHANT",
+      "name": "Hudson",
+      "version": 0,
+      "items": [],
+      "loseText": "That was a bad over-reaction... I don't know what came over me!",
+      "party": [
+        {
+          "slot": 0,
+          "species": "KECLEON",
+          "level": 43,
+          "moves": [
+            "KNOCKOFF",
+            "POWERWHIP",
+            "SLASH",
+            "SCALESHOT"
+          ],
+          "abilityIndex": 0,
+          "item": "FOCUSSASH",
+          "nature": null,
+          "gender": null,
+          "form": 0,
+          "ivs": null,
+          "evs": null
+        },
+        {
+          "slot": 1,
+          "species": "PECKABONE",
+          "level": 43,
+          "moves": [
+            "FINALGAMBIT",
+            "SHADOWSNEAK",
+            "BRUISINGBASH",
+            "BONEMERANG"
+          ],
+          "abilityIndex": 0,
+          "item": "MIRRORHERB",
+          "nature": null,
+          "gender": null,
+          "form": 0,
+          "ivs": null,
+          "evs": null
+        },
+        {
+          "slot": 2,
+          "species": "GIMMIGHOUL",
+          "level": 44,
+          "moves": [
+            "HAPPYHOUR",
+            "PAYDAY",
+            "ANGERWAVE",
+            "FLASH"
+          ],
+          "abilityIndex": 0,
+          "item": "EVIOLITE",
+          "nature": null,
+          "gender": null,
+          "form": 0,
+          "ivs": null,
+          "evs": null
+        },
+        {
+          "slot": 3,
+          "species": "MEOWTH",
+          "level": 48,
+          "moves": [
+            "FINALGAMBIT",
+            "MINDCRUSH",
+            "AMNESIA",
+            "TEETERDANCE"
+          ],
+          "abilityIndex": 1,
+          "item": "EVIOLITE",
+          "nature": null,
+          "gender": null,
+          "form": 1,
+          "ivs": null,
+          "evs": null
+        }
+      ],
+      "partyCount": 4,
+      "_source": "trainers.dat"
+    },
+    {
+      "id": "NATIVEKID,Pico,0",
+      "trainerType": "NATIVEKID",
+      "name": "Pico",
+      "version": 0,
+      "items": [],
+      "loseText": "Aw! I really wanted my Pokémon to get the gift of evolution!",
+      "party": [
+        {
+          "slot": 0,
+          "species": "RUFFLET",
+          "level": 44,
+          "moves": [
+            "SLASH",
+            "ACROBATICS",
+            "SMARTSTRIKE"
+          ],
+          "abilityIndex": 2,
+          "item": null,
+          "nature": null,
+          "gender": null,
+          "form": 0,
+          "ivs": null,
+          "evs": null
+        },
+        {
+          "slot": 1,
+          "species": "SKARLING",
+          "level": 44,
+          "moves": [
+            "DRILLRUN",
+            "WHIRLWIND",
+            "SPIKES",
+            "STEELWING"
           ],
           "abilityIndex": 0,
           "item": null,
+          "nature": null,
+          "gender": null,
+          "form": 0,
+          "ivs": null,
+          "evs": null
+        },
+        {
+          "slot": 2,
+          "species": "NEKOLAUS",
+          "level": 40,
+          "moves": [
+            "SECRETPOWER",
+            "SHADOWSNEAK",
+            "ICICLESPEAR",
+            "PRESENT"
+          ],
+          "abilityIndex": 1,
+          "item": "CHARCOAL",
+          "nature": null,
+          "gender": null,
+          "form": 0,
+          "ivs": null,
+          "evs": null
+        }
+      ],
+      "partyCount": 3,
+      "_source": "trainers.dat"
+    },
+    {
+      "id": "COWGIRL,Belle,0",
+      "trainerType": "COWGIRL",
+      "name": "Belle",
+      "version": 0,
+      "items": [],
+      "loseText": "Oh, I really am not qualified to wrangle an X Pokémon...",
+      "party": [
+        {
+          "slot": 0,
+          "species": "MILTANK",
+          "level": 40,
+          "moves": [
+            "RETURN",
+            "CREAMWHIP",
+            "MILKDRINK",
+            "ROLLOUT"
+          ],
+          "abilityIndex": 2,
+          "item": "SOOTHEBELL",
+          "nature": null,
+          "gender": null,
+          "form": 0,
+          "ivs": null,
+          "evs": null
+        },
+        {
+          "slot": 1,
+          "species": "CHINGLING",
+          "level": 44,
+          "moves": [
+            "ROUND",
+            "CHEERING",
+            "FROSTCALL"
+          ],
+          "abilityIndex": 0,
+          "item": "FOCUSSASH",
+          "nature": null,
+          "gender": null,
+          "form": 1,
+          "ivs": null,
+          "evs": null
+        },
+        {
+          "slot": 2,
+          "species": "AMPHAROS",
+          "level": 40,
+          "moves": [
+            "COTTONGUARD",
+            "POWERGEM",
+            "DISCHARGE",
+            "ROUND"
+          ],
+          "abilityIndex": 2,
+          "item": "SHELLBELL",
+          "nature": null,
+          "gender": null,
+          "form": 0,
+          "ivs": null,
+          "evs": null
+        }
+      ],
+      "partyCount": 3,
+      "_source": "trainers.dat"
+    },
+    {
+      "id": "COWGIRL,Jessie,0",
+      "trainerType": "COWGIRL",
+      "name": "Jessie",
+      "version": 0,
+      "items": [],
+      "loseText": "Well, fine, you seem like you can handle yourself.",
+      "party": [
+        {
+          "slot": 0,
+          "species": "TROGLOLITH",
+          "level": 41,
+          "moves": [
+            "ROAR",
+            "SPIKES",
+            "ROCKBLAST",
+            "POWERUPPUNCH"
+          ],
+          "abilityIndex": 2,
+          "item": "LEFTOVERS",
+          "nature": null,
+          "gender": null,
+          "form": 0,
+          "ivs": null,
+          "evs": null
+        },
+        {
+          "slot": 1,
+          "species": "RAPIDASH",
+          "level": 41,
+          "moves": [
+            "PSYCHOCUT",
+            "HORNLEECH",
+            "RAINBOWGALLOP",
+            "HEALPULSE"
+          ],
+          "abilityIndex": 2,
+          "item": null,
+          "nature": null,
+          "gender": null,
+          "form": 1,
+          "ivs": null,
+          "evs": null
+        }
+      ],
+      "partyCount": 2,
+      "_source": "trainers.dat"
+    },
+    {
+      "id": "COWBOY,Nando,0",
+      "trainerType": "COWBOY",
+      "name": "Nando",
+      "version": 0,
+      "items": [],
+      "loseText": "Well, falling off the steed is part of a cowboy's life, too...",
+      "party": [
+        {
+          "slot": 0,
+          "species": "MINIOR",
+          "level": 40,
+          "moves": [
+            "STEALTHROCK",
+            "ACROBATICS",
+            "COSMICPOWER",
+            "METEORBEAM"
+          ],
+          "abilityIndex": 0,
+          "item": null,
+          "nature": null,
+          "gender": null,
+          "form": 7,
+          "ivs": null,
+          "evs": null
+        },
+        {
+          "slot": 1,
+          "species": "TAUROS",
+          "level": 40,
+          "moves": [
+            "RAGINGBULL",
+            "ZENHEADBUTT",
+            "DOUBLEKICK",
+            "FLAMECHARGE"
+          ],
+          "abilityIndex": 0,
+          "item": null,
+          "nature": null,
+          "gender": null,
+          "form": 2,
+          "ivs": null,
+          "evs": null
+        },
+        {
+          "slot": 2,
+          "species": "ROSELIA",
+          "level": 42,
+          "moves": [
+            "CHARM",
+            "DAZZLINGGLEAM",
+            "GIGADRAIN"
+          ],
+          "abilityIndex": 0,
+          "item": "EVIOLITE",
+          "nature": null,
+          "gender": null,
+          "form": 0,
+          "ivs": null,
+          "evs": null
+        }
+      ],
+      "partyCount": 3,
+      "_source": "trainers.dat"
+    },
+    {
+      "id": "COWBOY,Woody,0",
+      "trainerType": "COWBOY",
+      "name": "Woody",
+      "version": 0,
+      "items": [],
+      "loseText": "Just be more careful next time, ok?",
+      "party": [
+        {
+          "slot": 0,
+          "species": "EKANS",
+          "level": 45,
+          "moves": [
+            "POISONTAIL",
+            "JETSTRIKE",
+            "WRAP",
+            "ICEFANG"
+          ],
+          "abilityIndex": 0,
+          "item": "HEAVYDUTYBOOTS",
+          "nature": null,
+          "gender": null,
+          "form": 0,
+          "ivs": null,
+          "evs": null
+        },
+        {
+          "slot": 1,
+          "species": "BEHEEYEM",
+          "level": 41,
+          "moves": [
+            "INSTRUCT",
+            "DAZZLINGGLEAM",
+            "TRICKROOM",
+            "PSYBEAM"
+          ],
+          "abilityIndex": 2,
+          "item": null,
+          "nature": null,
+          "gender": null,
+          "form": 0,
+          "ivs": null,
+          "evs": null
+        },
+        {
+          "slot": 2,
+          "species": "DACHSBUN",
+          "level": 41,
+          "moves": [
+            "PLAYROUGH",
+            "ENDEAVOR",
+            "IRONTAIL",
+            "BABYDOLLEYES"
+          ],
+          "abilityIndex": 2,
+          "item": null,
+          "nature": null,
+          "gender": null,
+          "form": 0,
+          "ivs": null,
+          "evs": null
+        }
+      ],
+      "partyCount": 3,
+      "_source": "trainers.dat"
+    },
+    {
+      "id": "HIKER,Pete,0",
+      "trainerType": "HIKER",
+      "name": "Pete",
+      "version": 0,
+      "items": [],
+      "loseText": "Wow! You're pretty strong yourself!",
+      "party": [
+        {
+          "slot": 0,
+          "species": "DREEPY",
+          "level": 46,
+          "moves": [
+            "DRAGONRAGE",
+            "SHARPEN",
+            "DRAGONDARTS",
+            "SMACKDOWN"
+          ],
+          "abilityIndex": 0,
+          "item": "EVIOLITE",
+          "nature": null,
+          "gender": null,
+          "form": 1,
+          "ivs": null,
+          "evs": null
+        },
+        {
+          "slot": 1,
+          "species": "MAROWAK",
+          "level": 41,
+          "moves": [
+            "SHADOWBONE",
+            "FLAMEWHEEL",
+            "BONERUSH",
+            "WILLOWISP"
+          ],
+          "abilityIndex": 0,
+          "item": null,
+          "nature": null,
+          "gender": null,
+          "form": 1,
+          "ivs": null,
+          "evs": null
+        },
+        {
+          "slot": 2,
+          "species": "POLITOED",
+          "level": 42,
+          "moves": [
+            "AQUARING",
+            "SONICBOOM",
+            "ICYWIND",
+            "EARTHPOWER"
+          ],
+          "abilityIndex": 2,
+          "item": null,
+          "nature": null,
+          "gender": null,
+          "form": 0,
+          "ivs": null,
+          "evs": null
+        }
+      ],
+      "partyCount": 3,
+      "_source": "trainers.dat"
+    },
+    {
+      "id": "BIKER,Half,0",
+      "trainerType": "BIKER",
+      "name": "Half",
+      "version": 0,
+      "items": [],
+      "loseText": "Ah! No fair! T-there was sand in my eye...!",
+      "party": [
+        {
+          "slot": 0,
+          "species": "VROOMBUG",
+          "level": 44,
+          "moves": [
+            "REVUP",
+            "ROLLOUT",
+            "UTURN",
+            "TRAILBLAZE"
+          ],
+          "abilityIndex": 0,
+          "item": "METRONOME",
+          "nature": null,
+          "gender": null,
+          "form": 0,
+          "ivs": null,
+          "evs": null
+        },
+        {
+          "slot": 1,
+          "species": "BRAMBLIN",
+          "level": 44,
+          "moves": [
+            "HORNLEECH",
+            "SHADOWSNEAK",
+            "SKITTERSMACK",
+            "ROLLOUT"
+          ],
+          "abilityIndex": 0,
+          "item": "METRONOME",
+          "nature": null,
+          "gender": null,
+          "form": 0,
+          "ivs": null,
+          "evs": null
+        },
+        {
+          "slot": 2,
+          "species": "SANDSLASH",
+          "level": 41,
+          "moves": [
+            "GYROBALL",
+            "SPIKECANNON",
+            "DIG",
+            "ROLLOUT"
+          ],
+          "abilityIndex": 1,
+          "item": null,
+          "nature": null,
+          "gender": null,
+          "form": 0,
+          "ivs": null,
+          "evs": null
+        }
+      ],
+      "partyCount": 3,
+      "_source": "trainers.dat"
+    },
+    {
+      "id": "NATIVEM,Agul,0",
+      "trainerType": "NATIVEM",
+      "name": "Agul",
+      "version": 0,
+      "items": [],
+      "loseText": "It seems you are not the same...",
+      "party": [
+        {
+          "slot": 0,
+          "species": "SHAWKBIRD",
+          "level": 44,
+          "moves": [
+            "THUNDERBOLT",
+            "AIRSLASH",
+            "ROOST",
+            "THUNDERWAVE"
+          ],
+          "abilityIndex": 1,
+          "item": "SITRUSBERRY",
+          "nature": null,
+          "gender": null,
+          "form": 0,
+          "ivs": null,
+          "evs": null
+        },
+        {
+          "slot": 1,
+          "species": "HAWLUCHA",
+          "level": 40,
+          "moves": [
+            "FLUTTERKICKS",
+            "SWORDSDANCE",
+            "ROOST",
+            "FLYINGPRESS"
+          ],
+          "abilityIndex": 0,
+          "item": null,
+          "nature": null,
+          "gender": null,
+          "form": 0,
+          "ivs": null,
+          "evs": null
+        },
+        {
+          "slot": 2,
+          "species": "BRAVIARY",
+          "level": 41,
+          "moves": [
+            "ESPERWING",
+            "AERIALACE",
+            "TAILWIND",
+            "SMARTSTRIKE"
+          ],
+          "abilityIndex": 2,
+          "item": null,
+          "nature": null,
+          "gender": null,
+          "form": 1,
+          "ivs": null,
+          "evs": null
+        }
+      ],
+      "partyCount": 3,
+      "_source": "trainers.dat"
+    },
+    {
+      "id": "REDNECKM,Cletus,0",
+      "trainerType": "REDNECKM",
+      "name": "Cletus",
+      "version": 0,
+      "items": [],
+      "loseText": "I'm tellin' ya! They're hidin' somethin'!",
+      "party": [
+        {
+          "slot": 0,
+          "species": "BOUFFALANT",
+          "level": 41,
+          "moves": [
+            "AFROBREAK",
+            "THROATCHOP"
+          ],
+          "abilityIndex": 0,
+          "item": "CHOICEBAND",
+          "nature": null,
+          "gender": null,
+          "form": 0,
+          "ivs": null,
+          "evs": null
+        },
+        {
+          "slot": 1,
+          "species": "DONPHAN",
+          "level": 41,
+          "moves": [
+            "HEADLONGRUSH",
+            "SPINOUT",
+            "ROLLOUT",
+            "REVUP"
+          ],
+          "abilityIndex": 2,
+          "item": null,
+          "nature": null,
+          "gender": null,
+          "form": 0,
+          "ivs": null,
+          "evs": null
+        }
+      ],
+      "partyCount": 2,
+      "_source": "trainers.dat"
+    },
+    {
+      "id": "NATIVEF,Lisa,0",
+      "trainerType": "NATIVEF",
+      "name": "Lisa",
+      "version": 0,
+      "items": [],
+      "loseText": "Now I am truly grounded...",
+      "party": [
+        {
+          "slot": 0,
+          "species": "DODRIO",
+          "level": 40,
+          "moves": [
+            "FLUTTERKICKS",
+            "FURYATTACK",
+            "LOWKICK",
+            "STOMPINGTANTRUM"
+          ],
+          "abilityIndex": 0,
+          "item": "LOADEDDICE",
+          "nature": null,
+          "gender": null,
+          "form": 0,
+          "ivs": null,
+          "evs": null
+        },
+        {
+          "slot": 1,
+          "species": "GOGOAT",
+          "level": 41,
+          "moves": [
+            "BULLDOZE",
+            "HORNLEECH",
+            "LOWKICK",
+            "MILKDRINK"
+          ],
+          "abilityIndex": 2,
+          "item": null,
+          "nature": null,
+          "gender": null,
+          "form": 0,
+          "ivs": null,
+          "evs": null
+        }
+      ],
+      "partyCount": 2,
+      "_source": "trainers.dat"
+    },
+    {
+      "id": "BIKER,Chibs,0",
+      "trainerType": "BIKER",
+      "name": "Chibs",
+      "version": 0,
+      "items": [],
+      "loseText": "You just had to beat me and ruin the vibe, didn't you?",
+      "party": [
+        {
+          "slot": 0,
+          "species": "SCYTHER",
+          "level": 45,
+          "moves": [
+            "CROSSPOISON",
+            "XSCISSOR",
+            "DUALWINGBEAT",
+            "TAILWIND"
+          ],
+          "abilityIndex": 0,
+          "item": "LANSATBERRY",
+          "nature": null,
+          "gender": null,
+          "form": 0,
+          "ivs": null,
+          "evs": null
+        },
+        {
+          "slot": 1,
+          "species": "FRAXURE",
+          "level": 42,
+          "moves": [
+            "DRAGONDANCE",
+            "CUT",
+            "DUALCHOP",
+            "NIGHTSLASH"
+          ],
+          "abilityIndex": 2,
+          "item": "LANSATBERRY",
+          "nature": null,
+          "gender": null,
+          "form": 0,
+          "ivs": null,
+          "evs": null
+        }
+      ],
+      "partyCount": 2,
+      "_source": "trainers.dat"
+    },
+    {
+      "id": "NATIVEM,Pocatello,0",
+      "trainerType": "NATIVEM",
+      "name": "Pocatello",
+      "version": 0,
+      "items": [],
+      "loseText": "At least you do not destroy the environment while battling...",
+      "party": [
+        {
+          "slot": 0,
+          "species": "SPIDOPS",
+          "level": 41,
+          "moves": [
+            "SILKTRAP",
+            "FIRSTIMPRESSION",
+            "STRENGTH",
+            "STICKYWEB"
+          ],
+          "abilityIndex": 1,
+          "item": "LIECHIBERRY",
+          "nature": null,
+          "gender": null,
+          "form": 0,
+          "ivs": null,
+          "evs": null
+        },
+        {
+          "slot": 1,
+          "species": "XATU",
+          "level": 43,
+          "moves": [
+            "ALLYSWITCH",
+            "MORNINGSUN",
+            "AURASPHERE",
+            "AIRSLASH"
+          ],
+          "abilityIndex": 2,
+          "item": "SILKPODS",
+          "nature": null,
+          "gender": null,
+          "form": 0,
+          "ivs": null,
+          "evs": null
+        },
+        {
+          "slot": 2,
+          "species": "DUDUNSPARCE",
+          "level": 42,
+          "moves": [
+            "TERRAINPULSE",
+            "DRILLRUN",
+            "HYPERDRILL",
+            "DUALWINGBEAT"
+          ],
+          "abilityIndex": 2,
+          "item": "LUMBERRY",
+          "nature": null,
+          "gender": null,
+          "form": 0,
+          "ivs": null,
+          "evs": null
+        }
+      ],
+      "partyCount": 3,
+      "_source": "trainers.dat"
+    },
+    {
+      "id": "NATIVEF,Nadie,0",
+      "trainerType": "NATIVEF",
+      "name": "Nadie",
+      "version": 0,
+      "items": [],
+      "loseText": "Can they dream like we do...?",
+      "party": [
+        {
+          "slot": 0,
+          "species": "MAROWAK",
+          "level": 42,
+          "moves": [
+            "BONECLUB",
+            "DETECT",
+            "UPPERHAND",
+            "LOWSWEEP"
+          ],
+          "abilityIndex": 1,
+          "item": "CELLBATTERY",
+          "nature": null,
+          "gender": null,
+          "form": 0,
+          "ivs": null,
+          "evs": null
+        },
+        {
+          "slot": 1,
+          "species": "BREMAND",
+          "level": 44,
+          "moves": [
+            "HIDDENPOWER",
+            "VOICETUNE",
+            "SYMPHONICMASS",
+            "DISCOFEVER"
+          ],
+          "abilityIndex": 2,
+          "item": "WACANBERRY",
+          "nature": null,
+          "gender": null,
+          "form": 0,
+          "ivs": null,
+          "evs": null
+        },
+        {
+          "slot": 2,
+          "species": "RAITORA",
+          "level": 42,
+          "moves": [
+            "HOWL",
+            "ICEFANG",
+            "THUNDERFANG",
+            "FIREFANG"
+          ],
+          "abilityIndex": 0,
+          "item": null,
+          "nature": null,
+          "gender": null,
+          "form": 0,
+          "ivs": null,
+          "evs": null
+        }
+      ],
+      "partyCount": 3,
+      "_source": "trainers.dat"
+    },
+    {
+      "id": "TEAMDIMENSION_AANDB,A & B,2",
+      "trainerType": "TEAMDIMENSION_AANDB",
+      "name": "A & B",
+      "version": 2,
+      "items": [],
+      "loseText": "E-e-error...",
+      "party": [
+        {
+          "slot": 0,
+          "species": "TOXTRICITY",
+          "level": 48,
+          "moves": [
+            "GEARUP",
+            "OVERDRIVE",
+            "HYPERVOICE",
+            "CORRODINGACID"
+          ],
+          "abilityIndex": 1,
+          "item": "THROATSPRAY",
+          "nature": null,
+          "gender": null,
+          "form": 0,
+          "ivs": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "evs": {
+            "HP": 100,
+            "ATTACK": 0,
+            "DEFENSE": 0,
+            "SPECIAL_ATTACK": 152,
+            "SPECIAL_DEFENSE": 0,
+            "SPEED": 152
+          }
+        },
+        {
+          "slot": 1,
+          "species": "TOXTRICITY",
+          "level": 48,
+          "moves": [
+            "MAGNETICFLUX",
+            "SONICBOOM",
+            "SNARL",
+            "CORROSIVEGAS"
+          ],
+          "abilityIndex": 1,
+          "item": "AIRBALLOON",
+          "nature": null,
+          "gender": null,
+          "form": 1,
+          "ivs": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "evs": {
+            "HP": 100,
+            "ATTACK": 0,
+            "DEFENSE": 0,
+            "SPECIAL_ATTACK": 152,
+            "SPECIAL_DEFENSE": 0,
+            "SPEED": 152
+          }
+        },
+        {
+          "slot": 2,
+          "species": "CROAKRAZE",
+          "level": 48,
+          "moves": [
+            "BLAZEKICK",
+            "WILDCHARGE",
+            "SCORCHINGSANDS",
+            "JUMPKICK"
+          ],
+          "abilityIndex": 2,
+          "item": "PROTECTIVEPADS",
+          "nature": null,
+          "gender": null,
+          "form": 0,
+          "ivs": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "evs": {
+            "HP": 100,
+            "ATTACK": 0,
+            "DEFENSE": 0,
+            "SPECIAL_ATTACK": 152,
+            "SPECIAL_DEFENSE": 0,
+            "SPEED": 152
+          }
+        },
+        {
+          "slot": 3,
+          "species": "SWELEPHANT",
+          "level": 48,
+          "moves": [
+            "JETPUNCH",
+            "BODYPRESS",
+            "BULKUP",
+            "ICEPUNCH"
+          ],
+          "abilityIndex": 0,
+          "item": "PUNCHINGGLOVE",
+          "nature": null,
+          "gender": null,
+          "form": 0,
+          "ivs": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "evs": {
+            "HP": 152,
+            "ATTACK": 152,
+            "DEFENSE": 100,
+            "SPECIAL_ATTACK": 0,
+            "SPECIAL_DEFENSE": 0,
+            "SPEED": 0
+          }
+        },
+        {
+          "slot": 4,
+          "species": "BISHARP",
+          "level": 48,
+          "moves": [
+            "CUT",
+            "SHARPEN",
+            "THUNDERWAVE",
+            "NIGHTSLASH"
+          ],
+          "abilityIndex": 0,
+          "item": "LIFEORB",
+          "nature": null,
+          "gender": null,
+          "form": 0,
+          "ivs": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "evs": {
+            "HP": 252,
+            "ATTACK": 252,
+            "DEFENSE": 0,
+            "SPECIAL_ATTACK": 0,
+            "SPECIAL_DEFENSE": 0,
+            "SPEED": 0
+          }
+        },
+        {
+          "slot": 5,
+          "species": "BISHARP",
+          "level": 48,
+          "moves": [
+            "RETALIATE",
+            "ALLYSWITCH",
+            "THROATCHOP",
+            "IRONDEFENSE"
+          ],
+          "abilityIndex": 0,
+          "item": "EVIOLITE",
+          "nature": null,
+          "gender": null,
+          "form": 0,
+          "ivs": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "evs": {
+            "HP": 0,
+            "ATTACK": 0,
+            "DEFENSE": 252,
+            "SPECIAL_ATTACK": 0,
+            "SPECIAL_DEFENSE": 252,
+            "SPEED": 0
+          }
+        }
+      ],
+      "partyCount": 6,
+      "_source": "trainers.dat"
+    },
+    {
+      "id": "TEAMDIMENSION_AANDB,A & B,3",
+      "trainerType": "TEAMDIMENSION_AANDB",
+      "name": "A & B",
+      "version": 3,
+      "items": [],
+      "loseText": "E-e-error...",
+      "party": [
+        {
+          "slot": 0,
+          "species": "TOXTRICITY",
+          "level": 48,
+          "moves": [
+            "OVERDRIVE",
+            "UPROAR",
+            "CORRODINGACID"
+          ],
+          "abilityIndex": 0,
+          "item": "MAGNET",
+          "nature": null,
+          "gender": null,
+          "form": 0,
+          "ivs": {
+            "HP": 21,
+            "ATTACK": 21,
+            "DEFENSE": 21,
+            "SPECIAL_ATTACK": 21,
+            "SPECIAL_DEFENSE": 21,
+            "SPEED": 21
+          },
+          "evs": null
+        },
+        {
+          "slot": 1,
+          "species": "TOXTRICITY",
+          "level": 48,
+          "moves": [
+            "SONICBOOM",
+            "SNARL",
+            "CORROSIVEGAS"
+          ],
+          "abilityIndex": 0,
+          "item": "SHUCABERRY",
+          "nature": null,
+          "gender": null,
+          "form": 1,
+          "ivs": {
+            "HP": 21,
+            "ATTACK": 21,
+            "DEFENSE": 21,
+            "SPECIAL_ATTACK": 21,
+            "SPECIAL_DEFENSE": 21,
+            "SPEED": 21
+          },
+          "evs": null
+        },
+        {
+          "slot": 2,
+          "species": "CROAKRAZE",
+          "level": 48,
+          "moves": [
+            "BLAZEKICK",
+            "TAKEDOWN",
+            "SCORCHINGSANDS",
+            "JUMPKICK"
+          ],
+          "abilityIndex": 0,
+          "item": null,
+          "nature": null,
+          "gender": null,
+          "form": 0,
+          "ivs": {
+            "HP": 21,
+            "ATTACK": 21,
+            "DEFENSE": 21,
+            "SPECIAL_ATTACK": 21,
+            "SPECIAL_DEFENSE": 21,
+            "SPEED": 21
+          },
+          "evs": null
+        },
+        {
+          "slot": 3,
+          "species": "SWELEPHANT",
+          "level": 48,
+          "moves": [
+            "JETPUNCH",
+            "BODYPRESS",
+            "BULKUP",
+            "ICEPUNCH"
+          ],
+          "abilityIndex": 0,
+          "item": null,
+          "nature": null,
+          "gender": null,
+          "form": 0,
+          "ivs": {
+            "HP": 21,
+            "ATTACK": 21,
+            "DEFENSE": 21,
+            "SPECIAL_ATTACK": 21,
+            "SPECIAL_DEFENSE": 21,
+            "SPEED": 21
+          },
+          "evs": null
+        },
+        {
+          "slot": 4,
+          "species": "BISHARP",
+          "level": 48,
+          "moves": [
+            "CUT",
+            "SHARPEN",
+            "THUNDERWAVE",
+            "NIGHTSLASH"
+          ],
+          "abilityIndex": 0,
+          "item": "MUSCLEBAND",
+          "nature": null,
+          "gender": null,
+          "form": 0,
+          "ivs": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "evs": {
+            "HP": 152,
+            "ATTACK": 152,
+            "DEFENSE": 0,
+            "SPECIAL_ATTACK": 0,
+            "SPECIAL_DEFENSE": 0,
+            "SPEED": 0
+          }
+        },
+        {
+          "slot": 5,
+          "species": "BISHARP",
+          "level": 48,
+          "moves": [
+            "RETALIATE",
+            "ALLYSWITCH",
+            "THROATCHOP",
+            "IRONDEFENSE"
+          ],
+          "abilityIndex": 0,
+          "item": "FOCUSBAND",
+          "nature": null,
+          "gender": null,
+          "form": 0,
+          "ivs": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "evs": {
+            "HP": 0,
+            "ATTACK": 0,
+            "DEFENSE": 152,
+            "SPECIAL_ATTACK": 0,
+            "SPECIAL_DEFENSE": 152,
+            "SPEED": 0
+          }
+        }
+      ],
+      "partyCount": 6,
+      "_source": "trainers.dat"
+    },
+    {
+      "id": "TEAMDIMENSIONSCIENTIST_M,Emile,0",
+      "trainerType": "TEAMDIMENSIONSCIENTIST_M",
+      "name": "Emile",
+      "version": 0,
+      "items": [],
+      "loseText": "W-wait, wait! I yield!",
+      "party": [
+        {
+          "slot": 0,
+          "species": "VIBRAVA",
+          "level": 46,
+          "moves": [
+            "EARTHPOWER",
+            "SONICBOOM",
+            "BREAKINGSWIPE",
+            "FIRSTIMPRESSION"
+          ],
+          "abilityIndex": 0,
+          "item": null,
+          "nature": null,
+          "gender": null,
+          "form": 0,
+          "ivs": null,
+          "evs": null
+        },
+        {
+          "slot": 1,
+          "species": "ROTOM",
+          "level": 46,
+          "moves": [
+            "STRANGESTEAM",
+            "THUNDERWAVE",
+            "DISCHARGE",
+            "OMINOUSWIND"
+          ],
+          "abilityIndex": 0,
+          "item": null,
+          "nature": null,
+          "gender": null,
+          "form": 6,
+          "ivs": null,
+          "evs": null
+        }
+      ],
+      "partyCount": 2,
+      "_source": "trainers.dat"
+    },
+    {
+      "id": "TEAMDIMENSIONSCIENTIST_M,Winters,0",
+      "trainerType": "TEAMDIMENSIONSCIENTIST_M",
+      "name": "Winters",
+      "version": 0,
+      "items": [],
+      "loseText": "Figures...",
+      "party": [
+        {
+          "slot": 0,
+          "species": "SOSQWATCH",
+          "level": 46,
+          "moves": [
+            "TRIPLEAXEL",
+            "BLAZEKICK",
+            "TAILWIND",
+            "RAZORWIND"
+          ],
+          "abilityIndex": 2,
+          "item": "SAFETYGOGGLES",
+          "nature": null,
+          "gender": null,
+          "form": 0,
+          "ivs": null,
+          "evs": null
+        },
+        {
+          "slot": 1,
+          "species": "PILOSWINE",
+          "level": 46,
+          "moves": [
+            "SUPERPOWER",
+            "STOMPINGTANTRUM",
+            "AVALANCHE",
+            "THROATCHOP"
+          ],
+          "abilityIndex": 0,
+          "item": "BLACKGLASSES",
+          "nature": null,
+          "gender": null,
+          "form": 0,
+          "ivs": null,
+          "evs": null
+        }
+      ],
+      "partyCount": 2,
+      "_source": "trainers.dat"
+    },
+    {
+      "id": "TEAMDIMENSIONSCIENTIST_F,Luna,0",
+      "trainerType": "TEAMDIMENSIONSCIENTIST_F",
+      "name": "Luna",
+      "version": 0,
+      "items": [],
+      "loseText": "Stop! The battle might damage them!",
+      "party": [
+        {
+          "slot": 0,
+          "species": "BANDEON",
+          "level": 46,
+          "moves": [
+            "ROUND",
+            "SOUNDPLEDGE",
+            "DISARMINGVOICE",
+            "SOUNDBARRIER"
+          ],
+          "abilityIndex": 1,
+          "item": null,
+          "nature": null,
+          "gender": null,
+          "form": 0,
+          "ivs": null,
+          "evs": null
+        },
+        {
+          "slot": 1,
+          "species": "SYLVEON",
+          "level": 46,
+          "moves": [
+            "ROUND",
+            "FAIRYPLEDGE",
+            "LIGHTSCREEN",
+            "ALLURINGVOICE"
+          ],
+          "abilityIndex": 1,
+          "item": null,
+          "nature": null,
+          "gender": null,
+          "form": 0,
+          "ivs": null,
+          "evs": null
+        }
+      ],
+      "partyCount": 2,
+      "_source": "trainers.dat"
+    },
+    {
+      "id": "TEAMDIMENSIONSCIENTIST_F,Sophia,0",
+      "trainerType": "TEAMDIMENSIONSCIENTIST_F",
+      "name": "Sophia",
+      "version": 0,
+      "items": [],
+      "loseText": "If not for the chaos outside, you would've been swarmed...!",
+      "party": [
+        {
+          "slot": 0,
+          "species": "MAGNEZONE",
+          "level": 46,
+          "moves": [
+            "TRIATTACK",
+            "ELECTRICTERRAIN",
+            "FLASHCANNON",
+            "TERRAINPULSE"
+          ],
+          "abilityIndex": 0,
+          "item": "TERRAINEXTENDER",
+          "nature": null,
+          "gender": null,
+          "form": 0,
+          "ivs": null,
+          "evs": null
+        },
+        {
+          "slot": 1,
+          "species": "LURALUNG",
+          "level": 46,
+          "moves": [
+            "PSYCHIC",
+            "VACUUMWAVE",
+            "SILVERWIND",
+            "DRAGONBREATH"
+          ],
+          "abilityIndex": 0,
+          "item": null,
+          "nature": null,
+          "gender": null,
+          "form": 0,
+          "ivs": null,
+          "evs": null
+        }
+      ],
+      "partyCount": 2,
+      "_source": "trainers.dat"
+    },
+    {
+      "id": "TEAMDIMENSION,G0-0P,0",
+      "trainerType": "TEAMDIMENSION",
+      "name": "G0-0P",
+      "version": 0,
+      "items": [],
+      "loseText": "E-e-error...!",
+      "party": [
+        {
+          "slot": 0,
+          "species": "MAGCARGO",
+          "level": 46,
+          "moves": [
+            "SHELLSMASH",
+            "POWERGEM",
+            "LAVAPLUME",
+            "SCORCHINGSANDS"
+          ],
+          "abilityIndex": 0,
+          "item": "SITRUSBERRY",
+          "nature": null,
+          "gender": null,
+          "form": 0,
+          "ivs": null,
+          "evs": null
+        },
+        {
+          "slot": 1,
+          "species": "FERROGONAL",
+          "level": 46,
+          "moves": [
+            "SURF",
+            "FLASHCANNON",
+            "MUDBOMB",
+            "FREEZEDRY"
+          ],
+          "abilityIndex": 1,
+          "item": null,
+          "nature": null,
+          "gender": null,
+          "form": 0,
+          "ivs": null,
+          "evs": null
+        }
+      ],
+      "partyCount": 2,
+      "_source": "trainers.dat"
+    },
+    {
+      "id": "DOUBLETEAMDIMENSION,MU-5T & 4C-H3,0",
+      "trainerType": "DOUBLETEAMDIMENSION",
+      "name": "MU-5T & 4C-H3",
+      "version": 0,
+      "items": [],
+      "loseText": "E-e-error...",
+      "party": [
+        {
+          "slot": 0,
+          "species": "PROBOPASS",
+          "level": 46,
+          "moves": [
+            "ZAPCANNON",
+            "ENERSTORM",
+            "FLASHCANNON",
+            "POWERGEM"
+          ],
+          "abilityIndex": 2,
+          "item": "ZOOMLENS",
+          "nature": null,
+          "gender": null,
+          "form": 0,
+          "ivs": null,
+          "evs": null
+        },
+        {
+          "slot": 1,
+          "species": "SEALEO",
+          "level": 46,
+          "moves": [
+            "GYROBALL",
+            "HYDROFANG",
+            "ICEFANG",
+            "PLAYROUGH"
+          ],
+          "abilityIndex": 2,
+          "item": "EVIOLITE",
+          "nature": null,
+          "gender": null,
+          "form": 0,
+          "ivs": null,
+          "evs": null
+        }
+      ],
+      "partyCount": 2,
+      "_source": "trainers.dat"
+    },
+    {
+      "id": "BIKER,Tig,0",
+      "trainerType": "BIKER",
+      "name": "Tig",
+      "version": 0,
+      "items": [],
+      "loseText": "I wouldn't count on it going this well next time...",
+      "party": [
+        {
+          "slot": 0,
+          "species": "WHIRLIPEDE",
+          "level": 48,
+          "moves": [
+            "CROSSPOISON",
+            "IRONDEFENSE",
+            "STEELROLLER",
+            "STEAMROLLER"
+          ],
+          "abilityIndex": 0,
+          "item": "EVIOLITE",
+          "nature": null,
+          "gender": null,
+          "form": 0,
+          "ivs": null,
+          "evs": null
+        },
+        {
+          "slot": 1,
+          "species": "ELECTRODE",
+          "level": 45,
+          "moves": [
+            "CHLOROBLAST",
+            "GRASSYTERRAIN",
+            "ELECTROBALL",
+            "ELECTROWEB"
+          ],
+          "abilityIndex": 2,
+          "item": null,
+          "nature": null,
+          "gender": null,
+          "form": 1,
+          "ivs": null,
+          "evs": null
+        }
+      ],
+      "partyCount": 2,
+      "_source": "trainers.dat"
+    },
+    {
+      "id": "NATIVEKID,Rooke,0",
+      "trainerType": "NATIVEKID",
+      "name": "Rooke",
+      "version": 0,
+      "items": [],
+      "loseText": "Wait, I didn't say that out loud, did I...?",
+      "party": [
+        {
+          "slot": 0,
+          "species": "CHIKABOO",
+          "level": 48,
+          "moves": [
+            "SANDSTORM",
+            "CUT",
+            "SANDTOMB",
+            "KNOCKOFF"
+          ],
+          "abilityIndex": 2,
+          "item": null,
+          "nature": null,
+          "gender": null,
+          "form": 0,
+          "ivs": null,
+          "evs": null
+        },
+        {
+          "slot": 1,
+          "species": "CHIGAMI",
+          "level": 48,
+          "moves": [
+            "CUT",
+            "RAZORLEAF",
+            "HONECLAWS",
+            "SAFEGUARD"
+          ],
+          "abilityIndex": 2,
+          "item": "FOCUSSASH",
+          "nature": null,
+          "gender": null,
+          "form": 0,
+          "ivs": null,
+          "evs": null
+        },
+        {
+          "slot": 2,
+          "species": "REINDIGO",
+          "level": 45,
+          "moves": [
+            "WISH",
+            "ENTRAINMENT",
+            "PLAYROUGH",
+            "FOULPLAY"
+          ],
+          "abilityIndex": 0,
+          "item": null,
+          "nature": null,
+          "gender": null,
+          "form": 0,
+          "ivs": null,
+          "evs": null
+        }
+      ],
+      "partyCount": 3,
+      "_source": "trainers.dat"
+    },
+    {
+      "id": "COWBOY,Spike,0",
+      "trainerType": "COWBOY",
+      "name": "Spike",
+      "version": 0,
+      "items": [],
+      "loseText": "That stuff's way above my paygrade...",
+      "party": [
+        {
+          "slot": 0,
+          "species": "TAUROS",
+          "level": 46,
+          "moves": [
+            "RAGINGBULL",
+            "AQUAJET",
+            "BRICKBREAK",
+            "HELPINGHAND"
+          ],
+          "abilityIndex": 0,
+          "item": null,
+          "nature": null,
+          "gender": null,
+          "form": 3,
+          "ivs": null,
+          "evs": null
+        },
+        {
+          "slot": 1,
+          "species": "NEBYURA",
+          "level": 46,
+          "moves": [
+            "STOREDPOWER",
+            "COSMICPOWER",
+            "ANCIENTPOWER",
+            "FREEZEDRY"
+          ],
+          "abilityIndex": 2,
+          "item": "ICICLEPLATE",
+          "nature": null,
+          "gender": null,
+          "form": 0,
+          "ivs": null,
+          "evs": null
+        }
+      ],
+      "partyCount": 2,
+      "_source": "trainers.dat"
+    },
+    {
+      "id": "COWGIRL,Coco,0",
+      "trainerType": "COWGIRL",
+      "name": "Coco",
+      "version": 0,
+      "items": [],
+      "loseText": "If only I could watch everything from the clouds...",
+      "party": [
+        {
+          "slot": 0,
+          "species": "REXQUIEM",
+          "level": 46,
+          "moves": [
+            "TAILWIND",
+            "BONERUSH",
+            "PUNISHMENT",
+            "AIRCUTTER"
+          ],
+          "abilityIndex": 0,
+          "item": "SMOOTHROCK",
+          "nature": null,
+          "gender": null,
+          "form": 0,
+          "ivs": null,
+          "evs": null
+        },
+        {
+          "slot": 1,
+          "species": "TAUROS",
+          "level": 46,
+          "moves": [
+            "RAGINGBULL",
+            "TRAILBLAZE",
+            "SMARTSTRIKE",
+            "ZENHEADBUTT"
+          ],
+          "abilityIndex": 2,
+          "item": "SAFETYGOGGLES",
+          "nature": null,
+          "gender": null,
+          "form": 0,
+          "ivs": null,
+          "evs": null
+        }
+      ],
+      "partyCount": 2,
+      "_source": "trainers.dat"
+    },
+    {
+      "id": "CANYONTRIO,Trio,0",
+      "trainerType": "CANYONTRIO",
+      "name": "Trio",
+      "version": 0,
+      "items": [],
+      "loseText": "...!",
+      "party": [
+        {
+          "slot": 0,
+          "species": "BRAVIARY",
+          "level": 48,
+          "moves": [
+            "TAILWIND",
+            "SUPERPOWER",
+            "SLASH",
+            "SKYATTACK"
+          ],
+          "abilityIndex": 1,
+          "item": "COVERTCLOAK",
+          "nature": null,
+          "gender": null,
+          "form": 0,
+          "ivs": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "evs": null
+        },
+        {
+          "slot": 1,
+          "species": "SKRAVROOM",
+          "level": 48,
+          "moves": [
+            "IRONHEAD",
+            "BATONPASS",
+            "UTURN",
+            "REVUP"
+          ],
+          "abilityIndex": 2,
+          "item": "EJECTPACK",
           "nature": null,
           "gender": null,
           "form": 0,
@@ -9464,16 +11254,335 @@
         },
         {
           "slot": 2,
-          "species": "BULLVERIN",
-          "level": 23,
+          "species": "TAUROS",
+          "level": 48,
           "moves": [
-            "FLAMECHARGE",
-            "TAKEDOWN",
-            "DUSTPOUND",
-            "FLING"
+            "THRASH",
+            "RAGINGBULL",
+            "BODYPRESS",
+            "SWAGGER"
           ],
           "abilityIndex": 0,
-          "item": "LIGHTBALL",
+          "item": "LEFTOVERS",
+          "nature": null,
+          "gender": null,
+          "form": 1,
+          "ivs": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "evs": null
+        }
+      ],
+      "partyCount": 3,
+      "_source": "trainers.dat"
+    },
+    {
+      "id": "COWBOY,Ben,0",
+      "trainerType": "COWBOY",
+      "name": "Ben",
+      "version": 0,
+      "items": [],
+      "loseText": "This stuff's way above my paygrade...",
+      "party": [
+        {
+          "slot": 0,
+          "species": "ZEBSTRIKA",
+          "level": 47,
+          "moves": [
+            "ALLYSWITCH",
+            "HAYWIREKICK",
+            "TAKEDOWN",
+            "HIGHJUMPKICK"
+          ],
+          "abilityIndex": 2,
+          "item": "PROTECTIVEPADS",
+          "nature": null,
+          "gender": null,
+          "form": 0,
+          "ivs": null,
+          "evs": null
+        },
+        {
+          "slot": 1,
+          "species": "PERSAGE",
+          "level": 47,
+          "moves": [
+            "SNARL",
+            "MINDCRUSH",
+            "FLATTER",
+            "DAZZLINGGLEAM"
+          ],
+          "abilityIndex": 0,
+          "item": "TOXICORB",
+          "nature": null,
+          "gender": null,
+          "form": 0,
+          "ivs": null,
+          "evs": null
+        }
+      ],
+      "partyCount": 2,
+      "_source": "trainers.dat"
+    },
+    {
+      "id": "BIKER,Juice,0",
+      "trainerType": "BIKER",
+      "name": "Juice",
+      "version": 0,
+      "items": [],
+      "loseText": "H-hey now, you just gotta get a Vroombug and we'd take ya' in!...",
+      "party": [
+        {
+          "slot": 0,
+          "species": "STEELIX",
+          "level": 47,
+          "moves": [
+            "SANDSTORM",
+            "IRONTAIL",
+            "FLOORFEAST",
+            "SCORCHINGSANDS"
+          ],
+          "abilityIndex": 2,
+          "item": "SMOOTHROCK",
+          "nature": null,
+          "gender": null,
+          "form": 0,
+          "ivs": null,
+          "evs": null
+        },
+        {
+          "slot": 1,
+          "species": "PUPITAR",
+          "level": 49,
+          "moves": [
+            "PALEOFANGS",
+            "EARTHQUAKE",
+            "IRONDEFENSE",
+            "SANDSTORM"
+          ],
+          "abilityIndex": 2,
+          "item": "SMOOTHROCK",
+          "nature": null,
+          "gender": null,
+          "form": 0,
+          "ivs": null,
+          "evs": null
+        },
+        {
+          "slot": 2,
+          "species": "VROOMBUG",
+          "level": 51,
+          "moves": [
+            "LEECHLIFE",
+            "ROCKCLIMB",
+            "REVUP",
+            "SECRETPOWER"
+          ],
+          "abilityIndex": 0,
+          "item": "HARDSTONE",
+          "nature": null,
+          "gender": null,
+          "form": 0,
+          "ivs": null,
+          "evs": null
+        }
+      ],
+      "partyCount": 3,
+      "_source": "trainers.dat"
+    },
+    {
+      "id": "REDNECKF,Quinn,0",
+      "trainerType": "REDNECKF",
+      "name": "Quinn",
+      "version": 0,
+      "items": [],
+      "loseText": "Holy...! He finally fell asleep!?",
+      "party": [
+        {
+          "slot": 0,
+          "species": "WEEZING",
+          "level": 48,
+          "moves": [
+            "STRANGESTEAM",
+            "ICYWIND",
+            "AROMATICMIST",
+            "SELFDESTRUCT"
+          ],
+          "abilityIndex": 1,
+          "item": "EARMUFFS",
+          "nature": null,
+          "gender": null,
+          "form": 1,
+          "ivs": null,
+          "evs": null
+        },
+        {
+          "slot": 1,
+          "species": "REINDIGO",
+          "level": 48,
+          "moves": [
+            "FRUSTRATION",
+            "PAYBACK",
+            "PAINSPLIT",
+            "HEARTSTAMP"
+          ],
+          "abilityIndex": 0,
+          "item": "EARMUFFS",
+          "nature": null,
+          "gender": null,
+          "form": 0,
+          "ivs": null,
+          "evs": null
+        },
+        {
+          "slot": 2,
+          "species": "MANTICOEUR",
+          "level": 51,
+          "moves": [
+            "POISONTAIL",
+            "SUCKERPUNCH",
+            "PLAYROUGH",
+            "FELLSTINGER"
+          ],
+          "abilityIndex": 2,
+          "item": "EARMUFFS",
+          "nature": null,
+          "gender": null,
+          "form": 0,
+          "ivs": null,
+          "evs": null
+        }
+      ],
+      "partyCount": 3,
+      "_source": "trainers.dat"
+    },
+    {
+      "id": "REDNECKM,Zeke,0",
+      "trainerType": "REDNECKM",
+      "name": "Zeke",
+      "version": 0,
+      "items": [],
+      "loseText": "Aw man... I should stop tryin' to replicate those fancy moves I read in a book...",
+      "party": [
+        {
+          "slot": 0,
+          "species": "BIRIGIRI",
+          "level": 50,
+          "moves": [
+            "STRANGESTEAM",
+            "ICYWIND",
+            "AROMATICMIST",
+            "SELFDESTRUCT"
+          ],
+          "abilityIndex": 1,
+          "item": "CELLBATTERY",
+          "nature": null,
+          "gender": null,
+          "form": 0,
+          "ivs": null,
+          "evs": null
+        },
+        {
+          "slot": 1,
+          "species": "DREDNAW",
+          "level": 48,
+          "moves": [
+            "JAWLOCK",
+            "ROCKPOLISH",
+            "STEALTHROCK",
+            "GASTROACID"
+          ],
+          "abilityIndex": 1,
+          "item": null,
+          "nature": null,
+          "gender": null,
+          "form": 0,
+          "ivs": null,
+          "evs": null
+        },
+        {
+          "slot": 2,
+          "species": "AEGISLASH",
+          "level": 48,
+          "moves": [
+            "KINGSSHIELD",
+            "SHADOWSNEAK",
+            "SACREDSWORD",
+            "SOLARBLADE"
+          ],
+          "abilityIndex": 0,
+          "item": null,
+          "nature": null,
+          "gender": null,
+          "form": 0,
+          "ivs": null,
+          "evs": null
+        }
+      ],
+      "partyCount": 3,
+      "_source": "trainers.dat"
+    },
+    {
+      "id": "COWBOY,Claus,0",
+      "trainerType": "COWBOY",
+      "name": "Claus",
+      "version": 0,
+      "items": [],
+      "loseText": "Well... You won it fair and square.",
+      "party": [
+        {
+          "slot": 0,
+          "species": "MARACTUS",
+          "level": 48,
+          "moves": [
+            "DRAINPUNCH",
+            "SYMPHONICMASS",
+            "GIGADRAIN",
+            "SPIKYSHIELD"
+          ],
+          "abilityIndex": 1,
+          "item": "ROCKYHELMET",
+          "nature": null,
+          "gender": null,
+          "form": 0,
+          "ivs": null,
+          "evs": null
+        },
+        {
+          "slot": 1,
+          "species": "BAYLEEF",
+          "level": 51,
+          "moves": [
+            "FLOWERSHIELD",
+            "GIGADRAIN",
+            "DRAGONHAMMER",
+            "LEECHSEED"
+          ],
+          "abilityIndex": 2,
+          "item": "EVIOLITE",
+          "nature": null,
+          "gender": null,
+          "form": 0,
+          "ivs": null,
+          "evs": null
+        },
+        {
+          "slot": 2,
+          "species": "CROCONAW",
+          "level": 51,
+          "moves": [
+            "ICEPUNCH",
+            "CRUNCH",
+            "LIQUIDATION",
+            "SCALESHOT"
+          ],
+          "abilityIndex": 2,
+          "item": "ASSAULTVEST",
           "nature": null,
           "gender": null,
           "form": 0,
@@ -9482,16 +11591,724 @@
         },
         {
           "slot": 3,
-          "species": "FLOATUSK",
-          "level": 23,
+          "species": "QUILAVA",
+          "level": 51,
           "moves": [
-            "ROCKSMASH",
-            "BULKUP",
-            "AQUAJET",
-            "ICEPUNCH"
+            "ROLLOUT",
+            "BODYSLAM",
+            "DEFENSECURL",
+            "ERUPTION"
+          ],
+          "abilityIndex": 2,
+          "item": "METRONOME",
+          "nature": null,
+          "gender": null,
+          "form": 0,
+          "ivs": null,
+          "evs": null
+        }
+      ],
+      "partyCount": 4,
+      "_source": "trainers.dat"
+    },
+    {
+      "id": "GEISTM,Salem,0",
+      "trainerType": "GEISTM",
+      "name": "Salem",
+      "version": 0,
+      "items": [],
+      "loseText": "...",
+      "party": [
+        {
+          "slot": 0,
+          "species": "LURANTIS",
+          "level": 51,
+          "moves": [
+            "BITTERBLADE",
+            "SOLARBLADE",
+            "NIGHTSLASH",
+            "DUALCHOP"
+          ],
+          "abilityIndex": 1,
+          "item": "FIREGEM",
+          "nature": null,
+          "gender": null,
+          "form": 0,
+          "ivs": null,
+          "evs": null
+        },
+        {
+          "slot": 1,
+          "species": "RAPIDASH",
+          "level": 51,
+          "moves": [
+            "BLAZEKICK",
+            "DOUBLEKICK",
+            "STOMP",
+            "MORNINGSUN"
           ],
           "abilityIndex": 0,
           "item": null,
+          "nature": null,
+          "gender": null,
+          "form": 0,
+          "ivs": null,
+          "evs": null
+        },
+        {
+          "slot": 2,
+          "species": "HOUNDOOM",
+          "level": 51,
+          "moves": [
+            "DARKPULSE",
+            "FLAMETHROWER",
+            "NASTYPLOT",
+            "HOWL"
+          ],
+          "abilityIndex": 0,
+          "item": null,
+          "nature": null,
+          "gender": null,
+          "form": 0,
+          "ivs": null,
+          "evs": null
+        }
+      ],
+      "partyCount": 3,
+      "_source": "trainers.dat"
+    },
+    {
+      "id": "PRISONERM,Ochoa,0",
+      "trainerType": "PRISONERM",
+      "name": "Ochoa",
+      "version": 0,
+      "items": [],
+      "loseText": "Damn it!",
+      "party": [
+        {
+          "slot": 0,
+          "species": "ABSOL",
+          "level": 50,
+          "moves": [
+            "SHADOWCLAW",
+            "NIGHTSLASH",
+            "SWORDSDANCE",
+            "PLAYROUGH"
+          ],
+          "abilityIndex": 1,
+          "item": "FOCUSSASH",
+          "nature": null,
+          "gender": null,
+          "form": 0,
+          "ivs": null,
+          "evs": null
+        },
+        {
+          "slot": 1,
+          "species": "BRAMBLEGHAST",
+          "level": 50,
+          "moves": [
+            "ROLLOUT",
+            "SPIKYSHIELD",
+            "DEFENSECURL",
+            "POLTERGEIST"
+          ],
+          "abilityIndex": 0,
+          "item": null,
+          "nature": null,
+          "gender": null,
+          "form": 0,
+          "ivs": null,
+          "evs": null
+        }
+      ],
+      "partyCount": 2,
+      "_source": "trainers.dat"
+    },
+    {
+      "id": "PRISONERM,Jòse,0",
+      "trainerType": "PRISONERM",
+      "name": "Jòse",
+      "version": 0,
+      "items": [],
+      "loseText": "Damn it!",
+      "party": [
+        {
+          "slot": 0,
+          "species": "GLALIE",
+          "level": 50,
+          "moves": [
+            "ACCELEROCK",
+            "SHADOWSNEAK",
+            "SCORCHEDEARTH",
+            "FRIGHTWAIL"
+          ],
+          "abilityIndex": 2,
+          "item": null,
+          "nature": null,
+          "gender": null,
+          "form": 1,
+          "ivs": null,
+          "evs": null
+        },
+        {
+          "slot": 1,
+          "species": "PALOSSAND",
+          "level": 50,
+          "moves": [
+            "SHOREUP",
+            "EARTHPOWER",
+            "SHADOWBALL",
+            "FRIGHTWAIL"
+          ],
+          "abilityIndex": 0,
+          "item": null,
+          "nature": null,
+          "gender": null,
+          "form": 0,
+          "ivs": null,
+          "evs": null
+        }
+      ],
+      "partyCount": 2,
+      "_source": "trainers.dat"
+    },
+    {
+      "id": "PRISONERF,SERAFINA,0",
+      "trainerType": "PRISONERF",
+      "name": "SERAFINA",
+      "version": 0,
+      "items": [],
+      "loseText": "Damn it!",
+      "party": [
+        {
+          "slot": 0,
+          "species": "FROSLASS",
+          "level": 50,
+          "moves": [
+            "SEANCEPYRE",
+            "SCORCHEDASHES",
+            "FRIGHTWAIL",
+            "SLUDGEWAVE"
+          ],
+          "abilityIndex": 0,
+          "item": "FOCUSSASH",
+          "nature": null,
+          "gender": null,
+          "form": 1,
+          "ivs": null,
+          "evs": null
+        },
+        {
+          "slot": 1,
+          "species": "LAMPENT",
+          "level": 50,
+          "moves": [
+            "SPINECHILL",
+            "CALMMIND",
+            "HEATWAVE",
+            "SUBSTITUTE"
+          ],
+          "abilityIndex": 1,
+          "item": "EVIOLITE",
+          "nature": null,
+          "gender": null,
+          "form": 0,
+          "ivs": null,
+          "evs": null
+        }
+      ],
+      "partyCount": 2,
+      "_source": "trainers.dat"
+    },
+    {
+      "id": "PRISONERF,Maria,0",
+      "trainerType": "PRISONERF",
+      "name": "Maria",
+      "version": 0,
+      "items": [],
+      "loseText": "Damn it!",
+      "party": [
+        {
+          "slot": 0,
+          "species": "MISDREAVUS",
+          "level": 50,
+          "moves": [
+            "PERISHSONG",
+            "SHADOWBALL",
+            "PSYBEAM",
+            "DRAININGKISS"
+          ],
+          "abilityIndex": 0,
+          "item": "EVIOLITE",
+          "nature": null,
+          "gender": null,
+          "form": 0,
+          "ivs": null,
+          "evs": null
+        },
+        {
+          "slot": 1,
+          "species": "YARMAGIUS",
+          "level": 50,
+          "moves": [
+            "TAILWIND",
+            "PARTINGSHOT",
+            "FALSESURRENDER",
+            "POISONJAB"
+          ],
+          "abilityIndex": 0,
+          "item": null,
+          "nature": null,
+          "gender": null,
+          "form": 0,
+          "ivs": null,
+          "evs": null
+        }
+      ],
+      "partyCount": 2,
+      "_source": "trainers.dat"
+    },
+    {
+      "id": "LEADER_Caspar,Caspar,0",
+      "trainerType": "LEADER_Caspar",
+      "name": "Caspar",
+      "version": 0,
+      "items": [],
+      "loseText": "Interesting plot twist...",
+      "party": [
+        {
+          "slot": 0,
+          "species": "PANGSHI",
+          "level": 50,
+          "moves": [
+            "RETALIATE",
+            "DEATHNAIL",
+            "CURSE",
+            "DESTINYBOND"
+          ],
+          "abilityIndex": 2,
+          "item": "SITRUSBERRY",
+          "nature": null,
+          "gender": null,
+          "form": 0,
+          "ivs": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "evs": {
+            "HP": 100,
+            "ATTACK": 100,
+            "DEFENSE": 0,
+            "SPECIAL_ATTACK": 0,
+            "SPECIAL_DEFENSE": 0,
+            "SPEED": 100
+          }
+        },
+        {
+          "slot": 1,
+          "species": "BREMAND",
+          "level": 50,
+          "moves": [
+            "BLUENOTE",
+            "PERISHSONG",
+            "FALSESURRENDER",
+            "PURSUIT"
+          ],
+          "abilityIndex": 0,
+          "item": "QUICKCLAW",
+          "nature": null,
+          "gender": null,
+          "form": 3,
+          "ivs": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "evs": {
+            "HP": 100,
+            "ATTACK": 0,
+            "DEFENSE": 0,
+            "SPECIAL_ATTACK": 0,
+            "SPECIAL_DEFENSE": 0,
+            "SPEED": 100
+          }
+        },
+        {
+          "slot": 2,
+          "species": "SCARPHASMO",
+          "level": 50,
+          "moves": [
+            "SHADOWCLAW",
+            "PSYCHICFANGS",
+            "HYPNOSIS",
+            "JUMPSCARE"
+          ],
+          "abilityIndex": 2,
+          "item": "COLBURBERRY",
+          "nature": null,
+          "gender": null,
+          "form": 0,
+          "ivs": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "evs": {
+            "HP": 100,
+            "ATTACK": 0,
+            "DEFENSE": 0,
+            "SPECIAL_ATTACK": 100,
+            "SPECIAL_DEFENSE": 0,
+            "SPEED": 100
+          }
+        },
+        {
+          "slot": 3,
+          "species": "GARDEVOIR",
+          "level": 50,
+          "moves": [
+            "FOULPLAY",
+            "SHADOWBALL",
+            "LOVELYKISS",
+            "DRAININGKISS"
+          ],
+          "abilityIndex": 0,
+          "item": "LIFEORB",
+          "nature": null,
+          "gender": null,
+          "form": 1,
+          "ivs": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "evs": {
+            "HP": 100,
+            "ATTACK": 0,
+            "DEFENSE": 0,
+            "SPECIAL_ATTACK": 100,
+            "SPECIAL_DEFENSE": 0,
+            "SPEED": 100
+          }
+        },
+        {
+          "slot": 4,
+          "species": "REVERBERIX",
+          "level": 50,
+          "moves": [
+            "CRYSTALSHINE",
+            "SHADOWBALL",
+            "PERISHSONG",
+            "HYPERVOICE"
+          ],
+          "abilityIndex": 2,
+          "item": "THROATSPRAY",
+          "nature": null,
+          "gender": null,
+          "form": 0,
+          "ivs": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "evs": {
+            "HP": 100,
+            "ATTACK": 0,
+            "DEFENSE": 100,
+            "SPECIAL_ATTACK": 100,
+            "SPECIAL_DEFENSE": 0,
+            "SPEED": 0
+          }
+        },
+        {
+          "slot": 5,
+          "species": "CACTURNEX",
+          "level": 51,
+          "moves": [
+            "DEATHNAIL",
+            "EARTHQUAKE",
+            "SPIKYSHIELD",
+            "FRIGHTWAIL"
+          ],
+          "abilityIndex": 0,
+          "item": "SCOPELENS",
+          "nature": null,
+          "gender": null,
+          "form": 0,
+          "ivs": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "evs": {
+            "HP": 100,
+            "ATTACK": 0,
+            "DEFENSE": 0,
+            "SPECIAL_ATTACK": 100,
+            "SPECIAL_DEFENSE": 0,
+            "SPEED": 100
+          }
+        }
+      ],
+      "partyCount": 6,
+      "_source": "trainers.dat"
+    },
+    {
+      "id": "LEADER_Caspar,Caspar,1",
+      "trainerType": "LEADER_Caspar",
+      "name": "Caspar",
+      "version": 1,
+      "items": [],
+      "loseText": "Interesting plot twist...",
+      "party": [
+        {
+          "slot": 0,
+          "species": "PANGSHI",
+          "level": 50,
+          "moves": [
+            "RETALIATE",
+            "DEATHNAIL",
+            "CURSE",
+            "DESTINYBOND"
+          ],
+          "abilityIndex": 2,
+          "item": "CLEANSETAG",
+          "nature": null,
+          "gender": null,
+          "form": 0,
+          "ivs": {
+            "HP": 21,
+            "ATTACK": 21,
+            "DEFENSE": 21,
+            "SPECIAL_ATTACK": 21,
+            "SPECIAL_DEFENSE": 21,
+            "SPEED": 21
+          },
+          "evs": null
+        },
+        {
+          "slot": 1,
+          "species": "BREMAND",
+          "level": 50,
+          "moves": [
+            "BLUENOTE",
+            "PERISHSONG",
+            "FALSESURRENDER",
+            "PURSUIT"
+          ],
+          "abilityIndex": 0,
+          "item": null,
+          "nature": null,
+          "gender": null,
+          "form": 3,
+          "ivs": {
+            "HP": 21,
+            "ATTACK": 21,
+            "DEFENSE": 21,
+            "SPECIAL_ATTACK": 21,
+            "SPECIAL_DEFENSE": 21,
+            "SPEED": 21
+          },
+          "evs": null
+        },
+        {
+          "slot": 2,
+          "species": "SCARPHASMO",
+          "level": 50,
+          "moves": [
+            "SHADOWCLAW",
+            "PSYCHOCUT",
+            "CONFUSERAY",
+            "JUMPSCARE"
+          ],
+          "abilityIndex": 0,
+          "item": null,
+          "nature": null,
+          "gender": null,
+          "form": 0,
+          "ivs": {
+            "HP": 21,
+            "ATTACK": 21,
+            "DEFENSE": 21,
+            "SPECIAL_ATTACK": 21,
+            "SPECIAL_DEFENSE": 21,
+            "SPEED": 21
+          },
+          "evs": null
+        },
+        {
+          "slot": 3,
+          "species": "GARDEVOIR",
+          "level": 50,
+          "moves": [
+            "FOULPLAY",
+            "SHADOWBALL",
+            "LOVELYKISS",
+            "DRAININGKISS"
+          ],
+          "abilityIndex": 0,
+          "item": "RAZORFANG",
+          "nature": null,
+          "gender": null,
+          "form": 1,
+          "ivs": {
+            "HP": 21,
+            "ATTACK": 21,
+            "DEFENSE": 21,
+            "SPECIAL_ATTACK": 21,
+            "SPECIAL_DEFENSE": 21,
+            "SPEED": 21
+          },
+          "evs": null
+        },
+        {
+          "slot": 4,
+          "species": "REVERBERIX",
+          "level": 50,
+          "moves": [
+            "CRYSTALSHINE",
+            "SHADOWBALL",
+            "PERISHSONG",
+            "HYPERVOICE"
+          ],
+          "abilityIndex": 2,
+          "item": "AMPLIFIER",
+          "nature": null,
+          "gender": null,
+          "form": 0,
+          "ivs": {
+            "HP": 21,
+            "ATTACK": 21,
+            "DEFENSE": 21,
+            "SPECIAL_ATTACK": 21,
+            "SPECIAL_DEFENSE": 21,
+            "SPEED": 21
+          },
+          "evs": null
+        },
+        {
+          "slot": 5,
+          "species": "CACTURNEX",
+          "level": 51,
+          "moves": [
+            "DEATHNAIL",
+            "EARTHQUAKE",
+            "SPIKYSHIELD",
+            "SHADOWBALL"
+          ],
+          "abilityIndex": 0,
+          "item": "SCOPELENS",
+          "nature": null,
+          "gender": null,
+          "form": 0,
+          "ivs": {
+            "HP": 21,
+            "ATTACK": 21,
+            "DEFENSE": 21,
+            "SPECIAL_ATTACK": 21,
+            "SPECIAL_DEFENSE": 21,
+            "SPEED": 21
+          },
+          "evs": null
+        }
+      ],
+      "partyCount": 6,
+      "_source": "trainers.dat"
+    },
+    {
+      "id": "NINJAKID,Lupin,0",
+      "trainerType": "NINJAKID",
+      "name": "Lupin",
+      "version": 0,
+      "items": [],
+      "loseText": "Nooo, my brilliant plan ruined!",
+      "party": [
+        {
+          "slot": 0,
+          "species": "ZOROARK",
+          "level": 72,
+          "moves": [
+            "NIGHTDAZE",
+            "SHADOWBALL",
+            "PROTECT",
+            "EXTRASENSORY"
+          ],
+          "abilityIndex": 1,
+          "item": "LIFEORB",
+          "nature": null,
+          "gender": null,
+          "form": 0,
+          "ivs": null,
+          "evs": null
+        },
+        {
+          "slot": 1,
+          "species": "MASGOT",
+          "level": 72,
+          "moves": [
+            "SNARL",
+            "WILLOWISP",
+            "FOULPLAY",
+            "STICKYWEB"
+          ],
+          "abilityIndex": 2,
+          "item": "FOCUSSASH",
+          "nature": null,
+          "gender": null,
+          "form": 3,
+          "ivs": null,
+          "evs": null
+        },
+        {
+          "slot": 2,
+          "species": "TREVENANT",
+          "level": 72,
+          "moves": [
+            "HORNLEECH",
+            "POLTERGEIST",
+            "DRAINPUNCH",
+            "SUCKERPUNCH"
+          ],
+          "abilityIndex": 2,
+          "item": "SITRUSBERRY",
+          "nature": null,
+          "gender": null,
+          "form": 0,
+          "ivs": null,
+          "evs": null
+        },
+        {
+          "slot": 3,
+          "species": "ARBOK",
+          "level": 72,
+          "moves": [
+            "POISONJAB",
+            "JETSTRIKE",
+            "COIL",
+            "SCALESHOT"
+          ],
+          "abilityIndex": 1,
+          "item": "LOADEDDICE",
           "nature": null,
           "gender": null,
           "form": 0,

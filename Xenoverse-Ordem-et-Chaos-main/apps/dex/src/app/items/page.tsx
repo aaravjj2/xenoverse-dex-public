@@ -14,7 +14,6 @@ export default async function ItemsPage({ searchParams }: Props) {
     const pageSize = 50;
     const offset = (page - 1) * pageSize;
 
-    // Get total count and items for current page
     const filterOptions = { search: search || undefined, pocket, milestone };
     const total = getItemsCount(filterOptions);
     const items = getItemsList({
@@ -26,7 +25,6 @@ export default async function ItemsPage({ searchParams }: Props) {
     const totalPages = Math.ceil(total / pageSize);
     const hasFilters = search || pocket !== undefined || milestone !== undefined;
     
-    // Define milestones (major story progression points)
     const milestones = [
         { value: 'westar-gym', label: 'Westar Gym' },
         { value: 'ishtar-gym', label: 'Ishtar Gym' },
@@ -37,7 +35,6 @@ export default async function ItemsPage({ searchParams }: Props) {
         { value: 'milkyway-gym', label: 'Milkyway Gym' },
     ];
 
-    // Build pagination URLs
     const buildUrl = (p: number) => {
         const params = new URLSearchParams();
         if (search) params.set('search', search);
@@ -49,147 +46,144 @@ export default async function ItemsPage({ searchParams }: Props) {
     };
 
     return (
-        <div className="min-h-screen bg-gradient-to-b from-gray-900 via-indigo-950 to-gray-900">
+        <div className="animate-fade-in">
             {/* Header */}
-            <div className="bg-gradient-to-r from-amber-600/20 via-yellow-500/20 to-amber-600/20 border-b border-amber-500/30">
-                <div className="max-w-7xl mx-auto px-4 py-8">
-                    <h1 className="text-4xl font-bold text-amber-100 mb-2">Items</h1>
-                    <p className="text-amber-200/70">
-                        {hasFilters ? (
-                            total > 0 ? (
-                                <>Showing {items.length} of {total.toLocaleString()} results for "{search}"</>
-                            ) : (
-                                <>No results for "{search}"</>
-                            )
+            <div className="glass-card !rounded-2xl p-6 mb-6 bg-gradient-to-r from-amber-600/10 via-yellow-500/5 to-amber-600/10 border-amber-500/20">
+                <h1 className="text-3xl font-bold text-gradient-amber mb-2">Items</h1>
+                <p className="text-amber-200/60 text-sm">
+                    {hasFilters ? (
+                        total > 0 ? (
+                            <>Showing {items.length} of {total.toLocaleString()} results</>
                         ) : (
-                            <>All {total.toLocaleString()} items • Xenoverse Item Database</>
-                        )}
-                    </p>
-                </div>
+                            <>No results found</>
+                        )
+                    ) : (
+                        <>All {total.toLocaleString()} items in the Xenoverse database</>
+                    )}
+                </p>
             </div>
 
-            <div className="max-w-7xl mx-auto px-4 py-6">
             {/* Filters */}
-                <form className="flex flex-wrap gap-3 mb-6">
-                    <div className="relative flex-1 min-w-64">
-                        <svg className="absolute left-4 top-1/2 -translate-y-1/2 w-4 h-4 text-gray-500" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" /></svg>
-                        <input type="text" name="search" placeholder="Search items by name..." defaultValue={search}
-                            className="w-full pl-11 pr-4 py-2.5 bg-gray-800/60 backdrop-blur border border-gray-700/40 rounded-xl text-sm text-white placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-amber-500/40 focus:border-amber-500/40 transition-all" />
-                    </div>
-                    <select name="pocket" defaultValue={pocket?.toString() || ''}
-                        className="px-4 py-2.5 bg-gray-800/60 backdrop-blur border border-gray-700/40 rounded-xl text-sm text-white focus:outline-none focus:ring-2 focus:ring-amber-500/40">
-                        <option value="">All Pockets</option>
-                        {Object.entries(POCKET_NAMES).map(([value, name]) => (
-                            <option key={value} value={value}>{name}</option>
-                        ))}
-                    </select>
-                    <select name="milestone" defaultValue={milestone || ''}
-                        className="px-4 py-2.5 bg-gray-800/60 backdrop-blur border border-gray-700/40 rounded-xl text-sm text-white focus:outline-none focus:ring-2 focus:ring-amber-500/40">
-                        <option value="">Accessible Until...</option>
-                        {milestones.map(m => (
-                            <option key={m.value} value={m.value}>{m.label}</option>
-                        ))}
-                    </select>
-                    <button type="submit" className="px-5 py-2.5 bg-amber-600 hover:bg-amber-500 text-white text-sm font-semibold rounded-xl transition-colors shadow-lg shadow-amber-600/20">Search</button>
-                    {hasFilters && <Link href="/items" className="px-5 py-2.5 bg-gray-700/60 hover:bg-gray-600 text-gray-300 text-sm font-medium rounded-xl transition-colors">Clear</Link>}
-                </form>
-
-                {/* Items Grid */}
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-                    {items.map((item) => (
-                        <Link
-                            key={item.id}
-                            href={`/items/${item.id.toLowerCase()}`}
-                            className="group relative overflow-hidden p-4 bg-gray-800/40 backdrop-blur border border-gray-700/30 rounded-xl hover:bg-gray-700/50 hover:border-amber-500/40 transition-all duration-200"
-                        >
-                            <div className="absolute top-0 right-0 w-32 h-32 bg-gradient-to-br from-amber-500/5 to-orange-500/5 rounded-full blur-2xl group-hover:opacity-100 opacity-0 transition-opacity" />
-                            <div className="relative">
-                                <div className="flex items-start justify-between mb-2">
-                                    <h3 className="font-bold text-white group-hover:text-amber-300 transition-colors">
-                                        {item.name}
-                                    </h3>
-                                    <span className="text-[10px] px-2 py-0.5 bg-amber-900/40 text-amber-400 rounded-md font-semibold border border-amber-700/20">
-                                        {POCKET_NAMES[item.pocket] || 'Unknown'}
-                                    </span>
-                                </div>
-                                <p className="text-sm text-gray-400 line-clamp-2 mb-3 leading-relaxed">{item.description}</p>
-                                <div className="flex items-center gap-4 text-xs text-gray-500">
-                                    {item.price > 0 && (
-                                        <span className="tabular-nums">₽{item.price.toLocaleString()}</span>
-                                    )}
-                                    {item.move && (
-                                        <span className="text-purple-400">Teaches: {item.move}</span>
-                                    )}
-                                </div>
-                            </div>
-                        </Link>
-                    ))}
+            <form className="flex flex-wrap gap-3 mb-6">
+                <div className="relative flex-1 min-w-64">
+                    <svg className="absolute left-4 top-1/2 -translate-y-1/2 w-4 h-4 text-slate-500" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" /></svg>
+                    <input type="text" name="search" placeholder="Search items by name..." defaultValue={search}
+                        className="w-full pl-11 pr-4 py-2.5 rounded-xl text-sm placeholder-slate-500" />
                 </div>
+                <select name="pocket" defaultValue={pocket?.toString() || ''}
+                    className="px-4 py-2.5 rounded-xl text-sm">
+                    <option value="">All Pockets</option>
+                    {Object.entries(POCKET_NAMES).map(([value, name]) => (
+                        <option key={value} value={value}>{name}</option>
+                    ))}
+                </select>
+                <select name="milestone" defaultValue={milestone || ''}
+                    className="px-4 py-2.5 rounded-xl text-sm">
+                    <option value="">Accessible Until...</option>
+                    {milestones.map(m => (
+                        <option key={m.value} value={m.value}>{m.label}</option>
+                    ))}
+                </select>
+                <button type="submit" className="px-6 py-2.5 bg-gradient-to-r from-amber-600 to-amber-500 hover:from-amber-500 hover:to-yellow-500 text-white text-sm font-semibold rounded-xl transition-all shadow-lg shadow-amber-600/20 hover:shadow-amber-500/30">
+                    Search
+                </button>
+                {hasFilters && <Link href="/items" className="px-5 py-2.5 btn-secondary text-sm">Clear</Link>}
+            </form>
 
-                {items.length === 0 && (
-                    <div className="text-center py-12 bg-gray-800/30 rounded-xl border border-gray-700/50">
-                        <p className="text-gray-400 text-lg mb-2">No items found matching your search</p>
-                        <Link href="/items" className="text-amber-400 hover:text-amber-300">
-                            Clear filters and show all items
-                        </Link>
-                    </div>
-                )}
-
-                {/* Pagination */}
-                {totalPages > 1 && (
-                    <div className="flex justify-center gap-2 mt-8">
-                        {page > 1 && (
-                            <Link
-                                href={buildUrl(page - 1)}
-                                className="px-4 py-2 bg-gray-800 hover:bg-gray-700 text-white rounded-lg transition-colors"
-                            >
-                                ← Previous
-                            </Link>
-                        )}
-
-                        <div className="flex items-center gap-1">
-                            {Array.from({ length: Math.min(5, totalPages) }, (_, i) => {
-                                // Show pages around current page
-                                let pageNum: number;
-                                if (totalPages <= 5) {
-                                    pageNum = i + 1;
-                                } else if (page <= 3) {
-                                    pageNum = i + 1;
-                                } else if (page >= totalPages - 2) {
-                                    pageNum = totalPages - 4 + i;
-                                } else {
-                                    pageNum = page - 2 + i;
-                                }
-                                return (
-                                    <Link
-                                        key={pageNum}
-                                        href={buildUrl(pageNum)}
-                                        className={`px-3 py-2 rounded-lg transition-colors ${pageNum === page
-                                            ? 'bg-amber-600 text-white'
-                                            : 'bg-gray-800 hover:bg-gray-700 text-gray-300'
-                                            }`}
-                                    >
-                                        {pageNum}
-                                    </Link>
-                                );
-                            })}
+            {/* Items Grid */}
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                {items.map((item) => (
+                    <Link
+                        key={item.id}
+                        href={`/items/${item.id.toLowerCase()}`}
+                        className="glass-card p-4 group"
+                    >
+                        <div className="flex items-start justify-between mb-2">
+                            <h3 className="font-bold text-white group-hover:text-amber-300 transition-colors">
+                                {item.name}
+                            </h3>
+                            <span className="text-[10px] px-2 py-0.5 bg-amber-900/30 text-amber-400 rounded-lg font-semibold border border-amber-500/20">
+                                {POCKET_NAMES[item.pocket] || 'Unknown'}
+                            </span>
                         </div>
-
-                        {page < totalPages && (
-                            <Link
-                                href={buildUrl(page + 1)}
-                                className="px-4 py-2 bg-gray-800 hover:bg-gray-700 text-white rounded-lg transition-colors"
-                            >
-                                Next →
-                            </Link>
-                        )}
-
-                        <span className="flex items-center text-gray-500 ml-4">
-                            Page {page} of {totalPages}
-                        </span>
-                    </div>
-                )}
+                        <p className="text-sm text-slate-400 line-clamp-2 mb-3 leading-relaxed">{item.description}</p>
+                        <div className="flex items-center gap-4 text-xs text-slate-500">
+                            {item.price > 0 && (
+                                <span className="tabular-nums text-amber-400/80">₽{item.price.toLocaleString()}</span>
+                            )}
+                            {item.move && (
+                                <span className="text-purple-400">Teaches: {item.move}</span>
+                            )}
+                        </div>
+                    </Link>
+                ))}
             </div>
+
+            {items.length === 0 && (
+                <div className="text-center py-16 glass-card !rounded-2xl">
+                    <div className="w-16 h-16 mx-auto mb-4 rounded-full bg-slate-800/50 flex items-center justify-center">
+                        <svg className="w-8 h-8 text-slate-600" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4" /></svg>
+                    </div>
+                    <p className="text-slate-400 text-lg mb-2">No items found</p>
+                    <Link href="/items" className="text-amber-400 hover:text-amber-300 text-sm">
+                        Clear filters and show all items
+                    </Link>
+                </div>
+            )}
+
+            {/* Pagination */}
+            {totalPages > 1 && (
+                <div className="flex justify-center gap-2 mt-8">
+                    {page > 1 && (
+                        <Link
+                            href={buildUrl(page - 1)}
+                            className="px-4 py-2 btn-secondary text-sm"
+                        >
+                            ← Previous
+                        </Link>
+                    )}
+
+                    <div className="flex items-center gap-1">
+                        {Array.from({ length: Math.min(5, totalPages) }, (_, i) => {
+                            let pageNum: number;
+                            if (totalPages <= 5) {
+                                pageNum = i + 1;
+                            } else if (page <= 3) {
+                                pageNum = i + 1;
+                            } else if (page >= totalPages - 2) {
+                                pageNum = totalPages - 4 + i;
+                            } else {
+                                pageNum = page - 2 + i;
+                            }
+                            return (
+                                <Link
+                                    key={pageNum}
+                                    href={buildUrl(pageNum)}
+                                    className={`px-3 py-2 rounded-xl text-sm transition-all ${pageNum === page
+                                        ? 'bg-gradient-to-r from-amber-600 to-amber-500 text-white shadow-lg shadow-amber-600/20'
+                                        : 'btn-secondary'
+                                        }`}
+                                >
+                                    {pageNum}
+                                </Link>
+                            );
+                        })}
+                    </div>
+
+                    {page < totalPages && (
+                        <Link
+                            href={buildUrl(page + 1)}
+                            className="px-4 py-2 btn-secondary text-sm"
+                        >
+                            Next →
+                        </Link>
+                    )}
+
+                    <span className="flex items-center text-slate-500 ml-4 text-sm">
+                        Page {page} of {totalPages}
+                    </span>
+                </div>
+            )}
         </div>
     );
 }

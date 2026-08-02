@@ -180,7 +180,16 @@ function normalizeSpecies(key, data, typesMap, abilitiesSet) {
     species: data.species || key,
     formId,
     formName,
-    name: data.name || data.real_name || key,
+    // The game ships real species (X-forms, customs like CHIMAOOZE/DRAGALISK) whose
+    // compiled species.dat has real_name="WIP" (placeholder) — but they have full
+    // sprite/cry/encounter content in-game. Use the internal species key as the
+    // display name so they don't show up as "WIP".
+    name: data.name ||
+      (data.real_name && !/^(WIP|TEST|PLACEHOLDER|TODO|TEMP|\?\?\?)$/i.test(data.real_name.trim())
+        ? data.real_name
+        : null) ||
+      data.species ||
+      key,
     types,
     stats,
     bst,
@@ -552,20 +561,12 @@ function exportAll() {
         if (value && typeof value === 'object' && value.__class__) {
           const normalized = normalizeSpecies(key, value, typesMap, abilitiesSet);
 
-          // Filter out WIP/junk entries:
-          // - Name is exactly "WIP"
-          // - BST is 6 (all stats = 1)
-          // - All base stats are 1
-          const isWip = normalized.name === 'WIP' ||
-            normalized.bst === 6 ||
-            (normalized.stats.hp === 1 &&
-              normalized.stats.attack === 1 &&
-              normalized.stats.defense === 1 &&
-              normalized.stats.special_attack === 1 &&
-              normalized.stats.special_defense === 1 &&
-              normalized.stats.speed === 1);
-
-          if (isWip) {
+          // The game ships real species with placeholder stats (X-forms, customs like
+          // CHIMAOOZE/DRAGALISK have all-1 base stats + real_name "WIP" in the compiled
+          // species.dat, yet have full sprite/cry/encounter content in-game). They are
+          // referenced by the game's regional_dexes.dat, encounters and dialogue, so they
+          // must NOT be dropped. Only skip entries that are truly undefined.
+          if (!normalized.id && normalized.name === 'WIP') {
             wipSkipped++;
             continue;
           }

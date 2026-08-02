@@ -1,16 +1,16 @@
 # Validation Report
 
-**Build:** /home/aarav/Aarav/Xenoverse/Xenoverse-Ordem-et-Chaos-main/out
-**Generated:** 2026-02-03T17:06:19.530Z
+**Build:** /home/aarav/Aarav/xenoverse-dex-public/Xenoverse-Ordem-et-Chaos-main/out
+**Generated:** 2026-07-30T14:54:14.583Z
 
 ## Summary
 
 | Severity | Count |
 |----------|-------|
 | 🔴 Errors | 5723 |
-| 🟡 Warnings | 192 |
+| 🟡 Warnings | 9 |
 | 🔵 Info | 0 |
-| **Total** | **5915** |
+| **Total** | **5732** |
 
 ## 🔴 Errors
 
@@ -5740,54 +5740,12 @@
 
 ## 🟡 Warnings
 
-- **MISSING_SPRITE**: Species BARBOACH_0 has no front sprite or icon
-- **MISSING_SPRITE**: Species REGICE_0 has no front sprite or icon
-- **MISSING_SPRITE**: Species DARKRAI_0 has no front sprite or icon
-- **MISSING_SPRITE**: Species AROMATISSE_0 has no front sprite or icon
-- **MISSING_SPRITE**: Species AMAURA_0 has no front sprite or icon
-- **MISSING_SPRITE**: Species AURORUS_0 has no front sprite or icon
-- **MISSING_SPRITE**: Species CARBINK_0 has no front sprite or icon
-- **MISSING_SPRITE**: Species XERNEAS_0 has no front sprite or icon
-- **MISSING_SPRITE**: Species ZYGARDE_0 has no front sprite or icon
-- **MISSING_SPRITE**: Species DIANCIE_0 has no front sprite or icon
-- **MISSING_SPRITE**: Species HOOPA_0 has no front sprite or icon
-- **MISSING_SPRITE**: Species VOLCANION_0 has no front sprite or icon
-- **MISSING_SPRITE**: Species TRUMBEAK_0 has no front sprite or icon
-- **MISSING_SPRITE**: Species MUDBRAY_0 has no front sprite or icon
-- **MISSING_SPRITE**: Species MUDSDALE_0 has no front sprite or icon
-- **MISSING_SPRITE**: Species FOMANTIS_0 has no front sprite or icon
-- **MISSING_SPRITE**: Species SALAZZLE_0 has no front sprite or icon
-- **MISSING_SPRITE**: Species BEWEAR_0 has no front sprite or icon
-- **MISSING_SPRITE**: Species BOUNSWEET_0 has no front sprite or icon
-- **MISSING_SPRITE**: Species COMFEY_0 has no front sprite or icon
-- **MISSING_SPRITE**: Species MINIOR_0 has no front sprite or icon
-- **MISSING_SPRITE**: Species TOGEDEMARU_0 has no front sprite or icon
-- **MISSING_SPRITE**: Species BRUXISH_0 has no front sprite or icon
-- **MISSING_SPRITE**: Species DHELMISE_0 has no front sprite or icon
-- **MISSING_SPRITE**: Species JANGMOO_0 has no front sprite or icon
-- **MISSING_SPRITE**: Species HAKAMOO_0 has no front sprite or icon
-- **MISSING_SPRITE**: Species COSMOG_0 has no front sprite or icon
-- **MISSING_SPRITE**: Species COSMOEM_0 has no front sprite or icon
-- **MISSING_SPRITE**: Species SOLGALEO_0 has no front sprite or icon
-- **MISSING_SPRITE**: Species LUNALA_0 has no front sprite or icon
-- **MISSING_SPRITE**: Species BUZZWOLE_0 has no front sprite or icon
-- **MISSING_SPRITE**: Species XURKITREE_0 has no front sprite or icon
-- **MISSING_SPRITE**: Species CELESTEELA_0 has no front sprite or icon
-- **MISSING_SPRITE**: Species MAGEARNA_0 has no front sprite or icon
-- **MISSING_SPRITE**: Species BLACEPHALON_0 has no front sprite or icon
-- **MISSING_SPRITE**: Species ZERAORA_0 has no front sprite or icon
-- **MISSING_SPRITE**: Species THWACKEY_0 has no front sprite or icon
-- **MISSING_SPRITE**: Species RILLABOOM_0 has no front sprite or icon
-- **MISSING_SPRITE**: Species RABOOT_0 has no front sprite or icon
-- **MISSING_SPRITE**: Species CINDERACE_0 has no front sprite or icon
-- **MISSING_SPRITE**: Species DRIZZILE_0 has no front sprite or icon
-- **MISSING_SPRITE**: Species BOLTUND_0 has no front sprite or icon
-- **MISSING_SPRITE**: Species ROLYCOLY_0 has no front sprite or icon
-- **MISSING_SPRITE**: Species CARKOL_0 has no front sprite or icon
-- **MISSING_SPRITE**: Species COALOSSAL_0 has no front sprite or icon
-- **MISSING_SPRITE**: Species APPLIN_0 has no front sprite or icon
-- **MISSING_SPRITE**: Species FLAPPLE_0 has no front sprite or icon
-- **MISSING_SPRITE**: Species APPLETUN_0 has no front sprite or icon
-- **MISSING_SPRITE**: Species CRAMORANT_0 has no front sprite or icon
-- **MISSING_SPRITE**: Species ARROKUDA_0 has no front sprite or icon
-- ... and 142 more warnings
+- **MISSING_SPRITE**: Species VYELLOR_0 has no front sprite or icon
+- **MISSING_SPRITE**: Species LUCARIOX_0 has no front sprite or icon
+- **MISSING_SPRITE**: Species NAWYVERN_0 has no front sprite or icon
+- **MISSING_SPRITE**: Species GOROCHU_0 has no front sprite or icon
+- **MISSING_SPRITE**: Species FERROGONAL_0 has no front sprite or icon
+- **MISSING_SPRITE**: Species SCRAGGYX_0 has no front sprite or icon
+- **MISSING_SPRITE**: Species GALAFTY_0 has no front sprite or icon
+- **MISSING_SPRITE**: Species BUSTER_0 has no front sprite or icon
+- **MISSING_SPRITE**: Species GENGARX2_0 has no front sprite or icon

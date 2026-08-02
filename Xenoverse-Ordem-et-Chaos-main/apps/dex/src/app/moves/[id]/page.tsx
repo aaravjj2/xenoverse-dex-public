@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
+import { useParams } from 'next/navigation';
 import SpriteDisplay from '@/components/SpriteDisplay';
 
 interface Move {
@@ -31,8 +32,8 @@ interface LearnedBy {
   level: number | null;
 }
 
-export default function MoveDetailPage({ params }: { params: { id: string } }) {
-  const { id } = params;
+export default function MoveDetailPage() {
+  const { id } = useParams<{ id: string }>();
   const [move, setMove] = useState<Move | null>(null);
   const [learnedBy, setLearnedBy] = useState<LearnedBy[]>([]);
   const [loading, setLoading] = useState(true);

@@ -1,33 +1,38 @@
 # Missing Assets Report
 
-Generated: 2026-02-04T22:39:51.041Z
-Total species: 1564
+Generated: 2026-08-02T17:54:28.081Z
+Total species: 1602
 
 ## Summary
 
 | Asset Type | Coverage | Missing |
 |------------|----------|---------|
-| icon | 98.7% | 20 |
-| front | 86.1% | 217 |
-| frontShiny | 94.3% | 89 |
-| back | 92.5% | 118 |
-| backShiny | 92.5% | 117 |
-| egg | 0.1% | 1563 |
-| cry | 16.9% | 1300 |
+| icon | 98.4% | 25 |
+| front | 87.2% | 205 |
+| frontShiny | 94.3% | 91 |
+| back | 92.7% | 117 |
+| backShiny | 92.6% | 118 |
+| egg | 0.1% | 1601 |
+| cry | 99.0% | 16 |
 
-## Missing icon (20)
+## Missing icon (25)
 
 - Nidoran♀ (NIDORANfE)
 - Nidoran♂ (NIDORANmA)
-- Vyellor (VYELLOR)
 - Horyuaki (HORYUMAKI)
+- DRAGALISKX (DRAGALISKX)
 - Lucario (LUCARIOX)
 - Nawyvern (NAWYVERN)
 - Gorochu (GOROCHU)
-- Ferrogonal (FERROGONAL)
 - Sunfoolery (SUNFOOLERY)
 - Scraggy (SCRAGGYX)
 - Galafty (GALAFTY)
+- TWINZ (TWINZ)
+- PARA (PARA)
+- GHIFT (GHIFT)
+- SUNNEE (SUNNEE)
+- TRIFOX (TRIFOX)
+- PUDDI (PUDDI)
 - Tornadus (form 1) (TORNADUS_1)
 - Thundurus (form 1) (THUNDURUS_1)
 - Landorus (form 1) (LANDORUS_1)
@@ -38,7 +43,7 @@ Total species: 1564
 - Greninja (form 1) (GRENINJA_1)
 - Greninja (form 2) (GRENINJA_2)
 
-## Missing front (217)
+## Missing front (205)
 
 - Barboach (BARBOACH)
 - Regice (REGICE)
@@ -61,7 +66,6 @@ Total species: 1564
 - Bewear (BEWEAR)
 - Bounsweet (BOUNSWEET)
 - Comfey (COMFEY)
-- Minior (MINIOR)
 - Togedemaru (TOGEDEMARU)
 - Bruxish (BRUXISH)
 - Dhelmise (DHELMISE)
@@ -90,9 +94,10 @@ Total species: 1564
 - Flapple (FLAPPLE)
 - Appletun (APPLETUN)
 - Cramorant (CRAMORANT)
-- ... and 167 more
+- Arrokuda (ARROKUDA)
+- ... and 155 more
 
-## Missing frontShiny (89)
+## Missing frontShiny (91)
 
 - Regice (REGICE)
 - Cranidos (CRANIDOS)
@@ -111,12 +116,7 @@ Total species: 1564
 - Flapple (FLAPPLE)
 - Falinks (FALINKS)
 - Pincurchin (PINCURCHIN)
-- Kleavor (KLEAVOR)
-- Ursaluna (URSALUNA)
 - Basculegion (BASCULEGION)
-- Sneasler (SNEASLER)
-- Overqwil (OVERQWIL)
-- Enamorus (ENAMORUS)
 - Fuecoco (FUECOCO)
 - Flittle (FLITTLE)
 - Finizen (FINIZEN)
@@ -140,15 +140,19 @@ Total species: 1564
 - Iron Crown (IRONCROWN)
 - Pecharunt (PECHARUNT)
 - Reverberix (REVERBERIX)
-- Vyellor (VYELLOR)
 - Scarphasmo (SCARPHASMO)
+- DRAGALISKX (DRAGALISKX)
 - Lucario (LUCARIOX)
 - Hydreigon (HYDREIGONX)
-- ... and 39 more
+- Caterpie (CATERPIEX)
+- Metapod (METAPODX)
+- Nawyvern (NAWYVERN)
+- Gorochu (GOROCHU)
+- Scraggy (SCRAGGYX)
+- ... and 41 more
 
-## Missing back (118)
+## Missing back (117)
 
-- Ledian (LEDIAN)
 - Regice (REGICE)
 - Cranidos (CRANIDOS)
 - Darkrai (DARKRAI)
@@ -165,12 +169,7 @@ Total species: 1564
 - Flapple (FLAPPLE)
 - Falinks (FALINKS)
 - Pincurchin (PINCURCHIN)
-- Wyrdeer (WYRDEER)
-- Kleavor (KLEAVOR)
 - Basculegion (BASCULEGION)
-- Sneasler (SNEASLER)
-- Overqwil (OVERQWIL)
-- Enamorus (ENAMORUS)
 - Fuecoco (FUECOCO)
 - Lechonk (LECHONK)
 - Oinkologne (OINKOLOGNE)
@@ -198,11 +197,16 @@ Total species: 1564
 - Brute Bonnet (BRUTEBONNET)
 - Flutter Mane (FLUTTERMANE)
 - Iron Treads (IRONTREADS)
-- ... and 68 more
+- Iron Bundle (IRONBUNDLE)
+- Frigibax (FRIGIBAX)
+- Chien-Pao (CHIENPAO)
+- Ting-Lu (TINGLU)
+- Dipplin (DIPPLIN)
+- Poltchageist (POLTCHAGEIST)
+- ... and 67 more
 
-## Missing backShiny (117)
+## Missing backShiny (118)
 
-- Ledian (LEDIAN)
 - Regice (REGICE)
 - Cranidos (CRANIDOS)
 - Darkrai (DARKRAI)
@@ -220,11 +224,7 @@ Total species: 1564
 - Flapple (FLAPPLE)
 - Falinks (FALINKS)
 - Pincurchin (PINCURCHIN)
-- Kleavor (KLEAVOR)
 - Basculegion (BASCULEGION)
-- Sneasler (SNEASLER)
-- Overqwil (OVERQWIL)
-- Enamorus (ENAMORUS)
 - Fuecoco (FUECOCO)
 - Lechonk (LECHONK)
 - Oinkologne (OINKOLOGNE)
@@ -252,9 +252,14 @@ Total species: 1564
 - Brute Bonnet (BRUTEBONNET)
 - Flutter Mane (FLUTTERMANE)
 - Iron Treads (IRONTREADS)
-- ... and 67 more
+- Iron Bundle (IRONBUNDLE)
+- Frigibax (FRIGIBAX)
+- Chien-Pao (CHIENPAO)
+- Ting-Lu (TINGLU)
+- Dipplin (DIPPLIN)
+- ... and 68 more
 
-## Missing egg (1563)
+## Missing egg (1601)
 
 - Bulbasaur (BULBASAUR)
 - Ivysaur (IVYSAUR)
@@ -306,58 +311,23 @@ Total species: 1564
 - Venonat (VENONAT)
 - Venomoth (VENOMOTH)
 - Diglett (DIGLETT)
-- ... and 1513 more
+- ... and 1551 more
 
-## Missing cry (1300)
+## Missing cry (16)
 
-- Bulbasaur (BULBASAUR)
-- Ivysaur (IVYSAUR)
-- Venusaur (VENUSAUR)
-- Charmander (CHARMANDER)
-- Charmeleon (CHARMELEON)
-- Charizard (CHARIZARD)
-- Squirtle (SQUIRTLE)
-- Wartortle (WARTORTLE)
-- Blastoise (BLASTOISE)
-- Caterpie (CATERPIE)
-- Metapod (METAPOD)
-- Butterfree (BUTTERFREE)
-- Pidgey (PIDGEY)
-- Pidgeotto (PIDGEOTTO)
-- Pidgeot (PIDGEOT)
-- Spearow (SPEAROW)
-- Fearow (FEAROW)
-- Ekans (EKANS)
-- Arbok (ARBOK)
-- Sandshrew (SANDSHREW)
-- Sandslash (SANDSLASH)
 - Nidoran♀ (NIDORANfE)
-- Nidorina (NIDORINA)
-- Nidoqueen (NIDOQUEEN)
 - Nidoran♂ (NIDORANmA)
-- Nidorino (NIDORINO)
-- Nidoking (NIDOKING)
-- Clefairy (CLEFAIRY)
-- Clefable (CLEFABLE)
-- Vulpix (VULPIX)
-- Ninetales (NINETALES)
-- Jigglypuff (JIGGLYPUFF)
-- Wigglytuff (WIGGLYTUFF)
-- Zubat (ZUBAT)
-- Golbat (GOLBAT)
-- Paras (PARAS)
-- Parasect (PARASECT)
-- Venonat (VENONAT)
-- Venomoth (VENOMOTH)
-- Diglett (DIGLETT)
-- Dugtrio (DUGTRIO)
-- Meowth (MEOWTH)
-- Persian (PERSIAN)
-- Psyduck (PSYDUCK)
-- Golduck (GOLDUCK)
-- Mankey (MANKEY)
-- Primeape (PRIMEAPE)
-- Growlithe (GROWLITHE)
-- Arcanine (ARCANINE)
-- Abra (ABRA)
-- ... and 1250 more
+- Skarling (SKARLING)
+- DRAGALISKX (DRAGALISKX)
+- Lucario (LUCARIOX)
+- Hydreigon (HYDREIGONX)
+- Caterpie (CATERPIEX)
+- Nawyvern (NAWYVERN)
+- Buster (BUSTER)
+- DIELEBI (DIELEBI)
+- TWINZ (TWINZ)
+- PARA (PARA)
+- GHIFT (GHIFT)
+- SUNNEE (SUNNEE)
+- TRIFOX (TRIFOX)
+- PUDDI (PUDDI)

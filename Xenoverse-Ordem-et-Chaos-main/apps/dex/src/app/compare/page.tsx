@@ -48,26 +48,18 @@ export default function ComparePage() {
   const [isLoading1, setIsLoading1] = useState(false);
   const [isLoading2, setIsLoading2] = useState(false);
 
-  // Refs for debounce timers - no re-renders on keystroke
   const timer1Ref = useRef<NodeJS.Timeout | null>(null);
   const timer2Ref = useRef<NodeJS.Timeout | null>(null);
-  // Refs to track current search terms to prevent race conditions
   const searchTerm1Ref = useRef<string>('');
   const searchTerm2Ref = useRef<string>('');
 
   const searchPokemon = useCallback(async (term: string, slot: 1 | 2) => {
-    // Store current search term
     if (slot === 1) searchTerm1Ref.current = term;
     else searchTerm2Ref.current = term;
 
     if (term.length < 2) {
-      if (slot === 1) {
-        setResults1([]);
-        setIsLoading1(false);
-      } else {
-        setResults2([]);
-        setIsLoading2(false);
-      }
+      if (slot === 1) { setResults1([]); setIsLoading1(false); }
+      else { setResults2([]); setIsLoading2(false); }
       return;
     }
 
@@ -80,7 +72,6 @@ export default function ComparePage() {
         const data = await res.json();
         const list = Array.isArray(data) ? data : (Array.isArray(data.species) ? data.species : []);
         
-        // Only update results if this is still the current search term (prevent race conditions)
         const currentTerm = slot === 1 ? searchTerm1Ref.current : searchTerm2Ref.current;
         if (currentTerm === term) {
           if (slot === 1) setResults1(list);
@@ -90,7 +81,6 @@ export default function ComparePage() {
     } catch (e) {
       console.error('Search failed:', e);
     } finally {
-      // Only clear loading if this is still the current search
       const currentTerm = slot === 1 ? searchTerm1Ref.current : searchTerm2Ref.current;
       if (currentTerm === term) {
         if (slot === 1) setIsLoading1(false);
@@ -103,17 +93,8 @@ export default function ComparePage() {
     const term = e.target.value;
     searchTerm1Ref.current = term;
     setShowResults1(true);
-
     if (timer1Ref.current) clearTimeout(timer1Ref.current);
-    
-    // Clear loading state immediately if search is too short
-    if (term.length < 2) {
-      setIsLoading1(false);
-      setResults1([]);
-      return;
-    }
-    
-    // Only set loading after debounce delay to avoid flicker
+    if (term.length < 2) { setIsLoading1(false); setResults1([]); return; }
     timer1Ref.current = setTimeout(() => searchPokemon(term, 1), 300);
   }, [searchPokemon]);
 
@@ -121,17 +102,8 @@ export default function ComparePage() {
     const term = e.target.value;
     searchTerm2Ref.current = term;
     setShowResults2(true);
-
     if (timer2Ref.current) clearTimeout(timer2Ref.current);
-    
-    // Clear loading state immediately if search is too short
-    if (term.length < 2) {
-      setIsLoading2(false);
-      setResults2([]);
-      return;
-    }
-    
-    // Only set loading after debounce delay to avoid flicker
+    if (term.length < 2) { setIsLoading2(false); setResults2([]); return; }
     timer2Ref.current = setTimeout(() => searchPokemon(term, 2), 300);
   }, [searchPokemon]);
 
@@ -142,48 +114,42 @@ export default function ComparePage() {
     try {
       const res = await fetch(`/api/species/${id}?form=${formId}`);
       const data = await res.json();
-      if (slot === 1) {
-        setSpecies1(data.species);
-        setResults1([]);
-      } else {
-        setSpecies2(data.species);
-        setResults2([]);
-      }
+      if (slot === 1) { setSpecies1(data.species); setResults1([]); }
+      else { setSpecies2(data.species); setResults2([]); }
     } catch (e) {
       console.error('Failed to load species:', e);
     }
   };
 
   const StatComparison = ({ label, stat1, stat2, color }: { label: string; stat1: number; stat2: number; color: string }) => {
-    const max = Math.max(stat1, stat2, 1);
     const diff = stat1 - stat2;
     return (
       <div className="mb-3">
-        <div className="flex justify-between text-sm text-gray-400 mb-1">
-          <span className={stat1 > stat2 ? 'text-green-400 font-semibold' : stat1 < stat2 ? 'text-red-400' : ''}>
+        <div className="flex justify-between text-sm mb-1">
+          <span className={`font-mono tabular-nums ${stat1 > stat2 ? 'text-green-400 font-bold' : stat1 < stat2 ? 'text-red-400' : 'text-slate-300'}`}>
             {stat1}
           </span>
-          <span className="font-medium">{label}</span>
-          <span className={stat2 > stat1 ? 'text-green-400 font-semibold' : stat2 < stat1 ? 'text-red-400' : ''}>
+          <span className="text-slate-400 font-medium text-xs uppercase tracking-wider">{label}</span>
+          <span className={`font-mono tabular-nums ${stat2 > stat1 ? 'text-green-400 font-bold' : stat2 < stat1 ? 'text-red-400' : 'text-slate-300'}`}>
             {stat2}
           </span>
         </div>
-        <div className="flex gap-1 h-4">
-          <div className="flex-1 flex justify-end">
+        <div className="flex gap-1 h-3">
+          <div className="flex-1 flex justify-end bg-slate-800/50 rounded-l-lg overflow-hidden">
             <div
-              className={`${color} rounded-l h-full`}
+              className={`bg-gradient-to-l ${color} h-full rounded-l-lg transition-all duration-700`}
               style={{ width: `${(stat1 / 255) * 100}%` }}
-            ></div>
+            />
           </div>
-          <div className="flex-1">
+          <div className="flex-1 bg-slate-800/50 rounded-r-lg overflow-hidden">
             <div
-              className={`${color} rounded-r h-full`}
+              className={`bg-gradient-to-r ${color} h-full rounded-r-lg transition-all duration-700`}
               style={{ width: `${(stat2 / 255) * 100}%` }}
-            ></div>
+            />
           </div>
         </div>
         {diff !== 0 && (
-          <div className="text-center text-xs mt-1">
+          <div className="text-center text-[10px] mt-0.5">
             <span className={diff > 0 ? 'text-green-400' : 'text-red-400'}>
               {diff > 0 ? `+${diff} ←` : `${diff} →`}
             </span>
@@ -204,10 +170,10 @@ export default function ComparePage() {
   }) => (
     <div className="relative">
       {species ? (
-        <div className="bg-gray-800 rounded-lg p-4 relative group transition-all duration-300 border-2 border-blue-500/50">
+        <div className="glass-card p-5 group border-blue-500/30">
           <button
             onClick={() => slot === 1 ? setSpecies1(null) : setSpecies2(null)}
-            className="absolute top-2 right-2 bg-red-500/80 hover:bg-red-500 rounded-full w-6 h-6 flex items-center justify-center text-xs opacity-0 group-hover:opacity-100 transition-opacity z-10"
+            className="absolute top-3 right-3 bg-red-500/80 hover:bg-red-500 rounded-full w-6 h-6 flex items-center justify-center text-xs opacity-0 group-hover:opacity-100 transition-opacity z-10"
           >
             ×
           </button>
@@ -221,68 +187,52 @@ export default function ComparePage() {
               type2={species.type2}
               size={120}
             />
-            <Link href={`/species/${species.id}${species.form_id > 0 ? `?form=${species.form_id}` : ''}`} className="text-lg font-semibold mt-2 text-blue-400 hover:text-blue-300">
+            <Link href={`/species/${species.id}${species.form_id > 0 ? `?form=${species.form_id}` : ''}`} className="text-lg font-bold mt-3 text-gradient hover:opacity-80 transition">
               {species.name}
-              {species.form_name && <span className="text-gray-400 text-sm ml-1">({species.form_name})</span>}
+              {species.form_name && <span className="text-slate-400 text-sm ml-1">({species.form_name})</span>}
             </Link>
-            <div className="flex gap-1 mt-1">
-              {species.type1 && (
-                <span className={`type-badge type-${species.type1.toLowerCase()} text-xs px-2`}>{species.type1}</span>
-              )}
-              {species.type2 && (
-                <span className={`type-badge type-${species.type2.toLowerCase()} text-xs px-2`}>{species.type2}</span>
-              )}
+            <div className="flex gap-1.5 mt-2">
+              {species.type1 && <span className={`type-badge type-${species.type1.toLowerCase()} text-xs px-2`}>{species.type1}</span>}
+              {species.type2 && <span className={`type-badge type-${species.type2.toLowerCase()} text-xs px-2`}>{species.type2}</span>}
             </div>
           </div>
         </div>
       ) : (
-        <div className="bg-gray-800 rounded-lg p-4 relative">
-          <input
-            type="text"
-            placeholder={`Search Pokémon ${slot}...`}
-            onChange={handleChange}
-            onFocus={() => setShowResults(true)}
-            onBlur={() => {
-              // Delay hiding results to allow click events to fire
-              setTimeout(() => setShowResults(false), 200);
-            }}
-            className="w-full bg-slate-800/50 border border-slate-600 rounded-xl px-6 py-4 text-lg focus:outline-none focus:ring-2 focus:ring-blue-500/50 focus:border-blue-500"
-          />
+        <div className="glass-card p-5">
+          <div className="relative">
+            <svg className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-slate-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+            </svg>
+            <input
+              type="text"
+              placeholder={`Search Pokémon ${slot}...`}
+              onChange={handleChange}
+              onFocus={() => setShowResults(true)}
+              onBlur={() => setTimeout(() => setShowResults(false), 200)}
+              className="w-full pl-10 pr-4 py-3 rounded-xl text-base placeholder-slate-500"
+            />
+          </div>
           {showResults && (results.length > 0 || isLoading) && (
-            <div className="absolute top-full left-0 right-0 mt-2 bg-slate-800 border border-slate-600 rounded-xl overflow-hidden shadow-xl z-20 max-h-96 overflow-y-auto">
+            <div className="absolute top-full left-0 right-0 mt-2 glass-card !rounded-xl overflow-hidden shadow-2xl z-20 max-h-80 overflow-y-auto">
               {isLoading && results.length === 0 && (
-                <div className="px-4 py-8 text-center text-blue-400">
-                  <span className="animate-pulse">Searching...</span>
+                <div className="px-4 py-6 text-center">
+                  <div className="loading-spinner h-6 w-6 mx-auto"></div>
                 </div>
               )}
               {results.map(r => (
                 <button
                   key={`${r.id}-${r.form_id}`}
-                  onMouseDown={(e) => {
-                    // Use onMouseDown instead of onClick to fire before onBlur
-                    e.preventDefault();
-                    selectSpecies(r.id, r.form_id, slot);
-                  }}
-                  className="w-full flex items-center gap-4 px-4 py-3 hover:bg-slate-700 transition-colors text-left"
+                  onMouseDown={(e) => { e.preventDefault(); selectSpecies(r.id, r.form_id, slot); }}
+                  className="w-full flex items-center gap-3 px-4 py-3 hover:bg-slate-700/30 transition-colors text-left"
                 >
-                  <SpeciesIcon
-                    iconPath={r.icon_path}
-                    speciesId={r.id}
-                    name={r.name}
-                    type1={r.type1}
-                    type2={r.type2}
-                    size={40}
-                  />
-                  <span className="font-medium">
-                    {r.name}
-                    {(r.display_form_name || r.form_name) && <span className="text-gray-400 text-sm ml-1">({r.display_form_name || r.form_name})</span>}
-                  </span>
+                  <SpeciesIcon iconPath={r.icon_path} speciesId={r.id} name={r.name} type1={r.type1} type2={r.type2} size={40} />
+                  <span className="font-medium text-white">{r.name}</span>
                 </button>
               ))}
             </div>
           )}
-          <div className="h-[120px] flex items-center justify-center mt-4 border-2 border-dashed border-slate-700 rounded-xl">
-            <span className="text-slate-500">Select a Pokémon</span>
+          <div className="h-[120px] flex items-center justify-center mt-4 border-2 border-dashed border-[var(--border-medium)] rounded-xl">
+            <span className="text-slate-500 text-sm">Select a Pokémon</span>
           </div>
         </div>
       )}
@@ -290,69 +240,53 @@ export default function ComparePage() {
   );
 
   return (
-    <div className="h-full overflow-auto p-6">
-      <div className="flex items-center justify-between mb-6">
-        <h1 className="text-3xl font-bold">Compare Pokémon</h1>
-        <Link href="/" className="text-blue-400 hover:text-blue-300">
-          ← Back to Dex
-        </Link>
+    <div className="h-full overflow-auto animate-fade-in">
+      {/* Header */}
+      <div className="mb-6">
+        <h1 className="text-3xl font-bold text-gradient">Compare Pokémon</h1>
+        <p className="text-slate-400 text-sm mt-1">Side-by-side stat comparison</p>
       </div>
 
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-6">
-        <SpeciesSelector
-          slot={1}
-          species={species1}
-          results={results1}
-          showResults={showResults1}
-          setShowResults={setShowResults1}
-          handleChange={handleSearch1Change}
-          isLoading={isLoading1}
-        />
-        <SpeciesSelector
-          slot={2}
-          species={species2}
-          results={results2}
-          showResults={showResults2}
-          setShowResults={setShowResults2}
-          handleChange={handleSearch2Change}
-          isLoading={isLoading2}
-        />
+      {/* Selectors */}
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-5 mb-6">
+        <SpeciesSelector slot={1} species={species1} results={results1} showResults={showResults1} setShowResults={setShowResults1} handleChange={handleSearch1Change} isLoading={isLoading1} />
+        <SpeciesSelector slot={2} species={species2} results={results2} showResults={showResults2} setShowResults={setShowResults2} handleChange={handleSearch2Change} isLoading={isLoading2} />
       </div>
 
-      {/* Comparison Section */}
+      {/* Comparison */}
       {species1 && species2 && (
-        <div className="bg-gray-900 rounded-xl p-6 border border-gray-700">
-          <h2 className="text-xl font-semibold mb-6 text-center">Stat Comparison</h2>
+        <div className="glass-card !rounded-2xl p-6 animate-fade-in">
+          <h2 className="text-lg font-bold text-center text-slate-300 mb-6">Stat Comparison</h2>
 
           <div className="max-w-2xl mx-auto">
-            <StatComparison label="HP" stat1={species1.hp} stat2={species2.hp} color="bg-red-500" />
-            <StatComparison label="Attack" stat1={species1.attack} stat2={species2.attack} color="bg-orange-500" />
-            <StatComparison label="Defense" stat1={species1.defense} stat2={species2.defense} color="bg-yellow-500" />
-            <StatComparison label="Sp. Atk" stat1={species1.special_attack} stat2={species2.special_attack} color="bg-blue-500" />
-            <StatComparison label="Sp. Def" stat1={species1.special_defense} stat2={species2.special_defense} color="bg-green-500" />
-            <StatComparison label="Speed" stat1={species1.speed} stat2={species2.speed} color="bg-pink-500" />
+            <StatComparison label="HP" stat1={species1.hp} stat2={species2.hp} color="from-red-500 to-rose-600" />
+            <StatComparison label="Attack" stat1={species1.attack} stat2={species2.attack} color="from-orange-500 to-amber-600" />
+            <StatComparison label="Defense" stat1={species1.defense} stat2={species2.defense} color="from-yellow-500 to-amber-500" />
+            <StatComparison label="Sp. Atk" stat1={species1.special_attack} stat2={species2.special_attack} color="from-blue-500 to-indigo-600" />
+            <StatComparison label="Sp. Def" stat1={species1.special_defense} stat2={species2.special_defense} color="from-green-500 to-emerald-600" />
+            <StatComparison label="Speed" stat1={species1.speed} stat2={species2.speed} color="from-pink-500 to-fuchsia-600" />
 
-            <div className="border-t border-gray-700 pt-4 mt-4">
-              <StatComparison label="BST" stat1={species1.bst} stat2={species2.bst} color="bg-purple-500" />
+            <div className="border-t border-[var(--border-subtle)] pt-4 mt-4">
+              <StatComparison label="BST" stat1={species1.bst} stat2={species2.bst} color="from-purple-500 to-violet-600" />
             </div>
           </div>
 
           {/* Abilities Comparison */}
           <div className="mt-6 grid grid-cols-2 gap-6 text-sm">
             <div>
-              <h3 className="text-gray-400 mb-2">Abilities</h3>
-              <div className="space-y-1">
-                {species1.ability1 && <div className="text-white">{species1.ability1}</div>}
-                {species1.ability2 && <div className="text-white">{species1.ability2}</div>}
-                {species1.hidden_ability && <div className="text-purple-400">{species1.hidden_ability} (HA)</div>}
+              <h3 className="text-[10px] text-slate-500 uppercase tracking-wider font-bold mb-2">Abilities</h3>
+              <div className="space-y-1.5">
+                {species1.ability1 && <div className="text-slate-200 px-3 py-1.5 bg-slate-800/50 rounded-lg border border-[var(--border-subtle)]">{species1.ability1}</div>}
+                {species1.ability2 && <div className="text-slate-200 px-3 py-1.5 bg-slate-800/50 rounded-lg border border-[var(--border-subtle)]">{species1.ability2}</div>}
+                {species1.hidden_ability && <div className="text-purple-300 px-3 py-1.5 bg-purple-900/20 rounded-lg border border-purple-500/20">✨ {species1.hidden_ability}</div>}
               </div>
             </div>
             <div className="text-right">
-              <h3 className="text-gray-400 mb-2">Abilities</h3>
-              <div className="space-y-1">
-                {species2.ability1 && <div className="text-white">{species2.ability1}</div>}
-                {species2.ability2 && <div className="text-white">{species2.ability2}</div>}
-                {species2.hidden_ability && <div className="text-purple-400">{species2.hidden_ability} (HA)</div>}
+              <h3 className="text-[10px] text-slate-500 uppercase tracking-wider font-bold mb-2">Abilities</h3>
+              <div className="space-y-1.5">
+                {species2.ability1 && <div className="text-slate-200 px-3 py-1.5 bg-slate-800/50 rounded-lg border border-[var(--border-subtle)]">{species2.ability1}</div>}
+                {species2.ability2 && <div className="text-slate-200 px-3 py-1.5 bg-slate-800/50 rounded-lg border border-[var(--border-subtle)]">{species2.ability2}</div>}
+                {species2.hidden_ability && <div className="text-purple-300 px-3 py-1.5 bg-purple-900/20 rounded-lg border border-purple-500/20">✨ {species2.hidden_ability}</div>}
               </div>
             </div>
           </div>
@@ -361,8 +295,11 @@ export default function ComparePage() {
 
       {/* Instructions */}
       {(!species1 || !species2) && (
-        <div className="text-center text-gray-500 mt-12">
-          <p>Select two Pokémon above to compare their stats</p>
+        <div className="text-center py-12 glass-card !rounded-2xl">
+          <div className="w-16 h-16 mx-auto mb-4 rounded-full bg-slate-800/50 flex items-center justify-center">
+            <svg className="w-8 h-8 text-slate-600" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" /></svg>
+          </div>
+          <p className="text-slate-400">Select two Pokémon above to compare their stats</p>
         </div>
       )}
     </div>

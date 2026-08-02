@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
+import { useParams } from 'next/navigation';
 import SpriteDisplay from '@/components/SpriteDisplay';
 import SpeciesIcon from '@/components/SpeciesIcon';
 
@@ -25,8 +26,8 @@ interface Species {
   front_path?: string | null;
 }
 
-export default function TypeDetailPage({ params }: { params: { id: string } }) {
-  const { id } = params;
+export default function TypeDetailPage() {
+  const { id } = useParams<{ id: string }>();
   const [type, setType] = useState<TypeData | null>(null);
   const [species, setSpecies] = useState<Species[]>([]);
   const [loading, setLoading] = useState(true);
