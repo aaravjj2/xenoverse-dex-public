@@ -12,6 +12,7 @@
     "ingest": "node tools/ingest/index.js",
     "rebuild": "npm run export && npm run assets && npm run ingest && npm run relationships",
     "rebuild:versioned": "node tools/export/versioned.js",
+    "update:mac": "node tools/update-from-mac.js",
     "relationships": "node tools/relationships.js",
     "validate:data": "node tools/validate.js",
     "diff": "node tools/diff.js",
